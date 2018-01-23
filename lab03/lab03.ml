@@ -237,7 +237,11 @@ pfactorsM 315;;
       goldbach 8 ==> (3,5)
 *)
 let goldbach (n:int) : (int*int) =
-  (0,0)
+  let rec primes = allPrimes 2 (n/2)
+  and aux xs = match xs with
+    | [] -> failwith "Something is wrong"
+    | x::xs -> if isPrime (n - x) then (x, n - x) else aux xs
+  in aux primes
 ;;
 
 goldbach 28;;
@@ -260,7 +264,9 @@ let bt1 = Node (1,(Leaf 2),Node (3,(Leaf 4),(Leaf 5)));;
      countL (Node(0,(Leaf 0),Node(0,Leaf 0,Leaf 0))) ==> 3
 *)
 let rec countL (t:'a tree) : int =
-  -1
+  match t with
+    | Node (_, lt, rt) -> countL lt + countL rt
+    | Leaf _ -> 1
 ;;
 
 countL bt1;;
@@ -276,7 +282,9 @@ countL bt1;;
 *)
 
 let rec prefixBT (xs:'a tree) : 'a list =
-  []
+  match xs with
+    | Leaf x -> [x]
+    | Node (x, lt, rt) -> x::((prefixBT lt) @ (prefixBT rt))
 ;;
 
 prefixBT bt1;;
@@ -291,7 +299,9 @@ prefixBT bt1;;
      infixBT (Node(4,Leaf 1, Leaf 2)) ==> [1;4;2]
 *)
 let rec infixBT (xs:'a tree) : 'a list =
-  []
+  match xs with
+    | Leaf x -> [x]
+    | Node (x, lt, rt) -> (infixBT lt) @ (x::(infixBT rt))
 ;;
 
 infixBT bt1;;
@@ -306,8 +316,9 @@ infixBT bt1;;
   For example:
     perfectTree 2 ==> Node (1, Leaf 1, Leaf 1)
 *)
-let perfectTree n =
-  Leaf (-1)
+let rec perfectTree n =
+  if n == 1 then Leaf 1
+  else Node (1, perfectTree (n-1), perfectTree (n-1))
 ;;
 
 perfectTree 3;;
@@ -327,7 +338,8 @@ perfectTree 3;;
 *)
 
 let rec prod (xs:'a list) (ys:'b list) : ('a * 'b) list =
-  []
+  let genPair res x = res @ (List.map (fun y -> (x, y)) ys)
+  in List.fold_left genPair [] xs
 ;;
 
 prod [1;2] [`a;`b;`c];;
@@ -372,7 +384,9 @@ prefixRT (NodeR(4,[NodeR (1,[]); NodeR (2,[])]));;
    you in this method.
 *)
 let rec prefixRTHO (xs:'a roseTree) : 'a list =
-  []
+  match xs with
+    | NodeR (y, []) -> [y]
+    | NodeR (y, ys) -> [y] @ List.fold_right (fun tr res -> (prefixRTHO tr) @ res) ys []
 ;;
 
 
@@ -386,7 +400,9 @@ prefixRTHO rt2;;
    you in this method.
 *)
 let rec postfixRTHO (xs:'a roseTree) : 'a list =
-  []
+  match xs with
+    | NodeR (y, []) -> [y]
+    | NodeR (y, ys) -> List.fold_right (fun tr res -> (postfixRTHO tr) @ res) ys [] @ [y]
 ;;
 
 postfixRTHO rt2;;
