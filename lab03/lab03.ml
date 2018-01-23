@@ -10,8 +10,37 @@
       last_two [5] ===> Some 5
       last_two [] ===> None
 *)
+
+(* Utils *)
+let reverse (xs: 'a list): 'a list =
+  List.fold_left (fun xl x -> x::xl) [] xs
+;;
+
+let fstL (xs: 'a list): 'a =
+  match xs with
+    | [] -> failwith "Empty list!"
+    | x::xs -> x
+;;
+
 let rec last_two (xs:'a list) : 'a option =
-  None
+  match xs with
+    | [] -> None
+    | x::yy::[] -> Some x
+    | x::[] -> Some x
+    | x::xs -> last_two xs
+;;
+
+let rec exists (v:'a) (xs:'a list) : bool =
+  match xs with
+    | [] -> false
+    | x::xs -> x == v || exists v xs
+;;
+
+let range x y =
+  let rec aux i res =
+    if i >= x then aux (i-1) (i::res)
+    else res
+  in aux (y-1) []
 ;;
 
 last_two [ 'a' ; 'b' ; 'c' ; 'd' ];;
@@ -25,8 +54,15 @@ let ls2 = [`a;`a;`a;`a;`b;`c;`c;`a;`a;`d;`e;`e;`e;`e];;
    For example:
       compress [1;1;2;2;1] ==> [1;2;1]
 *)
+
 let compress (xs:'a list) : 'a list =
-  []
+  match xs with
+    | [] -> []
+    | x::xs ->
+      let rec aux l r = match r with
+        | [] -> reverse l
+        | r::rs -> if fstL l == r then aux l rs else aux (r::l) rs
+      in aux [x] xs
 ;;
 
 compress ls2;;
@@ -37,9 +73,15 @@ compress ls2;;
    all duplicates in a list.
    For example:
       removeDupl [1;1;2;2;1] ==> [1;2]
-*)
+ *)
 let removeDupl (xs:'a list) : 'a list =
-  []
+  match xs with
+    | [] -> []
+    | x::xs ->
+        let rec aux l r = match r with
+          | [] -> reverse l
+          | r::rs -> if exists r l then aux l rs else aux (r::l) rs
+        in aux [x] xs
 ;;
 
 removeDupl ls2;;
@@ -55,7 +97,10 @@ let ls3 = [3;6;7;3;4;8;3;3;3];;
       findFirst (fun x -> x>4) [1;1;2;1;4;1] ==> None
 *)
 let findFirst (p:'a->bool) (xs:'a list) : 'a option =
-   None
+  let rec aux xs = match xs with
+    | [] -> None
+    | x::xs -> if p x then Some x else aux xs
+  in aux xs
 ;;
 
 findFirst (fun x -> x mod 2 = 0) ls3;;
@@ -75,7 +120,7 @@ let rec findLast (p:'a->bool) (xs:'a list) : 'a option =
       | y::ys -> 
         if p y then aux (Some y) ys
         else aux ans ys
-  in None
+  in aux None xs
 ;;
 
 findLast (fun x -> x mod 2 = 0) ls3;;
@@ -89,7 +134,11 @@ findLast (fun x -> x mod 2 = 0) ls3;;
 *)
 
 let genPairs (n:int) : (int * int) list =
-  []
+  if n < 2 then failwith "Garbage input"
+  else let rec aux i res =
+    if i == 0 then res
+    else aux (i-1) ((i, n-i)::res)
+  in aux (n-1) [] 
 ;;
 
 genPairs 6;;
@@ -125,7 +174,7 @@ isPrime 13;;
 *)
 
 let allPrimes (x:int) (y:int) : int list =
-  []
+  List.fold_right (fun v res -> if isPrime v then v::res else res) (range x (y+1)) []
 ;;
 
 allPrimes 1 100;;
@@ -141,7 +190,13 @@ allPrimes 1 100;;
 *)
 
 let pfactors (n:int) : int list =
-  []
+  let rec primes = allPrimes 2 (truncate (sqrt (float n)))
+  and isDivisible y x = y mod x == 0
+  and aux m res =
+    match findFirst (isDivisible m) primes with
+      | None -> res
+      | Some x -> x::(aux (m/x) res)
+  in aux n []
 ;;
 
 pfactors 315;;
@@ -156,7 +211,14 @@ pfactors 315;;
       pfactorsM 12 ==> [(2,2);(3,1)]
 *)
 let pfactorsM (n:int) : (int * int) list =
-  []
+  let rec factors = pfactors n
+  and count v xs tp =
+    match xs with
+      | [] -> tp
+      | y::ys ->
+          let (f, c) = tp in
+          count v ys (f, (if y == f then c+1 else c))
+  in List.fold_right (fun v res -> (count v factors (v, 0))::res) (removeDupl factors) []
 ;;
 
 pfactorsM 315;;
