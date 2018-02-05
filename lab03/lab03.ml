@@ -1,33 +1,6 @@
-(* Week 3 Lab : OCaml Refresher  *)
-(* Please submit by 11:59 PM 28th January *)
-
-(* LISTS *)
-
-(* Implement a function that would return the 
-   2nd last element. If only one element exist,
-   return that element. For example:
-      last_two [1;2;3;4;5] ===> Some 4
-      last_two [5] ===> Some 5
-      last_two [] ===> None
-*)
-
 (* Utils *)
 let reverse (xs: 'a list): 'a list =
   List.fold_left (fun xl x -> x::xl) [] xs
-;;
-
-let fstL (xs: 'a list): 'a =
-  match xs with
-    | [] -> failwith "Empty list!"
-    | x::xs -> x
-;;
-
-let rec last_two (xs:'a list) : 'a option =
-  match xs with
-    | [] -> None
-    | x::yy::[] -> Some x
-    | x::[] -> Some x
-    | x::xs -> last_two xs
 ;;
 
 let rec exists (v:'a) (xs:'a list) : bool =
@@ -41,6 +14,34 @@ let range x y =
     if i >= x then aux (i-1) (i::res)
     else res
   in aux (y-1) []
+;;
+
+let fstL (xs: 'a list): 'a =
+  match xs with
+    | [] -> failwith "Empty list!"
+    | x::xs -> x
+;;
+(* End of Utils *)
+
+(* Week 3 Lab : OCaml Refresher  *)
+(* Please submit by 11:59 PM 28th January *)
+
+(* LISTS *)
+
+(* Implement a function that would return the 
+   2nd last element. If only one element exist,
+   return that element. For example:
+      last_two [1;2;3;4;5] ===> Some 4
+      last_two [5] ===> Some 5
+      last_two [] ===> None
+*)
+
+let rec last_two (xs:'a list) : 'a option =
+  match xs with
+    | [] -> None
+    | x::yy::[] -> Some x
+    | x::[] -> Some x
+    | x::xs -> last_two xs
 ;;
 
 last_two [ 'a' ; 'b' ; 'c' ; 'd' ];;
