@@ -26,8 +26,8 @@ let binary_operate (c:eVML_inst) (a1:int) (a2:int) : int =
     | MINUS -> a1-a2
     | TIMES -> a1*a2
     | DIV -> a1/a2
-    | OR -> trans_bool (a1 != 0 || a2 != 0)
-    | AND -> trans_bool (a1 != 0 && a2 != 0) 
+    | OR -> a1 lor a2
+    | AND -> a1 land a2
     | EQ -> trans_bool (a1==a2)
     | LT -> trans_bool (a1<a2)
     | GT -> trans_bool (a1>a2)
