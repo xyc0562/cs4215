@@ -1,0 +1,8 @@
+Loading ePL program ..
+  false = (\true) & false | (2+3 =4)
+  as |[&[=[BoolConst(false),\[BoolConst(true)]],BoolConst(false)],=[+[IntConst(2),IntConst(3)],IntConst(4)]]
+Compiling ==> e1.evm
+[LDCB false,LDCB true,NOT,EQ,LDCB false,AND,LDCI 2,LDCI 3,PLUS,LDCI 4,EQ,OR,DONE]
+Loading eVM code from ..e1.evm
+Loaded [LDCB false,LDCB true,NOT,EQ,LDCB false,AND,LDCI 2,LDCI 3,PLUS,LDCI 4,EQ,OR,DONE]
+Executing ==> 0

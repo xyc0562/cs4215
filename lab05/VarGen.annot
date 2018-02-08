@@ -1,0 +1,3286 @@
+"VarGen.ml" 1 0 4 "VarGen.ml" 1 0 9
+type(
+  unit
+)
+ident(
+  def dummy "VarGen.ml" 4 17 17 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 1 0 12 "VarGen.ml" 1 0 14
+type(
+  unit
+)
+"VarGen.ml" 21 413 417 "VarGen.ml" 21 413 429
+type(
+  bool ref
+)
+ident(
+  def compete_mode "VarGen.ml" 22 442 442 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 21 413 432 "VarGen.ml" 21 413 435
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"VarGen.ml" 21 413 436 "VarGen.ml" 21 413 441
+type(
+  bool
+)
+"VarGen.ml" 21 413 432 "VarGen.ml" 21 413 441
+type(
+  bool ref
+)
+"VarGen.ml" 22 442 446 "VarGen.ml" 22 442 459
+type(
+  bool ref
+)
+ident(
+  def trace_failure "VarGen.ml" 23 472 472 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 22 442 462 "VarGen.ml" 22 442 465
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"VarGen.ml" 22 442 466 "VarGen.ml" 22 442 471
+type(
+  bool
+)
+"VarGen.ml" 22 442 462 "VarGen.ml" 22 442 471
+type(
+  bool ref
+)
+"VarGen.ml" 23 472 476 "VarGen.ml" 23 472 485
+type(
+  bool ref
+)
+ident(
+  def trace_exc "VarGen.ml" 24 498 498 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 23 472 488 "VarGen.ml" 23 472 491
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"VarGen.ml" 23 472 492 "VarGen.ml" 23 472 497
+type(
+  bool
+)
+"VarGen.ml" 23 472 488 "VarGen.ml" 23 472 497
+type(
+  bool ref
+)
+"VarGen.ml" 24 498 502 "VarGen.ml" 24 498 512
+type(
+  bool ref
+)
+ident(
+  def trace_loop "VarGen.ml" 25 525 525 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 24 498 515 "VarGen.ml" 24 498 518
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"VarGen.ml" 24 498 519 "VarGen.ml" 24 498 524
+type(
+  bool
+)
+"VarGen.ml" 24 498 515 "VarGen.ml" 24 498 524
+type(
+  bool ref
+)
+"VarGen.ml" 25 525 529 "VarGen.ml" 25 525 543
+type(
+  bool ref
+)
+ident(
+  def trace_loop_all "VarGen.ml" 26 556 556 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 25 525 546 "VarGen.ml" 25 525 549
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"VarGen.ml" 25 525 550 "VarGen.ml" 25 525 555
+type(
+  bool
+)
+"VarGen.ml" 25 525 546 "VarGen.ml" 25 525 555
+type(
+  bool ref
+)
+"VarGen.ml" 26 556 560 "VarGen.ml" 26 556 571
+type(
+  int ref
+)
+ident(
+  def verbose_num "VarGen.ml" 28 581 581 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 26 556 574 "VarGen.ml" 26 556 577
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"VarGen.ml" 26 556 578 "VarGen.ml" 26 556 579
+type(
+  int
+)
+"VarGen.ml" 26 556 574 "VarGen.ml" 26 556 579
+type(
+  int ref
+)
+"VarGen.ml" 28 581 585 "VarGen.ml" 28 581 594
+type(
+  string option ref
+)
+ident(
+  def last_posn "VarGen.ml" 30 623 623 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 28 581 597 "VarGen.ml" 28 581 600
+type(
+  string option -> string option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"VarGen.ml" 28 581 602 "VarGen.ml" 28 581 606
+type(
+  string option
+)
+type(
+  string option
+)
+"VarGen.ml" 28 581 597 "VarGen.ml" 28 581 621
+type(
+  string option ref
+)
+"VarGen.ml" 30 623 627 "VarGen.ml" 30 623 647
+type(
+  bool ref
+)
+ident(
+  def suppress_warning_msg "VarGen.ml" 31 660 660 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 30 623 650 "VarGen.ml" 30 623 653
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"VarGen.ml" 30 623 654 "VarGen.ml" 30 623 659
+type(
+  bool
+)
+"VarGen.ml" 30 623 650 "VarGen.ml" 30 623 659
+type(
+  bool ref
+)
+"VarGen.ml" 31 660 664 "VarGen.ml" 31 660 678
+type(
+  bool ref
+)
+ident(
+  def en_warning_msg "VarGen.ml" 33 691 691 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 31 660 681 "VarGen.ml" 31 660 684
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"VarGen.ml" 31 660 685 "VarGen.ml" 31 660 689
+type(
+  bool
+)
+"VarGen.ml" 31 660 681 "VarGen.ml" 31 660 689
+type(
+  bool ref
+)
+"VarGen.ml" 33 691 695 "VarGen.ml" 33 691 698
+type(
+  bool ref
+)
+ident(
+  def sap "VarGen.ml" 35 712 712 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 33 691 701 "VarGen.ml" 33 691 704
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"VarGen.ml" 33 691 705 "VarGen.ml" 33 691 710
+type(
+  bool
+)
+"VarGen.ml" 33 691 701 "VarGen.ml" 33 691 710
+type(
+  bool ref
+)
+"VarGen.ml" 45 909 913 "VarGen.ml" 45 909 929
+type(
+  primed -> string
+)
+ident(
+  def string_of_primed "VarGen.ml" 50 1000 1000 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 45 909 930 "VarGen.ml" 45 909 931
+type(
+  primed
+)
+ident(
+  def p "VarGen.ml" 46 934 936 "VarGen.ml" 48 972 998
+)
+"VarGen.ml" 46 934 942 "VarGen.ml" 46 934 943
+type(
+  primed
+)
+ident(
+  int_ref p "VarGen.ml" 45 909 930 "VarGen.ml" 45 909 931
+)
+"VarGen.ml" 47 949 953 "VarGen.ml" 47 949 959
+type(
+  primed
+)
+"VarGen.ml" 47 949 963 "VarGen.ml" 47 949 971
+type(
+  string
+)
+"VarGen.ml" 48 972 976 "VarGen.ml" 48 972 984
+type(
+  primed
+)
+"VarGen.ml" 48 972 988 "VarGen.ml" 48 972 998
+type(
+  string
+)
+"VarGen.ml" 46 934 936 "VarGen.ml" 48 972 998
+type(
+  string
+)
+"VarGen.ml" 50 1000 1004 "VarGen.ml" 50 1000 1010
+type(
+  loc
+)
+ident(
+  def no_pos "VarGen.ml" 58 1241 1241 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 51 1014 1020 "VarGen.ml" 51 1014 1027
+type(
+  Lexing.position
+)
+ident(
+  def no_pos1 "VarGen.ml" 55 1176 1178 "VarGen.ml" 55 1176 1238
+)
+"VarGen.ml" 51 1014 1051 "VarGen.ml" 51 1014 1053
+type(
+  string
+)
+"VarGen.ml" 52 1055 1091 "VarGen.ml" 52 1055 1092
+type(
+  int
+)
+"VarGen.ml" 53 1094 1129 "VarGen.ml" 53 1094 1130
+type(
+  int
+)
+"VarGen.ml" 54 1133 1169 "VarGen.ml" 54 1133 1170
+type(
+  int
+)
+"VarGen.ml" 51 1014 1030 "VarGen.ml" 54 1133 1172
+type(
+  Lexing.position
+)
+"VarGen.ml" 55 1176 1191 "VarGen.ml" 55 1176 1198
+type(
+  Lexing.position
+)
+ident(
+  int_ref no_pos1 "VarGen.ml" 51 1014 1020 "VarGen.ml" 51 1014 1027
+)
+"VarGen.ml" 55 1176 1210 "VarGen.ml" 55 1176 1217
+type(
+  Lexing.position
+)
+ident(
+  int_ref no_pos1 "VarGen.ml" 51 1014 1020 "VarGen.ml" 51 1014 1027
+)
+"VarGen.ml" 55 1176 1229 "VarGen.ml" 55 1176 1236
+type(
+  Lexing.position
+)
+ident(
+  int_ref no_pos1 "VarGen.ml" 51 1014 1020 "VarGen.ml" 51 1014 1027
+)
+"VarGen.ml" 55 1176 1178 "VarGen.ml" 55 1176 1238
+type(
+  loc
+)
+"VarGen.ml" 51 1014 1016 "VarGen.ml" 55 1176 1238
+type(
+  loc
+)
+"VarGen.ml" 58 1241 1245 "VarGen.ml" 58 1241 1254
+type(
+  loc -> bool
+)
+ident(
+  def is_no_pos "VarGen.ml" 60 1295 1295 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 58 1241 1255 "VarGen.ml" 58 1241 1256
+type(
+  loc
+)
+ident(
+  def l "VarGen.ml" 58 1241 1259 "VarGen.ml" 58 1241 1293
+)
+"VarGen.ml" 58 1241 1260 "VarGen.ml" 58 1241 1261
+type(
+  loc
+)
+ident(
+  int_ref l "VarGen.ml" 58 1241 1255 "VarGen.ml" 58 1241 1256
+)
+"VarGen.ml" 58 1241 1260 "VarGen.ml" 58 1241 1271
+type(
+  Lexing.position
+)
+"VarGen.ml" 58 1241 1260 "VarGen.ml" 58 1241 1287
+type(
+  int
+)
+"VarGen.ml" 58 1241 1288 "VarGen.ml" 58 1241 1290
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"VarGen.ml" 58 1241 1291 "VarGen.ml" 58 1241 1292
+type(
+  int
+)
+"VarGen.ml" 58 1241 1259 "VarGen.ml" 58 1241 1293
+type(
+  bool
+)
+"VarGen.ml" 60 1295 1299 "VarGen.ml" 60 1295 1314
+type(
+  string -> unit
+)
+ident(
+  def print_endline_q "VarGen.ml" 64 1370 1370 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 60 1295 1315 "VarGen.ml" 60 1295 1316
+type(
+  string
+)
+ident(
+  def s "VarGen.ml" 61 1319 1321 "VarGen.ml" 62 1346 1368
+)
+"VarGen.ml" 61 1319 1324 "VarGen.ml" 61 1319 1325
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"VarGen.ml" 61 1319 1325 "VarGen.ml" 61 1319 1337
+type(
+  bool ref
+)
+ident(
+  int_ref compete_mode "VarGen.ml" 21 413 417 "VarGen.ml" 21 413 429
+)
+"VarGen.ml" 61 1319 1324 "VarGen.ml" 61 1319 1337
+type(
+  bool
+)
+"VarGen.ml" 61 1319 1343 "VarGen.ml" 61 1319 1345
+type(
+  unit
+)
+"VarGen.ml" 62 1346 1353 "VarGen.ml" 62 1346 1366
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"VarGen.ml" 62 1346 1367 "VarGen.ml" 62 1346 1368
+type(
+  string
+)
+ident(
+  int_ref s "VarGen.ml" 60 1295 1315 "VarGen.ml" 60 1295 1316
+)
+"VarGen.ml" 62 1346 1353 "VarGen.ml" 62 1346 1368
+call(
+  tail
+)
+type(
+  unit
+)
+"VarGen.ml" 61 1319 1321 "VarGen.ml" 62 1346 1368
+type(
+  unit
+)
+"VarGen.ml" 64 1370 1374 "VarGen.ml" 64 1370 1395
+type(
+  unit -> unit
+)
+ident(
+  def print_backtrace_quiet "VarGen.ml" 69 1472 1472 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 64 1370 1396 "VarGen.ml" 64 1370 1398
+type(
+  unit
+)
+"VarGen.ml" 65 1401 1406 "VarGen.ml" 65 1401 1407
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"VarGen.ml" 65 1401 1407 "VarGen.ml" 65 1401 1419
+type(
+  bool ref
+)
+ident(
+  int_ref compete_mode "VarGen.ml" 21 413 417 "VarGen.ml" 21 413 429
+)
+"VarGen.ml" 65 1401 1406 "VarGen.ml" 65 1401 1419
+type(
+  bool
+)
+"VarGen.ml" 65 1401 1425 "VarGen.ml" 65 1401 1427
+type(
+  unit
+)
+"VarGen.ml" 67 1435 1439 "VarGen.ml" 67 1435 1463
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Printexc.print_backtrace
+)
+"VarGen.ml" 67 1435 1464 "VarGen.ml" 67 1435 1470
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"VarGen.ml" 67 1435 1439 "VarGen.ml" 67 1435 1470
+call(
+  tail
+)
+type(
+  unit
+)
+"VarGen.ml" 65 1401 1403 "VarGen.ml" 67 1435 1470
+type(
+  unit
+)
+"VarGen.ml" 69 1472 1476 "VarGen.ml" 69 1472 1495
+type(
+  unit -> string
+)
+ident(
+  def get_backtrace_quiet "VarGen.ml" 74 1566 1566 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 69 1472 1496 "VarGen.ml" 69 1472 1498
+type(
+  unit
+)
+"VarGen.ml" 70 1501 1506 "VarGen.ml" 70 1501 1507
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"VarGen.ml" 70 1501 1507 "VarGen.ml" 70 1501 1519
+type(
+  bool ref
+)
+ident(
+  int_ref compete_mode "VarGen.ml" 21 413 417 "VarGen.ml" 21 413 429
+)
+"VarGen.ml" 70 1501 1506 "VarGen.ml" 70 1501 1519
+type(
+  bool
+)
+"VarGen.ml" 70 1501 1525 "VarGen.ml" 70 1501 1527
+type(
+  string
+)
+"VarGen.ml" 72 1535 1539 "VarGen.ml" 72 1535 1561
+type(
+  unit -> string
+)
+ident(
+  ext_ref Printexc.get_backtrace
+)
+"VarGen.ml" 72 1535 1562 "VarGen.ml" 72 1535 1564
+type(
+  unit
+)
+"VarGen.ml" 72 1535 1539 "VarGen.ml" 72 1535 1564
+call(
+  tail
+)
+type(
+  string
+)
+"VarGen.ml" 70 1501 1503 "VarGen.ml" 72 1535 1564
+type(
+  string
+)
+"VarGen.ml" 74 1566 1570 "VarGen.ml" 74 1566 1592
+type(
+  unit -> unit
+)
+ident(
+  def record_backtrace_quite "VarGen.ml" 79 1678 1678 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 74 1566 1593 "VarGen.ml" 74 1566 1595
+type(
+  unit
+)
+"VarGen.ml" 75 1598 1603 "VarGen.ml" 75 1598 1604
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"VarGen.ml" 75 1598 1604 "VarGen.ml" 75 1598 1616
+type(
+  bool ref
+)
+ident(
+  int_ref compete_mode "VarGen.ml" 21 413 417 "VarGen.ml" 21 413 429
+)
+"VarGen.ml" 75 1598 1603 "VarGen.ml" 75 1598 1616
+type(
+  bool
+)
+"VarGen.ml" 75 1598 1622 "VarGen.ml" 75 1598 1624
+type(
+  unit
+)
+"VarGen.ml" 77 1632 1636 "VarGen.ml" 77 1632 1661
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Printexc.record_backtrace
+)
+"VarGen.ml" 77 1632 1662 "VarGen.ml" 77 1632 1663
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"VarGen.ml" 77 1632 1663 "VarGen.ml" 77 1632 1676
+type(
+  bool ref
+)
+ident(
+  int_ref trace_failure "VarGen.ml" 22 442 446 "VarGen.ml" 22 442 459
+)
+"VarGen.ml" 77 1632 1662 "VarGen.ml" 77 1632 1676
+type(
+  bool
+)
+"VarGen.ml" 77 1632 1636 "VarGen.ml" 77 1632 1676
+call(
+  tail
+)
+type(
+  unit
+)
+"VarGen.ml" 75 1598 1600 "VarGen.ml" 77 1632 1676
+type(
+  unit
+)
+"VarGen.ml" 79 1678 1682 "VarGen.ml" 79 1678 1695
+type(
+  loc -> string
+)
+ident(
+  def string_of_loc "VarGen.ml" 86 2010 2010 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 79 1678 1697 "VarGen.ml" 79 1678 1698
+type(
+  loc
+)
+ident(
+  def p "VarGen.ml" 80 1709 1711 "VarGen.ml" 84 1938 2008
+)
+"VarGen.ml" 80 1709 1711 "VarGen.ml" 80 1709 1712
+type(
+  loc
+)
+ident(
+  int_ref p "VarGen.ml" 79 1678 1697 "VarGen.ml" 79 1678 1698
+)
+"VarGen.ml" 80 1709 1711 "VarGen.ml" 80 1709 1722
+type(
+  Lexing.position
+)
+"VarGen.ml" 80 1709 1711 "VarGen.ml" 80 1709 1739
+type(
+  string
+)
+"VarGen.ml" 80 1709 1740 "VarGen.ml" 80 1709 1741
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 80 1709 1742 "VarGen.ml" 80 1709 1745
+type(
+  string
+)
+"VarGen.ml" 80 1709 1746 "VarGen.ml" 80 1709 1747
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 81 1749 1752 "VarGen.ml" 81 1749 1765
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"VarGen.ml" 81 1749 1766 "VarGen.ml" 81 1749 1767
+type(
+  loc
+)
+ident(
+  int_ref p "VarGen.ml" 79 1678 1697 "VarGen.ml" 79 1678 1698
+)
+"VarGen.ml" 81 1749 1766 "VarGen.ml" 81 1749 1777
+type(
+  Lexing.position
+)
+"VarGen.ml" 81 1749 1766 "VarGen.ml" 81 1749 1793
+type(
+  int
+)
+"VarGen.ml" 81 1749 1751 "VarGen.ml" 81 1749 1794
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 81 1749 1795 "VarGen.ml" 81 1749 1796
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 81 1749 1797 "VarGen.ml" 81 1749 1800
+type(
+  string
+)
+"VarGen.ml" 81 1749 1801 "VarGen.ml" 81 1749 1802
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 82 1803 1806 "VarGen.ml" 82 1803 1819
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"VarGen.ml" 82 1803 1821 "VarGen.ml" 82 1803 1822
+type(
+  loc
+)
+ident(
+  int_ref p "VarGen.ml" 79 1678 1697 "VarGen.ml" 79 1678 1698
+)
+"VarGen.ml" 82 1803 1821 "VarGen.ml" 82 1803 1832
+type(
+  Lexing.position
+)
+"VarGen.ml" 82 1803 1821 "VarGen.ml" 82 1803 1848
+type(
+  int
+)
+"VarGen.ml" 82 1803 1848 "VarGen.ml" 82 1803 1849
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"VarGen.ml" 82 1803 1849 "VarGen.ml" 82 1803 1850
+type(
+  loc
+)
+ident(
+  int_ref p "VarGen.ml" 79 1678 1697 "VarGen.ml" 79 1678 1698
+)
+"VarGen.ml" 82 1803 1849 "VarGen.ml" 82 1803 1860
+type(
+  Lexing.position
+)
+"VarGen.ml" 82 1803 1849 "VarGen.ml" 82 1803 1875
+type(
+  int
+)
+"VarGen.ml" 82 1803 1820 "VarGen.ml" 82 1803 1876
+type(
+  int
+)
+"VarGen.ml" 82 1803 1805 "VarGen.ml" 82 1803 1877
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 82 1803 1878 "VarGen.ml" 82 1803 1879
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 82 1803 1880 "VarGen.ml" 82 1803 1883
+type(
+  string
+)
+"VarGen.ml" 82 1803 1884 "VarGen.ml" 82 1803 1885
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 83 1886 1889 "VarGen.ml" 83 1886 1902
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"VarGen.ml" 83 1886 1903 "VarGen.ml" 83 1886 1904
+type(
+  loc
+)
+ident(
+  int_ref p "VarGen.ml" 79 1678 1697 "VarGen.ml" 79 1678 1698
+)
+"VarGen.ml" 83 1886 1903 "VarGen.ml" 83 1886 1912
+type(
+  Lexing.position
+)
+"VarGen.ml" 83 1886 1903 "VarGen.ml" 83 1886 1928
+type(
+  int
+)
+"VarGen.ml" 83 1886 1888 "VarGen.ml" 83 1886 1929
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 83 1886 1930 "VarGen.ml" 83 1886 1931
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 83 1886 1932 "VarGen.ml" 83 1886 1935
+type(
+  string
+)
+"VarGen.ml" 83 1886 1936 "VarGen.ml" 83 1886 1937
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 84 1938 1941 "VarGen.ml" 84 1938 1954
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"VarGen.ml" 84 1938 1956 "VarGen.ml" 84 1938 1957
+type(
+  loc
+)
+ident(
+  int_ref p "VarGen.ml" 79 1678 1697 "VarGen.ml" 79 1678 1698
+)
+"VarGen.ml" 84 1938 1956 "VarGen.ml" 84 1938 1965
+type(
+  Lexing.position
+)
+"VarGen.ml" 84 1938 1956 "VarGen.ml" 84 1938 1981
+type(
+  int
+)
+"VarGen.ml" 84 1938 1981 "VarGen.ml" 84 1938 1982
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"VarGen.ml" 84 1938 1982 "VarGen.ml" 84 1938 1983
+type(
+  loc
+)
+ident(
+  int_ref p "VarGen.ml" 79 1678 1697 "VarGen.ml" 79 1678 1698
+)
+"VarGen.ml" 84 1938 1982 "VarGen.ml" 84 1938 1991
+type(
+  Lexing.position
+)
+"VarGen.ml" 84 1938 1982 "VarGen.ml" 84 1938 2006
+type(
+  int
+)
+"VarGen.ml" 84 1938 1955 "VarGen.ml" 84 1938 2007
+type(
+  int
+)
+"VarGen.ml" 84 1938 1940 "VarGen.ml" 84 1938 2008
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 83 1886 1932 "VarGen.ml" 84 1938 2008
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 83 1886 1888 "VarGen.ml" 84 1938 2008
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 82 1803 1880 "VarGen.ml" 84 1938 2008
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 82 1803 1805 "VarGen.ml" 84 1938 2008
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 81 1749 1797 "VarGen.ml" 84 1938 2008
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 81 1749 1751 "VarGen.ml" 84 1938 2008
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 80 1709 1742 "VarGen.ml" 84 1938 2008
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 80 1709 1711 "VarGen.ml" 84 1938 2008
+call(
+  tail
+)
+type(
+  string
+)
+"VarGen.ml" 86 2010 2014 "VarGen.ml" 86 2010 2027
+type(
+  Lexing.position -> string
+)
+ident(
+  def string_of_pos "VarGen.ml" 89 2153 2153 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 86 2010 2029 "VarGen.ml" 86 2010 2030
+type(
+  Lexing.position
+)
+ident(
+  def p "VarGen.ml" 86 2010 2052 "VarGen.ml" 86 2010 2148
+)
+"VarGen.ml" 86 2010 2052 "VarGen.ml" 86 2010 2055
+type(
+  string
+)
+"VarGen.ml" 86 2010 2055 "VarGen.ml" 86 2010 2056
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 86 2010 2056 "VarGen.ml" 86 2010 2069
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"VarGen.ml" 86 2010 2070 "VarGen.ml" 86 2010 2071
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "VarGen.ml" 86 2010 2029 "VarGen.ml" 86 2010 2030
+)
+"VarGen.ml" 86 2010 2069 "VarGen.ml" 86 2010 2088
+type(
+  int
+)
+"VarGen.ml" 86 2010 2056 "VarGen.ml" 86 2010 2088
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 86 2010 2089 "VarGen.ml" 86 2010 2090
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 86 2010 2090 "VarGen.ml" 86 2010 2093
+type(
+  string
+)
+"VarGen.ml" 86 2010 2093 "VarGen.ml" 86 2010 2094
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 86 2010 2094 "VarGen.ml" 86 2010 2107
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"VarGen.ml" 86 2010 2108 "VarGen.ml" 86 2010 2109
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "VarGen.ml" 86 2010 2029 "VarGen.ml" 86 2010 2030
+)
+"VarGen.ml" 86 2010 2108 "VarGen.ml" 86 2010 2125
+type(
+  int
+)
+"VarGen.ml" 86 2010 2125 "VarGen.ml" 86 2010 2126
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"VarGen.ml" 86 2010 2126 "VarGen.ml" 86 2010 2127
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "VarGen.ml" 86 2010 2029 "VarGen.ml" 86 2010 2030
+)
+"VarGen.ml" 86 2010 2126 "VarGen.ml" 86 2010 2142
+type(
+  int
+)
+"VarGen.ml" 86 2010 2107 "VarGen.ml" 86 2010 2143
+type(
+  int
+)
+"VarGen.ml" 86 2010 2094 "VarGen.ml" 86 2010 2143
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 86 2010 2144 "VarGen.ml" 86 2010 2145
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 86 2010 2145 "VarGen.ml" 86 2010 2148
+type(
+  string
+)
+"VarGen.ml" 86 2010 2094 "VarGen.ml" 86 2010 2148
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 86 2010 2090 "VarGen.ml" 86 2010 2148
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 86 2010 2056 "VarGen.ml" 86 2010 2148
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 86 2010 2052 "VarGen.ml" 86 2010 2148
+call(
+  tail
+)
+type(
+  string
+)
+"VarGen.ml" 89 2153 2157 "VarGen.ml" 89 2153 2175
+type(
+  loc -> string
+)
+ident(
+  def string_of_full_loc "VarGen.ml" 91 2257 2257 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 89 2153 2177 "VarGen.ml" 89 2153 2178
+type(
+  loc
+)
+ident(
+  def l "VarGen.ml" 89 2153 2188 "VarGen.ml" 89 2153 2253
+)
+"VarGen.ml" 89 2153 2188 "VarGen.ml" 89 2153 2191
+type(
+  string
+)
+"VarGen.ml" 89 2153 2191 "VarGen.ml" 89 2153 2192
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 89 2153 2193 "VarGen.ml" 89 2153 2206
+type(
+  Lexing.position -> string
+)
+ident(
+  int_ref string_of_pos "VarGen.ml" 86 2010 2014 "VarGen.ml" 86 2010 2027
+)
+"VarGen.ml" 89 2153 2207 "VarGen.ml" 89 2153 2208
+type(
+  loc
+)
+ident(
+  int_ref l "VarGen.ml" 89 2153 2177 "VarGen.ml" 89 2153 2178
+)
+"VarGen.ml" 89 2153 2207 "VarGen.ml" 89 2153 2218
+type(
+  Lexing.position
+)
+"VarGen.ml" 89 2153 2192 "VarGen.ml" 89 2153 2219
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 89 2153 2219 "VarGen.ml" 89 2153 2220
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 89 2153 2220 "VarGen.ml" 89 2153 2223
+type(
+  string
+)
+"VarGen.ml" 89 2153 2223 "VarGen.ml" 89 2153 2224
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 89 2153 2225 "VarGen.ml" 89 2153 2238
+type(
+  Lexing.position -> string
+)
+ident(
+  int_ref string_of_pos "VarGen.ml" 86 2010 2014 "VarGen.ml" 86 2010 2027
+)
+"VarGen.ml" 89 2153 2239 "VarGen.ml" 89 2153 2240
+type(
+  loc
+)
+ident(
+  int_ref l "VarGen.ml" 89 2153 2177 "VarGen.ml" 89 2153 2178
+)
+"VarGen.ml" 89 2153 2239 "VarGen.ml" 89 2153 2248
+type(
+  Lexing.position
+)
+"VarGen.ml" 89 2153 2224 "VarGen.ml" 89 2153 2249
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 89 2153 2249 "VarGen.ml" 89 2153 2250
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 89 2153 2250 "VarGen.ml" 89 2153 2253
+type(
+  string
+)
+"VarGen.ml" 89 2153 2224 "VarGen.ml" 89 2153 2253
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 89 2153 2220 "VarGen.ml" 89 2153 2253
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 89 2153 2192 "VarGen.ml" 89 2153 2253
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 89 2153 2188 "VarGen.ml" 89 2153 2253
+call(
+  tail
+)
+type(
+  string
+)
+"VarGen.ml" 91 2257 2261 "VarGen.ml" 91 2257 2286
+type(
+  loc -> string
+)
+ident(
+  def string_of_loc_by_char_num "VarGen.ml" 96 2390 2390 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 91 2257 2288 "VarGen.ml" 91 2257 2289
+type(
+  loc
+)
+ident(
+  def l "VarGen.ml" 92 2300 2302 "VarGen.ml" 94 2359 2388
+)
+"VarGen.ml" 92 2300 2302 "VarGen.ml" 92 2300 2316
+type(
+  (int -> int -> string, unit, string) format -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"VarGen.ml" 92 2300 2317 "VarGen.ml" 92 2300 2326
+type(
+  (int -> int -> string, unit, string) format
+)
+"VarGen.ml" 93 2327 2331 "VarGen.ml" 93 2327 2332
+type(
+  loc
+)
+ident(
+  int_ref l "VarGen.ml" 91 2257 2288 "VarGen.ml" 91 2257 2289
+)
+"VarGen.ml" 93 2327 2331 "VarGen.ml" 93 2327 2342
+type(
+  Lexing.position
+)
+"VarGen.ml" 93 2327 2331 "VarGen.ml" 93 2327 2358
+type(
+  int
+)
+"VarGen.ml" 94 2359 2363 "VarGen.ml" 94 2359 2364
+type(
+  loc
+)
+ident(
+  int_ref l "VarGen.ml" 91 2257 2288 "VarGen.ml" 91 2257 2289
+)
+"VarGen.ml" 94 2359 2363 "VarGen.ml" 94 2359 2372
+type(
+  Lexing.position
+)
+"VarGen.ml" 94 2359 2363 "VarGen.ml" 94 2359 2388
+type(
+  int
+)
+"VarGen.ml" 92 2300 2302 "VarGen.ml" 94 2359 2388
+call(
+  tail
+)
+type(
+  string
+)
+"VarGen.ml" 96 2390 2394 "VarGen.ml" 96 2390 2400
+type(
+  Lexing.position -> Lexing.position -> bool
+)
+ident(
+  def eq_pos "VarGen.ml" 100 2546 2546 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 96 2390 2401 "VarGen.ml" 96 2390 2403
+type(
+  Lexing.position
+)
+ident(
+  def p1 "VarGen.ml" 96 2390 2404 "VarGen.ml" 98 2458 2544
+)
+"VarGen.ml" 96 2390 2404 "VarGen.ml" 96 2390 2406
+type(
+  Lexing.position
+)
+ident(
+  def p2 "VarGen.ml" 97 2410 2412 "VarGen.ml" 98 2458 2544
+)
+"VarGen.ml" 97 2410 2413 "VarGen.ml" 97 2410 2415
+type(
+  Lexing.position
+)
+ident(
+  int_ref p1 "VarGen.ml" 96 2390 2401 "VarGen.ml" 96 2390 2403
+)
+"VarGen.ml" 97 2410 2413 "VarGen.ml" 97 2410 2431
+type(
+  int
+)
+"VarGen.ml" 97 2410 2432 "VarGen.ml" 97 2410 2434
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"VarGen.ml" 97 2410 2435 "VarGen.ml" 97 2410 2437
+type(
+  Lexing.position
+)
+ident(
+  int_ref p2 "VarGen.ml" 96 2390 2404 "VarGen.ml" 96 2390 2406
+)
+"VarGen.ml" 97 2410 2435 "VarGen.ml" 97 2410 2453
+type(
+  int
+)
+"VarGen.ml" 97 2410 2412 "VarGen.ml" 97 2410 2454
+type(
+  bool
+)
+"VarGen.ml" 97 2410 2455 "VarGen.ml" 97 2410 2457
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"VarGen.ml" 98 2458 2461 "VarGen.ml" 98 2458 2463
+type(
+  Lexing.position
+)
+ident(
+  int_ref p1 "VarGen.ml" 96 2390 2401 "VarGen.ml" 96 2390 2403
+)
+"VarGen.ml" 98 2458 2461 "VarGen.ml" 98 2458 2479
+type(
+  int
+)
+"VarGen.ml" 98 2458 2480 "VarGen.ml" 98 2458 2481
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"VarGen.ml" 98 2458 2482 "VarGen.ml" 98 2458 2484
+type(
+  Lexing.position
+)
+ident(
+  int_ref p1 "VarGen.ml" 96 2390 2401 "VarGen.ml" 96 2390 2403
+)
+"VarGen.ml" 98 2458 2482 "VarGen.ml" 98 2458 2499
+type(
+  int
+)
+"VarGen.ml" 98 2458 2460 "VarGen.ml" 98 2458 2500
+type(
+  int
+)
+"VarGen.ml" 98 2458 2501 "VarGen.ml" 98 2458 2503
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"VarGen.ml" 98 2458 2505 "VarGen.ml" 98 2458 2507
+type(
+  Lexing.position
+)
+ident(
+  int_ref p2 "VarGen.ml" 96 2390 2404 "VarGen.ml" 96 2390 2406
+)
+"VarGen.ml" 98 2458 2505 "VarGen.ml" 98 2458 2523
+type(
+  int
+)
+"VarGen.ml" 98 2458 2524 "VarGen.ml" 98 2458 2525
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"VarGen.ml" 98 2458 2526 "VarGen.ml" 98 2458 2528
+type(
+  Lexing.position
+)
+ident(
+  int_ref p2 "VarGen.ml" 96 2390 2404 "VarGen.ml" 96 2390 2406
+)
+"VarGen.ml" 98 2458 2526 "VarGen.ml" 98 2458 2543
+type(
+  int
+)
+"VarGen.ml" 98 2458 2504 "VarGen.ml" 98 2458 2544
+type(
+  int
+)
+"VarGen.ml" 98 2458 2460 "VarGen.ml" 98 2458 2544
+type(
+  bool
+)
+"VarGen.ml" 97 2410 2412 "VarGen.ml" 98 2458 2544
+type(
+  bool
+)
+"VarGen.ml" 100 2546 2550 "VarGen.ml" 100 2546 2556
+type(
+  loc -> loc -> bool
+)
+ident(
+  def eq_loc "VarGen.ml" 104 2631 2631 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 100 2546 2557 "VarGen.ml" 100 2546 2559
+type(
+  loc
+)
+ident(
+  def l1 "VarGen.ml" 100 2546 2560 "VarGen.ml" 101 2566 2600
+)
+"VarGen.ml" 100 2546 2560 "VarGen.ml" 100 2546 2562
+type(
+  loc
+)
+ident(
+  def l2 "VarGen.ml" 101 2566 2568 "VarGen.ml" 101 2566 2600
+)
+"VarGen.ml" 101 2566 2568 "VarGen.ml" 101 2566 2574
+type(
+  Lexing.position -> Lexing.position -> bool
+)
+ident(
+  int_ref eq_pos "VarGen.ml" 96 2390 2394 "VarGen.ml" 96 2390 2400
+)
+"VarGen.ml" 101 2566 2575 "VarGen.ml" 101 2566 2577
+type(
+  loc
+)
+ident(
+  int_ref l1 "VarGen.ml" 100 2546 2557 "VarGen.ml" 100 2546 2559
+)
+"VarGen.ml" 101 2566 2575 "VarGen.ml" 101 2566 2587
+type(
+  Lexing.position
+)
+"VarGen.ml" 101 2566 2588 "VarGen.ml" 101 2566 2590
+type(
+  loc
+)
+ident(
+  int_ref l2 "VarGen.ml" 100 2546 2560 "VarGen.ml" 100 2546 2562
+)
+"VarGen.ml" 101 2566 2588 "VarGen.ml" 101 2566 2600
+type(
+  Lexing.position
+)
+"VarGen.ml" 101 2566 2568 "VarGen.ml" 101 2566 2600
+call(
+  tail
+)
+type(
+  bool
+)
+"VarGen.ml" 104 2631 2649 "VarGen.ml" 104 2631 2655
+type(
+  'a
+)
+"VarGen.ml" 104 2631 2661 "VarGen.ml" 104 2631 2664
+type(
+  'a -> string
+)
+"VarGen.ml" 105 2679 2688 "VarGen.ml" 105 2679 2694
+type(
+  < dump : unit; get : 'a; get_rm : 'a; is_avail : bool; is_empty : bool;
+    replace : 'a -> unit; reset : unit; set : 'a -> unit; string_of : 
+    string; .. >
+)
+"VarGen.ml" 106 2695 2713 "VarGen.ml" 106 2695 2719
+type(
+  'a
+)
+ident(
+  int_ref x_init "VarGen.ml" 104 2631 2649 "VarGen.ml" 104 2631 2655
+)
+"VarGen.ml" 107 2720 2741 "VarGen.ml" 107 2720 2745
+type(
+  'a option
+)
+"VarGen.ml" 108 2746 2781 "VarGen.ml" 108 2746 2783
+type(
+  'a option
+)
+ident(
+  ext_ref lc
+)
+"VarGen.ml" 109 2789 2797 "VarGen.ml" 109 2789 2801
+type(
+  'a option
+)
+"VarGen.ml" 109 2789 2805 "VarGen.ml" 109 2789 2810
+type(
+  bool
+)
+"VarGen.ml" 110 2811 2824 "VarGen.ml" 110 2811 2825
+type(
+  'a
+)
+"VarGen.ml" 110 2811 2819 "VarGen.ml" 110 2811 2825
+type(
+  'a option
+)
+"VarGen.ml" 110 2811 2829 "VarGen.ml" 110 2811 2833
+type(
+  bool
+)
+"VarGen.ml" 108 2746 2775 "VarGen.ml" 110 2811 2833
+type(
+  bool
+)
+type(
+  bool
+)
+"VarGen.ml" 111 2834 2863 "VarGen.ml" 111 2834 2865
+type(
+  'a option
+)
+ident(
+  ext_ref lc
+)
+"VarGen.ml" 111 2834 2866 "VarGen.ml" 111 2834 2868
+type(
+  'a option -> 'a option -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"VarGen.ml" 111 2834 2869 "VarGen.ml" 111 2834 2873
+type(
+  'a option
+)
+"VarGen.ml" 111 2834 2863 "VarGen.ml" 111 2834 2873
+type(
+  bool
+)
+type(
+  bool
+)
+"VarGen.ml" 112 2874 2890 "VarGen.ml" 112 2874 2892
+type(
+  'a
+)
+ident(
+  def nl "VarGen.ml" 112 2874 2899 "VarGen.ml" 112 2874 2912
+)
+"VarGen.ml" 112 2874 2910 "VarGen.ml" 112 2874 2912
+type(
+  'a
+)
+ident(
+  int_ref nl "VarGen.ml" 112 2874 2890 "VarGen.ml" 112 2874 2892
+)
+"VarGen.ml" 112 2874 2905 "VarGen.ml" 112 2874 2912
+type(
+  'a option
+)
+"VarGen.ml" 112 2874 2899 "VarGen.ml" 112 2874 2912
+type(
+  unit
+)
+"VarGen.ml" 113 2913 2940 "VarGen.ml" 113 2913 2942
+type(
+  'a option
+)
+ident(
+  ext_ref lc
+)
+"VarGen.ml" 114 2948 2956 "VarGen.ml" 114 2948 2960
+type(
+  'a option
+)
+"VarGen.ml" 114 2948 2964 "VarGen.ml" 114 2948 2971
+type(
+  'a
+)
+ident(
+  ext_ref emp_val
+)
+"VarGen.ml" 115 2972 2985 "VarGen.ml" 115 2972 2986
+type(
+  'a
+)
+ident(
+  def p "VarGen.ml" 115 2972 2990 "VarGen.ml" 115 2972 2991
+)
+"VarGen.ml" 115 2972 2980 "VarGen.ml" 115 2972 2986
+type(
+  'a option
+)
+"VarGen.ml" 115 2972 2990 "VarGen.ml" 115 2972 2991
+type(
+  'a
+)
+ident(
+  int_ref p "VarGen.ml" 115 2972 2985 "VarGen.ml" 115 2972 2986
+)
+"VarGen.ml" 113 2913 2934 "VarGen.ml" 115 2972 2991
+type(
+  'a
+)
+type(
+  'a
+)
+"VarGen.ml" 116 2992 3017 "VarGen.ml" 116 2992 3021
+type(
+  'a option
+)
+"VarGen.ml" 116 2992 3011 "VarGen.ml" 116 2992 3021
+type(
+  unit
+)
+type(
+  unit
+)
+"VarGen.ml" 117 3022 3052 "VarGen.ml" 117 3022 3054
+type(
+  'a option
+)
+ident(
+  ext_ref lc
+)
+"VarGen.ml" 118 3060 3068 "VarGen.ml" 118 3060 3072
+type(
+  'a option
+)
+"VarGen.ml" 118 3060 3076 "VarGen.ml" 118 3060 3083
+type(
+  'a
+)
+ident(
+  ext_ref emp_val
+)
+"VarGen.ml" 119 3084 3097 "VarGen.ml" 119 3084 3098
+type(
+  'a
+)
+ident(
+  def p "VarGen.ml" 119 3084 3102 "VarGen.ml" 119 3084 3117
+)
+"VarGen.ml" 119 3084 3092 "VarGen.ml" 119 3084 3098
+type(
+  'a option
+)
+"VarGen.ml" 119 3084 3109 "VarGen.ml" 119 3084 3113
+type(
+  'a option
+)
+"VarGen.ml" 119 3084 3103 "VarGen.ml" 119 3084 3113
+type(
+  unit
+)
+"VarGen.ml" 119 3084 3115 "VarGen.ml" 119 3084 3116
+type(
+  'a
+)
+ident(
+  int_ref p "VarGen.ml" 119 3084 3097 "VarGen.ml" 119 3084 3098
+)
+"VarGen.ml" 119 3084 3102 "VarGen.ml" 119 3084 3117
+type(
+  'a
+)
+"VarGen.ml" 117 3022 3046 "VarGen.ml" 119 3084 3117
+type(
+  'a
+)
+type(
+  'a
+)
+"VarGen.ml" 120 3118 3138 "VarGen.ml" 120 3118 3140
+type(
+  'a
+)
+ident(
+  def nl "VarGen.ml" 121 3147 3153 "VarGen.ml" 122 3197 3210
+)
+"VarGen.ml" 121 3147 3156 "VarGen.ml" 121 3147 3159
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"VarGen.ml" 121 3147 3161 "VarGen.ml" 121 3147 3165
+type(
+  < dump : unit; get : 'a; get_rm : 'a; is_avail : bool; is_empty : bool;
+    replace : 'a -> unit; reset : unit; set : 'a -> unit; string_of : 
+    string; .. >
+  as 'b
+)
+ident(
+  int_ref self "VarGen.ml" 105 2679 2688 "VarGen.ml" 105 2679 2694
+)
+"VarGen.ml" 121 3147 3160 "VarGen.ml" 121 3147 3177
+call(
+  stack
+)
+type(
+  bool
+)
+"VarGen.ml" 121 3147 3156 "VarGen.ml" 121 3147 3177
+type(
+  bool
+)
+"VarGen.ml" 121 3147 3183 "VarGen.ml" 121 3147 3187
+type(
+  'b
+)
+ident(
+  int_ref self "VarGen.ml" 105 2679 2688 "VarGen.ml" 105 2679 2694
+)
+"VarGen.ml" 121 3147 3183 "VarGen.ml" 121 3147 3193
+call(
+  tail
+)
+type(
+  'a -> unit
+)
+"VarGen.ml" 121 3147 3194 "VarGen.ml" 121 3147 3196
+type(
+  'a
+)
+ident(
+  int_ref nl "VarGen.ml" 120 3118 3138 "VarGen.ml" 120 3118 3140
+)
+"VarGen.ml" 121 3147 3183 "VarGen.ml" 121 3147 3196
+type(
+  unit
+)
+"VarGen.ml" 122 3197 3208 "VarGen.ml" 122 3197 3210
+type(
+  unit
+)
+"VarGen.ml" 121 3147 3153 "VarGen.ml" 122 3197 3210
+type(
+  unit
+)
+"VarGen.ml" 123 3211 3249 "VarGen.ml" 123 3211 3251
+type(
+  'a option
+)
+ident(
+  ext_ref lc
+)
+"VarGen.ml" 124 3257 3265 "VarGen.ml" 124 3257 3269
+type(
+  'a option
+)
+"VarGen.ml" 124 3257 3273 "VarGen.ml" 124 3257 3284
+type(
+  string
+)
+"VarGen.ml" 125 3285 3298 "VarGen.ml" 125 3285 3299
+type(
+  'a
+)
+ident(
+  def l "VarGen.ml" 125 3285 3303 "VarGen.ml" 125 3285 3310
+)
+"VarGen.ml" 125 3285 3293 "VarGen.ml" 125 3285 3299
+type(
+  'a option
+)
+"VarGen.ml" 125 3285 3304 "VarGen.ml" 125 3285 3307
+type(
+  'a -> string
+)
+ident(
+  int_ref epr "VarGen.ml" 104 2631 2661 "VarGen.ml" 104 2631 2664
+)
+"VarGen.ml" 125 3285 3308 "VarGen.ml" 125 3285 3309
+type(
+  'a
+)
+ident(
+  int_ref l "VarGen.ml" 125 3285 3298 "VarGen.ml" 125 3285 3299
+)
+"VarGen.ml" 125 3285 3303 "VarGen.ml" 125 3285 3310
+call(
+  tail
+)
+type(
+  string
+)
+"VarGen.ml" 123 3211 3243 "VarGen.ml" 125 3285 3310
+type(
+  string
+)
+type(
+  string
+)
+"VarGen.ml" 126 3311 3329 "VarGen.ml" 126 3311 3342
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"VarGen.ml" 126 3311 3344 "VarGen.ml" 126 3311 3361
+type(
+  string
+)
+"VarGen.ml" 126 3311 3361 "VarGen.ml" 126 3311 3362
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 126 3311 3363 "VarGen.ml" 126 3311 3367
+type(
+  'b
+)
+ident(
+  int_ref self "VarGen.ml" 105 2679 2688 "VarGen.ml" 105 2679 2694
+)
+"VarGen.ml" 126 3311 3362 "VarGen.ml" 126 3311 3378
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 126 3311 3343 "VarGen.ml" 126 3311 3379
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 126 3311 3329 "VarGen.ml" 126 3311 3379
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"VarGen.ml" 129 3389 3413 "VarGen.ml" 129 3389 3419
+type(
+  string
+)
+"VarGen.ml" 129 3389 3425 "VarGen.ml" 129 3389 3428
+type(
+  string -> string
+)
+"VarGen.ml" 130 3443 3452 "VarGen.ml" 130 3443 3458
+type(
+  < dump : unit; get : string; get_rm : string; is_avail : bool;
+    is_empty : bool; replace : string -> unit; reset : unit;
+    set : string -> unit; string_of : string; .. >
+)
+"VarGen.ml" 131 3459 3482 "VarGen.ml" 131 3459 3488
+type(
+  string
+)
+ident(
+  int_ref x_init "VarGen.ml" 129 3389 3413 "VarGen.ml" 129 3389 3419
+)
+"VarGen.ml" 131 3459 3489 "VarGen.ml" 131 3459 3492
+type(
+  string -> string
+)
+ident(
+  int_ref epr "VarGen.ml" 129 3389 3425 "VarGen.ml" 129 3389 3428
+)
+"VarGen.ml" 133 3522 3531 "VarGen.ml" 133 3522 3536
+type(
+  < dump : unit; get : string; get_rm : string; is_avail : bool;
+    is_empty : bool; replace : string -> unit; reset : unit;
+    set : string -> unit; string_of : string; .. >
+  as 'a
+)
+ident(
+  int_ref super "VarGen.ml" 131 3459 3471 "VarGen.ml" 131 3459 3492
+)
+"VarGen.ml" 133 3522 3531 "VarGen.ml" 133 3522 3547
+call(
+  stack
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"VarGen.ml" 135 3567 3577 "VarGen.ml" 135 3567 3590
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"VarGen.ml" 135 3567 3592 "VarGen.ml" 135 3567 3600
+type(
+  string
+)
+"VarGen.ml" 135 3567 3600 "VarGen.ml" 135 3567 3601
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 135 3567 3601 "VarGen.ml" 135 3567 3605
+type(
+  'a
+)
+ident(
+  int_ref self "VarGen.ml" 130 3443 3452 "VarGen.ml" 130 3443 3458
+)
+"VarGen.ml" 135 3567 3601 "VarGen.ml" 135 3567 3609
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 135 3567 3591 "VarGen.ml" 135 3567 3610
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 135 3567 3577 "VarGen.ml" 135 3567 3610
+call(
+  stack
+)
+type(
+  unit
+)
+"VarGen.ml" 136 3612 3622 "VarGen.ml" 136 3612 3627
+type(
+  'a
+)
+ident(
+  int_ref super "VarGen.ml" 131 3459 3471 "VarGen.ml" 131 3459 3492
+)
+"VarGen.ml" 136 3612 3622 "VarGen.ml" 136 3612 3635
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"VarGen.ml" 134 3553 3561 "VarGen.ml" 137 3636 3647
+type(
+  unit
+)
+"VarGen.ml" 133 3522 3528 "VarGen.ml" 137 3636 3647
+type(
+  unit
+)
+type(
+  unit
+)
+"VarGen.ml" 139 3673 3679 "VarGen.ml" 139 3673 3692
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"VarGen.ml" 139 3673 3694 "VarGen.ml" 139 3673 3703
+type(
+  string
+)
+"VarGen.ml" 139 3673 3703 "VarGen.ml" 139 3673 3704
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 139 3673 3704 "VarGen.ml" 139 3673 3708
+type(
+  'a
+)
+ident(
+  int_ref self "VarGen.ml" 130 3443 3452 "VarGen.ml" 130 3443 3458
+)
+"VarGen.ml" 139 3673 3704 "VarGen.ml" 139 3673 3712
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 139 3673 3693 "VarGen.ml" 139 3673 3713
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 139 3673 3679 "VarGen.ml" 139 3673 3713
+call(
+  stack
+)
+type(
+  unit
+)
+"VarGen.ml" 140 3715 3721 "VarGen.ml" 140 3715 3726
+type(
+  'a
+)
+ident(
+  int_ref super "VarGen.ml" 131 3459 3471 "VarGen.ml" 131 3459 3492
+)
+"VarGen.ml" 140 3715 3721 "VarGen.ml" 140 3715 3735
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"VarGen.ml" 139 3673 3679 "VarGen.ml" 140 3715 3735
+type(
+  string
+)
+type(
+  string
+)
+"VarGen.ml" 146 3846 3871 "VarGen.ml" 146 3846 3876
+type(
+  bool
+)
+"VarGen.ml" 146 3846 3877 "VarGen.ml" 146 3846 3891
+type(
+  bool -> string
+)
+ident(
+  ext_ref Pervasives.string_of_bool
+)
+"VarGen.ml" 151 3927 3951 "VarGen.ml" 151 3927 3957
+type(
+  loc
+)
+ident(
+  int_ref no_pos "VarGen.ml" 50 1000 1004 "VarGen.ml" 50 1000 1010
+)
+"VarGen.ml" 151 3927 3958 "VarGen.ml" 151 3927 3971
+type(
+  loc -> string
+)
+ident(
+  int_ref string_of_loc "VarGen.ml" 79 1678 1682 "VarGen.ml" 79 1678 1695
+)
+"VarGen.ml" 152 3972 4014 "VarGen.ml" 152 3972 4016
+type(
+  loc option
+)
+ident(
+  ext_ref lc
+)
+"VarGen.ml" 153 4022 4030 "VarGen.ml" 153 4022 4034
+type(
+  loc option
+)
+"VarGen.ml" 153 4022 4038 "VarGen.ml" 153 4022 4044
+type(
+  string
+)
+"VarGen.ml" 154 4045 4058 "VarGen.ml" 154 4045 4059
+type(
+  loc
+)
+ident(
+  def l "VarGen.ml" 154 4045 4063 "VarGen.ml" 154 4045 4090
+)
+"VarGen.ml" 154 4045 4053 "VarGen.ml" 154 4045 4059
+type(
+  loc option
+)
+"VarGen.ml" 154 4045 4064 "VarGen.ml" 154 4045 4077
+type(
+  Lexing.position -> string
+)
+ident(
+  int_ref string_of_pos "VarGen.ml" 86 2010 2014 "VarGen.ml" 86 2010 2027
+)
+"VarGen.ml" 154 4045 4078 "VarGen.ml" 154 4045 4079
+type(
+  loc
+)
+ident(
+  int_ref l "VarGen.ml" 154 4045 4058 "VarGen.ml" 154 4045 4059
+)
+"VarGen.ml" 154 4045 4078 "VarGen.ml" 154 4045 4089
+type(
+  Lexing.position
+)
+"VarGen.ml" 154 4045 4063 "VarGen.ml" 154 4045 4090
+call(
+  tail
+)
+type(
+  string
+)
+"VarGen.ml" 152 3972 4008 "VarGen.ml" 154 4045 4090
+type(
+  string
+)
+type(
+  string
+)
+"VarGen.ml" 157 4100 4104 "VarGen.ml" 157 4100 4118
+type(
+  string -> string
+)
+ident(
+  def method_name_of "VarGen.ml" 163 4225 4225 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 157 4100 4119 "VarGen.ml" 157 4100 4120
+type(
+  string
+)
+ident(
+  def s "VarGen.ml" 158 4123 4125 "VarGen.ml" 161 4209 4222
+)
+"VarGen.ml" 159 4130 4138 "VarGen.ml" 159 4130 4151
+type(
+  int
+)
+ident(
+  def hashtag_index "VarGen.ml" 160 4176 4180 "VarGen.ml" 160 4176 4208
+)
+"VarGen.ml" 159 4130 4154 "VarGen.ml" 159 4130 4166
+type(
+  string -> char -> int
+)
+ident(
+  ext_ref String.index
+)
+"VarGen.ml" 159 4130 4167 "VarGen.ml" 159 4130 4168
+type(
+  string
+)
+ident(
+  int_ref s "VarGen.ml" 157 4100 4119 "VarGen.ml" 157 4100 4120
+)
+"VarGen.ml" 159 4130 4169 "VarGen.ml" 159 4130 4172
+type(
+  char
+)
+"VarGen.ml" 159 4130 4154 "VarGen.ml" 159 4130 4172
+call(
+  stack
+)
+type(
+  int
+)
+"VarGen.ml" 160 4176 4180 "VarGen.ml" 160 4176 4190
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"VarGen.ml" 160 4176 4191 "VarGen.ml" 160 4176 4192
+type(
+  string
+)
+ident(
+  int_ref s "VarGen.ml" 157 4100 4119 "VarGen.ml" 157 4100 4120
+)
+"VarGen.ml" 160 4176 4193 "VarGen.ml" 160 4176 4194
+type(
+  int
+)
+"VarGen.ml" 160 4176 4195 "VarGen.ml" 160 4176 4208
+type(
+  int
+)
+ident(
+  int_ref hashtag_index "VarGen.ml" 159 4130 4138 "VarGen.ml" 159 4130 4151
+)
+"VarGen.ml" 160 4176 4180 "VarGen.ml" 160 4176 4208
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 159 4130 4134 "VarGen.ml" 160 4176 4208
+type(
+  string
+)
+"VarGen.ml" 161 4209 4216 "VarGen.ml" 161 4209 4217
+type(
+  exn
+)
+"VarGen.ml" 161 4209 4221 "VarGen.ml" 161 4209 4222
+type(
+  string
+)
+ident(
+  int_ref s "VarGen.ml" 157 4100 4119 "VarGen.ml" 157 4100 4120
+)
+"VarGen.ml" 158 4123 4125 "VarGen.ml" 161 4209 4222
+type(
+  string
+)
+"VarGen.ml" 163 4225 4229 "VarGen.ml" 163 4225 4237
+type(
+  String.t -> String.t -> bool
+)
+ident(
+  def is_equal "VarGen.ml" 166 4303 4303 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 163 4225 4238 "VarGen.ml" 163 4225 4247
+type(
+  String.t
+)
+ident(
+  def call_name "VarGen.ml" 163 4225 4248 "VarGen.ml" 164 4252 4301
+)
+"VarGen.ml" 163 4225 4248 "VarGen.ml" 163 4225 4249
+type(
+  String.t
+)
+ident(
+  def s "VarGen.ml" 164 4252 4254 "VarGen.ml" 164 4252 4301
+)
+"VarGen.ml" 164 4252 4254 "VarGen.ml" 164 4252 4268
+type(
+  String.t -> String.t -> int
+)
+ident(
+  ext_ref String.compare
+)
+"VarGen.ml" 164 4252 4269 "VarGen.ml" 164 4252 4278
+type(
+  String.t
+)
+ident(
+  int_ref call_name "VarGen.ml" 163 4225 4238 "VarGen.ml" 163 4225 4247
+)
+"VarGen.ml" 164 4252 4280 "VarGen.ml" 164 4252 4294
+type(
+  String.t -> String.t
+)
+ident(
+  int_ref method_name_of "VarGen.ml" 157 4100 4104 "VarGen.ml" 157 4100 4118
+)
+"VarGen.ml" 164 4252 4295 "VarGen.ml" 164 4252 4296
+type(
+  String.t
+)
+ident(
+  int_ref s "VarGen.ml" 163 4225 4248 "VarGen.ml" 163 4225 4249
+)
+"VarGen.ml" 164 4252 4279 "VarGen.ml" 164 4252 4297
+call(
+  stack
+)
+type(
+  String.t
+)
+"VarGen.ml" 164 4252 4254 "VarGen.ml" 164 4252 4297
+call(
+  stack
+)
+type(
+  int
+)
+"VarGen.ml" 164 4252 4298 "VarGen.ml" 164 4252 4299
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"VarGen.ml" 164 4252 4300 "VarGen.ml" 164 4252 4301
+type(
+  int
+)
+"VarGen.ml" 164 4252 4254 "VarGen.ml" 164 4252 4301
+type(
+  bool
+)
+"VarGen.ml" 167 4325 4334 "VarGen.ml" 167 4325 4340
+type(
+  < get : string -> string; get_rm : string -> string;
+    reset : string -> unit; set_name : string -> unit;
+    set_posn : string -> unit; .. >
+)
+"VarGen.ml" 168 4341 4361 "VarGen.ml" 168 4341 4370
+type(
+  string * String.t ->
+  (string * String.t -> string) -> (string * String.t) store
+)
+"VarGen.ml" 168 4341 4372 "VarGen.ml" 168 4341 4374
+type(
+  string
+)
+"VarGen.ml" 168 4341 4376 "VarGen.ml" 168 4341 4378
+type(
+  String.t
+)
+"VarGen.ml" 168 4341 4371 "VarGen.ml" 168 4341 4379
+type(
+  string * String.t
+)
+"VarGen.ml" 168 4341 4386 "VarGen.ml" 168 4341 4387
+type(
+  string
+)
+ident(
+  def x "VarGen.ml" 168 4341 4395 "VarGen.ml" 168 4341 4404
+)
+"VarGen.ml" 168 4341 4389 "VarGen.ml" 168 4341 4390
+type(
+  String.t
+)
+"VarGen.ml" 168 4341 4385 "VarGen.ml" 168 4341 4391
+type(
+  string * String.t
+)
+"VarGen.ml" 168 4341 4395 "VarGen.ml" 168 4341 4398
+type(
+  string
+)
+"VarGen.ml" 168 4341 4398 "VarGen.ml" 168 4341 4399
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 168 4341 4399 "VarGen.ml" 168 4341 4400
+type(
+  string
+)
+ident(
+  int_ref x "VarGen.ml" 168 4341 4386 "VarGen.ml" 168 4341 4387
+)
+"VarGen.ml" 168 4341 4400 "VarGen.ml" 168 4341 4401
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 168 4341 4401 "VarGen.ml" 168 4341 4404
+type(
+  string
+)
+"VarGen.ml" 168 4341 4399 "VarGen.ml" 168 4341 4404
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 168 4341 4395 "VarGen.ml" 168 4341 4404
+call(
+  tail
+)
+type(
+  string
+)
+"VarGen.ml" 168 4341 4380 "VarGen.ml" 168 4341 4405
+type(
+  string * String.t -> string
+)
+"VarGen.ml" 168 4341 4361 "VarGen.ml" 168 4341 4405
+call(
+  stack
+)
+type(
+  (string * String.t) store
+)
+"VarGen.ml" 169 4406 4424 "VarGen.ml" 169 4406 4425
+type(
+  string
+)
+ident(
+  def s "VarGen.ml" 169 4406 4434 "VarGen.ml" 175 4731 4744
+)
+"VarGen.ml" 170 4443 4452 "VarGen.ml" 170 4443 4461
+type(
+  (string * String.t) store
+)
+ident(
+  ext_ref last_posn
+)
+"VarGen.ml" 170 4443 4452 "VarGen.ml" 170 4443 4472
+call(
+  stack
+)
+type(
+  bool
+)
+"VarGen.ml" 171 4478 4490 "VarGen.ml" 171 4478 4504
+type(
+  string
+)
+ident(
+  def last_call_site "VarGen.ml" 173 4655 4663 "VarGen.ml" 174 4715 4730
+)
+"VarGen.ml" 171 4478 4506 "VarGen.ml" 171 4478 4520
+type(
+  String.t
+)
+ident(
+  def last_call_name "VarGen.ml" 173 4655 4663 "VarGen.ml" 174 4715 4730
+)
+"VarGen.ml" 171 4478 4490 "VarGen.ml" 171 4478 4520
+type(
+  string * String.t
+)
+"VarGen.ml" 171 4478 4523 "VarGen.ml" 171 4478 4532
+type(
+  (string * String.t) store
+)
+ident(
+  ext_ref last_posn
+)
+"VarGen.ml" 171 4478 4523 "VarGen.ml" 171 4478 4538
+call(
+  stack
+)
+type(
+  string * String.t
+)
+"VarGen.ml" 173 4655 4666 "VarGen.ml" 173 4655 4674
+type(
+  String.t -> String.t -> bool
+)
+ident(
+  int_ref is_equal "VarGen.ml" 163 4225 4229 "VarGen.ml" 163 4225 4237
+)
+"VarGen.ml" 173 4655 4675 "VarGen.ml" 173 4655 4689
+type(
+  String.t
+)
+ident(
+  int_ref last_call_name "VarGen.ml" 171 4478 4506 "VarGen.ml" 171 4478 4520
+)
+"VarGen.ml" 173 4655 4690 "VarGen.ml" 173 4655 4691
+type(
+  String.t
+)
+ident(
+  int_ref s "VarGen.ml" 169 4406 4424 "VarGen.ml" 169 4406 4425
+)
+"VarGen.ml" 173 4655 4666 "VarGen.ml" 173 4655 4691
+call(
+  stack
+)
+type(
+  bool
+)
+"VarGen.ml" 173 4655 4697 "VarGen.ml" 173 4655 4706
+type(
+  (string * String.t) store
+)
+ident(
+  ext_ref last_posn
+)
+"VarGen.ml" 173 4655 4697 "VarGen.ml" 173 4655 4714
+call(
+  tail
+)
+type(
+  unit
+)
+"VarGen.ml" 174 4715 4728 "VarGen.ml" 174 4715 4730
+type(
+  unit
+)
+"VarGen.ml" 173 4655 4663 "VarGen.ml" 174 4715 4730
+type(
+  unit
+)
+"VarGen.ml" 171 4478 4486 "VarGen.ml" 174 4715 4730
+type(
+  unit
+)
+"VarGen.ml" 175 4731 4742 "VarGen.ml" 175 4731 4744
+type(
+  unit
+)
+"VarGen.ml" 170 4443 4449 "VarGen.ml" 175 4731 4744
+type(
+  unit
+)
+type(
+  unit
+)
+"VarGen.ml" 176 4745 4764 "VarGen.ml" 176 4745 4765
+type(
+  string
+)
+ident(
+  def s "VarGen.ml" 177 4778 4784 "VarGen.ml" 182 5054 5067
+)
+"VarGen.ml" 177 4778 4788 "VarGen.ml" 177 4778 4802
+type(
+  string
+)
+ident(
+  def last_call_site "VarGen.ml" 179 4952 4958 "VarGen.ml" 182 5054 5067
+)
+"VarGen.ml" 177 4778 4804 "VarGen.ml" 177 4778 4818
+type(
+  String.t
+)
+ident(
+  def last_call_name "VarGen.ml" 179 4952 4958 "VarGen.ml" 182 5054 5067
+)
+"VarGen.ml" 177 4778 4788 "VarGen.ml" 177 4778 4818
+type(
+  string * String.t
+)
+"VarGen.ml" 177 4778 4821 "VarGen.ml" 177 4778 4830
+type(
+  (string * String.t) store
+)
+ident(
+  ext_ref last_posn
+)
+"VarGen.ml" 177 4778 4821 "VarGen.ml" 177 4778 4836
+call(
+  stack
+)
+type(
+  string * String.t
+)
+"VarGen.ml" 179 4952 4961 "VarGen.ml" 179 4952 4969
+type(
+  String.t -> String.t -> bool
+)
+ident(
+  int_ref is_equal "VarGen.ml" 163 4225 4229 "VarGen.ml" 163 4225 4237
+)
+"VarGen.ml" 179 4952 4970 "VarGen.ml" 179 4952 4984
+type(
+  String.t
+)
+ident(
+  int_ref last_call_name "VarGen.ml" 177 4778 4804 "VarGen.ml" 177 4778 4818
+)
+"VarGen.ml" 179 4952 4985 "VarGen.ml" 179 4952 4986
+type(
+  String.t
+)
+ident(
+  int_ref s "VarGen.ml" 176 4745 4764 "VarGen.ml" 176 4745 4765
+)
+"VarGen.ml" 179 4952 4961 "VarGen.ml" 179 4952 4986
+call(
+  stack
+)
+type(
+  bool
+)
+"VarGen.ml" 180 4992 5004 "VarGen.ml" 180 4992 5006
+type(
+  unit
+)
+"VarGen.ml" 180 4992 5009 "VarGen.ml" 180 4992 5018
+type(
+  (string * String.t) store
+)
+ident(
+  ext_ref last_posn
+)
+"VarGen.ml" 180 4992 5009 "VarGen.ml" 180 4992 5026
+call(
+  stack
+)
+type(
+  unit
+)
+"VarGen.ml" 181 5030 5038 "VarGen.ml" 181 5030 5052
+type(
+  string
+)
+ident(
+  int_ref last_call_site "VarGen.ml" 177 4778 4788 "VarGen.ml" 177 4778 4802
+)
+"VarGen.ml" 180 4992 5000 "VarGen.ml" 181 5030 5052
+type(
+  string
+)
+"VarGen.ml" 182 5054 5065 "VarGen.ml" 182 5054 5067
+type(
+  string
+)
+"VarGen.ml" 179 4952 4958 "VarGen.ml" 182 5054 5067
+type(
+  string
+)
+"VarGen.ml" 177 4778 4784 "VarGen.ml" 182 5054 5067
+type(
+  string
+)
+"VarGen.ml" 183 5068 5084 "VarGen.ml" 183 5068 5085
+type(
+  string
+)
+ident(
+  def s "VarGen.ml" 184 5098 5104 "VarGen.ml" 186 5216 5229
+)
+"VarGen.ml" 184 5098 5108 "VarGen.ml" 184 5098 5122
+type(
+  string
+)
+ident(
+  def last_call_site "VarGen.ml" 185 5160 5166 "VarGen.ml" 186 5216 5229
+)
+"VarGen.ml" 184 5098 5124 "VarGen.ml" 184 5098 5138
+type(
+  String.t
+)
+ident(
+  def last_call_name "VarGen.ml" 185 5160 5166 "VarGen.ml" 186 5216 5229
+)
+"VarGen.ml" 184 5098 5108 "VarGen.ml" 184 5098 5138
+type(
+  string * String.t
+)
+"VarGen.ml" 184 5098 5141 "VarGen.ml" 184 5098 5150
+type(
+  (string * String.t) store
+)
+ident(
+  ext_ref last_posn
+)
+"VarGen.ml" 184 5098 5141 "VarGen.ml" 184 5098 5156
+call(
+  stack
+)
+type(
+  string * String.t
+)
+"VarGen.ml" 185 5160 5169 "VarGen.ml" 185 5160 5177
+type(
+  String.t -> String.t -> bool
+)
+ident(
+  int_ref is_equal "VarGen.ml" 163 4225 4229 "VarGen.ml" 163 4225 4237
+)
+"VarGen.ml" 185 5160 5178 "VarGen.ml" 185 5160 5192
+type(
+  String.t
+)
+ident(
+  int_ref last_call_name "VarGen.ml" 184 5098 5124 "VarGen.ml" 184 5098 5138
+)
+"VarGen.ml" 185 5160 5193 "VarGen.ml" 185 5160 5194
+type(
+  String.t
+)
+ident(
+  int_ref s "VarGen.ml" 183 5068 5084 "VarGen.ml" 183 5068 5085
+)
+"VarGen.ml" 185 5160 5169 "VarGen.ml" 185 5160 5194
+call(
+  stack
+)
+type(
+  bool
+)
+"VarGen.ml" 185 5160 5200 "VarGen.ml" 185 5160 5214
+type(
+  string
+)
+ident(
+  int_ref last_call_site "VarGen.ml" 184 5098 5108 "VarGen.ml" 184 5098 5122
+)
+"VarGen.ml" 186 5216 5227 "VarGen.ml" 186 5216 5229
+type(
+  string
+)
+"VarGen.ml" 185 5160 5166 "VarGen.ml" 186 5216 5229
+type(
+  string
+)
+"VarGen.ml" 184 5098 5104 "VarGen.ml" 186 5216 5229
+type(
+  string
+)
+"VarGen.ml" 187 5230 5251 "VarGen.ml" 187 5230 5252
+type(
+  string
+)
+ident(
+  def s "VarGen.ml" 188 5265 5271 "VarGen.ml" 189 5327 5400
+)
+"VarGen.ml" 188 5265 5275 "VarGen.ml" 188 5265 5289
+type(
+  string
+)
+ident(
+  def last_call_site "VarGen.ml" 189 5327 5333 "VarGen.ml" 189 5327 5400
+)
+"VarGen.ml" 188 5265 5291 "VarGen.ml" 188 5265 5305
+type(
+  String.t
+)
+ident(
+  def last_call_name "VarGen.ml" 189 5327 5333 "VarGen.ml" 189 5327 5400
+)
+"VarGen.ml" 188 5265 5275 "VarGen.ml" 188 5265 5305
+type(
+  string * String.t
+)
+"VarGen.ml" 188 5265 5308 "VarGen.ml" 188 5265 5317
+type(
+  (string * String.t) store
+)
+ident(
+  ext_ref last_posn
+)
+"VarGen.ml" 188 5265 5308 "VarGen.ml" 188 5265 5323
+call(
+  stack
+)
+type(
+  string * String.t
+)
+"VarGen.ml" 189 5327 5336 "VarGen.ml" 189 5327 5350
+type(
+  String.t
+)
+ident(
+  int_ref last_call_name "VarGen.ml" 188 5265 5291 "VarGen.ml" 188 5265 5305
+)
+"VarGen.ml" 189 5327 5351 "VarGen.ml" 189 5327 5352
+type(
+  String.t -> String.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"VarGen.ml" 189 5327 5353 "VarGen.ml" 189 5327 5355
+type(
+  String.t
+)
+"VarGen.ml" 189 5327 5336 "VarGen.ml" 189 5327 5355
+type(
+  bool
+)
+"VarGen.ml" 189 5327 5361 "VarGen.ml" 189 5327 5370
+type(
+  (string * String.t) store
+)
+ident(
+  ext_ref last_posn
+)
+"VarGen.ml" 189 5327 5361 "VarGen.ml" 189 5327 5380
+call(
+  tail
+)
+type(
+  string * String.t -> unit
+)
+"VarGen.ml" 189 5327 5382 "VarGen.ml" 189 5327 5396
+type(
+  string
+)
+ident(
+  int_ref last_call_site "VarGen.ml" 188 5265 5275 "VarGen.ml" 188 5265 5289
+)
+"VarGen.ml" 189 5327 5398 "VarGen.ml" 189 5327 5399
+type(
+  String.t
+)
+ident(
+  int_ref s "VarGen.ml" 187 5230 5251 "VarGen.ml" 187 5230 5252
+)
+"VarGen.ml" 189 5327 5381 "VarGen.ml" 189 5327 5400
+type(
+  string * String.t
+)
+"VarGen.ml" 189 5327 5361 "VarGen.ml" 189 5327 5400
+type(
+  unit
+)
+"VarGen.ml" 189 5327 5333 "VarGen.ml" 189 5327 5400
+type(
+  unit
+)
+"VarGen.ml" 188 5265 5271 "VarGen.ml" 189 5327 5400
+type(
+  unit
+)
+"VarGen.ml" 190 5401 5421 "VarGen.ml" 190 5401 5424
+type(
+  string
+)
+ident(
+  def pos "VarGen.ml" 191 5428 5434 "VarGen.ml" 191 5428 5459
+)
+"VarGen.ml" 191 5428 5434 "VarGen.ml" 191 5428 5443
+type(
+  (string * String.t) store
+)
+ident(
+  ext_ref last_posn
+)
+"VarGen.ml" 191 5428 5434 "VarGen.ml" 191 5428 5449
+call(
+  tail
+)
+type(
+  string * String.t -> unit
+)
+"VarGen.ml" 191 5428 5451 "VarGen.ml" 191 5428 5454
+type(
+  string
+)
+ident(
+  int_ref pos "VarGen.ml" 190 5401 5421 "VarGen.ml" 190 5401 5424
+)
+"VarGen.ml" 191 5428 5456 "VarGen.ml" 191 5428 5458
+type(
+  String.t
+)
+"VarGen.ml" 191 5428 5450 "VarGen.ml" 191 5428 5459
+type(
+  string * String.t
+)
+"VarGen.ml" 191 5428 5434 "VarGen.ml" 191 5428 5459
+type(
+  unit
+)
+"VarGen.ml" 194 5469 5473 "VarGen.ml" 194 5469 5482
+type(
+  last_posn_cls
+)
+ident(
+  def last_posn "VarGen.ml" 198 5616 5616 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 194 5469 5489 "VarGen.ml" 194 5469 5502
+call(
+  stack
+)
+"VarGen.ml" 194 5469 5485 "VarGen.ml" 194 5469 5502
+type(
+  last_posn_cls
+)
+"VarGen.ml" 198 5616 5620 "VarGen.ml" 198 5616 5631
+type(
+  prog_loc
+)
+ident(
+  def proving_loc "VarGen.ml" 199 5648 5648 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 198 5616 5639 "VarGen.ml" 198 5616 5647
+call(
+  stack
+)
+"VarGen.ml" 198 5616 5635 "VarGen.ml" 198 5616 5647
+type(
+  prog_loc
+)
+"VarGen.ml" 199 5648 5652 "VarGen.ml" 199 5648 5660
+type(
+  prog_loc
+)
+ident(
+  def post_pos "VarGen.ml" 201 5677 5677 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 199 5648 5667 "VarGen.ml" 199 5648 5675
+call(
+  stack
+)
+"VarGen.ml" 199 5648 5663 "VarGen.ml" 199 5648 5675
+type(
+  prog_loc
+)
+"VarGen.ml" 201 5677 5681 "VarGen.ml" 201 5677 5691
+type(
+  loc ref
+)
+ident(
+  def entail_pos "VarGen.ml" 202 5705 5705 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 201 5677 5694 "VarGen.ml" 201 5677 5697
+type(
+  loc -> loc ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"VarGen.ml" 201 5677 5698 "VarGen.ml" 201 5677 5704
+type(
+  loc
+)
+ident(
+  int_ref no_pos "VarGen.ml" 50 1000 1004 "VarGen.ml" 50 1000 1010
+)
+"VarGen.ml" 201 5677 5694 "VarGen.ml" 201 5677 5704
+type(
+  loc ref
+)
+"VarGen.ml" 202 5705 5709 "VarGen.ml" 202 5705 5723
+type(
+  loc -> unit
+)
+ident(
+  def set_entail_pos "VarGen.ml" 205 5774 5774 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 202 5705 5724 "VarGen.ml" 202 5705 5725
+type(
+  loc
+)
+ident(
+  def p "VarGen.ml" 202 5705 5728 "VarGen.ml" 202 5705 5743
+)
+"VarGen.ml" 202 5705 5728 "VarGen.ml" 202 5705 5738
+type(
+  loc ref
+)
+ident(
+  int_ref entail_pos "VarGen.ml" 201 5677 5681 "VarGen.ml" 201 5677 5691
+)
+"VarGen.ml" 202 5705 5739 "VarGen.ml" 202 5705 5741
+type(
+  loc ref -> loc -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"VarGen.ml" 202 5705 5742 "VarGen.ml" 202 5705 5743
+type(
+  loc
+)
+ident(
+  int_ref p "VarGen.ml" 202 5705 5724 "VarGen.ml" 202 5705 5725
+)
+"VarGen.ml" 202 5705 5728 "VarGen.ml" 202 5705 5743
+type(
+  unit
+)
+"VarGen.ml" 205 5774 5778 "VarGen.ml" 205 5774 5790
+type(
+  bool ref
+)
+ident(
+  def z_debug_flag "VarGen.ml" 207 5804 5804 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 205 5774 5793 "VarGen.ml" 205 5774 5796
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"VarGen.ml" 205 5774 5797 "VarGen.ml" 205 5774 5802
+type(
+  bool
+)
+"VarGen.ml" 205 5774 5793 "VarGen.ml" 205 5774 5802
+type(
+  bool ref
+)
+"VarGen.ml" 207 5804 5808 "VarGen.ml" 207 5804 5814
+type(
+  string -> int -> string
+)
+ident(
+  def buildA "VarGen.ml" 208 5847 5847 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 207 5804 5815 "VarGen.ml" 207 5804 5816
+type(
+  string
+)
+ident(
+  def s "VarGen.ml" 207 5804 5817 "VarGen.ml" 207 5804 5844
+)
+"VarGen.ml" 207 5804 5817 "VarGen.ml" 207 5804 5818
+type(
+  int
+)
+ident(
+  def i "VarGen.ml" 207 5804 5821 "VarGen.ml" 207 5804 5844
+)
+"VarGen.ml" 207 5804 5821 "VarGen.ml" 207 5804 5822
+type(
+  string
+)
+ident(
+  int_ref s "VarGen.ml" 207 5804 5815 "VarGen.ml" 207 5804 5816
+)
+"VarGen.ml" 207 5804 5822 "VarGen.ml" 207 5804 5823
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 207 5804 5823 "VarGen.ml" 207 5804 5826
+type(
+  string
+)
+"VarGen.ml" 207 5804 5826 "VarGen.ml" 207 5804 5827
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 207 5804 5828 "VarGen.ml" 207 5804 5841
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"VarGen.ml" 207 5804 5842 "VarGen.ml" 207 5804 5843
+type(
+  int
+)
+ident(
+  int_ref i "VarGen.ml" 207 5804 5817 "VarGen.ml" 207 5804 5818
+)
+"VarGen.ml" 207 5804 5827 "VarGen.ml" 207 5804 5844
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 207 5804 5823 "VarGen.ml" 207 5804 5844
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 207 5804 5821 "VarGen.ml" 207 5804 5844
+call(
+  tail
+)
+type(
+  string
+)
+"VarGen.ml" 208 5847 5851 "VarGen.ml" 208 5847 5864
+type(
+  string -> int -> string
+)
+ident(
+  def build_loc_str "VarGen.ml" 209 5895 5895 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 208 5847 5865 "VarGen.ml" 208 5847 5866
+type(
+  string
+)
+ident(
+  def s "VarGen.ml" 208 5847 5867 "VarGen.ml" 208 5847 5892
+)
+"VarGen.ml" 208 5847 5867 "VarGen.ml" 208 5847 5868
+type(
+  int
+)
+ident(
+  def i "VarGen.ml" 208 5847 5871 "VarGen.ml" 208 5847 5892
+)
+"VarGen.ml" 208 5847 5871 "VarGen.ml" 208 5847 5875
+type(
+  string
+)
+"VarGen.ml" 208 5847 5875 "VarGen.ml" 208 5847 5876
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 208 5847 5877 "VarGen.ml" 208 5847 5883
+type(
+  string -> int -> string
+)
+ident(
+  int_ref buildA "VarGen.ml" 207 5804 5808 "VarGen.ml" 207 5804 5814
+)
+"VarGen.ml" 208 5847 5884 "VarGen.ml" 208 5847 5885
+type(
+  string
+)
+ident(
+  int_ref s "VarGen.ml" 208 5847 5865 "VarGen.ml" 208 5847 5866
+)
+"VarGen.ml" 208 5847 5886 "VarGen.ml" 208 5847 5887
+type(
+  int
+)
+ident(
+  int_ref i "VarGen.ml" 208 5847 5867 "VarGen.ml" 208 5847 5868
+)
+"VarGen.ml" 208 5847 5876 "VarGen.ml" 208 5847 5888
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 208 5847 5888 "VarGen.ml" 208 5847 5889
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"VarGen.ml" 208 5847 5889 "VarGen.ml" 208 5847 5892
+type(
+  string
+)
+"VarGen.ml" 208 5847 5876 "VarGen.ml" 208 5847 5892
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 208 5847 5871 "VarGen.ml" 208 5847 5892
+call(
+  tail
+)
+type(
+  string
+)
+"VarGen.ml" 209 5895 5899 "VarGen.ml" 209 5895 5912
+type(
+  string -> int -> unit
+)
+ident(
+  def store_loc_str "VarGen.ml" 212 5967 5996 "VarGen.ml" 1 0 -1
+)
+"VarGen.ml" 209 5895 5913 "VarGen.ml" 209 5895 5914
+type(
+  string
+)
+ident(
+  def s "VarGen.ml" 209 5895 5915 "VarGen.ml" 212 5967 5996
+)
+"VarGen.ml" 209 5895 5915 "VarGen.ml" 209 5895 5916
+type(
+  int
+)
+ident(
+  def i "VarGen.ml" 210 5919 5921 "VarGen.ml" 212 5967 5996
+)
+"VarGen.ml" 210 5919 5924 "VarGen.ml" 210 5919 5925
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"VarGen.ml" 210 5919 5925 "VarGen.ml" 210 5919 5937
+type(
+  bool ref
+)
+ident(
+  int_ref z_debug_flag "VarGen.ml" 205 5774 5778 "VarGen.ml" 205 5774 5790
+)
+"VarGen.ml" 210 5919 5924 "VarGen.ml" 210 5919 5937
+type(
+  bool
+)
+"VarGen.ml" 211 5943 5951 "VarGen.ml" 211 5943 5952
+type(
+  string
+)
+ident(
+  def n "VarGen.ml" 212 5967 5974 "VarGen.ml" 212 5967 5996
+)
+"VarGen.ml" 211 5943 5955 "VarGen.ml" 211 5943 5961
+type(
+  string -> int -> string
+)
+ident(
+  int_ref buildA "VarGen.ml" 207 5804 5808 "VarGen.ml" 207 5804 5814
+)
+"VarGen.ml" 211 5943 5962 "VarGen.ml" 211 5943 5963
+type(
+  string
+)
+ident(
+  int_ref s "VarGen.ml" 209 5895 5913 "VarGen.ml" 209 5895 5914
+)
+"VarGen.ml" 211 5943 5964 "VarGen.ml" 211 5943 5965
+type(
+  int
+)
+ident(
+  int_ref i "VarGen.ml" 209 5895 5915 "VarGen.ml" 209 5895 5916
+)
+"VarGen.ml" 211 5943 5955 "VarGen.ml" 211 5943 5965
+call(
+  stack
+)
+type(
+  string
+)
+"VarGen.ml" 212 5967 5974 "VarGen.ml" 212 5967 5983
+type(
+  last_posn_cls
+)
+ident(
+  int_ref last_posn "VarGen.ml" 194 5469 5473 "VarGen.ml" 194 5469 5482
+)
+"VarGen.ml" 212 5967 5974 "VarGen.ml" 212 5967 5994
+call(
+  tail
+)
+type(
+  string -> unit
+)
+"VarGen.ml" 212 5967 5995 "VarGen.ml" 212 5967 5996
+type(
+  string
+)
+ident(
+  int_ref n "VarGen.ml" 211 5943 5951 "VarGen.ml" 211 5943 5952
+)
+"VarGen.ml" 212 5967 5974 "VarGen.ml" 212 5967 5996
+type(
+  unit
+)
+"VarGen.ml" 211 5943 5947 "VarGen.ml" 212 5967 5996
+type(
+  unit
+)
+"VarGen.ml" 210 5919 5921 "VarGen.ml" 212 5967 5996
+type(
+  unit
+)

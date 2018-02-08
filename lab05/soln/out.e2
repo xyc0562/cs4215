@@ -1,0 +1,8 @@
+Loading ePL program ..
+  false = 10 > 6 
+  as =[BoolConst(false),>[IntConst(10),IntConst(6)]]
+Compiling ==> e2.evm
+[LDCB false,LDCI 10,LDCI 6,GT,EQ,DONE]
+Loading eVM code from ..e2.evm
+Loaded [LDCB false,LDCI 10,LDCI 6,GT,EQ,DONE]
+Executing ==> 0

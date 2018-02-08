@@ -91,7 +91,8 @@ let rec contract (e:ePL_expr): ePL_expr =
         (* TODO: make it polymorphic to handle also boolean values *)
         begin
           match arg1,arg2 with
-          | IntConst v1,IntConst v2 | BoolConst v1,BoolConst v2 -> BoolConst (v1=v2)
+          | IntConst v1,IntConst v2 -> BoolConst (v1=v2)
+          | BoolConst v1,BoolConst v2 -> BoolConst (v1=v2)
           | _,_ -> failwith ("unable to contract"^(string_of_ePL e))
         end
       | _ -> failwith ("illegal binary op "^op)

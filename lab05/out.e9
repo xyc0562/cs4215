@@ -1,0 +1,8 @@
+Loading ePL program ..
+  ~ ~ 5
+  as ~[~[IntConst(5)]]
+Compiling ==> e9.evm
+[LDCI 5,NEG,NEG,DONE]
+Loading eVM code from ..e9.evm
+Loaded [LDCI 5,NEG,NEG,DONE]
+Executing ==> 5

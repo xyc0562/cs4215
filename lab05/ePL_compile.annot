@@ -1,0 +1,2191 @@
+"ePL_compile.ml" 5 74 78 "ePL_compile.ml" 5 74 97
+type(
+  EPL.eVML_inst list -> string
+)
+ident(
+  def string_of_eVML_list "ePL_compile.ml" 9 175 175 "ePL_compile.ml" 1 0 -1
+)
+"ePL_compile.ml" 5 74 99 "ePL_compile.ml" 5 74 101
+type(
+  EPL.eVML_inst list
+)
+ident(
+  def xs "ePL_compile.ml" 6 120 122 "ePL_compile.ml" 6 120 147
+)
+"ePL_compile.ml" 6 120 122 "ePL_compile.ml" 6 120 129
+type(
+  (EPL.eVML_inst -> string) -> EPL.eVML_inst list -> string
+)
+ident(
+  ext_ref EPL.pr_list
+)
+"ePL_compile.ml" 6 120 130 "ePL_compile.ml" 6 120 144
+type(
+  EPL.eVML_inst -> string
+)
+ident(
+  ext_ref EPL.string_of_eVML
+)
+"ePL_compile.ml" 6 120 145 "ePL_compile.ml" 6 120 147
+type(
+  EPL.eVML_inst list
+)
+ident(
+  int_ref xs "ePL_compile.ml" 5 74 99 "ePL_compile.ml" 5 74 101
+)
+"ePL_compile.ml" 6 120 122 "ePL_compile.ml" 6 120 147
+call(
+  tail
+)
+type(
+  string
+)
+"ePL_compile.ml" 9 175 179 "ePL_compile.ml" 9 175 188
+type(
+  string -> EPL.eVML_inst
+)
+ident(
+  def trans_cmd "ePL_compile.ml" 25 457 457 "ePL_compile.ml" 1 0 -1
+)
+"ePL_compile.ml" 9 175 189 "ePL_compile.ml" 9 175 191
+type(
+  string
+)
+ident(
+  def op "ePL_compile.ml" 10 194 196 "ePL_compile.ml" 22 382 424
+)
+"ePL_compile.ml" 10 194 202 "ePL_compile.ml" 10 194 204
+type(
+  string
+)
+ident(
+  int_ref op "ePL_compile.ml" 9 175 189 "ePL_compile.ml" 9 175 191
+)
+"ePL_compile.ml" 11 210 214 "ePL_compile.ml" 11 210 217
+type(
+  string
+)
+"ePL_compile.ml" 11 210 221 "ePL_compile.ml" 11 210 225
+type(
+  EPL.eVML_inst
+)
+"ePL_compile.ml" 12 226 230 "ePL_compile.ml" 12 226 233
+type(
+  string
+)
+"ePL_compile.ml" 12 226 237 "ePL_compile.ml" 12 226 242
+type(
+  EPL.eVML_inst
+)
+"ePL_compile.ml" 13 243 247 "ePL_compile.ml" 13 243 250
+type(
+  string
+)
+"ePL_compile.ml" 13 243 254 "ePL_compile.ml" 13 243 259
+type(
+  EPL.eVML_inst
+)
+"ePL_compile.ml" 14 260 264 "ePL_compile.ml" 14 260 267
+type(
+  string
+)
+"ePL_compile.ml" 14 260 271 "ePL_compile.ml" 14 260 274
+type(
+  EPL.eVML_inst
+)
+"ePL_compile.ml" 15 275 279 "ePL_compile.ml" 15 275 283
+type(
+  string
+)
+"ePL_compile.ml" 15 275 287 "ePL_compile.ml" 15 275 290
+type(
+  EPL.eVML_inst
+)
+"ePL_compile.ml" 16 291 295 "ePL_compile.ml" 16 291 298
+type(
+  string
+)
+"ePL_compile.ml" 16 291 302 "ePL_compile.ml" 16 291 305
+type(
+  EPL.eVML_inst
+)
+"ePL_compile.ml" 17 306 310 "ePL_compile.ml" 17 306 313
+type(
+  string
+)
+"ePL_compile.ml" 17 306 317 "ePL_compile.ml" 17 306 319
+type(
+  EPL.eVML_inst
+)
+"ePL_compile.ml" 18 322 326 "ePL_compile.ml" 18 322 329
+type(
+  string
+)
+"ePL_compile.ml" 18 322 333 "ePL_compile.ml" 18 322 336
+type(
+  EPL.eVML_inst
+)
+"ePL_compile.ml" 19 338 342 "ePL_compile.ml" 19 338 345
+type(
+  string
+)
+"ePL_compile.ml" 19 338 349 "ePL_compile.ml" 19 338 351
+type(
+  EPL.eVML_inst
+)
+"ePL_compile.ml" 20 353 357 "ePL_compile.ml" 20 353 360
+type(
+  string
+)
+"ePL_compile.ml" 20 353 364 "ePL_compile.ml" 20 353 366
+type(
+  EPL.eVML_inst
+)
+"ePL_compile.ml" 21 368 372 "ePL_compile.ml" 21 368 375
+type(
+  string
+)
+"ePL_compile.ml" 21 368 379 "ePL_compile.ml" 21 368 381
+type(
+  EPL.eVML_inst
+)
+"ePL_compile.ml" 22 382 386 "ePL_compile.ml" 22 382 387
+type(
+  string
+)
+"ePL_compile.ml" 22 382 391 "ePL_compile.ml" 22 382 399
+type(
+  string -> EPL.eVML_inst
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ePL_compile.ml" 22 382 401 "ePL_compile.ml" 22 382 420
+type(
+  string
+)
+"ePL_compile.ml" 22 382 420 "ePL_compile.ml" 22 382 421
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ePL_compile.ml" 22 382 421 "ePL_compile.ml" 22 382 423
+type(
+  string
+)
+ident(
+  int_ref op "ePL_compile.ml" 9 175 189 "ePL_compile.ml" 9 175 191
+)
+"ePL_compile.ml" 22 382 400 "ePL_compile.ml" 22 382 424
+call(
+  stack
+)
+type(
+  string
+)
+"ePL_compile.ml" 22 382 391 "ePL_compile.ml" 22 382 424
+call(
+  tail
+)
+type(
+  EPL.eVML_inst
+)
+"ePL_compile.ml" 10 194 196 "ePL_compile.ml" 22 382 424
+type(
+  EPL.eVML_inst
+)
+"ePL_compile.ml" 25 457 461 "ePL_compile.ml" 25 457 468
+type(
+  EPL.ePL_expr -> EPL.eVML_inst list
+)
+ident(
+  def compile "ePL_compile.ml" 42 1319 1319 "ePL_compile.ml" 1 0 -1
+)
+"ePL_compile.ml" 25 457 470 "ePL_compile.ml" 25 457 471
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e "ePL_compile.ml" 25 457 482 "ePL_compile.ml" 38 1261 1280
+)
+"ePL_compile.ml" 26 501 511 "ePL_compile.ml" 26 501 517
+type(
+  EPL.ePL_expr -> EPL.eVML_inst list
+)
+ident(
+  def helper "ePL_compile.ml" 26 501 503 "ePL_compile.ml" 38 1261 1280
+)
+"ePL_compile.ml" 26 501 518 "ePL_compile.ml" 26 501 519
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e "ePL_compile.ml" 27 522 526 "ePL_compile.ml" 36 1229 1255
+)
+"ePL_compile.ml" 27 522 532 "ePL_compile.ml" 27 522 533
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e "ePL_compile.ml" 26 501 518 "ePL_compile.ml" 26 501 519
+)
+"ePL_compile.ml" 28 539 554 "ePL_compile.ml" 28 539 555
+type(
+  int
+)
+ident(
+  def i "ePL_compile.ml" 28 539 559 "ePL_compile.ml" 28 539 567
+)
+"ePL_compile.ml" 28 539 545 "ePL_compile.ml" 28 539 555
+type(
+  EPL.ePL_expr
+)
+"ePL_compile.ml" 28 539 565 "ePL_compile.ml" 28 539 566
+type(
+  int
+)
+ident(
+  int_ref i "ePL_compile.ml" 28 539 554 "ePL_compile.ml" 28 539 555
+)
+"ePL_compile.ml" 28 539 560 "ePL_compile.ml" 28 539 566
+type(
+  EPL.eVML_inst
+)
+"ePL_compile.ml" 28 539 559 "ePL_compile.ml" 28 539 567
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 29 568 584 "ePL_compile.ml" 29 568 585
+type(
+  bool
+)
+ident(
+  def b "ePL_compile.ml" 29 568 589 "ePL_compile.ml" 29 568 611
+)
+"ePL_compile.ml" 29 568 574 "ePL_compile.ml" 29 568 585
+type(
+  EPL.ePL_expr
+)
+"ePL_compile.ml" 29 568 596 "ePL_compile.ml" 29 568 607
+type(
+  bool -> int
+)
+ident(
+  ext_ref EPL.encode_bool
+)
+"ePL_compile.ml" 29 568 608 "ePL_compile.ml" 29 568 609
+type(
+  bool
+)
+ident(
+  int_ref b "ePL_compile.ml" 29 568 584 "ePL_compile.ml" 29 568 585
+)
+"ePL_compile.ml" 29 568 595 "ePL_compile.ml" 29 568 610
+call(
+  stack
+)
+type(
+  int
+)
+"ePL_compile.ml" 29 568 590 "ePL_compile.ml" 29 568 610
+type(
+  EPL.eVML_inst
+)
+"ePL_compile.ml" 29 568 589 "ePL_compile.ml" 29 568 611
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 30 612 632 "ePL_compile.ml" 30 612 634
+type(
+  EPL.op_id
+)
+ident(
+  def op "ePL_compile.ml" 31 643 649 "ePL_compile.ml" 32 815 837
+)
+"ePL_compile.ml" 30 612 635 "ePL_compile.ml" 30 612 638
+type(
+  EPL.ePL_expr
+)
+ident(
+  def arg "ePL_compile.ml" 31 643 649 "ePL_compile.ml" 32 815 837
+)
+"ePL_compile.ml" 30 612 618 "ePL_compile.ml" 30 612 639
+type(
+  EPL.ePL_expr
+)
+"ePL_compile.ml" 31 643 653 "ePL_compile.ml" 31 643 654
+type(
+  EPL.eVML_inst list
+)
+ident(
+  def s "ePL_compile.ml" 32 815 821 "ePL_compile.ml" 32 815 837
+)
+"ePL_compile.ml" 31 663 683 "ePL_compile.ml" 31 663 684
+type(
+  EPL.ePL_expr -> EPL.eVML_inst list
+)
+ident(
+  def f "ePL_compile.ml" 31 663 685 "ePL_compile.ml" 31 663 770
+)
+"ePL_compile.ml" 31 663 685 "ePL_compile.ml" 31 663 686
+type(
+  EPL.ePL_expr
+)
+ident(
+  def x "ePL_compile.ml" 31 663 690 "ePL_compile.ml" 31 663 770
+)
+"ePL_compile.ml" 31 663 694 "ePL_compile.ml" 31 663 696
+type(
+  unit
+)
+"ePL_compile.ml" 31 663 699 "ePL_compile.ml" 31 663 717
+type(
+  (string -> int -> unit) -> string -> int -> unit
+)
+ident(
+  ext_ref Debug.wrap_z_debug
+)
+"ePL_compile.ml" 31 663 718 "ePL_compile.ml" 31 663 738
+type(
+  string -> int -> unit
+)
+ident(
+  ext_ref VarGen.store_loc_str
+)
+"ePL_compile.ml" 31 663 741 "ePL_compile.ml" 31 663 757
+type(
+  string
+)
+"ePL_compile.ml" 31 663 760 "ePL_compile.ml" 31 663 762
+type(
+  int
+)
+"ePL_compile.ml" 31 663 699 "ePL_compile.ml" 31 663 762
+call(
+  stack
+)
+type(
+  unit
+)
+"ePL_compile.ml" 31 663 767 "ePL_compile.ml" 31 663 768
+type(
+  EPL.ePL_expr -> EPL.eVML_inst list
+)
+ident(
+  int_ref f "ePL_compile.ml" 31 663 683 "ePL_compile.ml" 31 663 684
+)
+"ePL_compile.ml" 31 663 769 "ePL_compile.ml" 31 663 770
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref x "ePL_compile.ml" 31 663 685 "ePL_compile.ml" 31 663 686
+)
+"ePL_compile.ml" 31 663 767 "ePL_compile.ml" 31 663 770
+call(
+  stack
+)
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 31 663 690 "ePL_compile.ml" 31 663 770
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 31 663 678 "ePL_compile.ml" 31 663 771
+type(
+  (EPL.ePL_expr -> EPL.eVML_inst list) -> EPL.ePL_expr -> EPL.eVML_inst list
+)
+"ePL_compile.ml" 31 779 801 "ePL_compile.ml" 31 779 807
+type(
+  EPL.ePL_expr -> EPL.eVML_inst list
+)
+ident(
+  int_ref helper "ePL_compile.ml" 26 501 511 "ePL_compile.ml" 26 501 517
+)
+"ePL_compile.ml" 31 779 808 "ePL_compile.ml" 31 779 811
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref arg "ePL_compile.ml" 30 612 635 "ePL_compile.ml" 30 612 638
+)
+"ePL_compile.ml" 31 663 678 "ePL_compile.ml" 31 779 811
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 32 815 821 "ePL_compile.ml" 32 815 822
+type(
+  EPL.eVML_inst list
+)
+ident(
+  int_ref s "ePL_compile.ml" 31 643 653 "ePL_compile.ml" 31 643 654
+)
+"ePL_compile.ml" 32 815 822 "ePL_compile.ml" 32 815 823
+type(
+  EPL.eVML_inst list -> EPL.eVML_inst list -> EPL.eVML_inst list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"ePL_compile.ml" 32 815 824 "ePL_compile.ml" 32 815 833
+type(
+  EPL.op_id -> EPL.eVML_inst
+)
+ident(
+  int_ref trans_cmd "ePL_compile.ml" 9 175 179 "ePL_compile.ml" 9 175 188
+)
+"ePL_compile.ml" 32 815 834 "ePL_compile.ml" 32 815 836
+type(
+  EPL.op_id
+)
+ident(
+  int_ref op "ePL_compile.ml" 30 612 632 "ePL_compile.ml" 30 612 634
+)
+"ePL_compile.ml" 32 815 824 "ePL_compile.ml" 32 815 836
+call(
+  stack
+)
+type(
+  EPL.eVML_inst
+)
+"ePL_compile.ml" 32 815 823 "ePL_compile.ml" 32 815 837
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 32 815 821 "ePL_compile.ml" 32 815 837
+call(
+  tail
+)
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 31 643 649 "ePL_compile.ml" 32 815 837
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 33 838 859 "ePL_compile.ml" 33 838 861
+type(
+  EPL.op_id
+)
+ident(
+  def op "ePL_compile.ml" 34 876 882 "ePL_compile.ml" 36 1229 1255
+)
+"ePL_compile.ml" 33 838 862 "ePL_compile.ml" 33 838 866
+type(
+  EPL.ePL_expr
+)
+ident(
+  def arg1 "ePL_compile.ml" 34 876 882 "ePL_compile.ml" 36 1229 1255
+)
+"ePL_compile.ml" 33 838 867 "ePL_compile.ml" 33 838 871
+type(
+  EPL.ePL_expr
+)
+ident(
+  def arg2 "ePL_compile.ml" 34 876 882 "ePL_compile.ml" 36 1229 1255
+)
+"ePL_compile.ml" 33 838 844 "ePL_compile.ml" 33 838 872
+type(
+  EPL.ePL_expr
+)
+"ePL_compile.ml" 34 876 886 "ePL_compile.ml" 34 876 888
+type(
+  EPL.eVML_inst list
+)
+ident(
+  def s1 "ePL_compile.ml" 36 1229 1235 "ePL_compile.ml" 36 1229 1255
+)
+"ePL_compile.ml" 34 897 918 "ePL_compile.ml" 34 897 919
+type(
+  EPL.ePL_expr -> EPL.eVML_inst list
+)
+ident(
+  def f "ePL_compile.ml" 34 897 920 "ePL_compile.ml" 34 897 1005
+)
+"ePL_compile.ml" 34 897 920 "ePL_compile.ml" 34 897 921
+type(
+  EPL.ePL_expr
+)
+ident(
+  def x "ePL_compile.ml" 34 897 925 "ePL_compile.ml" 34 897 1005
+)
+"ePL_compile.ml" 34 897 929 "ePL_compile.ml" 34 897 931
+type(
+  unit
+)
+"ePL_compile.ml" 34 897 934 "ePL_compile.ml" 34 897 952
+type(
+  (string -> int -> unit) -> string -> int -> unit
+)
+ident(
+  ext_ref Debug.wrap_z_debug
+)
+"ePL_compile.ml" 34 897 953 "ePL_compile.ml" 34 897 973
+type(
+  string -> int -> unit
+)
+ident(
+  ext_ref VarGen.store_loc_str
+)
+"ePL_compile.ml" 34 897 976 "ePL_compile.ml" 34 897 992
+type(
+  string
+)
+"ePL_compile.ml" 34 897 995 "ePL_compile.ml" 34 897 997
+type(
+  int
+)
+"ePL_compile.ml" 34 897 934 "ePL_compile.ml" 34 897 997
+call(
+  stack
+)
+type(
+  unit
+)
+"ePL_compile.ml" 34 897 1002 "ePL_compile.ml" 34 897 1003
+type(
+  EPL.ePL_expr -> EPL.eVML_inst list
+)
+ident(
+  int_ref f "ePL_compile.ml" 34 897 918 "ePL_compile.ml" 34 897 919
+)
+"ePL_compile.ml" 34 897 1004 "ePL_compile.ml" 34 897 1005
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref x "ePL_compile.ml" 34 897 920 "ePL_compile.ml" 34 897 921
+)
+"ePL_compile.ml" 34 897 1002 "ePL_compile.ml" 34 897 1005
+call(
+  stack
+)
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 34 897 925 "ePL_compile.ml" 34 897 1005
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 34 897 913 "ePL_compile.ml" 34 897 1006
+type(
+  (EPL.ePL_expr -> EPL.eVML_inst list) -> EPL.ePL_expr -> EPL.eVML_inst list
+)
+"ePL_compile.ml" 34 1014 1037 "ePL_compile.ml" 34 1014 1043
+type(
+  EPL.ePL_expr -> EPL.eVML_inst list
+)
+ident(
+  int_ref helper "ePL_compile.ml" 26 501 511 "ePL_compile.ml" 26 501 517
+)
+"ePL_compile.ml" 34 1014 1044 "ePL_compile.ml" 34 1014 1048
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref arg1 "ePL_compile.ml" 33 838 862 "ePL_compile.ml" 33 838 866
+)
+"ePL_compile.ml" 34 897 913 "ePL_compile.ml" 34 1014 1048
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 35 1053 1063 "ePL_compile.ml" 35 1053 1065
+type(
+  EPL.eVML_inst list
+)
+ident(
+  def s2 "ePL_compile.ml" 36 1229 1235 "ePL_compile.ml" 36 1229 1255
+)
+"ePL_compile.ml" 35 1074 1095 "ePL_compile.ml" 35 1074 1096
+type(
+  EPL.ePL_expr -> EPL.eVML_inst list
+)
+ident(
+  def f "ePL_compile.ml" 35 1074 1097 "ePL_compile.ml" 35 1074 1182
+)
+"ePL_compile.ml" 35 1074 1097 "ePL_compile.ml" 35 1074 1098
+type(
+  EPL.ePL_expr
+)
+ident(
+  def x "ePL_compile.ml" 35 1074 1102 "ePL_compile.ml" 35 1074 1182
+)
+"ePL_compile.ml" 35 1074 1106 "ePL_compile.ml" 35 1074 1108
+type(
+  unit
+)
+"ePL_compile.ml" 35 1074 1111 "ePL_compile.ml" 35 1074 1129
+type(
+  (string -> int -> unit) -> string -> int -> unit
+)
+ident(
+  ext_ref Debug.wrap_z_debug
+)
+"ePL_compile.ml" 35 1074 1130 "ePL_compile.ml" 35 1074 1150
+type(
+  string -> int -> unit
+)
+ident(
+  ext_ref VarGen.store_loc_str
+)
+"ePL_compile.ml" 35 1074 1153 "ePL_compile.ml" 35 1074 1169
+type(
+  string
+)
+"ePL_compile.ml" 35 1074 1172 "ePL_compile.ml" 35 1074 1174
+type(
+  int
+)
+"ePL_compile.ml" 35 1074 1111 "ePL_compile.ml" 35 1074 1174
+call(
+  stack
+)
+type(
+  unit
+)
+"ePL_compile.ml" 35 1074 1179 "ePL_compile.ml" 35 1074 1180
+type(
+  EPL.ePL_expr -> EPL.eVML_inst list
+)
+ident(
+  int_ref f "ePL_compile.ml" 35 1074 1095 "ePL_compile.ml" 35 1074 1096
+)
+"ePL_compile.ml" 35 1074 1181 "ePL_compile.ml" 35 1074 1182
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref x "ePL_compile.ml" 35 1074 1097 "ePL_compile.ml" 35 1074 1098
+)
+"ePL_compile.ml" 35 1074 1179 "ePL_compile.ml" 35 1074 1182
+call(
+  stack
+)
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 35 1074 1102 "ePL_compile.ml" 35 1074 1182
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 35 1074 1090 "ePL_compile.ml" 35 1074 1183
+type(
+  (EPL.ePL_expr -> EPL.eVML_inst list) -> EPL.ePL_expr -> EPL.eVML_inst list
+)
+"ePL_compile.ml" 35 1191 1214 "ePL_compile.ml" 35 1191 1220
+type(
+  EPL.ePL_expr -> EPL.eVML_inst list
+)
+ident(
+  int_ref helper "ePL_compile.ml" 26 501 511 "ePL_compile.ml" 26 501 517
+)
+"ePL_compile.ml" 35 1191 1221 "ePL_compile.ml" 35 1191 1225
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref arg2 "ePL_compile.ml" 33 838 867 "ePL_compile.ml" 33 838 871
+)
+"ePL_compile.ml" 35 1074 1090 "ePL_compile.ml" 35 1191 1225
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 36 1229 1235 "ePL_compile.ml" 36 1229 1237
+type(
+  EPL.eVML_inst list
+)
+ident(
+  int_ref s1 "ePL_compile.ml" 34 876 886 "ePL_compile.ml" 34 876 888
+)
+"ePL_compile.ml" 36 1229 1237 "ePL_compile.ml" 36 1229 1238
+type(
+  EPL.eVML_inst list -> EPL.eVML_inst list -> EPL.eVML_inst list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"ePL_compile.ml" 36 1229 1238 "ePL_compile.ml" 36 1229 1240
+type(
+  EPL.eVML_inst list
+)
+ident(
+  int_ref s2 "ePL_compile.ml" 35 1053 1063 "ePL_compile.ml" 35 1053 1065
+)
+"ePL_compile.ml" 36 1229 1240 "ePL_compile.ml" 36 1229 1241
+type(
+  EPL.eVML_inst list -> EPL.eVML_inst list -> EPL.eVML_inst list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"ePL_compile.ml" 36 1229 1242 "ePL_compile.ml" 36 1229 1251
+type(
+  EPL.op_id -> EPL.eVML_inst
+)
+ident(
+  int_ref trans_cmd "ePL_compile.ml" 9 175 179 "ePL_compile.ml" 9 175 188
+)
+"ePL_compile.ml" 36 1229 1252 "ePL_compile.ml" 36 1229 1254
+type(
+  EPL.op_id
+)
+ident(
+  int_ref op "ePL_compile.ml" 33 838 859 "ePL_compile.ml" 33 838 861
+)
+"ePL_compile.ml" 36 1229 1242 "ePL_compile.ml" 36 1229 1254
+call(
+  stack
+)
+type(
+  EPL.eVML_inst
+)
+"ePL_compile.ml" 36 1229 1241 "ePL_compile.ml" 36 1229 1255
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 36 1229 1238 "ePL_compile.ml" 36 1229 1255
+call(
+  stack
+)
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 36 1229 1235 "ePL_compile.ml" 36 1229 1255
+call(
+  tail
+)
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 34 876 882 "ePL_compile.ml" 36 1229 1255
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 27 522 526 "ePL_compile.ml" 36 1229 1255
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 38 1261 1264 "ePL_compile.ml" 38 1261 1270
+type(
+  EPL.ePL_expr -> EPL.eVML_inst list
+)
+ident(
+  int_ref helper "ePL_compile.ml" 26 501 511 "ePL_compile.ml" 26 501 517
+)
+"ePL_compile.ml" 38 1261 1271 "ePL_compile.ml" 38 1261 1272
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e "ePL_compile.ml" 25 457 470 "ePL_compile.ml" 25 457 471
+)
+"ePL_compile.ml" 38 1261 1263 "ePL_compile.ml" 38 1261 1273
+call(
+  stack
+)
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 38 1261 1273 "ePL_compile.ml" 38 1261 1274
+type(
+  EPL.eVML_inst list -> EPL.eVML_inst list -> EPL.eVML_inst list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"ePL_compile.ml" 38 1261 1275 "ePL_compile.ml" 38 1261 1279
+type(
+  EPL.eVML_inst
+)
+"ePL_compile.ml" 38 1261 1274 "ePL_compile.ml" 38 1261 1280
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 38 1261 1263 "ePL_compile.ml" 38 1261 1280
+call(
+  tail
+)
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 26 501 503 "ePL_compile.ml" 38 1261 1280
+type(
+  EPL.eVML_inst list
+)
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 42 1319 1323 "ePL_compile.ml" 42 1319 1340
+type(
+  EPL.eVML_inst list -> string -> unit
+)
+ident(
+  def generate_bytecode "ePL_compile.ml" 48 1549 1549 "ePL_compile.ml" 1 0 -1
+)
+"ePL_compile.ml" 42 1319 1341 "ePL_compile.ml" 42 1319 1346
+type(
+  EPL.eVML_inst list
+)
+ident(
+  def elist "ePL_compile.ml" 42 1319 1364 "ePL_compile.ml" 45 1480 1503
+)
+"ePL_compile.ml" 42 1319 1365 "ePL_compile.ml" 42 1319 1373
+type(
+  string
+)
+ident(
+  def filename "ePL_compile.ml" 43 1385 1387 "ePL_compile.ml" 45 1480 1503
+)
+"ePL_compile.ml" 43 1385 1391 "ePL_compile.ml" 43 1385 1402
+type(
+  out_channel
+)
+ident(
+  def out_channel "ePL_compile.ml" 44 1430 1432 "ePL_compile.ml" 45 1480 1503
+)
+"ePL_compile.ml" 43 1385 1405 "ePL_compile.ml" 43 1385 1417
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out_bin
+)
+"ePL_compile.ml" 43 1385 1418 "ePL_compile.ml" 43 1385 1426
+type(
+  string
+)
+ident(
+  int_ref filename "ePL_compile.ml" 42 1319 1365 "ePL_compile.ml" 42 1319 1373
+)
+"ePL_compile.ml" 43 1385 1405 "ePL_compile.ml" 43 1385 1426
+call(
+  stack
+)
+type(
+  out_channel
+)
+"ePL_compile.ml" 44 1430 1432 "ePL_compile.ml" 44 1430 1444
+type(
+  out_channel -> EPL.eVML_inst array -> unit
+)
+ident(
+  ext_ref Pervasives.output_value
+)
+"ePL_compile.ml" 44 1430 1445 "ePL_compile.ml" 44 1430 1456
+type(
+  out_channel
+)
+ident(
+  int_ref out_channel "ePL_compile.ml" 43 1385 1391 "ePL_compile.ml" 43 1385 1402
+)
+"ePL_compile.ml" 44 1430 1458 "ePL_compile.ml" 44 1430 1471
+type(
+  EPL.eVML_inst list -> EPL.eVML_inst array
+)
+ident(
+  ext_ref Array.of_list
+)
+"ePL_compile.ml" 44 1430 1472 "ePL_compile.ml" 44 1430 1477
+type(
+  EPL.eVML_inst list
+)
+ident(
+  int_ref elist "ePL_compile.ml" 42 1319 1341 "ePL_compile.ml" 42 1319 1346
+)
+"ePL_compile.ml" 44 1430 1457 "ePL_compile.ml" 44 1430 1478
+call(
+  stack
+)
+type(
+  EPL.eVML_inst array
+)
+"ePL_compile.ml" 44 1430 1432 "ePL_compile.ml" 44 1430 1478
+call(
+  stack
+)
+type(
+  unit
+)
+"ePL_compile.ml" 45 1480 1482 "ePL_compile.ml" 45 1480 1491
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"ePL_compile.ml" 45 1480 1492 "ePL_compile.ml" 45 1480 1503
+type(
+  out_channel
+)
+ident(
+  int_ref out_channel "ePL_compile.ml" 43 1385 1391 "ePL_compile.ml" 43 1385 1402
+)
+"ePL_compile.ml" 45 1480 1482 "ePL_compile.ml" 45 1480 1503
+call(
+  tail
+)
+type(
+  unit
+)
+"ePL_compile.ml" 44 1430 1432 "ePL_compile.ml" 45 1480 1503
+type(
+  unit
+)
+"ePL_compile.ml" 43 1385 1387 "ePL_compile.ml" 45 1480 1503
+type(
+  unit
+)
+"ePL_compile.ml" 48 1549 1553 "ePL_compile.ml" 48 1549 1573
+type(
+  EPL.ePL_expr -> string -> unit
+)
+ident(
+  def testGenerateBytecode "ePL_compile.ml" 56 1781 1781 "ePL_compile.ml" 1 0 -1
+)
+"ePL_compile.ml" 48 1549 1574 "ePL_compile.ml" 48 1549 1575
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e "ePL_compile.ml" 48 1549 1576 "ePL_compile.ml" 53 1703 1754
+)
+"ePL_compile.ml" 48 1549 1576 "ePL_compile.ml" 48 1549 1584
+type(
+  string
+)
+ident(
+  def filename "ePL_compile.ml" 49 1587 1589 "ePL_compile.ml" 53 1703 1754
+)
+"ePL_compile.ml" 49 1587 1593 "ePL_compile.ml" 49 1587 1594
+type(
+  string
+)
+ident(
+  def s "ePL_compile.ml" 50 1618 1620 "ePL_compile.ml" 53 1703 1754
+)
+"ePL_compile.ml" 49 1587 1598 "ePL_compile.ml" 49 1587 1611
+type(
+  EPL.ePL_expr -> string
+)
+ident(
+  ext_ref EPL.string_of_ePL
+)
+"ePL_compile.ml" 49 1587 1612 "ePL_compile.ml" 49 1587 1613
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e "ePL_compile.ml" 48 1549 1574 "ePL_compile.ml" 48 1549 1575
+)
+"ePL_compile.ml" 49 1587 1597 "ePL_compile.ml" 49 1587 1614
+call(
+  stack
+)
+type(
+  string
+)
+"ePL_compile.ml" 50 1618 1624 "ePL_compile.ml" 50 1618 1625
+type(
+  EPL.eVML_inst list
+)
+ident(
+  def c "ePL_compile.ml" 51 1641 1643 "ePL_compile.ml" 53 1703 1754
+)
+"ePL_compile.ml" 50 1618 1628 "ePL_compile.ml" 50 1618 1635
+type(
+  EPL.ePL_expr -> EPL.eVML_inst list
+)
+ident(
+  int_ref compile "ePL_compile.ml" 25 457 461 "ePL_compile.ml" 25 457 468
+)
+"ePL_compile.ml" 50 1618 1636 "ePL_compile.ml" 50 1618 1637
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e "ePL_compile.ml" 48 1549 1574 "ePL_compile.ml" 48 1549 1575
+)
+"ePL_compile.ml" 50 1618 1628 "ePL_compile.ml" 50 1618 1637
+call(
+  stack
+)
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 51 1641 1643 "ePL_compile.ml" 51 1641 1660
+type(
+  EPL.eVML_inst list -> string -> unit
+)
+ident(
+  int_ref generate_bytecode "ePL_compile.ml" 42 1319 1323 "ePL_compile.ml" 42 1319 1340
+)
+"ePL_compile.ml" 51 1641 1661 "ePL_compile.ml" 51 1641 1662
+type(
+  EPL.eVML_inst list
+)
+ident(
+  int_ref c "ePL_compile.ml" 50 1618 1624 "ePL_compile.ml" 50 1618 1625
+)
+"ePL_compile.ml" 51 1641 1663 "ePL_compile.ml" 51 1641 1671
+type(
+  string
+)
+ident(
+  int_ref filename "ePL_compile.ml" 48 1549 1576 "ePL_compile.ml" 48 1549 1584
+)
+"ePL_compile.ml" 51 1641 1643 "ePL_compile.ml" 51 1641 1671
+call(
+  stack
+)
+type(
+  unit
+)
+"ePL_compile.ml" 52 1673 1675 "ePL_compile.ml" 52 1673 1688
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"ePL_compile.ml" 52 1673 1690 "ePL_compile.ml" 52 1673 1698
+type(
+  string
+)
+"ePL_compile.ml" 52 1673 1698 "ePL_compile.ml" 52 1673 1699
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ePL_compile.ml" 52 1673 1699 "ePL_compile.ml" 52 1673 1700
+type(
+  string
+)
+ident(
+  int_ref s "ePL_compile.ml" 49 1587 1593 "ePL_compile.ml" 49 1587 1594
+)
+"ePL_compile.ml" 52 1673 1689 "ePL_compile.ml" 52 1673 1701
+call(
+  stack
+)
+type(
+  string
+)
+"ePL_compile.ml" 52 1673 1675 "ePL_compile.ml" 52 1673 1701
+call(
+  stack
+)
+type(
+  unit
+)
+"ePL_compile.ml" 53 1703 1705 "ePL_compile.ml" 53 1703 1718
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"ePL_compile.ml" 53 1703 1720 "ePL_compile.ml" 53 1703 1744
+type(
+  string
+)
+"ePL_compile.ml" 53 1703 1744 "ePL_compile.ml" 53 1703 1745
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ePL_compile.ml" 53 1703 1745 "ePL_compile.ml" 53 1703 1753
+type(
+  string
+)
+ident(
+  int_ref filename "ePL_compile.ml" 48 1549 1576 "ePL_compile.ml" 48 1549 1584
+)
+"ePL_compile.ml" 53 1703 1719 "ePL_compile.ml" 53 1703 1754
+call(
+  stack
+)
+type(
+  string
+)
+"ePL_compile.ml" 53 1703 1705 "ePL_compile.ml" 53 1703 1754
+call(
+  tail
+)
+type(
+  unit
+)
+"ePL_compile.ml" 52 1673 1675 "ePL_compile.ml" 53 1703 1754
+type(
+  unit
+)
+"ePL_compile.ml" 51 1641 1643 "ePL_compile.ml" 53 1703 1754
+type(
+  unit
+)
+"ePL_compile.ml" 50 1618 1620 "ePL_compile.ml" 53 1703 1754
+type(
+  unit
+)
+"ePL_compile.ml" 49 1587 1589 "ePL_compile.ml" 53 1703 1754
+type(
+  unit
+)
+"ePL_compile.ml" 56 1781 1785 "ePL_compile.ml" 56 1781 1795
+type(
+  string -> string * EPL.ePL_expr
+)
+ident(
+  def parse_file "ePL_compile.ml" 61 1936 1936 "ePL_compile.ml" 1 0 -1
+)
+"ePL_compile.ml" 56 1781 1797 "ePL_compile.ml" 56 1781 1805
+type(
+  string
+)
+ident(
+  def filename "ePL_compile.ml" 56 1781 1814 "ePL_compile.ml" 57 1838 1870
+)
+"ePL_compile.ml" 57 1838 1840 "ePL_compile.ml" 57 1838 1861
+type(
+  string -> string * EPL.ePL_expr
+)
+ident(
+  ext_ref EPL_parser.parse_file
+)
+"ePL_compile.ml" 57 1838 1862 "ePL_compile.ml" 57 1838 1870
+type(
+  string
+)
+ident(
+  int_ref filename "ePL_compile.ml" 56 1781 1797 "ePL_compile.ml" 56 1781 1805
+)
+"ePL_compile.ml" 57 1838 1840 "ePL_compile.ml" 57 1838 1870
+call(
+  tail
+)
+type(
+  string * EPL.ePL_expr
+)
+type(
+  string * EPL.ePL_expr
+)
+"ePL_compile.ml" 61 1936 1940 "ePL_compile.ml" 61 1936 1945
+type(
+  string
+)
+ident(
+  def usage "ePL_compile.ml" 62 1989 1989 "ePL_compile.ml" 1 0 -1
+)
+"ePL_compile.ml" 61 1936 1948 "ePL_compile.ml" 61 1936 1957
+type(
+  string
+)
+"ePL_compile.ml" 61 1936 1958 "ePL_compile.ml" 61 1936 1959
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ePL_compile.ml" 61 1936 1960 "ePL_compile.ml" 61 1936 1968
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"ePL_compile.ml" 61 1936 1970 "ePL_compile.ml" 61 1936 1971
+type(
+  int
+)
+"ePL_compile.ml" 61 1936 1960 "ePL_compile.ml" 61 1936 1972
+type(
+  string
+)
+"ePL_compile.ml" 61 1936 1973 "ePL_compile.ml" 61 1936 1974
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ePL_compile.ml" 61 1936 1975 "ePL_compile.ml" 61 1936 1988
+type(
+  string
+)
+"ePL_compile.ml" 61 1936 1960 "ePL_compile.ml" 61 1936 1988
+call(
+  stack
+)
+type(
+  string
+)
+"ePL_compile.ml" 61 1936 1948 "ePL_compile.ml" 61 1936 1988
+call(
+  stack
+)
+type(
+  string
+)
+"ePL_compile.ml" 62 1989 1993 "ePL_compile.ml" 62 1989 1997
+type(
+  string ref
+)
+ident(
+  def file "ePL_compile.ml" 68 2158 2158 "ePL_compile.ml" 1 0 -1
+)
+"ePL_compile.ml" 62 1989 2000 "ePL_compile.ml" 62 1989 2003
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ePL_compile.ml" 62 1989 2004 "ePL_compile.ml" 62 1989 2006
+type(
+  string
+)
+"ePL_compile.ml" 62 1989 2000 "ePL_compile.ml" 62 1989 2006
+type(
+  string ref
+)
+"ePL_compile.ml" 68 2158 2162 "ePL_compile.ml" 68 2158 2178
+type(
+  string -> string
+)
+ident(
+  def extract_filename "ePL_compile.ml" 80 2491 2491 "ePL_compile.ml" 1 0 -1
+)
+"ePL_compile.ml" 68 2158 2180 "ePL_compile.ml" 68 2158 2181
+type(
+  string
+)
+ident(
+  def s "ePL_compile.ml" 68 2158 2190 "ePL_compile.ml" 76 2399 2447
+)
+"ePL_compile.ml" 69 2201 2207 "ePL_compile.ml" 69 2201 2208
+type(
+  int
+)
+ident(
+  def v "ePL_compile.ml" 70 2230 2232 "ePL_compile.ml" 76 2399 2447
+)
+"ePL_compile.ml" 69 2201 2211 "ePL_compile.ml" 69 2201 2224
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ePL_compile.ml" 69 2201 2225 "ePL_compile.ml" 69 2201 2226
+type(
+  string
+)
+ident(
+  int_ref s "ePL_compile.ml" 68 2158 2180 "ePL_compile.ml" 68 2158 2181
+)
+"ePL_compile.ml" 69 2201 2211 "ePL_compile.ml" 69 2201 2226
+type(
+  int
+)
+"ePL_compile.ml" 70 2230 2235 "ePL_compile.ml" 70 2230 2236
+type(
+  int
+)
+ident(
+  int_ref v "ePL_compile.ml" 69 2201 2207 "ePL_compile.ml" 69 2201 2208
+)
+"ePL_compile.ml" 70 2230 2236 "ePL_compile.ml" 70 2230 2237
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ePL_compile.ml" 70 2230 2237 "ePL_compile.ml" 70 2230 2238
+type(
+  int
+)
+"ePL_compile.ml" 70 2230 2235 "ePL_compile.ml" 70 2230 2238
+type(
+  bool
+)
+"ePL_compile.ml" 71 2244 2248 "ePL_compile.ml" 71 2244 2256
+type(
+  string -> string
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ePL_compile.ml" 71 2244 2257 "ePL_compile.ml" 71 2244 2285
+type(
+  string
+)
+"ePL_compile.ml" 71 2244 2248 "ePL_compile.ml" 71 2244 2285
+call(
+  tail
+)
+type(
+  string
+)
+"ePL_compile.ml" 73 2294 2302 "ePL_compile.ml" 73 2294 2304
+type(
+  string
+)
+ident(
+  def fn "ePL_compile.ml" 74 2331 2335 "ePL_compile.ml" 76 2399 2447
+)
+"ePL_compile.ml" 73 2294 2307 "ePL_compile.ml" 73 2294 2317
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"ePL_compile.ml" 73 2294 2318 "ePL_compile.ml" 73 2294 2319
+type(
+  string
+)
+ident(
+  int_ref s "ePL_compile.ml" 68 2158 2180 "ePL_compile.ml" 68 2158 2181
+)
+"ePL_compile.ml" 73 2294 2320 "ePL_compile.ml" 73 2294 2321
+type(
+  int
+)
+"ePL_compile.ml" 73 2294 2323 "ePL_compile.ml" 73 2294 2324
+type(
+  int
+)
+ident(
+  int_ref v "ePL_compile.ml" 69 2201 2207 "ePL_compile.ml" 69 2201 2208
+)
+"ePL_compile.ml" 73 2294 2324 "ePL_compile.ml" 73 2294 2325
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ePL_compile.ml" 73 2294 2325 "ePL_compile.ml" 73 2294 2326
+type(
+  int
+)
+"ePL_compile.ml" 73 2294 2322 "ePL_compile.ml" 73 2294 2327
+type(
+  int
+)
+"ePL_compile.ml" 73 2294 2307 "ePL_compile.ml" 73 2294 2327
+call(
+  stack
+)
+type(
+  string
+)
+"ePL_compile.ml" 74 2331 2339 "ePL_compile.ml" 74 2331 2343
+type(
+  string
+)
+ident(
+  def extn "ePL_compile.ml" 75 2370 2374 "ePL_compile.ml" 76 2399 2447
+)
+"ePL_compile.ml" 74 2331 2346 "ePL_compile.ml" 74 2331 2356
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"ePL_compile.ml" 74 2331 2357 "ePL_compile.ml" 74 2331 2358
+type(
+  string
+)
+ident(
+  int_ref s "ePL_compile.ml" 68 2158 2180 "ePL_compile.ml" 68 2158 2181
+)
+"ePL_compile.ml" 74 2331 2360 "ePL_compile.ml" 74 2331 2361
+type(
+  int
+)
+ident(
+  int_ref v "ePL_compile.ml" 69 2201 2207 "ePL_compile.ml" 69 2201 2208
+)
+"ePL_compile.ml" 74 2331 2361 "ePL_compile.ml" 74 2331 2362
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ePL_compile.ml" 74 2331 2362 "ePL_compile.ml" 74 2331 2363
+type(
+  int
+)
+"ePL_compile.ml" 74 2331 2359 "ePL_compile.ml" 74 2331 2364
+type(
+  int
+)
+"ePL_compile.ml" 74 2331 2365 "ePL_compile.ml" 74 2331 2366
+type(
+  int
+)
+"ePL_compile.ml" 74 2331 2346 "ePL_compile.ml" 74 2331 2366
+call(
+  stack
+)
+type(
+  string
+)
+"ePL_compile.ml" 75 2370 2377 "ePL_compile.ml" 75 2370 2381
+type(
+  string
+)
+ident(
+  int_ref extn "ePL_compile.ml" 74 2331 2339 "ePL_compile.ml" 74 2331 2343
+)
+"ePL_compile.ml" 75 2370 2382 "ePL_compile.ml" 75 2370 2383
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ePL_compile.ml" 75 2370 2384 "ePL_compile.ml" 75 2370 2390
+type(
+  string
+)
+"ePL_compile.ml" 75 2370 2377 "ePL_compile.ml" 75 2370 2390
+type(
+  bool
+)
+"ePL_compile.ml" 75 2370 2396 "ePL_compile.ml" 75 2370 2398
+type(
+  string
+)
+ident(
+  int_ref fn "ePL_compile.ml" 73 2294 2302 "ePL_compile.ml" 73 2294 2304
+)
+"ePL_compile.ml" 76 2399 2408 "ePL_compile.ml" 76 2399 2416
+type(
+  string -> string
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ePL_compile.ml" 76 2399 2417 "ePL_compile.ml" 76 2399 2447
+type(
+  string
+)
+"ePL_compile.ml" 76 2399 2408 "ePL_compile.ml" 76 2399 2447
+call(
+  tail
+)
+type(
+  string
+)
+"ePL_compile.ml" 75 2370 2374 "ePL_compile.ml" 76 2399 2447
+type(
+  string
+)
+"ePL_compile.ml" 74 2331 2335 "ePL_compile.ml" 76 2399 2447
+type(
+  string
+)
+"ePL_compile.ml" 73 2294 2298 "ePL_compile.ml" 76 2399 2447
+type(
+  string
+)
+"ePL_compile.ml" 70 2230 2232 "ePL_compile.ml" 76 2399 2447
+type(
+  string
+)
+"ePL_compile.ml" 69 2201 2203 "ePL_compile.ml" 76 2399 2447
+type(
+  string
+)
+type(
+  string
+)
+"ePL_compile.ml" 80 2491 2495 "ePL_compile.ml" 80 2491 2516
+type(
+  unit -> unit
+)
+ident(
+  def test_extract_filename "ePL_compile.ml" 90 2834 2834 "ePL_compile.ml" 1 0 -1
+)
+"ePL_compile.ml" 80 2491 2517 "ePL_compile.ml" 80 2491 2519
+type(
+  unit
+)
+"ePL_compile.ml" 81 2522 2524 "ePL_compile.ml" 81 2522 2537
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"ePL_compile.ml" 81 2522 2539 "ePL_compile.ml" 81 2522 2555
+type(
+  string -> string
+)
+ident(
+  int_ref extract_filename "ePL_compile.ml" 68 2158 2162 "ePL_compile.ml" 68 2158 2178
+)
+"ePL_compile.ml" 81 2522 2556 "ePL_compile.ml" 81 2522 2567
+type(
+  string
+)
+"ePL_compile.ml" 81 2522 2538 "ePL_compile.ml" 81 2522 2568
+call(
+  stack
+)
+type(
+  string
+)
+"ePL_compile.ml" 81 2522 2524 "ePL_compile.ml" 81 2522 2568
+call(
+  stack
+)
+type(
+  unit
+)
+"ePL_compile.ml" 83 2600 2602 "ePL_compile.ml" 83 2600 2615
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"ePL_compile.ml" 83 2600 2617 "ePL_compile.ml" 83 2600 2633
+type(
+  string -> string
+)
+ident(
+  int_ref extract_filename "ePL_compile.ml" 68 2158 2162 "ePL_compile.ml" 68 2158 2178
+)
+"ePL_compile.ml" 83 2600 2634 "ePL_compile.ml" 83 2600 2640
+type(
+  string
+)
+"ePL_compile.ml" 83 2600 2616 "ePL_compile.ml" 83 2600 2641
+call(
+  stack
+)
+type(
+  string
+)
+"ePL_compile.ml" 83 2600 2602 "ePL_compile.ml" 83 2600 2641
+call(
+  stack
+)
+type(
+  unit
+)
+"ePL_compile.ml" 85 2703 2705 "ePL_compile.ml" 85 2703 2718
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"ePL_compile.ml" 85 2703 2720 "ePL_compile.ml" 85 2703 2736
+type(
+  string -> string
+)
+ident(
+  int_ref extract_filename "ePL_compile.ml" 68 2158 2162 "ePL_compile.ml" 68 2158 2178
+)
+"ePL_compile.ml" 85 2703 2737 "ePL_compile.ml" 85 2703 2747
+type(
+  string
+)
+"ePL_compile.ml" 85 2703 2719 "ePL_compile.ml" 85 2703 2748
+call(
+  stack
+)
+type(
+  string
+)
+"ePL_compile.ml" 85 2703 2705 "ePL_compile.ml" 85 2703 2748
+call(
+  tail
+)
+type(
+  unit
+)
+"ePL_compile.ml" 83 2600 2602 "ePL_compile.ml" 85 2703 2748
+type(
+  unit
+)
+"ePL_compile.ml" 81 2522 2524 "ePL_compile.ml" 85 2703 2748
+type(
+  unit
+)
+"ePL_compile.ml" 90 2834 2838 "ePL_compile.ml" 90 2834 2842
+type(
+  unit
+)
+ident(
+  def main "ePL_compile.ml" 105 3474 3515 "ePL_compile.ml" 1 0 -1
+)
+"ePL_compile.ml" 92 2883 2885 "ePL_compile.ml" 92 2883 2894
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.parse
+)
+"ePL_compile.ml" 92 2883 2895 "ePL_compile.ml" 92 2883 2913
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  ext_ref Debug.command_args
+)
+"ePL_compile.ml" 92 2883 2919 "ePL_compile.ml" 92 2883 2920
+type(
+  string
+)
+ident(
+  def s "ePL_compile.ml" 92 2883 2924 "ePL_compile.ml" 92 2883 2933
+)
+"ePL_compile.ml" 92 2883 2924 "ePL_compile.ml" 92 2883 2928
+type(
+  string ref
+)
+ident(
+  int_ref file "ePL_compile.ml" 62 1989 1993 "ePL_compile.ml" 62 1989 1997
+)
+"ePL_compile.ml" 92 2883 2929 "ePL_compile.ml" 92 2883 2931
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ePL_compile.ml" 92 2883 2932 "ePL_compile.ml" 92 2883 2933
+type(
+  string
+)
+ident(
+  int_ref s "ePL_compile.ml" 92 2883 2919 "ePL_compile.ml" 92 2883 2920
+)
+"ePL_compile.ml" 92 2883 2924 "ePL_compile.ml" 92 2883 2933
+type(
+  unit
+)
+"ePL_compile.ml" 92 2883 2914 "ePL_compile.ml" 92 2883 2934
+type(
+  Arg.anon_fun
+)
+"ePL_compile.ml" 92 2883 2935 "ePL_compile.ml" 92 2883 2940
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage "ePL_compile.ml" 61 1936 1940 "ePL_compile.ml" 61 1936 1945
+)
+"ePL_compile.ml" 92 2883 2885 "ePL_compile.ml" 92 2883 2940
+call(
+  stack
+)
+type(
+  unit
+)
+"ePL_compile.ml" 93 2943 2948 "ePL_compile.ml" 93 2943 2961
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ePL_compile.ml" 93 2943 2962 "ePL_compile.ml" 93 2943 2963
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ePL_compile.ml" 93 2943 2963 "ePL_compile.ml" 93 2943 2967
+type(
+  string ref
+)
+ident(
+  int_ref file "ePL_compile.ml" 62 1989 1993 "ePL_compile.ml" 62 1989 1997
+)
+"ePL_compile.ml" 93 2943 2962 "ePL_compile.ml" 93 2943 2967
+type(
+  string
+)
+"ePL_compile.ml" 93 2943 2948 "ePL_compile.ml" 93 2943 2967
+type(
+  int
+)
+"ePL_compile.ml" 93 2943 2968 "ePL_compile.ml" 93 2943 2970
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ePL_compile.ml" 93 2943 2971 "ePL_compile.ml" 93 2943 2972
+type(
+  int
+)
+"ePL_compile.ml" 93 2943 2948 "ePL_compile.ml" 93 2943 2972
+type(
+  bool
+)
+"ePL_compile.ml" 93 2943 2978 "ePL_compile.ml" 93 2943 2991
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"ePL_compile.ml" 93 2943 2992 "ePL_compile.ml" 93 2943 2997
+type(
+  string
+)
+ident(
+  int_ref usage "ePL_compile.ml" 61 1936 1940 "ePL_compile.ml" 61 1936 1945
+)
+"ePL_compile.ml" 93 2943 2978 "ePL_compile.ml" 93 2943 2997
+call(
+  stack
+)
+type(
+  unit
+)
+"ePL_compile.ml" 94 3004 3012 "ePL_compile.ml" 94 3004 3013
+type(
+  unit
+)
+"ePL_compile.ml" 94 3004 3016 "ePL_compile.ml" 94 3004 3029
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"ePL_compile.ml" 94 3004 3030 "ePL_compile.ml" 94 3004 3054
+type(
+  string
+)
+"ePL_compile.ml" 94 3004 3016 "ePL_compile.ml" 94 3004 3054
+call(
+  stack
+)
+type(
+  unit
+)
+"ePL_compile.ml" 95 3058 3067 "ePL_compile.ml" 95 3058 3068
+type(
+  string
+)
+ident(
+  def s "ePL_compile.ml" 96 3094 3098 "ePL_compile.ml" 105 3474 3515
+)
+"ePL_compile.ml" 95 3058 3069 "ePL_compile.ml" 95 3058 3070
+type(
+  EPL.ePL_expr
+)
+ident(
+  def p "ePL_compile.ml" 96 3094 3098 "ePL_compile.ml" 105 3474 3515
+)
+"ePL_compile.ml" 95 3058 3066 "ePL_compile.ml" 95 3058 3071
+type(
+  string * EPL.ePL_expr
+)
+"ePL_compile.ml" 95 3058 3074 "ePL_compile.ml" 95 3058 3084
+type(
+  string -> string * EPL.ePL_expr
+)
+ident(
+  int_ref parse_file "ePL_compile.ml" 56 1781 1785 "ePL_compile.ml" 56 1781 1795
+)
+"ePL_compile.ml" 95 3058 3085 "ePL_compile.ml" 95 3058 3086
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ePL_compile.ml" 95 3058 3086 "ePL_compile.ml" 95 3058 3090
+type(
+  string ref
+)
+ident(
+  int_ref file "ePL_compile.ml" 62 1989 1993 "ePL_compile.ml" 62 1989 1997
+)
+"ePL_compile.ml" 95 3058 3085 "ePL_compile.ml" 95 3058 3090
+type(
+  string
+)
+"ePL_compile.ml" 95 3058 3074 "ePL_compile.ml" 95 3058 3090
+call(
+  stack
+)
+type(
+  string * EPL.ePL_expr
+)
+"ePL_compile.ml" 96 3094 3102 "ePL_compile.ml" 96 3094 3103
+type(
+  unit
+)
+"ePL_compile.ml" 96 3094 3106 "ePL_compile.ml" 96 3094 3119
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"ePL_compile.ml" 96 3094 3121 "ePL_compile.ml" 96 3094 3125
+type(
+  string
+)
+"ePL_compile.ml" 96 3094 3125 "ePL_compile.ml" 96 3094 3126
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ePL_compile.ml" 96 3094 3126 "ePL_compile.ml" 96 3094 3127
+type(
+  string
+)
+ident(
+  int_ref s "ePL_compile.ml" 95 3058 3067 "ePL_compile.ml" 95 3058 3068
+)
+"ePL_compile.ml" 96 3094 3120 "ePL_compile.ml" 96 3094 3128
+call(
+  stack
+)
+type(
+  string
+)
+"ePL_compile.ml" 96 3094 3106 "ePL_compile.ml" 96 3094 3128
+call(
+  stack
+)
+type(
+  unit
+)
+"ePL_compile.ml" 97 3132 3140 "ePL_compile.ml" 97 3132 3141
+type(
+  unit
+)
+"ePL_compile.ml" 97 3132 3144 "ePL_compile.ml" 97 3132 3157
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"ePL_compile.ml" 97 3132 3159 "ePL_compile.ml" 97 3132 3166
+type(
+  string
+)
+"ePL_compile.ml" 97 3132 3166 "ePL_compile.ml" 97 3132 3167
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ePL_compile.ml" 97 3132 3168 "ePL_compile.ml" 97 3132 3181
+type(
+  EPL.ePL_expr -> string
+)
+ident(
+  ext_ref EPL.string_of_ePL
+)
+"ePL_compile.ml" 97 3132 3182 "ePL_compile.ml" 97 3132 3183
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref p "ePL_compile.ml" 95 3058 3069 "ePL_compile.ml" 95 3058 3070
+)
+"ePL_compile.ml" 97 3132 3167 "ePL_compile.ml" 97 3132 3184
+call(
+  stack
+)
+type(
+  string
+)
+"ePL_compile.ml" 97 3132 3158 "ePL_compile.ml" 97 3132 3185
+call(
+  stack
+)
+type(
+  string
+)
+"ePL_compile.ml" 97 3132 3144 "ePL_compile.ml" 97 3132 3185
+call(
+  stack
+)
+type(
+  unit
+)
+"ePL_compile.ml" 100 3283 3291 "ePL_compile.ml" 100 3283 3292
+type(
+  EPL.eVML_inst list
+)
+ident(
+  def r "ePL_compile.ml" 101 3308 3312 "ePL_compile.ml" 105 3474 3515
+)
+"ePL_compile.ml" 100 3283 3295 "ePL_compile.ml" 100 3283 3302
+type(
+  EPL.ePL_expr -> EPL.eVML_inst list
+)
+ident(
+  int_ref compile "ePL_compile.ml" 25 457 461 "ePL_compile.ml" 25 457 468
+)
+"ePL_compile.ml" 100 3283 3303 "ePL_compile.ml" 100 3283 3304
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref p "ePL_compile.ml" 95 3058 3069 "ePL_compile.ml" 95 3058 3070
+)
+"ePL_compile.ml" 100 3283 3295 "ePL_compile.ml" 100 3283 3304
+call(
+  stack
+)
+type(
+  EPL.eVML_inst list
+)
+"ePL_compile.ml" 101 3308 3316 "ePL_compile.ml" 101 3308 3318
+type(
+  string
+)
+ident(
+  def fn "ePL_compile.ml" 102 3347 3351 "ePL_compile.ml" 105 3474 3515
+)
+"ePL_compile.ml" 101 3308 3321 "ePL_compile.ml" 101 3308 3337
+type(
+  string -> string
+)
+ident(
+  int_ref extract_filename "ePL_compile.ml" 68 2158 2162 "ePL_compile.ml" 68 2158 2178
+)
+"ePL_compile.ml" 101 3308 3338 "ePL_compile.ml" 101 3308 3339
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ePL_compile.ml" 101 3308 3339 "ePL_compile.ml" 101 3308 3343
+type(
+  string ref
+)
+ident(
+  int_ref file "ePL_compile.ml" 62 1989 1993 "ePL_compile.ml" 62 1989 1997
+)
+"ePL_compile.ml" 101 3308 3338 "ePL_compile.ml" 101 3308 3343
+type(
+  string
+)
+"ePL_compile.ml" 101 3308 3321 "ePL_compile.ml" 101 3308 3343
+call(
+  stack
+)
+type(
+  string
+)
+"ePL_compile.ml" 102 3347 3355 "ePL_compile.ml" 102 3347 3361
+type(
+  string
+)
+ident(
+  def bytefn "ePL_compile.ml" 103 3377 3381 "ePL_compile.ml" 105 3474 3515
+)
+"ePL_compile.ml" 102 3347 3364 "ePL_compile.ml" 102 3347 3366
+type(
+  string
+)
+ident(
+  int_ref fn "ePL_compile.ml" 101 3308 3316 "ePL_compile.ml" 101 3308 3318
+)
+"ePL_compile.ml" 102 3347 3366 "ePL_compile.ml" 102 3347 3367
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ePL_compile.ml" 102 3347 3367 "ePL_compile.ml" 102 3347 3373
+type(
+  string
+)
+"ePL_compile.ml" 102 3347 3364 "ePL_compile.ml" 102 3347 3373
+call(
+  stack
+)
+type(
+  string
+)
+"ePL_compile.ml" 103 3377 3385 "ePL_compile.ml" 103 3377 3386
+type(
+  unit
+)
+"ePL_compile.ml" 103 3377 3389 "ePL_compile.ml" 103 3377 3402
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"ePL_compile.ml" 103 3377 3404 "ePL_compile.ml" 103 3377 3420
+type(
+  string
+)
+"ePL_compile.ml" 103 3377 3420 "ePL_compile.ml" 103 3377 3421
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ePL_compile.ml" 103 3377 3421 "ePL_compile.ml" 103 3377 3427
+type(
+  string
+)
+ident(
+  int_ref bytefn "ePL_compile.ml" 102 3347 3355 "ePL_compile.ml" 102 3347 3361
+)
+"ePL_compile.ml" 103 3377 3403 "ePL_compile.ml" 103 3377 3428
+call(
+  stack
+)
+type(
+  string
+)
+"ePL_compile.ml" 103 3377 3389 "ePL_compile.ml" 103 3377 3428
+call(
+  stack
+)
+type(
+  unit
+)
+"ePL_compile.ml" 104 3432 3440 "ePL_compile.ml" 104 3432 3441
+type(
+  unit
+)
+"ePL_compile.ml" 104 3432 3444 "ePL_compile.ml" 104 3432 3461
+type(
+  EPL.eVML_inst list -> string -> unit
+)
+ident(
+  int_ref generate_bytecode "ePL_compile.ml" 42 1319 1323 "ePL_compile.ml" 42 1319 1340
+)
+"ePL_compile.ml" 104 3432 3462 "ePL_compile.ml" 104 3432 3463
+type(
+  EPL.eVML_inst list
+)
+ident(
+  int_ref r "ePL_compile.ml" 100 3283 3291 "ePL_compile.ml" 100 3283 3292
+)
+"ePL_compile.ml" 104 3432 3464 "ePL_compile.ml" 104 3432 3470
+type(
+  string
+)
+ident(
+  int_ref bytefn "ePL_compile.ml" 102 3347 3355 "ePL_compile.ml" 102 3347 3361
+)
+"ePL_compile.ml" 104 3432 3444 "ePL_compile.ml" 104 3432 3470
+call(
+  stack
+)
+type(
+  unit
+)
+"ePL_compile.ml" 105 3474 3478 "ePL_compile.ml" 105 3474 3491
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"ePL_compile.ml" 105 3474 3493 "ePL_compile.ml" 105 3474 3512
+type(
+  EPL.eVML_inst list -> string
+)
+ident(
+  int_ref string_of_eVML_list "ePL_compile.ml" 5 74 78 "ePL_compile.ml" 5 74 97
+)
+"ePL_compile.ml" 105 3474 3513 "ePL_compile.ml" 105 3474 3514
+type(
+  EPL.eVML_inst list
+)
+ident(
+  int_ref r "ePL_compile.ml" 100 3283 3291 "ePL_compile.ml" 100 3283 3292
+)
+"ePL_compile.ml" 105 3474 3492 "ePL_compile.ml" 105 3474 3515
+call(
+  stack
+)
+type(
+  string
+)
+"ePL_compile.ml" 105 3474 3478 "ePL_compile.ml" 105 3474 3515
+call(
+  stack
+)
+type(
+  unit
+)
+"ePL_compile.ml" 104 3432 3436 "ePL_compile.ml" 105 3474 3515
+type(
+  unit
+)
+"ePL_compile.ml" 103 3377 3381 "ePL_compile.ml" 105 3474 3515
+type(
+  unit
+)
+"ePL_compile.ml" 102 3347 3351 "ePL_compile.ml" 105 3474 3515
+type(
+  unit
+)
+"ePL_compile.ml" 101 3308 3312 "ePL_compile.ml" 105 3474 3515
+type(
+  unit
+)
+"ePL_compile.ml" 100 3283 3287 "ePL_compile.ml" 105 3474 3515
+type(
+  unit
+)
+"ePL_compile.ml" 97 3132 3136 "ePL_compile.ml" 105 3474 3515
+type(
+  unit
+)
+"ePL_compile.ml" 96 3094 3098 "ePL_compile.ml" 105 3474 3515
+type(
+  unit
+)
+"ePL_compile.ml" 95 3058 3062 "ePL_compile.ml" 105 3474 3515
+type(
+  unit
+)
+"ePL_compile.ml" 94 3004 3008 "ePL_compile.ml" 105 3474 3515
+type(
+  unit
+)
+"ePL_compile.ml" 93 2943 2945 "ePL_compile.ml" 105 3474 3515
+type(
+  unit
+)
+"ePL_compile.ml" 92 2883 2885 "ePL_compile.ml" 105 3474 3515
+type(
+  unit
+)

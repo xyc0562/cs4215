@@ -1,0 +1,8 @@
+Loading ePL program ..
+  false = \ true & false
+  as &[=[BoolConst(false),\[BoolConst(true)]],BoolConst(false)]
+Compiling ==> e3.evm
+[LDCB false,LDCB true,NOT,EQ,LDCB false,AND,DONE]
+Loading eVM code from ..e3.evm
+Loaded [LDCB false,LDCB true,NOT,EQ,LDCB false,AND,DONE]
+Executing ==> 0

@@ -1,0 +1,8 @@
+Loading ePL program ..
+  (1+2)*(4-3)
+  as *[+[IntConst(1),IntConst(2)],-[IntConst(4),IntConst(3)]]
+Compiling ==> e7.evm
+[LDCI 1,LDCI 2,PLUS,LDCI 4,LDCI 3,MINUS,TIMES,DONE]
+Loading eVM code from ..e7.evm
+Loaded [LDCI 1,LDCI 2,PLUS,LDCI 4,LDCI 3,MINUS,TIMES,DONE]
+Executing ==> 3

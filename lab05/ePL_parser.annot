@@ -1,0 +1,2137 @@
+"ePL_parser.ml" 7 37 41 "ePL_parser.ml" 7 37 51
+type(
+  EPL.ePL_expr Camlp4.PreCast.Gram.Entry.t
+)
+ident(
+  def expression "ePL_parser.ml" 9 82 82 "ePL_parser.ml" 1 0 -1
+)
+"ePL_parser.ml" 7 37 54 "ePL_parser.ml" 7 37 67
+type(
+  string -> EPL.ePL_expr Camlp4.PreCast.Gram.Entry.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.Entry.mk
+)
+"ePL_parser.ml" 7 37 68 "ePL_parser.ml" 7 37 80
+type(
+  string
+)
+"ePL_parser.ml" 7 37 54 "ePL_parser.ml" 7 37 80
+call(
+  stack
+)
+type(
+  EPL.ePL_expr Camlp4.PreCast.Gram.Entry.t
+)
+"ePL_parser.ml" 10 94 104 "ePL_parser.ml" 10 94 114
+type(
+  EPL.ePL_expr Camlp4.PreCast.Gram.Entry.t
+)
+type(
+  EPL.ePL_expr Camlp4.PreCast.Gram.Entry.t
+)
+ident(
+  int_ref expression "ePL_parser.ml" 7 37 41 "ePL_parser.ml" 7 37 51
+)
+"ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Gram.single_extend_statment list
+)
+type(
+  Camlp4.PreCast.Gram.single_extend_statment
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule
+)
+type(
+  Camlp4.PreCast.Gram.Action.t
+)
+type(
+  Camlp4.PreCast.Gram.Token.t -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr
+)
+type(
+  bool
+)
+type(
+  Camlp4.PreCast.Gram.Token.t
+)
+type(
+  Camlp4.PreCast.Gram.Token.t
+)
+ident(
+  int_ref __camlp4_0 "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t
+)
+ident(
+  def _loc "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+type(
+  Camlp4.PreCast.Gram.Token.t
+)
+ident(
+  def __camlp4_0 "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule
+)
+type(
+  Camlp4.PreCast.Gram.Action.t
+)
+type(
+  '_a -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t
+)
+ident(
+  def _loc "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+type(
+  '_a
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule
+)
+type(
+  Camlp4.PreCast.Gram.Action.t
+)
+type(
+  '_b -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t
+)
+ident(
+  def _loc "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+type(
+  '_b
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  Camlp4.PreCast.Gram.single_extend_statment list
+)
+type(
+  Camlp4.PreCast.Gram.single_extend_statment
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule
+)
+type(
+  Camlp4.PreCast.Gram.Action.t
+)
+type(
+  EPL.ePL_expr -> '_c -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  '_c -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t
+)
+ident(
+  def _loc "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+type(
+  '_c
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule
+)
+type(
+  Camlp4.PreCast.Gram.Action.t
+)
+type(
+  EPL.ePL_expr -> '_d -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  '_d -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t
+)
+ident(
+  def _loc "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+type(
+  '_d
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  Camlp4.PreCast.Gram.single_extend_statment list
+)
+type(
+  Camlp4.PreCast.Gram.single_extend_statment
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule
+)
+type(
+  Camlp4.PreCast.Gram.Action.t
+)
+type(
+  '_e -> EPL.ePL_expr -> '_f -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr -> '_f -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  '_f -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t
+)
+ident(
+  def _loc "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+type(
+  '_f
+)
+type(
+  '_e
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  Camlp4.PreCast.Gram.single_extend_statment list
+)
+type(
+  Camlp4.PreCast.Gram.single_extend_statment
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule
+)
+type(
+  Camlp4.PreCast.Gram.Action.t
+)
+type(
+  EPL.ePL_expr ->
+  '_g -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  '_g -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t
+)
+ident(
+  def _loc "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+type(
+  '_g
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule
+)
+type(
+  Camlp4.PreCast.Gram.Action.t
+)
+type(
+  EPL.ePL_expr ->
+  '_h -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  '_h -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t
+)
+ident(
+  def _loc "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+type(
+  '_h
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  Camlp4.PreCast.Gram.single_extend_statment list
+)
+type(
+  Camlp4.PreCast.Gram.single_extend_statment
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule
+)
+type(
+  Camlp4.PreCast.Gram.Action.t
+)
+type(
+  EPL.ePL_expr ->
+  '_i -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  '_i -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t
+)
+ident(
+  def _loc "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+type(
+  '_i
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule
+)
+type(
+  Camlp4.PreCast.Gram.Action.t
+)
+type(
+  EPL.ePL_expr ->
+  '_j -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  '_j -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t
+)
+ident(
+  def _loc "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+type(
+  '_j
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  Camlp4.PreCast.Gram.single_extend_statment list
+)
+type(
+  Camlp4.PreCast.Gram.single_extend_statment
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule
+)
+type(
+  Camlp4.PreCast.Gram.Action.t
+)
+type(
+  EPL.ePL_expr ->
+  '_k -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  '_k -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t
+)
+ident(
+  def _loc "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+type(
+  '_k
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule
+)
+type(
+  Camlp4.PreCast.Gram.Action.t
+)
+type(
+  EPL.ePL_expr ->
+  '_l -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  '_l -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t
+)
+ident(
+  def _loc "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+type(
+  '_l
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  Camlp4.PreCast.Gram.single_extend_statment list
+)
+type(
+  Camlp4.PreCast.Gram.single_extend_statment
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule
+)
+type(
+  Camlp4.PreCast.Gram.Action.t
+)
+type(
+  EPL.ePL_expr ->
+  '_m -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  '_m -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t
+)
+ident(
+  def _loc "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+type(
+  '_m
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  Camlp4.PreCast.Gram.single_extend_statment list
+)
+type(
+  Camlp4.PreCast.Gram.single_extend_statment
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule
+)
+type(
+  Camlp4.PreCast.Gram.Action.t
+)
+type(
+  EPL.ePL_expr ->
+  '_n -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  '_n -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t
+)
+ident(
+  def _loc "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+type(
+  '_n
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string option
+)
+type(
+  Camlp4.PreCast.Gram.single_extend_statment list
+)
+type(
+  Camlp4.PreCast.Gram.single_extend_statment
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule
+)
+type(
+  Camlp4.PreCast.Gram.Action.t
+)
+type(
+  EPL.ePL_expr ->
+  '_o -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  '_o -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t
+)
+ident(
+  def _loc "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+type(
+  '_o
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.symbol list
+)
+type(
+  Camlp4.PreCast.Gram.production_rule list
+)
+type(
+  Camlp4.Sig.Grammar.assoc option
+)
+type(
+  string option
+)
+type(
+  Camlp4.PreCast.Gram.single_extend_statment list
+)
+type(
+  Camlp4.Sig.Grammar.position option
+)
+type(
+  EPL.ePL_expr Camlp4.PreCast.Gram.Entry.t
+)
+type(
+  EPL.ePL_expr Camlp4.PreCast.Gram.Entry.t
+)
+ident(
+  int_ref expression "ePL_parser.ml" 7 37 41 "ePL_parser.ml" 7 37 51
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 11 117 129
+type(
+  (Camlp4.PreCast.Gram.Token.t -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr) ->
+  Camlp4.PreCast.Gram.Action.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.Action.mk
+)
+type(
+  ('_a -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr) ->
+  Camlp4.PreCast.Gram.Action.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.Action.mk
+)
+type(
+  ('_b -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr) ->
+  Camlp4.PreCast.Gram.Action.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.Action.mk
+)
+type(
+  (EPL.ePL_expr -> '_c -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr) ->
+  Camlp4.PreCast.Gram.Action.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.Action.mk
+)
+type(
+  (EPL.ePL_expr -> '_d -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr) ->
+  Camlp4.PreCast.Gram.Action.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.Action.mk
+)
+type(
+  ('_e -> EPL.ePL_expr -> '_f -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr) ->
+  Camlp4.PreCast.Gram.Action.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.Action.mk
+)
+type(
+  (EPL.ePL_expr ->
+   '_g -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr) ->
+  Camlp4.PreCast.Gram.Action.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.Action.mk
+)
+type(
+  (EPL.ePL_expr ->
+   '_h -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr) ->
+  Camlp4.PreCast.Gram.Action.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.Action.mk
+)
+type(
+  (EPL.ePL_expr ->
+   '_i -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr) ->
+  Camlp4.PreCast.Gram.Action.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.Action.mk
+)
+type(
+  (EPL.ePL_expr ->
+   '_j -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr) ->
+  Camlp4.PreCast.Gram.Action.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.Action.mk
+)
+type(
+  (EPL.ePL_expr ->
+   '_k -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr) ->
+  Camlp4.PreCast.Gram.Action.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.Action.mk
+)
+type(
+  (EPL.ePL_expr ->
+   '_l -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr) ->
+  Camlp4.PreCast.Gram.Action.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.Action.mk
+)
+type(
+  (EPL.ePL_expr ->
+   '_m -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr) ->
+  Camlp4.PreCast.Gram.Action.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.Action.mk
+)
+type(
+  (EPL.ePL_expr ->
+   '_n -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr) ->
+  Camlp4.PreCast.Gram.Action.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.Action.mk
+)
+type(
+  (EPL.ePL_expr ->
+   '_o -> EPL.ePL_expr -> Camlp4.PreCast.Gram.Loc.t -> EPL.ePL_expr) ->
+  Camlp4.PreCast.Gram.Action.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.Action.mk
+)
+"ePL_parser.ml" 12 131 140 "ePL_parser.ml" 12 131 145
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"ePL_parser.ml" 13 148 158 "ePL_parser.ml" 13 148 167
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e1 "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 13 148 167
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 13 148 168 "ePL_parser.ml" 13 148 171
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 13 148 173 "ePL_parser.ml" 13 148 182
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e2 "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 13 148 182
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 13 148 201 "ePL_parser.ml" 13 148 204
+type(
+  EPL.op_id
+)
+"ePL_parser.ml" 13 148 205 "ePL_parser.ml" 13 148 207
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e1 "ePL_parser.ml" 13 148 158 "ePL_parser.ml" 13 148 167
+)
+"ePL_parser.ml" 13 148 208 "ePL_parser.ml" 13 148 210
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e2 "ePL_parser.ml" 13 148 173 "ePL_parser.ml" 13 148 182
+)
+"ePL_parser.ml" 13 148 186 "ePL_parser.ml" 13 148 211
+type(
+  EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr
+)
+"ePL_parser.ml" 14 213 216 "ePL_parser.ml" 14 213 221
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"ePL_parser.ml" 15 222 226 "ePL_parser.ml" 15 222 235
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e1 "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 15 222 235
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 15 222 238 "ePL_parser.ml" 15 222 241
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 15 222 242 "ePL_parser.ml" 15 222 251
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e2 "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 15 222 251
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 15 222 270 "ePL_parser.ml" 15 222 273
+type(
+  EPL.op_id
+)
+"ePL_parser.ml" 15 222 274 "ePL_parser.ml" 15 222 276
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e1 "ePL_parser.ml" 15 222 226 "ePL_parser.ml" 15 222 235
+)
+"ePL_parser.ml" 15 222 277 "ePL_parser.ml" 15 222 279
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e2 "ePL_parser.ml" 15 222 242 "ePL_parser.ml" 15 222 251
+)
+"ePL_parser.ml" 15 222 255 "ePL_parser.ml" 15 222 280
+type(
+  EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr
+)
+"ePL_parser.ml" 16 282 299 "ePL_parser.ml" 16 282 304
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"ePL_parser.ml" 17 306 319 "ePL_parser.ml" 17 306 328
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e1 "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 17 306 328
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 17 306 330 "ePL_parser.ml" 17 306 333
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 17 306 334 "ePL_parser.ml" 17 306 343
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e2 "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 17 306 343
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 17 306 362 "ePL_parser.ml" 17 306 365
+type(
+  EPL.op_id
+)
+"ePL_parser.ml" 17 306 366 "ePL_parser.ml" 17 306 368
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e1 "ePL_parser.ml" 17 306 319 "ePL_parser.ml" 17 306 328
+)
+"ePL_parser.ml" 17 306 369 "ePL_parser.ml" 17 306 371
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e2 "ePL_parser.ml" 17 306 334 "ePL_parser.ml" 17 306 343
+)
+"ePL_parser.ml" 17 306 347 "ePL_parser.ml" 17 306 372
+type(
+  EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr
+)
+"ePL_parser.ml" 18 374 395 "ePL_parser.ml" 18 374 400
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"ePL_parser.ml" 19 401 413 "ePL_parser.ml" 19 401 422
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e1 "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 19 401 422
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 19 401 424 "ePL_parser.ml" 19 401 427
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 19 401 428 "ePL_parser.ml" 19 401 437
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e2 "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 19 401 437
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 19 401 456 "ePL_parser.ml" 19 401 459
+type(
+  EPL.op_id
+)
+"ePL_parser.ml" 19 401 460 "ePL_parser.ml" 19 401 462
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e1 "ePL_parser.ml" 19 401 413 "ePL_parser.ml" 19 401 422
+)
+"ePL_parser.ml" 19 401 463 "ePL_parser.ml" 19 401 465
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e2 "ePL_parser.ml" 19 401 428 "ePL_parser.ml" 19 401 437
+)
+"ePL_parser.ml" 19 401 441 "ePL_parser.ml" 19 401 466
+type(
+  EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr
+)
+"ePL_parser.ml" 20 467 479 "ePL_parser.ml" 20 467 488
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e1 "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 20 467 488
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 20 467 491 "ePL_parser.ml" 20 467 494
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 20 467 495 "ePL_parser.ml" 20 467 504
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e2 "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 20 467 504
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 20 467 523 "ePL_parser.ml" 20 467 526
+type(
+  EPL.op_id
+)
+"ePL_parser.ml" 20 467 527 "ePL_parser.ml" 20 467 529
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e1 "ePL_parser.ml" 20 467 479 "ePL_parser.ml" 20 467 488
+)
+"ePL_parser.ml" 20 467 530 "ePL_parser.ml" 20 467 532
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e2 "ePL_parser.ml" 20 467 495 "ePL_parser.ml" 20 467 504
+)
+"ePL_parser.ml" 20 467 508 "ePL_parser.ml" 20 467 533
+type(
+  EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr
+)
+"ePL_parser.ml" 21 535 556 "ePL_parser.ml" 21 535 561
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"ePL_parser.ml" 22 562 574 "ePL_parser.ml" 22 562 583
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e1 "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 22 562 583
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 22 562 584 "ePL_parser.ml" 22 562 587
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 22 562 590 "ePL_parser.ml" 22 562 599
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e2 "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 22 562 599
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 22 562 618 "ePL_parser.ml" 22 562 621
+type(
+  EPL.op_id
+)
+"ePL_parser.ml" 22 562 622 "ePL_parser.ml" 22 562 624
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e1 "ePL_parser.ml" 22 562 574 "ePL_parser.ml" 22 562 583
+)
+"ePL_parser.ml" 22 562 625 "ePL_parser.ml" 22 562 627
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e2 "ePL_parser.ml" 22 562 590 "ePL_parser.ml" 22 562 599
+)
+"ePL_parser.ml" 22 562 603 "ePL_parser.ml" 22 562 628
+type(
+  EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr
+)
+"ePL_parser.ml" 23 629 641 "ePL_parser.ml" 23 629 650
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e1 "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 23 629 650
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 23 629 652 "ePL_parser.ml" 23 629 655
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 23 629 657 "ePL_parser.ml" 23 629 666
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e2 "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 23 629 666
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 23 629 685 "ePL_parser.ml" 23 629 688
+type(
+  EPL.op_id
+)
+"ePL_parser.ml" 23 629 689 "ePL_parser.ml" 23 629 691
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e1 "ePL_parser.ml" 23 629 641 "ePL_parser.ml" 23 629 650
+)
+"ePL_parser.ml" 23 629 692 "ePL_parser.ml" 23 629 694
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e2 "ePL_parser.ml" 23 629 657 "ePL_parser.ml" 23 629 666
+)
+"ePL_parser.ml" 23 629 670 "ePL_parser.ml" 23 629 695
+type(
+  EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr
+)
+"ePL_parser.ml" 24 698 718 "ePL_parser.ml" 24 698 723
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"ePL_parser.ml" 25 724 736 "ePL_parser.ml" 25 724 745
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e1 "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 25 724 745
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 25 724 747 "ePL_parser.ml" 25 724 750
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 25 724 752 "ePL_parser.ml" 25 724 761
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e2 "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 25 724 761
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 25 724 780 "ePL_parser.ml" 25 724 783
+type(
+  EPL.op_id
+)
+"ePL_parser.ml" 25 724 784 "ePL_parser.ml" 25 724 786
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e1 "ePL_parser.ml" 25 724 736 "ePL_parser.ml" 25 724 745
+)
+"ePL_parser.ml" 25 724 787 "ePL_parser.ml" 25 724 789
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e2 "ePL_parser.ml" 25 724 752 "ePL_parser.ml" 25 724 761
+)
+"ePL_parser.ml" 25 724 765 "ePL_parser.ml" 25 724 790
+type(
+  EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr
+)
+"ePL_parser.ml" 26 792 804 "ePL_parser.ml" 26 792 813
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e1 "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 26 792 813
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 26 792 815 "ePL_parser.ml" 26 792 818
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 26 792 821 "ePL_parser.ml" 26 792 830
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e2 "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 26 792 830
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 26 792 849 "ePL_parser.ml" 26 792 852
+type(
+  EPL.op_id
+)
+"ePL_parser.ml" 26 792 853 "ePL_parser.ml" 26 792 855
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e1 "ePL_parser.ml" 26 792 804 "ePL_parser.ml" 26 792 813
+)
+"ePL_parser.ml" 26 792 856 "ePL_parser.ml" 26 792 858
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e2 "ePL_parser.ml" 26 792 821 "ePL_parser.ml" 26 792 830
+)
+"ePL_parser.ml" 26 792 834 "ePL_parser.ml" 26 792 859
+type(
+  EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr
+)
+"ePL_parser.ml" 27 862 882 "ePL_parser.ml" 27 862 887
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"ePL_parser.ml" 28 888 900 "ePL_parser.ml" 28 888 903
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 28 888 905 "ePL_parser.ml" 28 888 911
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 28 888 911
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 28 888 913 "ePL_parser.ml" 28 888 916
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 28 888 920 "ePL_parser.ml" 28 888 921
+type(
+  EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e "ePL_parser.ml" 28 888 905 "ePL_parser.ml" 28 888 911
+)
+"ePL_parser.ml" 29 923 941 "ePL_parser.ml" 29 923 945
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"ePL_parser.ml" 30 946 958 "ePL_parser.ml" 30 946 961
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 30 946 963 "ePL_parser.ml" 30 946 969
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 30 946 969
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 30 946 986 "ePL_parser.ml" 30 946 989
+type(
+  EPL.op_id
+)
+"ePL_parser.ml" 30 946 990 "ePL_parser.ml" 30 946 991
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e "ePL_parser.ml" 30 946 963 "ePL_parser.ml" 30 946 969
+)
+"ePL_parser.ml" 30 946 973 "ePL_parser.ml" 30 946 992
+type(
+  EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr
+)
+"ePL_parser.ml" 31 993 1005 "ePL_parser.ml" 31 993 1009
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 31 993 1011 "ePL_parser.ml" 31 993 1017
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 31 993 1017
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 31 993 1034 "ePL_parser.ml" 31 993 1038
+type(
+  EPL.op_id
+)
+"ePL_parser.ml" 31 993 1039 "ePL_parser.ml" 31 993 1040
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e "ePL_parser.ml" 31 993 1011 "ePL_parser.ml" 31 993 1017
+)
+"ePL_parser.ml" 31 993 1021 "ePL_parser.ml" 31 993 1041
+type(
+  EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr
+)
+"ePL_parser.ml" 33 1054 1075 "ePL_parser.ml" 33 1054 1079
+type(
+  Camlp4.Sig.Grammar.assoc
+)
+"ePL_parser.ml" 34 1081 1099 "ePL_parser.ml" 34 1081 1100
+type(
+  int
+)
+ident(
+  def i "ePL_parser.ml" 11 117 119 "ePL_parser.ml" 11 117 129
+)
+type(
+  int
+)
+"ePL_parser.ml" 34 1081 1102 "ePL_parser.ml" 34 1081 1103
+type(
+  string
+)
+type(
+  string
+)
+"ePL_parser.ml" 34 1081 1094 "ePL_parser.ml" 34 1081 1104
+type(
+  Camlp4.PreCast.Gram.Token.t
+)
+type(
+  Camlp4.PreCast.Gram.Token.t
+)
+"ePL_parser.ml" 34 1081 1093 "ePL_parser.ml" 34 1081 1104
+type(
+  Camlp4.PreCast.Gram.token_pattern
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Gram.Token.t -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Camlp4.PreCast.Gram.Token.t
+)
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 34 1081 1117 "ePL_parser.ml" 34 1081 1118
+type(
+  int
+)
+ident(
+  int_ref i "ePL_parser.ml" 34 1081 1099 "ePL_parser.ml" 34 1081 1100
+)
+"ePL_parser.ml" 34 1081 1108 "ePL_parser.ml" 34 1081 1119
+type(
+  EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr
+)
+"ePL_parser.ml" 35 1120 1132 "ePL_parser.ml" 35 1120 1138
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 35 1120 1152 "ePL_parser.ml" 35 1120 1156
+type(
+  bool
+)
+"ePL_parser.ml" 35 1120 1142 "ePL_parser.ml" 35 1120 1157
+type(
+  EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr
+)
+"ePL_parser.ml" 36 1158 1170 "ePL_parser.ml" 36 1158 1177
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Gram.symbol
+)
+"ePL_parser.ml" 36 1158 1191 "ePL_parser.ml" 36 1158 1196
+type(
+  bool
+)
+"ePL_parser.ml" 36 1158 1181 "ePL_parser.ml" 36 1158 1197
+type(
+  EPL.ePL_expr
+)
+type(
+  EPL.ePL_expr
+)
+"ePL_parser.ml" 9 82 89 "ePL_parser.ml" 38 1210 1218
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Camlp4.PreCast.Gram.extend_statment
+)
+type(
+  unit
+)
+type(
+  unit -> Camlp4.PreCast.Gram.extend_statment
+)
+type(
+  Camlp4.Sig.Grammar.position option *
+  Camlp4.PreCast.Gram.single_extend_statment list
+)
+type(
+  unit
+)
+type(
+  EPL.ePL_expr Camlp4.PreCast.Gram.Entry.t ->
+  Camlp4.PreCast.Gram.extend_statment -> unit
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.extend
+)
+type(
+  EPL.ePL_expr Camlp4.PreCast.Gram.Entry.t
+)
+"ePL_parser.ml" 41 1226 1230 "ePL_parser.ml" 41 1226 1234
+type(
+  Camlp4.PreCast.Loc.t
+)
+ident(
+  def _loc "ePL_parser.ml" 44 1283 1283 "ePL_parser.ml" 1 0 -1
+)
+"ePL_parser.ml" 41 1226 1237 "ePL_parser.ml" 41 1226 1243
+type(
+  string -> Camlp4.PreCast.Loc.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Loc.mk
+)
+"ePL_parser.ml" 41 1226 1244 "ePL_parser.ml" 41 1226 1254
+type(
+  string
+)
+"ePL_parser.ml" 41 1226 1237 "ePL_parser.ml" 41 1226 1254
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Loc.t
+)
+"ePL_parser.ml" 44 1283 1287 "ePL_parser.ml" 44 1283 1292
+type(
+  string -> EPL.ePL_expr
+)
+ident(
+  def parse "ePL_parser.ml" 49 1379 1379 "ePL_parser.ml" 1 0 -1
+)
+"ePL_parser.ml" 44 1283 1293 "ePL_parser.ml" 44 1283 1296
+type(
+  string
+)
+ident(
+  def str "ePL_parser.ml" 45 1299 1301 "ePL_parser.ml" 45 1299 1351
+)
+"ePL_parser.ml" 45 1299 1305 "ePL_parser.ml" 45 1299 1306
+type(
+  EPL.ePL_expr
+)
+ident(
+  def e "ePL_parser.ml" 45 1299 1350 "ePL_parser.ml" 45 1299 1351
+)
+"ePL_parser.ml" 45 1299 1309 "ePL_parser.ml" 45 1299 1326
+type(
+  EPL.ePL_expr Camlp4.PreCast.Gram.Entry.t ->
+  Camlp4.PreCast.Gram.Loc.t -> string -> EPL.ePL_expr
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.parse_string
+)
+"ePL_parser.ml" 45 1299 1327 "ePL_parser.ml" 45 1299 1337
+type(
+  EPL.ePL_expr Camlp4.PreCast.Gram.Entry.t
+)
+ident(
+  int_ref expression "ePL_parser.ml" 7 37 41 "ePL_parser.ml" 7 37 51
+)
+"ePL_parser.ml" 45 1299 1338 "ePL_parser.ml" 45 1299 1342
+type(
+  Camlp4.PreCast.Gram.Loc.t
+)
+ident(
+  int_ref _loc "ePL_parser.ml" 41 1226 1230 "ePL_parser.ml" 41 1226 1234
+)
+"ePL_parser.ml" 45 1299 1343 "ePL_parser.ml" 45 1299 1346
+type(
+  string
+)
+ident(
+  int_ref str "ePL_parser.ml" 44 1283 1293 "ePL_parser.ml" 44 1283 1296
+)
+"ePL_parser.ml" 45 1299 1309 "ePL_parser.ml" 45 1299 1346
+call(
+  tail
+)
+type(
+  EPL.ePL_expr
+)
+"ePL_parser.ml" 45 1299 1350 "ePL_parser.ml" 45 1299 1351
+type(
+  EPL.ePL_expr
+)
+ident(
+  int_ref e "ePL_parser.ml" 45 1299 1305 "ePL_parser.ml" 45 1299 1306
+)
+"ePL_parser.ml" 45 1299 1301 "ePL_parser.ml" 45 1299 1351
+type(
+  EPL.ePL_expr
+)
+"ePL_parser.ml" 44 1283 1293 "ePL_parser.ml" 45 1299 1351
+type(
+  string -> EPL.ePL_expr
+)
+"ePL_parser.ml" 49 1379 1383 "ePL_parser.ml" 49 1379 1393
+type(
+  string -> string * EPL.ePL_expr
+)
+ident(
+  def parse_file "ePL_parser.ml" 60 1707 1725 "ePL_parser.ml" 1 0 -1
+)
+"ePL_parser.ml" 49 1379 1395 "ePL_parser.ml" 49 1379 1403
+type(
+  string
+)
+ident(
+  def filename "ePL_parser.ml" 49 1379 1412 "ePL_parser.ml" 60 1707 1725
+)
+"ePL_parser.ml" 50 1436 1442 "ePL_parser.ml" 50 1436 1450
+type(
+  string list
+)
+ident(
+  def contents "ePL_parser.ml" 59 1666 1668 "ePL_parser.ml" 60 1707 1725
+)
+"ePL_parser.ml" 51 1453 1461 "ePL_parser.ml" 51 1453 1466
+type(
+  string list ref
+)
+ident(
+  def lines "ePL_parser.ml" 52 1479 1483 "ePL_parser.ml" 58 1625 1662
+)
+"ePL_parser.ml" 51 1453 1469 "ePL_parser.ml" 51 1453 1472
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ePL_parser.ml" 51 1453 1473 "ePL_parser.ml" 51 1453 1475
+type(
+  string list
+)
+"ePL_parser.ml" 51 1453 1469 "ePL_parser.ml" 51 1453 1475
+type(
+  string list ref
+)
+"ePL_parser.ml" 52 1479 1487 "ePL_parser.ml" 52 1479 1491
+type(
+  in_channel
+)
+ident(
+  def chan "ePL_parser.ml" 53 1514 1518 "ePL_parser.ml" 58 1625 1662
+)
+"ePL_parser.ml" 52 1479 1494 "ePL_parser.ml" 52 1479 1501
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"ePL_parser.ml" 52 1479 1502 "ePL_parser.ml" 52 1479 1510
+type(
+  string
+)
+ident(
+  int_ref filename "ePL_parser.ml" 49 1379 1395 "ePL_parser.ml" 49 1379 1403
+)
+"ePL_parser.ml" 52 1479 1494 "ePL_parser.ml" 52 1479 1510
+call(
+  stack
+)
+type(
+  in_channel
+)
+"ePL_parser.ml" 54 1522 1534 "ePL_parser.ml" 54 1522 1538
+type(
+  bool
+)
+"ePL_parser.ml" 55 1543 1551 "ePL_parser.ml" 55 1543 1556
+type(
+  string list ref
+)
+ident(
+  int_ref lines "ePL_parser.ml" 51 1453 1461 "ePL_parser.ml" 51 1453 1466
+)
+"ePL_parser.ml" 55 1543 1560 "ePL_parser.ml" 55 1543 1570
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"ePL_parser.ml" 55 1543 1571 "ePL_parser.ml" 55 1543 1575
+type(
+  in_channel
+)
+ident(
+  int_ref chan "ePL_parser.ml" 52 1479 1487 "ePL_parser.ml" 52 1479 1491
+)
+"ePL_parser.ml" 55 1543 1560 "ePL_parser.ml" 55 1543 1575
+call(
+  stack
+)
+type(
+  string
+)
+"ePL_parser.ml" 55 1543 1580 "ePL_parser.ml" 55 1543 1585
+type(
+  string list ref
+)
+ident(
+  int_ref lines "ePL_parser.ml" 51 1453 1461 "ePL_parser.ml" 51 1453 1466
+)
+"ePL_parser.ml" 55 1543 1579 "ePL_parser.ml" 55 1543 1585
+type(
+  string list
+)
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ePL_parser.ml" 55 1543 1560 "ePL_parser.ml" 55 1543 1585
+type(
+  string list
+)
+"ePL_parser.ml" 55 1543 1551 "ePL_parser.ml" 55 1543 1585
+type(
+  unit
+)
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ePL_parser.ml" 54 1522 1528 "ePL_parser.ml" 56 1586 1596
+type(
+  unit
+)
+"ePL_parser.ml" 56 1586 1598 "ePL_parser.ml" 56 1586 1600
+type(
+  string list
+)
+"ePL_parser.ml" 57 1601 1610 "ePL_parser.ml" 57 1601 1621
+type(
+  exn
+)
+"ePL_parser.ml" 58 1625 1633 "ePL_parser.ml" 58 1625 1641
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"ePL_parser.ml" 58 1625 1642 "ePL_parser.ml" 58 1625 1646
+type(
+  in_channel
+)
+ident(
+  int_ref chan "ePL_parser.ml" 52 1479 1487 "ePL_parser.ml" 52 1479 1491
+)
+"ePL_parser.ml" 58 1625 1633 "ePL_parser.ml" 58 1625 1646
+call(
+  stack
+)
+type(
+  unit
+)
+"ePL_parser.ml" 58 1625 1647 "ePL_parser.ml" 58 1625 1655
+type(
+  string list -> string list
+)
+ident(
+  ext_ref List.rev
+)
+"ePL_parser.ml" 58 1625 1657 "ePL_parser.ml" 58 1625 1662
+type(
+  string list ref
+)
+ident(
+  int_ref lines "ePL_parser.ml" 51 1453 1461 "ePL_parser.ml" 51 1453 1466
+)
+"ePL_parser.ml" 58 1625 1656 "ePL_parser.ml" 58 1625 1662
+type(
+  string list
+)
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ePL_parser.ml" 58 1625 1647 "ePL_parser.ml" 58 1625 1662
+call(
+  stack
+)
+type(
+  string list
+)
+"ePL_parser.ml" 58 1625 1633 "ePL_parser.ml" 58 1625 1662
+type(
+  string list
+)
+"ePL_parser.ml" 54 1522 1528 "ePL_parser.ml" 58 1625 1662
+type(
+  string list
+)
+"ePL_parser.ml" 53 1514 1518 "ePL_parser.ml" 58 1625 1662
+type(
+  string list
+)
+"ePL_parser.ml" 52 1479 1483 "ePL_parser.ml" 58 1625 1662
+type(
+  string list
+)
+"ePL_parser.ml" 51 1453 1457 "ePL_parser.ml" 58 1625 1662
+type(
+  string list
+)
+"ePL_parser.ml" 59 1666 1672 "ePL_parser.ml" 59 1666 1675
+type(
+  string
+)
+ident(
+  def str "ePL_parser.ml" 60 1707 1710 "ePL_parser.ml" 60 1707 1724
+)
+"ePL_parser.ml" 59 1666 1678 "ePL_parser.ml" 59 1666 1691
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"ePL_parser.ml" 59 1666 1692 "ePL_parser.ml" 59 1666 1694
+type(
+  string
+)
+"ePL_parser.ml" 59 1666 1695 "ePL_parser.ml" 59 1666 1703
+type(
+  string list
+)
+ident(
+  int_ref contents "ePL_parser.ml" 50 1436 1442 "ePL_parser.ml" 50 1436 1450
+)
+"ePL_parser.ml" 59 1666 1678 "ePL_parser.ml" 59 1666 1703
+call(
+  stack
+)
+type(
+  string
+)
+"ePL_parser.ml" 60 1707 1710 "ePL_parser.ml" 60 1707 1713
+type(
+  string
+)
+ident(
+  int_ref str "ePL_parser.ml" 59 1666 1672 "ePL_parser.ml" 59 1666 1675
+)
+"ePL_parser.ml" 60 1707 1715 "ePL_parser.ml" 60 1707 1720
+type(
+  string -> EPL.ePL_expr
+)
+ident(
+  int_ref parse "ePL_parser.ml" 44 1283 1287 "ePL_parser.ml" 44 1283 1292
+)
+"ePL_parser.ml" 60 1707 1721 "ePL_parser.ml" 60 1707 1724
+type(
+  string
+)
+ident(
+  int_ref str "ePL_parser.ml" 59 1666 1672 "ePL_parser.ml" 59 1666 1675
+)
+"ePL_parser.ml" 60 1707 1715 "ePL_parser.ml" 60 1707 1724
+call(
+  stack
+)
+type(
+  EPL.ePL_expr
+)
+"ePL_parser.ml" 60 1707 1710 "ePL_parser.ml" 60 1707 1724
+type(
+  string * EPL.ePL_expr
+)
+"ePL_parser.ml" 59 1666 1668 "ePL_parser.ml" 60 1707 1725
+type(
+  string * EPL.ePL_expr
+)
+"ePL_parser.ml" 50 1436 1438 "ePL_parser.ml" 60 1707 1725
+type(
+  string * EPL.ePL_expr
+)
+type(
+  string * EPL.ePL_expr
+)
+"ePL_parser.ml" 49 1379 1394 "ePL_parser.ml" 60 1707 1725
+type(
+  string -> string * EPL.ePL_expr
+)

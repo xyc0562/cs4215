@@ -1,0 +1,8 @@
+Loading ePL program ..
+  1+2*3+4
+  as +[+[IntConst(1),*[IntConst(2),IntConst(3)]],IntConst(4)]
+Compiling ==> e5.evm
+[LDCI 1,LDCI 2,LDCI 3,TIMES,PLUS,LDCI 4,PLUS,DONE]
+Loading eVM code from ..e5.evm
+Loaded [LDCI 1,LDCI 2,LDCI 3,TIMES,PLUS,LDCI 4,PLUS,DONE]
+Executing ==> 11

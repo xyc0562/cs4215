@@ -1,0 +1,3257 @@
+"eVM_exec.ml" 5 71 75 "eVM_exec.ml" 5 71 94
+type(
+  EPL.eVML_inst list -> string
+)
+ident(
+  def string_of_eVML_list "eVM_exec.ml" 9 182 182 "eVM_exec.ml" 1 0 -1
+)
+"eVM_exec.ml" 5 71 96 "eVM_exec.ml" 5 71 98
+type(
+  EPL.eVML_inst list
+)
+ident(
+  def xs "eVM_exec.ml" 6 117 119 "eVM_exec.ml" 6 117 144
+)
+"eVM_exec.ml" 6 117 119 "eVM_exec.ml" 6 117 126
+type(
+  (EPL.eVML_inst -> string) -> EPL.eVML_inst list -> string
+)
+ident(
+  ext_ref EPL.pr_list
+)
+"eVM_exec.ml" 6 117 127 "eVM_exec.ml" 6 117 141
+type(
+  EPL.eVML_inst -> string
+)
+ident(
+  ext_ref EPL.string_of_eVML
+)
+"eVM_exec.ml" 6 117 142 "eVM_exec.ml" 6 117 144
+type(
+  EPL.eVML_inst list
+)
+ident(
+  int_ref xs "eVM_exec.ml" 5 71 96 "eVM_exec.ml" 5 71 98
+)
+"eVM_exec.ml" 6 117 119 "eVM_exec.ml" 6 117 144
+call(
+  tail
+)
+type(
+  string
+)
+"eVM_exec.ml" 9 182 186 "eVM_exec.ml" 9 182 199
+type(
+  string -> EPL.eVML_inst array
+)
+ident(
+  def read_bytecode "eVM_exec.ml" 15 406 406 "eVM_exec.ml" 1 0 -1
+)
+"eVM_exec.ml" 9 182 201 "eVM_exec.ml" 9 182 209
+type(
+  string
+)
+ident(
+  def filename "eVM_exec.ml" 9 182 218 "eVM_exec.ml" 12 322 360
+)
+"eVM_exec.ml" 10 239 245 "eVM_exec.ml" 10 239 255
+type(
+  in_channel
+)
+ident(
+  def in_channel "eVM_exec.ml" 11 282 284 "eVM_exec.ml" 12 322 360
+)
+"eVM_exec.ml" 10 239 258 "eVM_exec.ml" 10 239 269
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in_bin
+)
+"eVM_exec.ml" 10 239 270 "eVM_exec.ml" 10 239 278
+type(
+  string
+)
+ident(
+  int_ref filename "eVM_exec.ml" 9 182 201 "eVM_exec.ml" 9 182 209
+)
+"eVM_exec.ml" 10 239 258 "eVM_exec.ml" 10 239 278
+call(
+  stack
+)
+type(
+  in_channel
+)
+"eVM_exec.ml" 11 282 288 "eVM_exec.ml" 11 282 293
+type(
+  'a
+)
+ident(
+  def elist "eVM_exec.ml" 12 322 324 "eVM_exec.ml" 12 322 360
+)
+"eVM_exec.ml" 11 282 296 "eVM_exec.ml" 11 282 307
+type(
+  in_channel -> 'a
+)
+ident(
+  ext_ref Pervasives.input_value
+)
+"eVM_exec.ml" 11 282 308 "eVM_exec.ml" 11 282 318
+type(
+  in_channel
+)
+ident(
+  int_ref in_channel "eVM_exec.ml" 10 239 245 "eVM_exec.ml" 10 239 255
+)
+"eVM_exec.ml" 11 282 296 "eVM_exec.ml" 11 282 318
+call(
+  stack
+)
+type(
+  'a
+)
+"eVM_exec.ml" 12 322 328 "eVM_exec.ml" 12 322 329
+type(
+  unit
+)
+"eVM_exec.ml" 12 322 332 "eVM_exec.ml" 12 322 340
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"eVM_exec.ml" 12 322 341 "eVM_exec.ml" 12 322 351
+type(
+  in_channel
+)
+ident(
+  int_ref in_channel "eVM_exec.ml" 10 239 245 "eVM_exec.ml" 10 239 255
+)
+"eVM_exec.ml" 12 322 332 "eVM_exec.ml" 12 322 351
+call(
+  stack
+)
+type(
+  unit
+)
+"eVM_exec.ml" 12 322 355 "eVM_exec.ml" 12 322 360
+type(
+  EPL.eVML_inst array
+)
+ident(
+  int_ref elist "eVM_exec.ml" 11 282 288 "eVM_exec.ml" 11 282 293
+)
+"eVM_exec.ml" 12 322 324 "eVM_exec.ml" 12 322 360
+type(
+  EPL.eVML_inst array
+)
+"eVM_exec.ml" 11 282 284 "eVM_exec.ml" 12 322 360
+type(
+  EPL.eVML_inst array
+)
+"eVM_exec.ml" 10 239 241 "eVM_exec.ml" 12 322 360
+type(
+  EPL.eVML_inst array
+)
+type(
+  EPL.eVML_inst array
+)
+"eVM_exec.ml" 15 406 410 "eVM_exec.ml" 15 406 426
+type(
+  string -> unit
+)
+ident(
+  def testReadBytecode "eVM_exec.ml" 22 666 666 "eVM_exec.ml" 1 0 -1
+)
+"eVM_exec.ml" 15 406 427 "eVM_exec.ml" 15 406 435
+type(
+  string
+)
+ident(
+  def filename "eVM_exec.ml" 16 438 440 "eVM_exec.ml" 19 567 622
+)
+"eVM_exec.ml" 16 438 444 "eVM_exec.ml" 16 438 450
+type(
+  EPL.eVML_inst array
+)
+ident(
+  def earray "eVM_exec.ml" 17 479 481 "eVM_exec.ml" 19 567 622
+)
+"eVM_exec.ml" 16 438 453 "eVM_exec.ml" 16 438 466
+type(
+  string -> EPL.eVML_inst array
+)
+ident(
+  int_ref read_bytecode "eVM_exec.ml" 9 182 186 "eVM_exec.ml" 9 182 199
+)
+"eVM_exec.ml" 16 438 467 "eVM_exec.ml" 16 438 475
+type(
+  string
+)
+ident(
+  int_ref filename "eVM_exec.ml" 15 406 427 "eVM_exec.ml" 15 406 435
+)
+"eVM_exec.ml" 16 438 453 "eVM_exec.ml" 16 438 475
+call(
+  stack
+)
+type(
+  EPL.eVML_inst array
+)
+"eVM_exec.ml" 17 479 485 "eVM_exec.ml" 17 479 490
+type(
+  EPL.eVML_inst list
+)
+ident(
+  def elist "eVM_exec.ml" 18 517 519 "eVM_exec.ml" 19 567 622
+)
+"eVM_exec.ml" 17 479 493 "eVM_exec.ml" 17 479 506
+type(
+  EPL.eVML_inst array -> EPL.eVML_inst list
+)
+ident(
+  ext_ref Array.to_list
+)
+"eVM_exec.ml" 17 479 507 "eVM_exec.ml" 17 479 513
+type(
+  EPL.eVML_inst array
+)
+ident(
+  int_ref earray "eVM_exec.ml" 16 438 444 "eVM_exec.ml" 16 438 450
+)
+"eVM_exec.ml" 17 479 493 "eVM_exec.ml" 17 479 513
+call(
+  stack
+)
+type(
+  EPL.eVML_inst list
+)
+"eVM_exec.ml" 18 517 519 "eVM_exec.ml" 18 517 532
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"eVM_exec.ml" 18 517 534 "eVM_exec.ml" 18 517 555
+type(
+  string
+)
+"eVM_exec.ml" 18 517 555 "eVM_exec.ml" 18 517 556
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"eVM_exec.ml" 18 517 556 "eVM_exec.ml" 18 517 564
+type(
+  string
+)
+ident(
+  int_ref filename "eVM_exec.ml" 15 406 427 "eVM_exec.ml" 15 406 435
+)
+"eVM_exec.ml" 18 517 533 "eVM_exec.ml" 18 517 565
+call(
+  stack
+)
+type(
+  string
+)
+"eVM_exec.ml" 18 517 519 "eVM_exec.ml" 18 517 565
+call(
+  stack
+)
+type(
+  unit
+)
+"eVM_exec.ml" 19 567 569 "eVM_exec.ml" 19 567 582
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"eVM_exec.ml" 19 567 584 "eVM_exec.ml" 19 567 593
+type(
+  string
+)
+"eVM_exec.ml" 19 567 593 "eVM_exec.ml" 19 567 594
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"eVM_exec.ml" 19 567 595 "eVM_exec.ml" 19 567 614
+type(
+  EPL.eVML_inst list -> string
+)
+ident(
+  int_ref string_of_eVML_list "eVM_exec.ml" 5 71 75 "eVM_exec.ml" 5 71 94
+)
+"eVM_exec.ml" 19 567 615 "eVM_exec.ml" 19 567 620
+type(
+  EPL.eVML_inst list
+)
+ident(
+  int_ref elist "eVM_exec.ml" 17 479 485 "eVM_exec.ml" 17 479 490
+)
+"eVM_exec.ml" 19 567 594 "eVM_exec.ml" 19 567 621
+call(
+  stack
+)
+type(
+  string
+)
+"eVM_exec.ml" 19 567 583 "eVM_exec.ml" 19 567 622
+call(
+  stack
+)
+type(
+  string
+)
+"eVM_exec.ml" 19 567 569 "eVM_exec.ml" 19 567 622
+call(
+  tail
+)
+type(
+  unit
+)
+"eVM_exec.ml" 18 517 519 "eVM_exec.ml" 19 567 622
+type(
+  unit
+)
+"eVM_exec.ml" 17 479 481 "eVM_exec.ml" 19 567 622
+type(
+  unit
+)
+"eVM_exec.ml" 16 438 440 "eVM_exec.ml" 19 567 622
+type(
+  unit
+)
+"eVM_exec.ml" 22 666 670 "eVM_exec.ml" 22 666 684
+type(
+  EPL.eVML_inst -> int -> int -> int
+)
+ident(
+  def binary_operate "eVM_exec.ml" 36 1086 1086 "eVM_exec.ml" 1 0 -1
+)
+"eVM_exec.ml" 22 666 686 "eVM_exec.ml" 22 666 687
+type(
+  EPL.eVML_inst
+)
+ident(
+  def c "eVM_exec.ml" 22 666 699 "eVM_exec.ml" 34 1050 1084
+)
+"eVM_exec.ml" 22 666 700 "eVM_exec.ml" 22 666 702
+type(
+  int
+)
+ident(
+  def a1 "eVM_exec.ml" 22 666 708 "eVM_exec.ml" 34 1050 1084
+)
+"eVM_exec.ml" 22 666 709 "eVM_exec.ml" 22 666 711
+type(
+  int
+)
+ident(
+  def a2 "eVM_exec.ml" 22 666 717 "eVM_exec.ml" 34 1050 1084
+)
+"eVM_exec.ml" 23 725 731 "eVM_exec.ml" 23 725 741
+type(
+  bool -> int
+)
+ident(
+  def trans_bool "eVM_exec.ml" 24 768 772 "eVM_exec.ml" 34 1050 1084
+)
+"eVM_exec.ml" 23 725 742 "eVM_exec.ml" 23 725 743
+type(
+  bool
+)
+ident(
+  def x "eVM_exec.ml" 23 725 746 "eVM_exec.ml" 23 725 764
+)
+"eVM_exec.ml" 23 725 749 "eVM_exec.ml" 23 725 750
+type(
+  bool
+)
+ident(
+  int_ref x "eVM_exec.ml" 23 725 742 "eVM_exec.ml" 23 725 743
+)
+"eVM_exec.ml" 23 725 756 "eVM_exec.ml" 23 725 757
+type(
+  int
+)
+"eVM_exec.ml" 23 725 763 "eVM_exec.ml" 23 725 764
+type(
+  int
+)
+"eVM_exec.ml" 23 725 746 "eVM_exec.ml" 23 725 764
+type(
+  int
+)
+"eVM_exec.ml" 24 768 778 "eVM_exec.ml" 24 768 779
+type(
+  EPL.eVML_inst
+)
+ident(
+  int_ref c "eVM_exec.ml" 22 666 686 "eVM_exec.ml" 22 666 687
+)
+"eVM_exec.ml" 25 785 791 "eVM_exec.ml" 25 785 795
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 25 785 799 "eVM_exec.ml" 25 785 801
+type(
+  int
+)
+ident(
+  int_ref a1 "eVM_exec.ml" 22 666 700 "eVM_exec.ml" 22 666 702
+)
+"eVM_exec.ml" 25 785 801 "eVM_exec.ml" 25 785 802
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"eVM_exec.ml" 25 785 802 "eVM_exec.ml" 25 785 804
+type(
+  int
+)
+ident(
+  int_ref a2 "eVM_exec.ml" 22 666 709 "eVM_exec.ml" 22 666 711
+)
+"eVM_exec.ml" 25 785 799 "eVM_exec.ml" 25 785 804
+type(
+  int
+)
+"eVM_exec.ml" 26 805 811 "eVM_exec.ml" 26 805 816
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 26 805 820 "eVM_exec.ml" 26 805 822
+type(
+  int
+)
+ident(
+  int_ref a1 "eVM_exec.ml" 22 666 700 "eVM_exec.ml" 22 666 702
+)
+"eVM_exec.ml" 26 805 822 "eVM_exec.ml" 26 805 823
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"eVM_exec.ml" 26 805 823 "eVM_exec.ml" 26 805 825
+type(
+  int
+)
+ident(
+  int_ref a2 "eVM_exec.ml" 22 666 709 "eVM_exec.ml" 22 666 711
+)
+"eVM_exec.ml" 26 805 820 "eVM_exec.ml" 26 805 825
+type(
+  int
+)
+"eVM_exec.ml" 27 826 832 "eVM_exec.ml" 27 826 837
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 27 826 841 "eVM_exec.ml" 27 826 843
+type(
+  int
+)
+ident(
+  int_ref a1 "eVM_exec.ml" 22 666 700 "eVM_exec.ml" 22 666 702
+)
+"eVM_exec.ml" 27 826 843 "eVM_exec.ml" 27 826 844
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"eVM_exec.ml" 27 826 844 "eVM_exec.ml" 27 826 846
+type(
+  int
+)
+ident(
+  int_ref a2 "eVM_exec.ml" 22 666 709 "eVM_exec.ml" 22 666 711
+)
+"eVM_exec.ml" 27 826 841 "eVM_exec.ml" 27 826 846
+type(
+  int
+)
+"eVM_exec.ml" 28 847 853 "eVM_exec.ml" 28 847 856
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 28 847 860 "eVM_exec.ml" 28 847 862
+type(
+  int
+)
+ident(
+  int_ref a1 "eVM_exec.ml" 22 666 700 "eVM_exec.ml" 22 666 702
+)
+"eVM_exec.ml" 28 847 862 "eVM_exec.ml" 28 847 863
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"eVM_exec.ml" 28 847 863 "eVM_exec.ml" 28 847 865
+type(
+  int
+)
+ident(
+  int_ref a2 "eVM_exec.ml" 22 666 709 "eVM_exec.ml" 22 666 711
+)
+"eVM_exec.ml" 28 847 860 "eVM_exec.ml" 28 847 865
+type(
+  int
+)
+"eVM_exec.ml" 29 866 872 "eVM_exec.ml" 29 866 874
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 29 866 878 "eVM_exec.ml" 29 866 888
+type(
+  bool -> int
+)
+ident(
+  int_ref trans_bool "eVM_exec.ml" 23 725 731 "eVM_exec.ml" 23 725 741
+)
+"eVM_exec.ml" 29 866 890 "eVM_exec.ml" 29 866 892
+type(
+  int
+)
+ident(
+  int_ref a1 "eVM_exec.ml" 22 666 700 "eVM_exec.ml" 22 666 702
+)
+"eVM_exec.ml" 29 866 893 "eVM_exec.ml" 29 866 895
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"eVM_exec.ml" 29 866 896 "eVM_exec.ml" 29 866 897
+type(
+  int
+)
+"eVM_exec.ml" 29 866 890 "eVM_exec.ml" 29 866 897
+type(
+  bool
+)
+"eVM_exec.ml" 29 866 898 "eVM_exec.ml" 29 866 900
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"eVM_exec.ml" 29 866 901 "eVM_exec.ml" 29 866 903
+type(
+  int
+)
+ident(
+  int_ref a2 "eVM_exec.ml" 22 666 709 "eVM_exec.ml" 22 666 711
+)
+"eVM_exec.ml" 29 866 904 "eVM_exec.ml" 29 866 906
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"eVM_exec.ml" 29 866 907 "eVM_exec.ml" 29 866 908
+type(
+  int
+)
+"eVM_exec.ml" 29 866 901 "eVM_exec.ml" 29 866 908
+type(
+  bool
+)
+"eVM_exec.ml" 29 866 889 "eVM_exec.ml" 29 866 909
+type(
+  bool
+)
+"eVM_exec.ml" 29 866 878 "eVM_exec.ml" 29 866 909
+call(
+  tail
+)
+type(
+  int
+)
+"eVM_exec.ml" 30 910 916 "eVM_exec.ml" 30 910 919
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 30 910 923 "eVM_exec.ml" 30 910 933
+type(
+  bool -> int
+)
+ident(
+  int_ref trans_bool "eVM_exec.ml" 23 725 731 "eVM_exec.ml" 23 725 741
+)
+"eVM_exec.ml" 30 910 935 "eVM_exec.ml" 30 910 937
+type(
+  int
+)
+ident(
+  int_ref a1 "eVM_exec.ml" 22 666 700 "eVM_exec.ml" 22 666 702
+)
+"eVM_exec.ml" 30 910 938 "eVM_exec.ml" 30 910 940
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"eVM_exec.ml" 30 910 941 "eVM_exec.ml" 30 910 942
+type(
+  int
+)
+"eVM_exec.ml" 30 910 935 "eVM_exec.ml" 30 910 942
+type(
+  bool
+)
+"eVM_exec.ml" 30 910 943 "eVM_exec.ml" 30 910 945
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"eVM_exec.ml" 30 910 946 "eVM_exec.ml" 30 910 948
+type(
+  int
+)
+ident(
+  int_ref a2 "eVM_exec.ml" 22 666 709 "eVM_exec.ml" 22 666 711
+)
+"eVM_exec.ml" 30 910 949 "eVM_exec.ml" 30 910 951
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"eVM_exec.ml" 30 910 952 "eVM_exec.ml" 30 910 953
+type(
+  int
+)
+"eVM_exec.ml" 30 910 946 "eVM_exec.ml" 30 910 953
+type(
+  bool
+)
+"eVM_exec.ml" 30 910 934 "eVM_exec.ml" 30 910 954
+type(
+  bool
+)
+"eVM_exec.ml" 30 910 923 "eVM_exec.ml" 30 910 954
+call(
+  tail
+)
+type(
+  int
+)
+"eVM_exec.ml" 31 956 962 "eVM_exec.ml" 31 956 964
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 31 956 968 "eVM_exec.ml" 31 956 978
+type(
+  bool -> int
+)
+ident(
+  int_ref trans_bool "eVM_exec.ml" 23 725 731 "eVM_exec.ml" 23 725 741
+)
+"eVM_exec.ml" 31 956 980 "eVM_exec.ml" 31 956 982
+type(
+  int
+)
+ident(
+  int_ref a1 "eVM_exec.ml" 22 666 700 "eVM_exec.ml" 22 666 702
+)
+"eVM_exec.ml" 31 956 982 "eVM_exec.ml" 31 956 984
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"eVM_exec.ml" 31 956 984 "eVM_exec.ml" 31 956 986
+type(
+  int
+)
+ident(
+  int_ref a2 "eVM_exec.ml" 22 666 709 "eVM_exec.ml" 22 666 711
+)
+"eVM_exec.ml" 31 956 979 "eVM_exec.ml" 31 956 987
+type(
+  bool
+)
+"eVM_exec.ml" 31 956 968 "eVM_exec.ml" 31 956 987
+call(
+  tail
+)
+type(
+  int
+)
+"eVM_exec.ml" 32 988 994 "eVM_exec.ml" 32 988 996
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 32 988 1000 "eVM_exec.ml" 32 988 1010
+type(
+  bool -> int
+)
+ident(
+  int_ref trans_bool "eVM_exec.ml" 23 725 731 "eVM_exec.ml" 23 725 741
+)
+"eVM_exec.ml" 32 988 1012 "eVM_exec.ml" 32 988 1014
+type(
+  int
+)
+ident(
+  int_ref a1 "eVM_exec.ml" 22 666 700 "eVM_exec.ml" 22 666 702
+)
+"eVM_exec.ml" 32 988 1014 "eVM_exec.ml" 32 988 1015
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"eVM_exec.ml" 32 988 1015 "eVM_exec.ml" 32 988 1017
+type(
+  int
+)
+ident(
+  int_ref a2 "eVM_exec.ml" 22 666 709 "eVM_exec.ml" 22 666 711
+)
+"eVM_exec.ml" 32 988 1011 "eVM_exec.ml" 32 988 1018
+type(
+  bool
+)
+"eVM_exec.ml" 32 988 1000 "eVM_exec.ml" 32 988 1018
+call(
+  tail
+)
+type(
+  int
+)
+"eVM_exec.ml" 33 1019 1025 "eVM_exec.ml" 33 1019 1027
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 33 1019 1031 "eVM_exec.ml" 33 1019 1041
+type(
+  bool -> int
+)
+ident(
+  int_ref trans_bool "eVM_exec.ml" 23 725 731 "eVM_exec.ml" 23 725 741
+)
+"eVM_exec.ml" 33 1019 1043 "eVM_exec.ml" 33 1019 1045
+type(
+  int
+)
+ident(
+  int_ref a1 "eVM_exec.ml" 22 666 700 "eVM_exec.ml" 22 666 702
+)
+"eVM_exec.ml" 33 1019 1045 "eVM_exec.ml" 33 1019 1046
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"eVM_exec.ml" 33 1019 1046 "eVM_exec.ml" 33 1019 1048
+type(
+  int
+)
+ident(
+  int_ref a2 "eVM_exec.ml" 22 666 709 "eVM_exec.ml" 22 666 711
+)
+"eVM_exec.ml" 33 1019 1042 "eVM_exec.ml" 33 1019 1049
+type(
+  bool
+)
+"eVM_exec.ml" 33 1019 1031 "eVM_exec.ml" 33 1019 1049
+call(
+  tail
+)
+type(
+  int
+)
+"eVM_exec.ml" 34 1050 1056 "eVM_exec.ml" 34 1050 1057
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 34 1050 1061 "eVM_exec.ml" 34 1050 1069
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"eVM_exec.ml" 34 1050 1070 "eVM_exec.ml" 34 1050 1084
+type(
+  string
+)
+"eVM_exec.ml" 34 1050 1061 "eVM_exec.ml" 34 1050 1084
+call(
+  tail
+)
+type(
+  int
+)
+"eVM_exec.ml" 24 768 772 "eVM_exec.ml" 34 1050 1084
+type(
+  int
+)
+"eVM_exec.ml" 23 725 727 "eVM_exec.ml" 34 1050 1084
+type(
+  int
+)
+type(
+  int
+)
+"eVM_exec.ml" 36 1086 1090 "eVM_exec.ml" 36 1086 1104
+type(
+  EPL.eVML_inst -> int -> int -> int
+)
+ident(
+  def binary_operate "eVM_exec.ml" 42 1315 1315 "eVM_exec.ml" 1 0 -1
+)
+"eVM_exec.ml" 36 1086 1106 "eVM_exec.ml" 36 1086 1107
+type(
+  EPL.eVML_inst
+)
+ident(
+  def c "eVM_exec.ml" 36 1086 1119 "eVM_exec.ml" 39 1204 1272
+)
+"eVM_exec.ml" 36 1086 1120 "eVM_exec.ml" 36 1086 1122
+type(
+  int
+)
+ident(
+  def a1 "eVM_exec.ml" 36 1086 1128 "eVM_exec.ml" 39 1204 1272
+)
+"eVM_exec.ml" 36 1086 1129 "eVM_exec.ml" 36 1086 1131
+type(
+  int
+)
+ident(
+  def a2 "eVM_exec.ml" 36 1086 1137 "eVM_exec.ml" 39 1204 1272
+)
+"eVM_exec.ml" 37 1145 1151 "eVM_exec.ml" 37 1145 1154
+type(
+  EPL.eVML_inst -> string
+)
+ident(
+  def pr1 "eVM_exec.ml" 38 1175 1177 "eVM_exec.ml" 39 1204 1272
+)
+"eVM_exec.ml" 37 1145 1157 "eVM_exec.ml" 37 1145 1171
+type(
+  EPL.eVML_inst -> string
+)
+ident(
+  ext_ref EPL.string_of_eVML
+)
+"eVM_exec.ml" 38 1175 1181 "eVM_exec.ml" 38 1175 1184
+type(
+  int -> string
+)
+ident(
+  def pr2 "eVM_exec.ml" 39 1204 1206 "eVM_exec.ml" 39 1204 1272
+)
+"eVM_exec.ml" 38 1175 1187 "eVM_exec.ml" 38 1175 1200
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"eVM_exec.ml" 39 1204 1206 "eVM_exec.ml" 39 1204 1216
+type(
+  string ->
+  (EPL.eVML_inst -> string) ->
+  (int -> string) ->
+  (int -> string) ->
+  (int -> string) ->
+  (EPL.eVML_inst -> int -> int -> int) -> EPL.eVML_inst -> int -> int -> int
+)
+ident(
+  ext_ref Debug.no_3
+)
+"eVM_exec.ml" 39 1204 1217 "eVM_exec.ml" 39 1204 1233
+type(
+  string
+)
+"eVM_exec.ml" 39 1204 1234 "eVM_exec.ml" 39 1204 1237
+type(
+  EPL.eVML_inst -> string
+)
+ident(
+  int_ref pr1 "eVM_exec.ml" 37 1145 1151 "eVM_exec.ml" 37 1145 1154
+)
+"eVM_exec.ml" 39 1204 1238 "eVM_exec.ml" 39 1204 1241
+type(
+  int -> string
+)
+ident(
+  int_ref pr2 "eVM_exec.ml" 38 1175 1181 "eVM_exec.ml" 38 1175 1184
+)
+"eVM_exec.ml" 39 1204 1242 "eVM_exec.ml" 39 1204 1245
+type(
+  int -> string
+)
+ident(
+  int_ref pr2 "eVM_exec.ml" 38 1175 1181 "eVM_exec.ml" 38 1175 1184
+)
+"eVM_exec.ml" 39 1204 1246 "eVM_exec.ml" 39 1204 1249
+type(
+  int -> string
+)
+ident(
+  int_ref pr2 "eVM_exec.ml" 38 1175 1181 "eVM_exec.ml" 38 1175 1184
+)
+"eVM_exec.ml" 39 1204 1250 "eVM_exec.ml" 39 1204 1264
+type(
+  EPL.eVML_inst -> int -> int -> int
+)
+ident(
+  int_ref binary_operate "eVM_exec.ml" 22 666 670 "eVM_exec.ml" 22 666 684
+)
+"eVM_exec.ml" 39 1204 1265 "eVM_exec.ml" 39 1204 1266
+type(
+  EPL.eVML_inst
+)
+ident(
+  int_ref c "eVM_exec.ml" 36 1086 1106 "eVM_exec.ml" 36 1086 1107
+)
+"eVM_exec.ml" 39 1204 1267 "eVM_exec.ml" 39 1204 1269
+type(
+  int
+)
+ident(
+  int_ref a1 "eVM_exec.ml" 36 1086 1120 "eVM_exec.ml" 36 1086 1122
+)
+"eVM_exec.ml" 39 1204 1270 "eVM_exec.ml" 39 1204 1272
+type(
+  int
+)
+ident(
+  int_ref a2 "eVM_exec.ml" 36 1086 1129 "eVM_exec.ml" 36 1086 1131
+)
+"eVM_exec.ml" 39 1204 1206 "eVM_exec.ml" 39 1204 1272
+call(
+  tail
+)
+type(
+  int
+)
+"eVM_exec.ml" 38 1175 1177 "eVM_exec.ml" 39 1204 1272
+type(
+  int
+)
+"eVM_exec.ml" 37 1145 1147 "eVM_exec.ml" 39 1204 1272
+type(
+  int
+)
+type(
+  int
+)
+"eVM_exec.ml" 42 1315 1319 "eVM_exec.ml" 42 1315 1332
+type(
+  EPL.eVML_inst -> int -> int
+)
+ident(
+  def unary_operate "eVM_exec.ml" 48 1464 1464 "eVM_exec.ml" 1 0 -1
+)
+"eVM_exec.ml" 42 1315 1334 "eVM_exec.ml" 42 1315 1335
+type(
+  EPL.eVML_inst
+)
+ident(
+  def c "eVM_exec.ml" 42 1315 1347 "eVM_exec.ml" 46 1430 1462
+)
+"eVM_exec.ml" 42 1315 1348 "eVM_exec.ml" 42 1315 1350
+type(
+  int
+)
+ident(
+  def a1 "eVM_exec.ml" 42 1315 1356 "eVM_exec.ml" 46 1430 1462
+)
+"eVM_exec.ml" 43 1364 1372 "eVM_exec.ml" 43 1364 1373
+type(
+  EPL.eVML_inst
+)
+ident(
+  int_ref c "eVM_exec.ml" 42 1315 1334 "eVM_exec.ml" 42 1315 1335
+)
+"eVM_exec.ml" 44 1379 1383 "eVM_exec.ml" 44 1379 1386
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 44 1379 1390 "eVM_exec.ml" 44 1379 1391
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"eVM_exec.ml" 44 1379 1391 "eVM_exec.ml" 44 1379 1393
+type(
+  int
+)
+ident(
+  int_ref a1 "eVM_exec.ml" 42 1315 1348 "eVM_exec.ml" 42 1315 1350
+)
+"eVM_exec.ml" 44 1379 1390 "eVM_exec.ml" 44 1379 1393
+type(
+  int
+)
+"eVM_exec.ml" 45 1394 1398 "eVM_exec.ml" 45 1394 1401
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 45 1394 1408 "eVM_exec.ml" 45 1394 1410
+type(
+  int
+)
+ident(
+  int_ref a1 "eVM_exec.ml" 42 1315 1348 "eVM_exec.ml" 42 1315 1350
+)
+"eVM_exec.ml" 45 1394 1411 "eVM_exec.ml" 45 1394 1413
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"eVM_exec.ml" 45 1394 1414 "eVM_exec.ml" 45 1394 1415
+type(
+  int
+)
+"eVM_exec.ml" 45 1394 1408 "eVM_exec.ml" 45 1394 1415
+type(
+  bool
+)
+"eVM_exec.ml" 45 1394 1421 "eVM_exec.ml" 45 1394 1422
+type(
+  int
+)
+"eVM_exec.ml" 45 1394 1428 "eVM_exec.ml" 45 1394 1429
+type(
+  int
+)
+"eVM_exec.ml" 45 1394 1405 "eVM_exec.ml" 45 1394 1429
+type(
+  int
+)
+"eVM_exec.ml" 46 1430 1434 "eVM_exec.ml" 46 1430 1435
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 46 1430 1439 "eVM_exec.ml" 46 1430 1447
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"eVM_exec.ml" 46 1430 1448 "eVM_exec.ml" 46 1430 1462
+type(
+  string
+)
+"eVM_exec.ml" 46 1430 1439 "eVM_exec.ml" 46 1430 1462
+call(
+  tail
+)
+type(
+  int
+)
+"eVM_exec.ml" 43 1364 1366 "eVM_exec.ml" 46 1430 1462
+type(
+  int
+)
+type(
+  int
+)
+"eVM_exec.ml" 48 1464 1468 "eVM_exec.ml" 48 1464 1481
+type(
+  EPL.eVML_inst -> int -> int
+)
+ident(
+  def unary_operate "eVM_exec.ml" 55 1707 1707 "eVM_exec.ml" 1 0 -1
+)
+"eVM_exec.ml" 48 1464 1483 "eVM_exec.ml" 48 1464 1484
+type(
+  EPL.eVML_inst
+)
+ident(
+  def c "eVM_exec.ml" 48 1464 1496 "eVM_exec.ml" 51 1572 1631
+)
+"eVM_exec.ml" 48 1464 1497 "eVM_exec.ml" 48 1464 1499
+type(
+  int
+)
+ident(
+  def a1 "eVM_exec.ml" 48 1464 1505 "eVM_exec.ml" 51 1572 1631
+)
+"eVM_exec.ml" 49 1513 1519 "eVM_exec.ml" 49 1513 1522
+type(
+  EPL.eVML_inst -> string
+)
+ident(
+  def pr1 "eVM_exec.ml" 50 1543 1545 "eVM_exec.ml" 51 1572 1631
+)
+"eVM_exec.ml" 49 1513 1525 "eVM_exec.ml" 49 1513 1539
+type(
+  EPL.eVML_inst -> string
+)
+ident(
+  ext_ref EPL.string_of_eVML
+)
+"eVM_exec.ml" 50 1543 1549 "eVM_exec.ml" 50 1543 1552
+type(
+  int -> string
+)
+ident(
+  def pr2 "eVM_exec.ml" 51 1572 1574 "eVM_exec.ml" 51 1572 1631
+)
+"eVM_exec.ml" 50 1543 1555 "eVM_exec.ml" 50 1543 1568
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"eVM_exec.ml" 51 1572 1574 "eVM_exec.ml" 51 1572 1584
+type(
+  string ->
+  (EPL.eVML_inst -> string) ->
+  (int -> string) ->
+  (int -> string) ->
+  (EPL.eVML_inst -> int -> int) -> EPL.eVML_inst -> int -> int
+)
+ident(
+  ext_ref Debug.no_2
+)
+"eVM_exec.ml" 51 1572 1585 "eVM_exec.ml" 51 1572 1600
+type(
+  string
+)
+"eVM_exec.ml" 51 1572 1601 "eVM_exec.ml" 51 1572 1604
+type(
+  EPL.eVML_inst -> string
+)
+ident(
+  int_ref pr1 "eVM_exec.ml" 49 1513 1519 "eVM_exec.ml" 49 1513 1522
+)
+"eVM_exec.ml" 51 1572 1605 "eVM_exec.ml" 51 1572 1608
+type(
+  int -> string
+)
+ident(
+  int_ref pr2 "eVM_exec.ml" 50 1543 1549 "eVM_exec.ml" 50 1543 1552
+)
+"eVM_exec.ml" 51 1572 1609 "eVM_exec.ml" 51 1572 1612
+type(
+  int -> string
+)
+ident(
+  int_ref pr2 "eVM_exec.ml" 50 1543 1549 "eVM_exec.ml" 50 1543 1552
+)
+"eVM_exec.ml" 51 1572 1613 "eVM_exec.ml" 51 1572 1626
+type(
+  EPL.eVML_inst -> int -> int
+)
+ident(
+  int_ref unary_operate "eVM_exec.ml" 42 1315 1319 "eVM_exec.ml" 42 1315 1332
+)
+"eVM_exec.ml" 51 1572 1627 "eVM_exec.ml" 51 1572 1628
+type(
+  EPL.eVML_inst
+)
+ident(
+  int_ref c "eVM_exec.ml" 48 1464 1483 "eVM_exec.ml" 48 1464 1484
+)
+"eVM_exec.ml" 51 1572 1629 "eVM_exec.ml" 51 1572 1631
+type(
+  int
+)
+ident(
+  int_ref a1 "eVM_exec.ml" 48 1464 1497 "eVM_exec.ml" 48 1464 1499
+)
+"eVM_exec.ml" 51 1572 1574 "eVM_exec.ml" 51 1572 1631
+call(
+  tail
+)
+type(
+  int
+)
+"eVM_exec.ml" 50 1543 1545 "eVM_exec.ml" 51 1572 1631
+type(
+  int
+)
+"eVM_exec.ml" 49 1513 1515 "eVM_exec.ml" 51 1572 1631
+type(
+  int
+)
+type(
+  int
+)
+"eVM_exec.ml" 55 1707 1711 "eVM_exec.ml" 55 1707 1720
+type(
+  int Stack.t -> EPL.eVML_inst -> unit
+)
+ident(
+  def proc_inst "eVM_exec.ml" 72 2546 2546 "eVM_exec.ml" 1 0 -1
+)
+"eVM_exec.ml" 55 1707 1722 "eVM_exec.ml" 55 1707 1725
+type(
+  int Stack.t
+)
+ident(
+  def stk "eVM_exec.ml" 55 1707 1739 "eVM_exec.ml" 68 2463 2479
+)
+"eVM_exec.ml" 55 1707 1740 "eVM_exec.ml" 55 1707 1741
+type(
+  EPL.eVML_inst
+)
+ident(
+  def c "eVM_exec.ml" 55 1707 1753 "eVM_exec.ml" 68 2463 2479
+)
+"eVM_exec.ml" 56 1762 1770 "eVM_exec.ml" 56 1762 1771
+type(
+  EPL.eVML_inst
+)
+ident(
+  int_ref c "eVM_exec.ml" 55 1707 1740 "eVM_exec.ml" 55 1707 1741
+)
+"eVM_exec.ml" 57 1777 1788 "eVM_exec.ml" 57 1777 1789
+type(
+  int
+)
+ident(
+  def i "eVM_exec.ml" 57 1777 1793 "eVM_exec.ml" 57 1777 1809
+)
+"eVM_exec.ml" 57 1777 1783 "eVM_exec.ml" 57 1777 1789
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 57 1777 1793 "eVM_exec.ml" 57 1777 1803
+type(
+  int -> int Stack.t -> unit
+)
+ident(
+  ext_ref Stack.push
+)
+"eVM_exec.ml" 57 1777 1804 "eVM_exec.ml" 57 1777 1805
+type(
+  int
+)
+ident(
+  int_ref i "eVM_exec.ml" 57 1777 1788 "eVM_exec.ml" 57 1777 1789
+)
+"eVM_exec.ml" 57 1777 1806 "eVM_exec.ml" 57 1777 1809
+type(
+  int Stack.t
+)
+ident(
+  int_ref stk "eVM_exec.ml" 55 1707 1722 "eVM_exec.ml" 55 1707 1725
+)
+"eVM_exec.ml" 57 1777 1793 "eVM_exec.ml" 57 1777 1809
+call(
+  tail
+)
+type(
+  unit
+)
+"eVM_exec.ml" 58 1810 1821 "eVM_exec.ml" 58 1810 1822
+type(
+  int
+)
+ident(
+  def i "eVM_exec.ml" 58 1810 1826 "eVM_exec.ml" 58 1810 1842
+)
+"eVM_exec.ml" 58 1810 1816 "eVM_exec.ml" 58 1810 1822
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 58 1810 1826 "eVM_exec.ml" 58 1810 1836
+type(
+  int -> int Stack.t -> unit
+)
+ident(
+  ext_ref Stack.push
+)
+"eVM_exec.ml" 58 1810 1837 "eVM_exec.ml" 58 1810 1838
+type(
+  int
+)
+ident(
+  int_ref i "eVM_exec.ml" 58 1810 1821 "eVM_exec.ml" 58 1810 1822
+)
+"eVM_exec.ml" 58 1810 1839 "eVM_exec.ml" 58 1810 1842
+type(
+  int Stack.t
+)
+ident(
+  int_ref stk "eVM_exec.ml" 55 1707 1722 "eVM_exec.ml" 55 1707 1725
+)
+"eVM_exec.ml" 58 1810 1826 "eVM_exec.ml" 58 1810 1842
+type(
+  unit
+)
+"eVM_exec.ml" 59 1843 1849 "eVM_exec.ml" 59 1843 1853
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 59 1843 1856 "eVM_exec.ml" 59 1843 1861
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 59 1843 1849 "eVM_exec.ml" 59 1843 1861
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 59 1843 1864 "eVM_exec.ml" 59 1843 1869
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 59 1843 1849 "eVM_exec.ml" 59 1843 1869
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 59 1843 1872 "eVM_exec.ml" 59 1843 1875
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 59 1843 1849 "eVM_exec.ml" 59 1843 1875
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 59 1843 1878 "eVM_exec.ml" 59 1843 1881
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 59 1843 1849 "eVM_exec.ml" 59 1843 1881
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 59 1843 1884 "eVM_exec.ml" 59 1843 1886
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 59 1843 1849 "eVM_exec.ml" 59 1843 1886
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 60 1888 1894 "eVM_exec.ml" 60 1888 1896
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 59 1843 1849 "eVM_exec.ml" 60 1888 1896
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 60 1888 1899 "eVM_exec.ml" 60 1888 1901
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 59 1843 1849 "eVM_exec.ml" 60 1888 1901
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 60 1888 1904 "eVM_exec.ml" 60 1888 1906
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 59 1843 1849 "eVM_exec.ml" 60 1888 1906
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 62 1921 1935 "eVM_exec.ml" 62 1921 1937
+type(
+  int
+)
+ident(
+  def a2 "eVM_exec.ml" 63 1957 1967 "eVM_exec.ml" 64 2146 2201
+)
+"eVM_exec.ml" 62 1921 1940 "eVM_exec.ml" 62 1921 1949
+type(
+  int Stack.t -> int
+)
+ident(
+  ext_ref Stack.pop
+)
+"eVM_exec.ml" 62 1921 1950 "eVM_exec.ml" 62 1921 1953
+type(
+  int Stack.t
+)
+ident(
+  int_ref stk "eVM_exec.ml" 55 1707 1722 "eVM_exec.ml" 55 1707 1725
+)
+"eVM_exec.ml" 62 1921 1940 "eVM_exec.ml" 62 1921 1953
+call(
+  stack
+)
+type(
+  int
+)
+"eVM_exec.ml" 63 1957 1971 "eVM_exec.ml" 63 1957 1973
+type(
+  int
+)
+ident(
+  def a1 "eVM_exec.ml" 64 1993 2003 "eVM_exec.ml" 64 2146 2201
+)
+"eVM_exec.ml" 63 1957 1976 "eVM_exec.ml" 63 1957 1985
+type(
+  int Stack.t -> int
+)
+ident(
+  ext_ref Stack.pop
+)
+"eVM_exec.ml" 63 1957 1986 "eVM_exec.ml" 63 1957 1989
+type(
+  int Stack.t
+)
+ident(
+  int_ref stk "eVM_exec.ml" 55 1707 1722 "eVM_exec.ml" 55 1707 1725
+)
+"eVM_exec.ml" 63 1957 1976 "eVM_exec.ml" 63 1957 1989
+call(
+  stack
+)
+type(
+  int
+)
+"eVM_exec.ml" 64 1993 2003 "eVM_exec.ml" 64 1993 2013
+type(
+  int -> int Stack.t -> unit
+)
+ident(
+  ext_ref Stack.push
+)
+"eVM_exec.ml" 64 2021 2049 "eVM_exec.ml" 64 2021 2050
+type(
+  EPL.eVML_inst -> int -> int -> int
+)
+ident(
+  def f "eVM_exec.ml" 64 2021 2051 "eVM_exec.ml" 64 2021 2137
+)
+"eVM_exec.ml" 64 2021 2051 "eVM_exec.ml" 64 2021 2052
+type(
+  EPL.eVML_inst
+)
+ident(
+  def x "eVM_exec.ml" 64 2021 2053 "eVM_exec.ml" 64 2021 2137
+)
+"eVM_exec.ml" 64 2021 2053 "eVM_exec.ml" 64 2021 2054
+type(
+  int
+)
+ident(
+  def y "eVM_exec.ml" 64 2021 2058 "eVM_exec.ml" 64 2021 2137
+)
+"eVM_exec.ml" 64 2021 2062 "eVM_exec.ml" 64 2021 2064
+type(
+  unit
+)
+"eVM_exec.ml" 64 2021 2067 "eVM_exec.ml" 64 2021 2085
+type(
+  (string -> int -> unit) -> string -> int -> unit
+)
+ident(
+  ext_ref Debug.wrap_z_debug
+)
+"eVM_exec.ml" 64 2021 2086 "eVM_exec.ml" 64 2021 2106
+type(
+  string -> int -> unit
+)
+ident(
+  ext_ref VarGen.store_loc_str
+)
+"eVM_exec.ml" 64 2021 2109 "eVM_exec.ml" 64 2021 2122
+type(
+  string
+)
+"eVM_exec.ml" 64 2021 2125 "eVM_exec.ml" 64 2021 2127
+type(
+  int
+)
+"eVM_exec.ml" 64 2021 2067 "eVM_exec.ml" 64 2021 2127
+call(
+  stack
+)
+type(
+  unit
+)
+"eVM_exec.ml" 64 2021 2132 "eVM_exec.ml" 64 2021 2133
+type(
+  EPL.eVML_inst -> int -> int -> int
+)
+ident(
+  int_ref f "eVM_exec.ml" 64 2021 2049 "eVM_exec.ml" 64 2021 2050
+)
+"eVM_exec.ml" 64 2021 2134 "eVM_exec.ml" 64 2021 2135
+type(
+  EPL.eVML_inst
+)
+ident(
+  int_ref x "eVM_exec.ml" 64 2021 2051 "eVM_exec.ml" 64 2021 2052
+)
+"eVM_exec.ml" 64 2021 2136 "eVM_exec.ml" 64 2021 2137
+type(
+  int
+)
+ident(
+  int_ref y "eVM_exec.ml" 64 2021 2053 "eVM_exec.ml" 64 2021 2054
+)
+"eVM_exec.ml" 64 2021 2132 "eVM_exec.ml" 64 2021 2137
+call(
+  tail
+)
+type(
+  int -> int
+)
+"eVM_exec.ml" 64 2021 2058 "eVM_exec.ml" 64 2021 2137
+type(
+  int -> int
+)
+"eVM_exec.ml" 64 2021 2044 "eVM_exec.ml" 64 2021 2138
+type(
+  (EPL.eVML_inst -> int -> int -> int) -> EPL.eVML_inst -> int -> int -> int
+)
+"eVM_exec.ml" 64 2146 2174 "eVM_exec.ml" 64 2146 2188
+type(
+  EPL.eVML_inst -> int -> int -> int
+)
+ident(
+  int_ref binary_operate "eVM_exec.ml" 36 1086 1090 "eVM_exec.ml" 36 1086 1104
+)
+"eVM_exec.ml" 64 2146 2189 "eVM_exec.ml" 64 2146 2190
+type(
+  EPL.eVML_inst
+)
+ident(
+  int_ref c "eVM_exec.ml" 55 1707 1740 "eVM_exec.ml" 55 1707 1741
+)
+"eVM_exec.ml" 64 2146 2191 "eVM_exec.ml" 64 2146 2193
+type(
+  int
+)
+ident(
+  int_ref a1 "eVM_exec.ml" 63 1957 1971 "eVM_exec.ml" 63 1957 1973
+)
+"eVM_exec.ml" 64 2146 2194 "eVM_exec.ml" 64 2146 2196
+type(
+  int
+)
+ident(
+  int_ref a2 "eVM_exec.ml" 62 1921 1935 "eVM_exec.ml" 62 1921 1937
+)
+"eVM_exec.ml" 64 1993 2014 "eVM_exec.ml" 64 2146 2197
+call(
+  stack
+)
+type(
+  int
+)
+"eVM_exec.ml" 64 2146 2198 "eVM_exec.ml" 64 2146 2201
+type(
+  int Stack.t
+)
+ident(
+  int_ref stk "eVM_exec.ml" 55 1707 1722 "eVM_exec.ml" 55 1707 1725
+)
+"eVM_exec.ml" 64 1993 2003 "eVM_exec.ml" 64 2146 2201
+call(
+  tail
+)
+type(
+  unit
+)
+"eVM_exec.ml" 63 1957 1967 "eVM_exec.ml" 64 2146 2201
+type(
+  unit
+)
+"eVM_exec.ml" 62 1921 1931 "eVM_exec.ml" 64 2146 2201
+type(
+  unit
+)
+"eVM_exec.ml" 65 2202 2208 "eVM_exec.ml" 65 2202 2211
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 65 2202 2214 "eVM_exec.ml" 65 2202 2217
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 65 2202 2208 "eVM_exec.ml" 65 2202 2217
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 66 2222 2236 "eVM_exec.ml" 66 2222 2238
+type(
+  int
+)
+ident(
+  def a1 "eVM_exec.ml" 67 2258 2268 "eVM_exec.ml" 67 2411 2462
+)
+"eVM_exec.ml" 66 2222 2241 "eVM_exec.ml" 66 2222 2250
+type(
+  int Stack.t -> int
+)
+ident(
+  ext_ref Stack.pop
+)
+"eVM_exec.ml" 66 2222 2251 "eVM_exec.ml" 66 2222 2254
+type(
+  int Stack.t
+)
+ident(
+  int_ref stk "eVM_exec.ml" 55 1707 1722 "eVM_exec.ml" 55 1707 1725
+)
+"eVM_exec.ml" 66 2222 2241 "eVM_exec.ml" 66 2222 2254
+call(
+  stack
+)
+type(
+  int
+)
+"eVM_exec.ml" 67 2258 2268 "eVM_exec.ml" 67 2258 2278
+type(
+  int -> int Stack.t -> unit
+)
+ident(
+  ext_ref Stack.push
+)
+"eVM_exec.ml" 67 2286 2314 "eVM_exec.ml" 67 2286 2315
+type(
+  EPL.eVML_inst -> int -> int
+)
+ident(
+  def f "eVM_exec.ml" 67 2286 2316 "eVM_exec.ml" 67 2286 2402
+)
+"eVM_exec.ml" 67 2286 2316 "eVM_exec.ml" 67 2286 2317
+type(
+  EPL.eVML_inst
+)
+ident(
+  def x "eVM_exec.ml" 67 2286 2318 "eVM_exec.ml" 67 2286 2402
+)
+"eVM_exec.ml" 67 2286 2318 "eVM_exec.ml" 67 2286 2319
+type(
+  int
+)
+ident(
+  def y "eVM_exec.ml" 67 2286 2323 "eVM_exec.ml" 67 2286 2402
+)
+"eVM_exec.ml" 67 2286 2327 "eVM_exec.ml" 67 2286 2329
+type(
+  unit
+)
+"eVM_exec.ml" 67 2286 2332 "eVM_exec.ml" 67 2286 2350
+type(
+  (string -> int -> unit) -> string -> int -> unit
+)
+ident(
+  ext_ref Debug.wrap_z_debug
+)
+"eVM_exec.ml" 67 2286 2351 "eVM_exec.ml" 67 2286 2371
+type(
+  string -> int -> unit
+)
+ident(
+  ext_ref VarGen.store_loc_str
+)
+"eVM_exec.ml" 67 2286 2374 "eVM_exec.ml" 67 2286 2387
+type(
+  string
+)
+"eVM_exec.ml" 67 2286 2390 "eVM_exec.ml" 67 2286 2392
+type(
+  int
+)
+"eVM_exec.ml" 67 2286 2332 "eVM_exec.ml" 67 2286 2392
+call(
+  stack
+)
+type(
+  unit
+)
+"eVM_exec.ml" 67 2286 2397 "eVM_exec.ml" 67 2286 2398
+type(
+  EPL.eVML_inst -> int -> int
+)
+ident(
+  int_ref f "eVM_exec.ml" 67 2286 2314 "eVM_exec.ml" 67 2286 2315
+)
+"eVM_exec.ml" 67 2286 2399 "eVM_exec.ml" 67 2286 2400
+type(
+  EPL.eVML_inst
+)
+ident(
+  int_ref x "eVM_exec.ml" 67 2286 2316 "eVM_exec.ml" 67 2286 2317
+)
+"eVM_exec.ml" 67 2286 2401 "eVM_exec.ml" 67 2286 2402
+type(
+  int
+)
+ident(
+  int_ref y "eVM_exec.ml" 67 2286 2318 "eVM_exec.ml" 67 2286 2319
+)
+"eVM_exec.ml" 67 2286 2397 "eVM_exec.ml" 67 2286 2402
+call(
+  stack
+)
+type(
+  int
+)
+"eVM_exec.ml" 67 2286 2323 "eVM_exec.ml" 67 2286 2402
+type(
+  int
+)
+"eVM_exec.ml" 67 2286 2309 "eVM_exec.ml" 67 2286 2403
+type(
+  (EPL.eVML_inst -> int -> int) -> EPL.eVML_inst -> int -> int
+)
+"eVM_exec.ml" 67 2411 2439 "eVM_exec.ml" 67 2411 2452
+type(
+  EPL.eVML_inst -> int -> int
+)
+ident(
+  int_ref unary_operate "eVM_exec.ml" 48 1464 1468 "eVM_exec.ml" 48 1464 1481
+)
+"eVM_exec.ml" 67 2411 2453 "eVM_exec.ml" 67 2411 2454
+type(
+  EPL.eVML_inst
+)
+ident(
+  int_ref c "eVM_exec.ml" 55 1707 1740 "eVM_exec.ml" 55 1707 1741
+)
+"eVM_exec.ml" 67 2411 2455 "eVM_exec.ml" 67 2411 2457
+type(
+  int
+)
+ident(
+  int_ref a1 "eVM_exec.ml" 66 2222 2236 "eVM_exec.ml" 66 2222 2238
+)
+"eVM_exec.ml" 67 2258 2279 "eVM_exec.ml" 67 2411 2458
+type(
+  int
+)
+"eVM_exec.ml" 67 2411 2459 "eVM_exec.ml" 67 2411 2462
+type(
+  int Stack.t
+)
+ident(
+  int_ref stk "eVM_exec.ml" 55 1707 1722 "eVM_exec.ml" 55 1707 1725
+)
+"eVM_exec.ml" 67 2258 2268 "eVM_exec.ml" 67 2411 2462
+call(
+  tail
+)
+type(
+  unit
+)
+"eVM_exec.ml" 66 2222 2232 "eVM_exec.ml" 67 2411 2462
+type(
+  unit
+)
+"eVM_exec.ml" 68 2463 2469 "eVM_exec.ml" 68 2463 2473
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 68 2463 2477 "eVM_exec.ml" 68 2463 2479
+type(
+  unit
+)
+"eVM_exec.ml" 56 1762 1764 "eVM_exec.ml" 68 2463 2479
+type(
+  unit
+)
+type(
+  unit
+)
+"eVM_exec.ml" 72 2546 2550 "eVM_exec.ml" 72 2546 2557
+type(
+  EPL.eVML_inst array -> int
+)
+ident(
+  def eVML_mc "eVM_exec.ml" 82 2842 2842 "eVM_exec.ml" 1 0 -1
+)
+"eVM_exec.ml" 72 2546 2559 "eVM_exec.ml" 72 2546 2566
+type(
+  EPL.eVML_inst array
+)
+ident(
+  def instArr "eVM_exec.ml" 72 2546 2584 "eVM_exec.ml" 79 2776 2790
+)
+"eVM_exec.ml" 73 2592 2598 "eVM_exec.ml" 73 2592 2601
+type(
+  int Stack.t
+)
+ident(
+  def stk "eVM_exec.ml" 74 2623 2625 "eVM_exec.ml" 79 2776 2790
+)
+"eVM_exec.ml" 73 2592 2604 "eVM_exec.ml" 73 2592 2616
+type(
+  unit -> int Stack.t
+)
+ident(
+  ext_ref Stack.create
+)
+"eVM_exec.ml" 73 2592 2617 "eVM_exec.ml" 73 2592 2619
+type(
+  unit
+)
+"eVM_exec.ml" 73 2592 2604 "eVM_exec.ml" 73 2592 2619
+call(
+  stack
+)
+type(
+  int Stack.t
+)
+"eVM_exec.ml" 74 2623 2633 "eVM_exec.ml" 74 2623 2640
+type(
+  int -> int
+)
+ident(
+  def execute "eVM_exec.ml" 74 2623 2625 "eVM_exec.ml" 79 2776 2790
+)
+"eVM_exec.ml" 74 2623 2641 "eVM_exec.ml" 74 2623 2643
+type(
+  int
+)
+ident(
+  def pc "eVM_exec.ml" 75 2646 2650 "eVM_exec.ml" 78 2729 2775
+)
+"eVM_exec.ml" 75 2646 2654 "eVM_exec.ml" 75 2646 2655
+type(
+  EPL.eVML_inst
+)
+ident(
+  def c "eVM_exec.ml" 76 2682 2686 "eVM_exec.ml" 78 2729 2775
+)
+"eVM_exec.ml" 75 2646 2658 "eVM_exec.ml" 75 2646 2667
+type(
+  EPL.eVML_inst array -> int -> EPL.eVML_inst
+)
+ident(
+  ext_ref Array.get
+)
+"eVM_exec.ml" 75 2646 2668 "eVM_exec.ml" 75 2646 2675
+type(
+  EPL.eVML_inst array
+)
+ident(
+  int_ref instArr "eVM_exec.ml" 72 2546 2559 "eVM_exec.ml" 72 2546 2566
+)
+"eVM_exec.ml" 75 2646 2676 "eVM_exec.ml" 75 2646 2678
+type(
+  int
+)
+ident(
+  int_ref pc "eVM_exec.ml" 74 2623 2641 "eVM_exec.ml" 74 2623 2643
+)
+"eVM_exec.ml" 75 2646 2658 "eVM_exec.ml" 75 2646 2678
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 76 2682 2692 "eVM_exec.ml" 76 2682 2693
+type(
+  EPL.eVML_inst
+)
+ident(
+  int_ref c "eVM_exec.ml" 75 2646 2654 "eVM_exec.ml" 75 2646 2655
+)
+"eVM_exec.ml" 77 2699 2707 "eVM_exec.ml" 77 2699 2711
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 77 2699 2715 "eVM_exec.ml" 77 2699 2724
+type(
+  int Stack.t -> int
+)
+ident(
+  ext_ref Stack.pop
+)
+"eVM_exec.ml" 77 2699 2725 "eVM_exec.ml" 77 2699 2728
+type(
+  int Stack.t
+)
+ident(
+  int_ref stk "eVM_exec.ml" 73 2592 2598 "eVM_exec.ml" 73 2592 2601
+)
+"eVM_exec.ml" 77 2699 2715 "eVM_exec.ml" 77 2699 2728
+call(
+  tail
+)
+type(
+  int
+)
+"eVM_exec.ml" 78 2729 2737 "eVM_exec.ml" 78 2729 2738
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 78 2729 2743 "eVM_exec.ml" 78 2729 2752
+type(
+  int Stack.t -> EPL.eVML_inst -> unit
+)
+ident(
+  int_ref proc_inst "eVM_exec.ml" 55 1707 1711 "eVM_exec.ml" 55 1707 1720
+)
+"eVM_exec.ml" 78 2729 2753 "eVM_exec.ml" 78 2729 2756
+type(
+  int Stack.t
+)
+ident(
+  int_ref stk "eVM_exec.ml" 73 2592 2598 "eVM_exec.ml" 73 2592 2601
+)
+"eVM_exec.ml" 78 2729 2757 "eVM_exec.ml" 78 2729 2758
+type(
+  EPL.eVML_inst
+)
+ident(
+  int_ref c "eVM_exec.ml" 75 2646 2654 "eVM_exec.ml" 75 2646 2655
+)
+"eVM_exec.ml" 78 2729 2743 "eVM_exec.ml" 78 2729 2758
+call(
+  stack
+)
+type(
+  unit
+)
+"eVM_exec.ml" 78 2729 2760 "eVM_exec.ml" 78 2729 2767
+type(
+  int -> int
+)
+ident(
+  int_ref execute "eVM_exec.ml" 74 2623 2633 "eVM_exec.ml" 74 2623 2640
+)
+"eVM_exec.ml" 78 2729 2769 "eVM_exec.ml" 78 2729 2771
+type(
+  int
+)
+ident(
+  int_ref pc "eVM_exec.ml" 74 2623 2641 "eVM_exec.ml" 74 2623 2643
+)
+"eVM_exec.ml" 78 2729 2771 "eVM_exec.ml" 78 2729 2772
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"eVM_exec.ml" 78 2729 2772 "eVM_exec.ml" 78 2729 2773
+type(
+  int
+)
+"eVM_exec.ml" 78 2729 2768 "eVM_exec.ml" 78 2729 2774
+type(
+  int
+)
+"eVM_exec.ml" 78 2729 2760 "eVM_exec.ml" 78 2729 2774
+call(
+  tail
+)
+type(
+  int
+)
+"eVM_exec.ml" 78 2729 2742 "eVM_exec.ml" 78 2729 2775
+type(
+  int
+)
+"eVM_exec.ml" 76 2682 2686 "eVM_exec.ml" 78 2729 2775
+type(
+  int
+)
+"eVM_exec.ml" 75 2646 2650 "eVM_exec.ml" 78 2729 2775
+type(
+  int
+)
+"eVM_exec.ml" 79 2776 2781 "eVM_exec.ml" 79 2776 2788
+type(
+  int -> int
+)
+ident(
+  int_ref execute "eVM_exec.ml" 74 2623 2633 "eVM_exec.ml" 74 2623 2640
+)
+"eVM_exec.ml" 79 2776 2789 "eVM_exec.ml" 79 2776 2790
+type(
+  int
+)
+"eVM_exec.ml" 79 2776 2781 "eVM_exec.ml" 79 2776 2790
+call(
+  tail
+)
+type(
+  int
+)
+"eVM_exec.ml" 74 2623 2625 "eVM_exec.ml" 79 2776 2790
+type(
+  int
+)
+"eVM_exec.ml" 73 2592 2594 "eVM_exec.ml" 79 2776 2790
+type(
+  int
+)
+type(
+  int
+)
+"eVM_exec.ml" 82 2842 2854 "eVM_exec.ml" 82 2842 2861
+type(
+  EPL.eVML_inst list
+)
+"eVM_exec.ml" 83 2880 2890 "eVM_exec.ml" 83 2880 2894
+type(
+  < execute : unit -> int; finish : unit -> bool; oneStep : unit -> unit;
+    .. >
+)
+"eVM_exec.ml" 84 2895 2917 "eVM_exec.ml" 84 2895 2918
+type(
+  int
+)
+"eVM_exec.ml" 85 2919 2934 "eVM_exec.ml" 85 2919 2946
+type(
+  unit -> int Stack.t
+)
+ident(
+  ext_ref Stack.create
+)
+"eVM_exec.ml" 85 2919 2947 "eVM_exec.ml" 85 2919 2949
+type(
+  unit
+)
+"eVM_exec.ml" 85 2919 2934 "eVM_exec.ml" 85 2919 2949
+call(
+  stack
+)
+type(
+  int Stack.t
+)
+"eVM_exec.ml" 86 2950 2969 "eVM_exec.ml" 86 2950 2982
+type(
+  EPL.eVML_inst list -> EPL.eVML_inst array
+)
+ident(
+  ext_ref Array.of_list
+)
+"eVM_exec.ml" 86 2950 2983 "eVM_exec.ml" 86 2950 2990
+type(
+  EPL.eVML_inst list
+)
+ident(
+  int_ref instSeq "eVM_exec.ml" 82 2842 2854 "eVM_exec.ml" 82 2842 2861
+)
+"eVM_exec.ml" 86 2950 2969 "eVM_exec.ml" 86 2950 2990
+call(
+  stack
+)
+type(
+  EPL.eVML_inst array
+)
+"eVM_exec.ml" 88 3039 3058 "eVM_exec.ml" 88 3039 3060
+type(
+  unit
+)
+"eVM_exec.ml" 89 3071 3082 "eVM_exec.ml" 89 3071 3083
+type(
+  EPL.eVML_inst
+)
+ident(
+  def c "eVM_exec.ml" 90 3110 3117 "eVM_exec.ml" 90 3110 3126
+)
+"eVM_exec.ml" 89 3071 3086 "eVM_exec.ml" 89 3071 3095
+type(
+  EPL.eVML_inst array -> int -> EPL.eVML_inst
+)
+ident(
+  ext_ref Array.get
+)
+"eVM_exec.ml" 89 3071 3096 "eVM_exec.ml" 89 3071 3103
+type(
+  EPL.eVML_inst array
+)
+ident(
+  ext_ref instArr
+)
+"eVM_exec.ml" 89 3071 3104 "eVM_exec.ml" 89 3071 3106
+type(
+  int
+)
+ident(
+  ext_ref pc
+)
+"eVM_exec.ml" 89 3071 3086 "eVM_exec.ml" 89 3071 3106
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 90 3110 3117 "eVM_exec.ml" 90 3110 3118
+type(
+  EPL.eVML_inst
+)
+ident(
+  int_ref c "eVM_exec.ml" 89 3071 3082 "eVM_exec.ml" 89 3071 3083
+)
+"eVM_exec.ml" 90 3110 3119 "eVM_exec.ml" 90 3110 3121
+type(
+  EPL.eVML_inst -> EPL.eVML_inst -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"eVM_exec.ml" 90 3110 3122 "eVM_exec.ml" 90 3110 3126
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 90 3110 3117 "eVM_exec.ml" 90 3110 3126
+type(
+  bool
+)
+"eVM_exec.ml" 89 3071 3078 "eVM_exec.ml" 90 3110 3126
+type(
+  bool
+)
+type(
+  bool
+)
+"eVM_exec.ml" 92 3165 3185 "eVM_exec.ml" 92 3165 3187
+type(
+  unit
+)
+"eVM_exec.ml" 93 3197 3208 "eVM_exec.ml" 93 3197 3209
+type(
+  EPL.eVML_inst
+)
+ident(
+  def c "eVM_exec.ml" 94 3236 3243 "eVM_exec.ml" 95 3260 3279
+)
+"eVM_exec.ml" 93 3197 3212 "eVM_exec.ml" 93 3197 3221
+type(
+  EPL.eVML_inst array -> int -> EPL.eVML_inst
+)
+ident(
+  ext_ref Array.get
+)
+"eVM_exec.ml" 93 3197 3222 "eVM_exec.ml" 93 3197 3229
+type(
+  EPL.eVML_inst array
+)
+ident(
+  ext_ref instArr
+)
+"eVM_exec.ml" 93 3197 3230 "eVM_exec.ml" 93 3197 3232
+type(
+  int
+)
+ident(
+  ext_ref pc
+)
+"eVM_exec.ml" 93 3197 3212 "eVM_exec.ml" 93 3197 3232
+type(
+  EPL.eVML_inst
+)
+"eVM_exec.ml" 94 3236 3243 "eVM_exec.ml" 94 3236 3252
+type(
+  int Stack.t -> EPL.eVML_inst -> unit
+)
+ident(
+  int_ref proc_inst "eVM_exec.ml" 55 1707 1711 "eVM_exec.ml" 55 1707 1720
+)
+"eVM_exec.ml" 94 3236 3253 "eVM_exec.ml" 94 3236 3256
+type(
+  int Stack.t
+)
+ident(
+  ext_ref stk
+)
+"eVM_exec.ml" 94 3236 3257 "eVM_exec.ml" 94 3236 3258
+type(
+  EPL.eVML_inst
+)
+ident(
+  int_ref c "eVM_exec.ml" 93 3197 3208 "eVM_exec.ml" 93 3197 3209
+)
+"eVM_exec.ml" 94 3236 3243 "eVM_exec.ml" 94 3236 3258
+call(
+  stack
+)
+type(
+  unit
+)
+"eVM_exec.ml" 95 3260 3273 "eVM_exec.ml" 95 3260 3275
+type(
+  int
+)
+ident(
+  ext_ref pc
+)
+"eVM_exec.ml" 95 3260 3276 "eVM_exec.ml" 95 3260 3277
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"eVM_exec.ml" 95 3260 3278 "eVM_exec.ml" 95 3260 3279
+type(
+  int
+)
+"eVM_exec.ml" 95 3260 3273 "eVM_exec.ml" 95 3260 3279
+type(
+  int
+)
+"eVM_exec.ml" 95 3260 3267 "eVM_exec.ml" 95 3260 3279
+type(
+  unit
+)
+"eVM_exec.ml" 94 3236 3243 "eVM_exec.ml" 95 3260 3279
+type(
+  unit
+)
+"eVM_exec.ml" 93 3197 3204 "eVM_exec.ml" 95 3260 3279
+type(
+  unit
+)
+type(
+  unit
+)
+"eVM_exec.ml" 98 3383 3403 "eVM_exec.ml" 98 3383 3405
+type(
+  unit
+)
+"eVM_exec.ml" 99 3414 3424 "eVM_exec.ml" 99 3414 3426
+type(
+  < execute : unit -> int; finish : unit -> bool; oneStep : unit -> unit;
+    .. >
+  as 'a
+)
+ident(
+  int_ref mc "eVM_exec.ml" 83 2880 2890 "eVM_exec.ml" 83 2880 2894
+)
+"eVM_exec.ml" 99 3414 3424 "eVM_exec.ml" 99 3414 3435
+call(
+  stack
+)
+type(
+  unit -> bool
+)
+"eVM_exec.ml" 99 3414 3436 "eVM_exec.ml" 99 3414 3438
+type(
+  unit
+)
+"eVM_exec.ml" 99 3414 3424 "eVM_exec.ml" 99 3414 3438
+type(
+  bool
+)
+"eVM_exec.ml" 99 3414 3444 "eVM_exec.ml" 99 3414 3453
+type(
+  int Stack.t -> int
+)
+ident(
+  ext_ref Stack.pop
+)
+"eVM_exec.ml" 99 3414 3454 "eVM_exec.ml" 99 3414 3457
+type(
+  int Stack.t
+)
+ident(
+  ext_ref stk
+)
+"eVM_exec.ml" 99 3414 3444 "eVM_exec.ml" 99 3414 3457
+call(
+  tail
+)
+type(
+  int
+)
+"eVM_exec.ml" 100 3458 3476 "eVM_exec.ml" 100 3458 3478
+type(
+  'a
+)
+ident(
+  int_ref mc "eVM_exec.ml" 83 2880 2890 "eVM_exec.ml" 83 2880 2894
+)
+"eVM_exec.ml" 100 3458 3476 "eVM_exec.ml" 100 3458 3488
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"eVM_exec.ml" 100 3458 3488 "eVM_exec.ml" 100 3458 3490
+type(
+  unit
+)
+"eVM_exec.ml" 100 3458 3476 "eVM_exec.ml" 100 3458 3490
+type(
+  unit
+)
+"eVM_exec.ml" 100 3458 3492 "eVM_exec.ml" 100 3458 3494
+type(
+  'a
+)
+ident(
+  int_ref mc "eVM_exec.ml" 83 2880 2890 "eVM_exec.ml" 83 2880 2894
+)
+"eVM_exec.ml" 100 3458 3492 "eVM_exec.ml" 100 3458 3504
+call(
+  tail
+)
+type(
+  unit -> int
+)
+"eVM_exec.ml" 100 3458 3505 "eVM_exec.ml" 100 3458 3507
+type(
+  unit
+)
+"eVM_exec.ml" 100 3458 3492 "eVM_exec.ml" 100 3458 3507
+type(
+  int
+)
+"eVM_exec.ml" 100 3458 3470 "eVM_exec.ml" 100 3458 3511
+type(
+  int
+)
+"eVM_exec.ml" 99 3414 3421 "eVM_exec.ml" 100 3458 3511
+type(
+  int
+)
+type(
+  int
+)
+"eVM_exec.ml" 105 3548 3552 "eVM_exec.ml" 105 3548 3562
+type(
+  string -> string * EPL.ePL_expr
+)
+ident(
+  def parse_file "eVM_exec.ml" 110 3703 3703 "eVM_exec.ml" 1 0 -1
+)
+"eVM_exec.ml" 105 3548 3564 "eVM_exec.ml" 105 3548 3572
+type(
+  string
+)
+ident(
+  def filename "eVM_exec.ml" 105 3548 3581 "eVM_exec.ml" 106 3605 3637
+)
+"eVM_exec.ml" 106 3605 3607 "eVM_exec.ml" 106 3605 3628
+type(
+  string -> string * EPL.ePL_expr
+)
+ident(
+  ext_ref EPL_parser.parse_file
+)
+"eVM_exec.ml" 106 3605 3629 "eVM_exec.ml" 106 3605 3637
+type(
+  string
+)
+ident(
+  int_ref filename "eVM_exec.ml" 105 3548 3564 "eVM_exec.ml" 105 3548 3572
+)
+"eVM_exec.ml" 106 3605 3607 "eVM_exec.ml" 106 3605 3637
+call(
+  tail
+)
+type(
+  string * EPL.ePL_expr
+)
+type(
+  string * EPL.ePL_expr
+)
+"eVM_exec.ml" 110 3703 3707 "eVM_exec.ml" 110 3703 3712
+type(
+  string
+)
+ident(
+  def usage "eVM_exec.ml" 111 3756 3756 "eVM_exec.ml" 1 0 -1
+)
+"eVM_exec.ml" 110 3703 3715 "eVM_exec.ml" 110 3703 3724
+type(
+  string
+)
+"eVM_exec.ml" 110 3703 3725 "eVM_exec.ml" 110 3703 3726
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"eVM_exec.ml" 110 3703 3727 "eVM_exec.ml" 110 3703 3735
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"eVM_exec.ml" 110 3703 3737 "eVM_exec.ml" 110 3703 3738
+type(
+  int
+)
+"eVM_exec.ml" 110 3703 3727 "eVM_exec.ml" 110 3703 3739
+type(
+  string
+)
+"eVM_exec.ml" 110 3703 3740 "eVM_exec.ml" 110 3703 3741
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"eVM_exec.ml" 110 3703 3742 "eVM_exec.ml" 110 3703 3755
+type(
+  string
+)
+"eVM_exec.ml" 110 3703 3727 "eVM_exec.ml" 110 3703 3755
+call(
+  stack
+)
+type(
+  string
+)
+"eVM_exec.ml" 110 3703 3715 "eVM_exec.ml" 110 3703 3755
+call(
+  stack
+)
+type(
+  string
+)
+"eVM_exec.ml" 111 3756 3760 "eVM_exec.ml" 111 3756 3764
+type(
+  string ref
+)
+ident(
+  def file "eVM_exec.ml" 117 3925 3925 "eVM_exec.ml" 1 0 -1
+)
+"eVM_exec.ml" 111 3756 3767 "eVM_exec.ml" 111 3756 3770
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"eVM_exec.ml" 111 3756 3771 "eVM_exec.ml" 111 3756 3773
+type(
+  string
+)
+"eVM_exec.ml" 111 3756 3767 "eVM_exec.ml" 111 3756 3773
+type(
+  string ref
+)
+"eVM_exec.ml" 117 3925 3929 "eVM_exec.ml" 117 3925 3945
+type(
+  string -> string
+)
+ident(
+  def extract_filename "eVM_exec.ml" 129 4258 4258 "eVM_exec.ml" 1 0 -1
+)
+"eVM_exec.ml" 117 3925 3947 "eVM_exec.ml" 117 3925 3948
+type(
+  string
+)
+ident(
+  def s "eVM_exec.ml" 117 3925 3957 "eVM_exec.ml" 125 4166 4214
+)
+"eVM_exec.ml" 118 3968 3974 "eVM_exec.ml" 118 3968 3975
+type(
+  int
+)
+ident(
+  def v "eVM_exec.ml" 119 3997 3999 "eVM_exec.ml" 125 4166 4214
+)
+"eVM_exec.ml" 118 3968 3978 "eVM_exec.ml" 118 3968 3991
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"eVM_exec.ml" 118 3968 3992 "eVM_exec.ml" 118 3968 3993
+type(
+  string
+)
+ident(
+  int_ref s "eVM_exec.ml" 117 3925 3947 "eVM_exec.ml" 117 3925 3948
+)
+"eVM_exec.ml" 118 3968 3978 "eVM_exec.ml" 118 3968 3993
+type(
+  int
+)
+"eVM_exec.ml" 119 3997 4002 "eVM_exec.ml" 119 3997 4003
+type(
+  int
+)
+ident(
+  int_ref v "eVM_exec.ml" 118 3968 3974 "eVM_exec.ml" 118 3968 3975
+)
+"eVM_exec.ml" 119 3997 4003 "eVM_exec.ml" 119 3997 4004
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"eVM_exec.ml" 119 3997 4004 "eVM_exec.ml" 119 3997 4005
+type(
+  int
+)
+"eVM_exec.ml" 119 3997 4002 "eVM_exec.ml" 119 3997 4005
+type(
+  bool
+)
+"eVM_exec.ml" 120 4011 4015 "eVM_exec.ml" 120 4011 4023
+type(
+  string -> string
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"eVM_exec.ml" 120 4011 4024 "eVM_exec.ml" 120 4011 4052
+type(
+  string
+)
+"eVM_exec.ml" 120 4011 4015 "eVM_exec.ml" 120 4011 4052
+call(
+  tail
+)
+type(
+  string
+)
+"eVM_exec.ml" 122 4061 4069 "eVM_exec.ml" 122 4061 4071
+type(
+  string
+)
+ident(
+  def fn "eVM_exec.ml" 123 4098 4102 "eVM_exec.ml" 125 4166 4214
+)
+"eVM_exec.ml" 122 4061 4074 "eVM_exec.ml" 122 4061 4084
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"eVM_exec.ml" 122 4061 4085 "eVM_exec.ml" 122 4061 4086
+type(
+  string
+)
+ident(
+  int_ref s "eVM_exec.ml" 117 3925 3947 "eVM_exec.ml" 117 3925 3948
+)
+"eVM_exec.ml" 122 4061 4087 "eVM_exec.ml" 122 4061 4088
+type(
+  int
+)
+"eVM_exec.ml" 122 4061 4090 "eVM_exec.ml" 122 4061 4091
+type(
+  int
+)
+ident(
+  int_ref v "eVM_exec.ml" 118 3968 3974 "eVM_exec.ml" 118 3968 3975
+)
+"eVM_exec.ml" 122 4061 4091 "eVM_exec.ml" 122 4061 4092
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"eVM_exec.ml" 122 4061 4092 "eVM_exec.ml" 122 4061 4093
+type(
+  int
+)
+"eVM_exec.ml" 122 4061 4089 "eVM_exec.ml" 122 4061 4094
+type(
+  int
+)
+"eVM_exec.ml" 122 4061 4074 "eVM_exec.ml" 122 4061 4094
+call(
+  stack
+)
+type(
+  string
+)
+"eVM_exec.ml" 123 4098 4106 "eVM_exec.ml" 123 4098 4110
+type(
+  string
+)
+ident(
+  def extn "eVM_exec.ml" 124 4137 4141 "eVM_exec.ml" 125 4166 4214
+)
+"eVM_exec.ml" 123 4098 4113 "eVM_exec.ml" 123 4098 4123
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"eVM_exec.ml" 123 4098 4124 "eVM_exec.ml" 123 4098 4125
+type(
+  string
+)
+ident(
+  int_ref s "eVM_exec.ml" 117 3925 3947 "eVM_exec.ml" 117 3925 3948
+)
+"eVM_exec.ml" 123 4098 4127 "eVM_exec.ml" 123 4098 4128
+type(
+  int
+)
+ident(
+  int_ref v "eVM_exec.ml" 118 3968 3974 "eVM_exec.ml" 118 3968 3975
+)
+"eVM_exec.ml" 123 4098 4128 "eVM_exec.ml" 123 4098 4129
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"eVM_exec.ml" 123 4098 4129 "eVM_exec.ml" 123 4098 4130
+type(
+  int
+)
+"eVM_exec.ml" 123 4098 4126 "eVM_exec.ml" 123 4098 4131
+type(
+  int
+)
+"eVM_exec.ml" 123 4098 4132 "eVM_exec.ml" 123 4098 4133
+type(
+  int
+)
+"eVM_exec.ml" 123 4098 4113 "eVM_exec.ml" 123 4098 4133
+call(
+  stack
+)
+type(
+  string
+)
+"eVM_exec.ml" 124 4137 4144 "eVM_exec.ml" 124 4137 4148
+type(
+  string
+)
+ident(
+  int_ref extn "eVM_exec.ml" 123 4098 4106 "eVM_exec.ml" 123 4098 4110
+)
+"eVM_exec.ml" 124 4137 4149 "eVM_exec.ml" 124 4137 4150
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"eVM_exec.ml" 124 4137 4151 "eVM_exec.ml" 124 4137 4157
+type(
+  string
+)
+"eVM_exec.ml" 124 4137 4144 "eVM_exec.ml" 124 4137 4157
+type(
+  bool
+)
+"eVM_exec.ml" 124 4137 4163 "eVM_exec.ml" 124 4137 4165
+type(
+  string
+)
+ident(
+  int_ref fn "eVM_exec.ml" 122 4061 4069 "eVM_exec.ml" 122 4061 4071
+)
+"eVM_exec.ml" 125 4166 4175 "eVM_exec.ml" 125 4166 4183
+type(
+  string -> string
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"eVM_exec.ml" 125 4166 4184 "eVM_exec.ml" 125 4166 4214
+type(
+  string
+)
+"eVM_exec.ml" 125 4166 4175 "eVM_exec.ml" 125 4166 4214
+call(
+  tail
+)
+type(
+  string
+)
+"eVM_exec.ml" 124 4137 4141 "eVM_exec.ml" 125 4166 4214
+type(
+  string
+)
+"eVM_exec.ml" 123 4098 4102 "eVM_exec.ml" 125 4166 4214
+type(
+  string
+)
+"eVM_exec.ml" 122 4061 4065 "eVM_exec.ml" 125 4166 4214
+type(
+  string
+)
+"eVM_exec.ml" 119 3997 3999 "eVM_exec.ml" 125 4166 4214
+type(
+  string
+)
+"eVM_exec.ml" 118 3968 3970 "eVM_exec.ml" 125 4166 4214
+type(
+  string
+)
+type(
+  string
+)
+"eVM_exec.ml" 129 4258 4262 "eVM_exec.ml" 129 4258 4283
+type(
+  unit -> unit
+)
+ident(
+  def test_extract_filename "eVM_exec.ml" 141 4632 4632 "eVM_exec.ml" 1 0 -1
+)
+"eVM_exec.ml" 129 4258 4284 "eVM_exec.ml" 129 4258 4286
+type(
+  unit
+)
+"eVM_exec.ml" 130 4289 4291 "eVM_exec.ml" 130 4289 4304
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"eVM_exec.ml" 130 4289 4306 "eVM_exec.ml" 130 4289 4322
+type(
+  string -> string
+)
+ident(
+  int_ref extract_filename "eVM_exec.ml" 117 3925 3929 "eVM_exec.ml" 117 3925 3945
+)
+"eVM_exec.ml" 130 4289 4323 "eVM_exec.ml" 130 4289 4334
+type(
+  string
+)
+"eVM_exec.ml" 130 4289 4305 "eVM_exec.ml" 130 4289 4335
+call(
+  stack
+)
+type(
+  string
+)
+"eVM_exec.ml" 130 4289 4291 "eVM_exec.ml" 130 4289 4335
+call(
+  stack
+)
+type(
+  unit
+)
+"eVM_exec.ml" 132 4367 4369 "eVM_exec.ml" 132 4367 4382
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"eVM_exec.ml" 132 4367 4384 "eVM_exec.ml" 132 4367 4400
+type(
+  string -> string
+)
+ident(
+  int_ref extract_filename "eVM_exec.ml" 117 3925 3929 "eVM_exec.ml" 117 3925 3945
+)
+"eVM_exec.ml" 132 4367 4401 "eVM_exec.ml" 132 4367 4407
+type(
+  string
+)
+"eVM_exec.ml" 132 4367 4383 "eVM_exec.ml" 132 4367 4408
+call(
+  stack
+)
+type(
+  string
+)
+"eVM_exec.ml" 132 4367 4369 "eVM_exec.ml" 132 4367 4408
+call(
+  stack
+)
+type(
+  unit
+)
+"eVM_exec.ml" 134 4470 4472 "eVM_exec.ml" 134 4470 4485
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"eVM_exec.ml" 134 4470 4487 "eVM_exec.ml" 134 4470 4503
+type(
+  string -> string
+)
+ident(
+  int_ref extract_filename "eVM_exec.ml" 117 3925 3929 "eVM_exec.ml" 117 3925 3945
+)
+"eVM_exec.ml" 134 4470 4504 "eVM_exec.ml" 134 4470 4514
+type(
+  string
+)
+"eVM_exec.ml" 134 4470 4486 "eVM_exec.ml" 134 4470 4515
+call(
+  stack
+)
+type(
+  string
+)
+"eVM_exec.ml" 134 4470 4472 "eVM_exec.ml" 134 4470 4515
+call(
+  tail
+)
+type(
+  unit
+)
+"eVM_exec.ml" 132 4367 4369 "eVM_exec.ml" 134 4470 4515
+type(
+  unit
+)
+"eVM_exec.ml" 130 4289 4291 "eVM_exec.ml" 134 4470 4515
+type(
+  unit
+)
+"eVM_exec.ml" 141 4632 4636 "eVM_exec.ml" 141 4632 4640
+type(
+  unit
+)
+ident(
+  def main "eVM_exec.ml" 150 5044 5096 "eVM_exec.ml" 1 0 -1
+)
+"eVM_exec.ml" 143 4681 4683 "eVM_exec.ml" 143 4681 4692
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.parse
+)
+"eVM_exec.ml" 143 4681 4693 "eVM_exec.ml" 143 4681 4711
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  ext_ref Debug.command_args
+)
+"eVM_exec.ml" 143 4681 4717 "eVM_exec.ml" 143 4681 4718
+type(
+  string
+)
+ident(
+  def s "eVM_exec.ml" 143 4681 4722 "eVM_exec.ml" 143 4681 4731
+)
+"eVM_exec.ml" 143 4681 4722 "eVM_exec.ml" 143 4681 4726
+type(
+  string ref
+)
+ident(
+  int_ref file "eVM_exec.ml" 111 3756 3760 "eVM_exec.ml" 111 3756 3764
+)
+"eVM_exec.ml" 143 4681 4727 "eVM_exec.ml" 143 4681 4729
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"eVM_exec.ml" 143 4681 4730 "eVM_exec.ml" 143 4681 4731
+type(
+  string
+)
+ident(
+  int_ref s "eVM_exec.ml" 143 4681 4717 "eVM_exec.ml" 143 4681 4718
+)
+"eVM_exec.ml" 143 4681 4722 "eVM_exec.ml" 143 4681 4731
+type(
+  unit
+)
+"eVM_exec.ml" 143 4681 4712 "eVM_exec.ml" 143 4681 4732
+type(
+  Arg.anon_fun
+)
+"eVM_exec.ml" 143 4681 4733 "eVM_exec.ml" 143 4681 4738
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage "eVM_exec.ml" 110 3703 3707 "eVM_exec.ml" 110 3703 3712
+)
+"eVM_exec.ml" 143 4681 4683 "eVM_exec.ml" 143 4681 4738
+call(
+  stack
+)
+type(
+  unit
+)
+"eVM_exec.ml" 144 4741 4746 "eVM_exec.ml" 144 4741 4759
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"eVM_exec.ml" 144 4741 4760 "eVM_exec.ml" 144 4741 4761
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"eVM_exec.ml" 144 4741 4761 "eVM_exec.ml" 144 4741 4765
+type(
+  string ref
+)
+ident(
+  int_ref file "eVM_exec.ml" 111 3756 3760 "eVM_exec.ml" 111 3756 3764
+)
+"eVM_exec.ml" 144 4741 4760 "eVM_exec.ml" 144 4741 4765
+type(
+  string
+)
+"eVM_exec.ml" 144 4741 4746 "eVM_exec.ml" 144 4741 4765
+type(
+  int
+)
+"eVM_exec.ml" 144 4741 4766 "eVM_exec.ml" 144 4741 4768
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"eVM_exec.ml" 144 4741 4769 "eVM_exec.ml" 144 4741 4770
+type(
+  int
+)
+"eVM_exec.ml" 144 4741 4746 "eVM_exec.ml" 144 4741 4770
+type(
+  bool
+)
+"eVM_exec.ml" 144 4741 4776 "eVM_exec.ml" 144 4741 4789
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"eVM_exec.ml" 144 4741 4790 "eVM_exec.ml" 144 4741 4795
+type(
+  string
+)
+ident(
+  int_ref usage "eVM_exec.ml" 110 3703 3707 "eVM_exec.ml" 110 3703 3712
+)
+"eVM_exec.ml" 144 4741 4776 "eVM_exec.ml" 144 4741 4795
+call(
+  stack
+)
+type(
+  unit
+)
+"eVM_exec.ml" 145 4802 4808 "eVM_exec.ml" 145 4802 4814
+type(
+  string
+)
+ident(
+  def bytefn "eVM_exec.ml" 146 4833 4835 "eVM_exec.ml" 150 5044 5096
+)
+"eVM_exec.ml" 145 4802 4817 "eVM_exec.ml" 145 4802 4818
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"eVM_exec.ml" 145 4802 4818 "eVM_exec.ml" 145 4802 4822
+type(
+  string ref
+)
+ident(
+  int_ref file "eVM_exec.ml" 111 3756 3760 "eVM_exec.ml" 111 3756 3764
+)
+"eVM_exec.ml" 145 4802 4817 "eVM_exec.ml" 145 4802 4822
+type(
+  string
+)
+"eVM_exec.ml" 145 4802 4822 "eVM_exec.ml" 145 4802 4823
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"eVM_exec.ml" 145 4802 4823 "eVM_exec.ml" 145 4802 4829
+type(
+  string
+)
+"eVM_exec.ml" 145 4802 4817 "eVM_exec.ml" 145 4802 4829
+call(
+  stack
+)
+type(
+  string
+)
+"eVM_exec.ml" 146 4833 4839 "eVM_exec.ml" 146 4833 4840
+type(
+  unit
+)
+"eVM_exec.ml" 146 4833 4843 "eVM_exec.ml" 146 4833 4856
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"eVM_exec.ml" 146 4833 4858 "eVM_exec.ml" 146 4833 4884
+type(
+  string
+)
+"eVM_exec.ml" 146 4833 4884 "eVM_exec.ml" 146 4833 4885
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"eVM_exec.ml" 146 4833 4885 "eVM_exec.ml" 146 4833 4891
+type(
+  string
+)
+ident(
+  int_ref bytefn "eVM_exec.ml" 145 4802 4808 "eVM_exec.ml" 145 4802 4814
+)
+"eVM_exec.ml" 146 4833 4857 "eVM_exec.ml" 146 4833 4892
+call(
+  stack
+)
+type(
+  string
+)
+"eVM_exec.ml" 146 4833 4843 "eVM_exec.ml" 146 4833 4892
+call(
+  stack
+)
+type(
+  unit
+)
+"eVM_exec.ml" 147 4896 4902 "eVM_exec.ml" 147 4896 4907
+type(
+  EPL.eVML_inst array
+)
+ident(
+  def instr "eVM_exec.ml" 148 4934 4936 "eVM_exec.ml" 150 5044 5096
+)
+"eVM_exec.ml" 147 4896 4910 "eVM_exec.ml" 147 4896 4923
+type(
+  string -> EPL.eVML_inst array
+)
+ident(
+  int_ref read_bytecode "eVM_exec.ml" 9 182 186 "eVM_exec.ml" 9 182 199
+)
+"eVM_exec.ml" 147 4896 4924 "eVM_exec.ml" 147 4896 4930
+type(
+  string
+)
+ident(
+  int_ref bytefn "eVM_exec.ml" 145 4802 4808 "eVM_exec.ml" 145 4802 4814
+)
+"eVM_exec.ml" 147 4896 4910 "eVM_exec.ml" 147 4896 4930
+call(
+  stack
+)
+type(
+  EPL.eVML_inst array
+)
+"eVM_exec.ml" 148 4934 4940 "eVM_exec.ml" 148 4934 4941
+type(
+  unit
+)
+"eVM_exec.ml" 148 4934 4944 "eVM_exec.ml" 148 4934 4957
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"eVM_exec.ml" 148 4934 4959 "eVM_exec.ml" 148 4934 4968
+type(
+  string
+)
+"eVM_exec.ml" 148 4934 4968 "eVM_exec.ml" 148 4934 4969
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"eVM_exec.ml" 148 4934 4970 "eVM_exec.ml" 148 4934 4989
+type(
+  EPL.eVML_inst list -> string
+)
+ident(
+  int_ref string_of_eVML_list "eVM_exec.ml" 5 71 75 "eVM_exec.ml" 5 71 94
+)
+"eVM_exec.ml" 148 4934 4991 "eVM_exec.ml" 148 4934 5004
+type(
+  EPL.eVML_inst array -> EPL.eVML_inst list
+)
+ident(
+  ext_ref Array.to_list
+)
+"eVM_exec.ml" 148 4934 5005 "eVM_exec.ml" 148 4934 5010
+type(
+  EPL.eVML_inst array
+)
+ident(
+  int_ref instr "eVM_exec.ml" 147 4896 4902 "eVM_exec.ml" 147 4896 4907
+)
+"eVM_exec.ml" 148 4934 4990 "eVM_exec.ml" 148 4934 5011
+call(
+  stack
+)
+type(
+  EPL.eVML_inst list
+)
+"eVM_exec.ml" 148 4934 4969 "eVM_exec.ml" 148 4934 5012
+call(
+  stack
+)
+type(
+  string
+)
+"eVM_exec.ml" 148 4934 4958 "eVM_exec.ml" 148 4934 5013
+call(
+  stack
+)
+type(
+  string
+)
+"eVM_exec.ml" 148 4934 4944 "eVM_exec.ml" 148 4934 5013
+call(
+  stack
+)
+type(
+  unit
+)
+"eVM_exec.ml" 149 5017 5023 "eVM_exec.ml" 149 5017 5024
+type(
+  int
+)
+ident(
+  def r "eVM_exec.ml" 150 5044 5046 "eVM_exec.ml" 150 5044 5096
+)
+"eVM_exec.ml" 149 5017 5027 "eVM_exec.ml" 149 5017 5034
+type(
+  EPL.eVML_inst array -> int
+)
+ident(
+  int_ref eVML_mc "eVM_exec.ml" 72 2546 2550 "eVM_exec.ml" 72 2546 2557
+)
+"eVM_exec.ml" 149 5017 5035 "eVM_exec.ml" 149 5017 5040
+type(
+  EPL.eVML_inst array
+)
+ident(
+  int_ref instr "eVM_exec.ml" 147 4896 4902 "eVM_exec.ml" 147 4896 4907
+)
+"eVM_exec.ml" 149 5017 5027 "eVM_exec.ml" 149 5017 5040
+call(
+  stack
+)
+type(
+  int
+)
+"eVM_exec.ml" 150 5044 5046 "eVM_exec.ml" 150 5044 5059
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"eVM_exec.ml" 150 5044 5061 "eVM_exec.ml" 150 5044 5077
+type(
+  string
+)
+"eVM_exec.ml" 150 5044 5077 "eVM_exec.ml" 150 5044 5078
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"eVM_exec.ml" 150 5044 5079 "eVM_exec.ml" 150 5044 5092
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"eVM_exec.ml" 150 5044 5093 "eVM_exec.ml" 150 5044 5094
+type(
+  int
+)
+ident(
+  int_ref r "eVM_exec.ml" 149 5017 5023 "eVM_exec.ml" 149 5017 5024
+)
+"eVM_exec.ml" 150 5044 5078 "eVM_exec.ml" 150 5044 5095
+call(
+  stack
+)
+type(
+  string
+)
+"eVM_exec.ml" 150 5044 5060 "eVM_exec.ml" 150 5044 5096
+call(
+  stack
+)
+type(
+  string
+)
+"eVM_exec.ml" 150 5044 5046 "eVM_exec.ml" 150 5044 5096
+call(
+  stack
+)
+type(
+  unit
+)
+"eVM_exec.ml" 149 5017 5019 "eVM_exec.ml" 150 5044 5096
+type(
+  unit
+)
+"eVM_exec.ml" 148 4934 4936 "eVM_exec.ml" 150 5044 5096
+type(
+  unit
+)
+"eVM_exec.ml" 147 4896 4898 "eVM_exec.ml" 150 5044 5096
+type(
+  unit
+)
+"eVM_exec.ml" 146 4833 4835 "eVM_exec.ml" 150 5044 5096
+type(
+  unit
+)
+"eVM_exec.ml" 145 4802 4804 "eVM_exec.ml" 150 5044 5096
+type(
+  unit
+)
+"eVM_exec.ml" 144 4741 4743 "eVM_exec.ml" 150 5044 5096
+type(
+  unit
+)
+"eVM_exec.ml" 143 4681 4683 "eVM_exec.ml" 150 5044 5096
+type(
+  unit
+)

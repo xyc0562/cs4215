@@ -20,22 +20,18 @@ let testReadBytecode filename =
 
 (* binary operator over integer values *)
 let binary_operate (c:eVML_inst) (a1:int) (a2:int) : int =
-  match c with
-  | PLUS -> a1+a2
-  | MINUS -> a1-a2
-  | TIMES -> a1*a2
-  | DIV -> a1/a2
-  | OR -> 
-    failwith "TO BE IMPLEMENTED"
-  | AND -> 
-    failwith "TO BE IMPLEMENTED"
-  | EQ -> 
-    failwith "TO BE IMPLEMENTED"
-  | LT -> 
-    failwith "TO BE IMPLEMENTED"
-  | GT -> 
-    failwith "TO BE IMPLEMENTED"
-  | _ -> failwith "not possible"
+  let trans_bool x = if x then 1 else 0 in
+    match c with
+    | PLUS -> a1+a2
+    | MINUS -> a1-a2
+    | TIMES -> a1*a2
+    | DIV -> a1/a2
+    | OR -> trans_bool (a1 != 0 || a2 != 0)
+    | AND -> trans_bool (a1 != 0 && a2 != 0) 
+    | EQ -> trans_bool (a1==a2)
+    | LT -> trans_bool (a1<a2)
+    | GT -> trans_bool (a1>a2)
+    | _ -> failwith "not possible"
 
 let binary_operate (c:eVML_inst) (a1:int) (a2:int) : int =
   let pr1 = string_of_eVML in
@@ -46,8 +42,7 @@ let binary_operate (c:eVML_inst) (a1:int) (a2:int) : int =
 let unary_operate (c:eVML_inst) (a1:int) : int =
   match c with
   | NEG -> -a1
-  | NOT -> 
-    failwith "TO BE IMPLEMENTED"
+  | NOT -> if a1 == 0 then 1 else 0
   | _ -> failwith "not possible"
 
 let unary_operate (c:eVML_inst) (a1:int) : int =
