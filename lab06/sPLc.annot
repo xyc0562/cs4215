@@ -1,0 +1,1893 @@
+"sPLc.ml" 30 706 710 "sPLc.ml" 30 706 723
+type(
+  sPL_expr -> string
+)
+ident(
+  def string_of_sPL "sPLc.ml" 47 1499 1499 "sPLc.ml" 1 0 -1
+)
+"sPLc.ml" 30 706 725 "sPLc.ml" 30 706 726
+type(
+  sPL_expr
+)
+ident(
+  def e "sPLc.ml" 30 706 736 "sPLc.ml" 43 1453 1463
+)
+"sPLc.ml" 31 746 752 "sPLc.ml" 31 746 759
+type(
+  S.sPL_type -> string
+)
+ident(
+  def pr_type "sPLc.ml" 32 800 802 "sPLc.ml" 43 1453 1463
+)
+"sPLc.ml" 31 746 760 "sPLc.ml" 31 746 761
+type(
+  S.sPL_type
+)
+ident(
+  def t "sPLc.ml" 31 746 764 "sPLc.ml" 31 746 796
+)
+"sPLc.ml" 31 746 764 "sPLc.ml" 31 746 767
+type(
+  string
+)
+"sPLc.ml" 31 746 767 "sPLc.ml" 31 746 768
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 31 746 769 "sPLc.ml" 31 746 789
+type(
+  S.sPL_type -> string
+)
+ident(
+  int_ref S.string_of_sPL_type "sPL.ml" 40 1120 1128 "sPL.ml" 40 1120 1146
+)
+"sPLc.ml" 31 746 790 "sPLc.ml" 31 746 791
+type(
+  S.sPL_type
+)
+ident(
+  int_ref t "sPLc.ml" 31 746 760 "sPLc.ml" 31 746 761
+)
+"sPLc.ml" 31 746 768 "sPLc.ml" 31 746 792
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 31 746 792 "sPLc.ml" 31 746 793
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 31 746 793 "sPLc.ml" 31 746 796
+type(
+  string
+)
+"sPLc.ml" 31 746 768 "sPLc.ml" 31 746 796
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 31 746 764 "sPLc.ml" 31 746 796
+call(
+  tail
+)
+type(
+  string
+)
+"sPLc.ml" 32 800 810 "sPLc.ml" 32 800 813
+type(
+  sPL_expr -> string
+)
+ident(
+  def aux "sPLc.ml" 32 800 802 "sPLc.ml" 43 1453 1463
+)
+"sPLc.ml" 32 800 814 "sPLc.ml" 32 800 815
+type(
+  sPL_expr
+)
+ident(
+  def e "sPLc.ml" 33 818 820 "sPLc.ml" 42 1379 1452
+)
+"sPLc.ml" 33 818 826 "sPLc.ml" 33 818 827
+type(
+  sPL_expr
+)
+ident(
+  int_ref e "sPLc.ml" 32 800 814 "sPLc.ml" 32 800 815
+)
+"sPLc.ml" 34 833 849 "sPLc.ml" 34 833 850
+type(
+  bool
+)
+ident(
+  def v "sPLc.ml" 34 833 854 "sPLc.ml" 34 833 884
+)
+"sPLc.ml" 34 833 839 "sPLc.ml" 34 833 850
+type(
+  sPL_expr
+)
+"sPLc.ml" 34 833 854 "sPLc.ml" 34 833 861
+type(
+  string
+)
+"sPLc.ml" 34 833 861 "sPLc.ml" 34 833 862
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 34 833 863 "sPLc.ml" 34 833 877
+type(
+  bool -> string
+)
+ident(
+  int_ref Pervasives.string_of_bool "pervasives.mli" 604 22943 22943 "pervasives.mli" 604 22943 22978
+)
+"sPLc.ml" 34 833 878 "sPLc.ml" 34 833 879
+type(
+  bool
+)
+ident(
+  int_ref v "sPLc.ml" 34 833 849 "sPLc.ml" 34 833 850
+)
+"sPLc.ml" 34 833 862 "sPLc.ml" 34 833 880
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 34 833 880 "sPLc.ml" 34 833 881
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 34 833 881 "sPLc.ml" 34 833 884
+type(
+  string
+)
+"sPLc.ml" 34 833 862 "sPLc.ml" 34 833 884
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 34 833 854 "sPLc.ml" 34 833 884
+call(
+  tail
+)
+type(
+  string
+)
+"sPLc.ml" 35 885 900 "sPLc.ml" 35 885 901
+type(
+  int
+)
+ident(
+  def v "sPLc.ml" 35 885 905 "sPLc.ml" 35 885 933
+)
+"sPLc.ml" 35 885 891 "sPLc.ml" 35 885 901
+type(
+  sPL_expr
+)
+"sPLc.ml" 35 885 905 "sPLc.ml" 35 885 911
+type(
+  string
+)
+"sPLc.ml" 35 885 911 "sPLc.ml" 35 885 912
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 35 885 913 "sPLc.ml" 35 885 926
+type(
+  int -> string
+)
+ident(
+  int_ref Pervasives.string_of_int "pervasives.mli" 621 23467 23467 "pervasives.mli" 621 23467 23500
+)
+"sPLc.ml" 35 885 927 "sPLc.ml" 35 885 928
+type(
+  int
+)
+ident(
+  int_ref v "sPLc.ml" 35 885 900 "sPLc.ml" 35 885 901
+)
+"sPLc.ml" 35 885 912 "sPLc.ml" 35 885 929
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 35 885 929 "sPLc.ml" 35 885 930
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 35 885 930 "sPLc.ml" 35 885 933
+type(
+  string
+)
+"sPLc.ml" 35 885 912 "sPLc.ml" 35 885 933
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 35 885 905 "sPLc.ml" 35 885 933
+call(
+  tail
+)
+type(
+  string
+)
+"sPLc.ml" 36 934 944 "sPLc.ml" 36 934 945
+type(
+  Debug.id
+)
+ident(
+  def v "sPLc.ml" 36 934 949 "sPLc.ml" 36 934 961
+)
+"sPLc.ml" 36 934 940 "sPLc.ml" 36 934 945
+type(
+  sPL_expr
+)
+"sPLc.ml" 36 934 949 "sPLc.ml" 36 934 955
+type(
+  string
+)
+"sPLc.ml" 36 934 955 "sPLc.ml" 36 934 956
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 36 934 956 "sPLc.ml" 36 934 957
+type(
+  Debug.id
+)
+ident(
+  int_ref v "sPLc.ml" 36 934 944 "sPLc.ml" 36 934 945
+)
+"sPLc.ml" 36 934 957 "sPLc.ml" 36 934 958
+type(
+  Debug.id -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 36 934 958 "sPLc.ml" 36 934 961
+type(
+  string
+)
+"sPLc.ml" 36 934 956 "sPLc.ml" 36 934 961
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 36 934 949 "sPLc.ml" 36 934 961
+call(
+  tail
+)
+type(
+  string
+)
+"sPLc.ml" 37 962 982 "sPLc.ml" 37 962 984
+type(
+  op_id
+)
+ident(
+  def op "sPLc.ml" 37 962 993 "sPLc.ml" 37 962 1013
+)
+"sPLc.ml" 37 962 985 "sPLc.ml" 37 962 988
+type(
+  sPL_expr
+)
+ident(
+  def arg "sPLc.ml" 37 962 993 "sPLc.ml" 37 962 1013
+)
+"sPLc.ml" 37 962 968 "sPLc.ml" 37 962 989
+type(
+  sPL_expr
+)
+"sPLc.ml" 37 962 993 "sPLc.ml" 37 962 995
+type(
+  op_id
+)
+ident(
+  int_ref op "sPLc.ml" 37 962 982 "sPLc.ml" 37 962 984
+)
+"sPLc.ml" 37 962 995 "sPLc.ml" 37 962 996
+type(
+  op_id -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 37 962 996 "sPLc.ml" 37 962 999
+type(
+  string
+)
+"sPLc.ml" 37 962 999 "sPLc.ml" 37 962 1000
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 37 962 1001 "sPLc.ml" 37 962 1004
+type(
+  sPL_expr -> string
+)
+ident(
+  int_ref aux "sPLc.ml" 32 800 810 "sPLc.ml" 32 800 813
+)
+"sPLc.ml" 37 962 1005 "sPLc.ml" 37 962 1008
+type(
+  sPL_expr
+)
+ident(
+  int_ref arg "sPLc.ml" 37 962 985 "sPLc.ml" 37 962 988
+)
+"sPLc.ml" 37 962 1000 "sPLc.ml" 37 962 1009
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 37 962 1009 "sPLc.ml" 37 962 1010
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 37 962 1010 "sPLc.ml" 37 962 1013
+type(
+  string
+)
+"sPLc.ml" 37 962 1000 "sPLc.ml" 37 962 1013
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 37 962 996 "sPLc.ml" 37 962 1013
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 37 962 993 "sPLc.ml" 37 962 1013
+call(
+  tail
+)
+type(
+  string
+)
+"sPLc.ml" 38 1014 1035 "sPLc.ml" 38 1014 1037
+type(
+  op_id
+)
+ident(
+  def op "sPLc.ml" 38 1014 1052 "sPLc.ml" 38 1014 1088
+)
+"sPLc.ml" 38 1014 1038 "sPLc.ml" 38 1014 1042
+type(
+  sPL_expr
+)
+ident(
+  def arg1 "sPLc.ml" 38 1014 1052 "sPLc.ml" 38 1014 1088
+)
+"sPLc.ml" 38 1014 1043 "sPLc.ml" 38 1014 1047
+type(
+  sPL_expr
+)
+ident(
+  def arg2 "sPLc.ml" 38 1014 1052 "sPLc.ml" 38 1014 1088
+)
+"sPLc.ml" 38 1014 1020 "sPLc.ml" 38 1014 1048
+type(
+  sPL_expr
+)
+"sPLc.ml" 38 1014 1052 "sPLc.ml" 38 1014 1054
+type(
+  op_id
+)
+ident(
+  int_ref op "sPLc.ml" 38 1014 1035 "sPLc.ml" 38 1014 1037
+)
+"sPLc.ml" 38 1014 1054 "sPLc.ml" 38 1014 1055
+type(
+  op_id -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 38 1014 1055 "sPLc.ml" 38 1014 1058
+type(
+  string
+)
+"sPLc.ml" 38 1014 1058 "sPLc.ml" 38 1014 1059
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 38 1014 1060 "sPLc.ml" 38 1014 1063
+type(
+  sPL_expr -> string
+)
+ident(
+  int_ref aux "sPLc.ml" 32 800 810 "sPLc.ml" 32 800 813
+)
+"sPLc.ml" 38 1014 1064 "sPLc.ml" 38 1014 1068
+type(
+  sPL_expr
+)
+ident(
+  int_ref arg1 "sPLc.ml" 38 1014 1038 "sPLc.ml" 38 1014 1042
+)
+"sPLc.ml" 38 1014 1059 "sPLc.ml" 38 1014 1069
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 38 1014 1069 "sPLc.ml" 38 1014 1070
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 38 1014 1070 "sPLc.ml" 38 1014 1073
+type(
+  string
+)
+"sPLc.ml" 38 1014 1073 "sPLc.ml" 38 1014 1074
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 38 1014 1075 "sPLc.ml" 38 1014 1078
+type(
+  sPL_expr -> string
+)
+ident(
+  int_ref aux "sPLc.ml" 32 800 810 "sPLc.ml" 32 800 813
+)
+"sPLc.ml" 38 1014 1079 "sPLc.ml" 38 1014 1083
+type(
+  sPL_expr
+)
+ident(
+  int_ref arg2 "sPLc.ml" 38 1014 1043 "sPLc.ml" 38 1014 1047
+)
+"sPLc.ml" 38 1014 1074 "sPLc.ml" 38 1014 1084
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 38 1014 1084 "sPLc.ml" 38 1014 1085
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 38 1014 1085 "sPLc.ml" 38 1014 1088
+type(
+  string
+)
+"sPLc.ml" 38 1014 1074 "sPLc.ml" 38 1014 1088
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 38 1014 1070 "sPLc.ml" 38 1014 1088
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 38 1014 1059 "sPLc.ml" 38 1014 1088
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 38 1014 1055 "sPLc.ml" 38 1014 1088
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 38 1014 1052 "sPLc.ml" 38 1014 1088
+call(
+  tail
+)
+type(
+  string
+)
+"sPLc.ml" 39 1089 1101 "sPLc.ml" 39 1089 1103
+type(
+  sPL_expr
+)
+ident(
+  def e1 "sPLc.ml" 39 1089 1114 "sPLc.ml" 39 1089 1164
+)
+"sPLc.ml" 39 1089 1104 "sPLc.ml" 39 1089 1106
+type(
+  sPL_expr
+)
+ident(
+  def e2 "sPLc.ml" 39 1089 1114 "sPLc.ml" 39 1089 1164
+)
+"sPLc.ml" 39 1089 1107 "sPLc.ml" 39 1089 1109
+type(
+  sPL_expr
+)
+ident(
+  def e3 "sPLc.ml" 39 1089 1114 "sPLc.ml" 39 1089 1164
+)
+"sPLc.ml" 39 1089 1095 "sPLc.ml" 39 1089 1110
+type(
+  sPL_expr
+)
+"sPLc.ml" 39 1089 1114 "sPLc.ml" 39 1089 1119
+type(
+  string
+)
+"sPLc.ml" 39 1089 1119 "sPLc.ml" 39 1089 1120
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 39 1089 1121 "sPLc.ml" 39 1089 1124
+type(
+  sPL_expr -> string
+)
+ident(
+  int_ref aux "sPLc.ml" 32 800 810 "sPLc.ml" 32 800 813
+)
+"sPLc.ml" 39 1089 1125 "sPLc.ml" 39 1089 1127
+type(
+  sPL_expr
+)
+ident(
+  int_ref e1 "sPLc.ml" 39 1089 1101 "sPLc.ml" 39 1089 1103
+)
+"sPLc.ml" 39 1089 1120 "sPLc.ml" 39 1089 1128
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 39 1089 1128 "sPLc.ml" 39 1089 1129
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 39 1089 1129 "sPLc.ml" 39 1089 1137
+type(
+  string
+)
+"sPLc.ml" 39 1089 1137 "sPLc.ml" 39 1089 1138
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 39 1089 1139 "sPLc.ml" 39 1089 1142
+type(
+  sPL_expr -> string
+)
+ident(
+  int_ref aux "sPLc.ml" 32 800 810 "sPLc.ml" 32 800 813
+)
+"sPLc.ml" 39 1089 1143 "sPLc.ml" 39 1089 1145
+type(
+  sPL_expr
+)
+ident(
+  int_ref e2 "sPLc.ml" 39 1089 1104 "sPLc.ml" 39 1089 1106
+)
+"sPLc.ml" 39 1089 1138 "sPLc.ml" 39 1089 1146
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 39 1089 1146 "sPLc.ml" 39 1089 1147
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 39 1089 1147 "sPLc.ml" 39 1089 1155
+type(
+  string
+)
+"sPLc.ml" 39 1089 1155 "sPLc.ml" 39 1089 1156
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 39 1089 1157 "sPLc.ml" 39 1089 1160
+type(
+  sPL_expr -> string
+)
+ident(
+  int_ref aux "sPLc.ml" 32 800 810 "sPLc.ml" 32 800 813
+)
+"sPLc.ml" 39 1089 1161 "sPLc.ml" 39 1089 1163
+type(
+  sPL_expr
+)
+ident(
+  int_ref e3 "sPLc.ml" 39 1089 1107 "sPLc.ml" 39 1089 1109
+)
+"sPLc.ml" 39 1089 1156 "sPLc.ml" 39 1089 1164
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 39 1089 1147 "sPLc.ml" 39 1089 1164
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 39 1089 1138 "sPLc.ml" 39 1089 1164
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 39 1089 1129 "sPLc.ml" 39 1089 1164
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 39 1089 1120 "sPLc.ml" 39 1089 1164
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 39 1089 1114 "sPLc.ml" 39 1089 1164
+call(
+  tail
+)
+type(
+  string
+)
+"sPLc.ml" 40 1165 1177 "sPLc.ml" 40 1165 1178
+type(
+  sPL_type
+)
+ident(
+  def t "sPLc.ml" 40 1165 1193 "sPLc.ml" 40 1165 1264
+)
+"sPLc.ml" 40 1165 1179 "sPLc.ml" 40 1165 1183
+type(
+  Debug.id list
+)
+ident(
+  def args "sPLc.ml" 40 1165 1193 "sPLc.ml" 40 1165 1264
+)
+"sPLc.ml" 40 1165 1184 "sPLc.ml" 40 1165 1188
+type(
+  sPL_expr
+)
+ident(
+  def body "sPLc.ml" 40 1165 1193 "sPLc.ml" 40 1165 1264
+)
+"sPLc.ml" 40 1165 1171 "sPLc.ml" 40 1165 1189
+type(
+  sPL_expr
+)
+"sPLc.ml" 40 1165 1193 "sPLc.ml" 40 1165 1199
+type(
+  string
+)
+"sPLc.ml" 40 1165 1199 "sPLc.ml" 40 1165 1200
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 40 1165 1201 "sPLc.ml" 40 1165 1208
+type(
+  S.sPL_type -> string
+)
+ident(
+  int_ref pr_type "sPLc.ml" 31 746 752 "sPLc.ml" 31 746 759
+)
+"sPLc.ml" 40 1165 1209 "sPLc.ml" 40 1165 1210
+type(
+  sPL_type
+)
+ident(
+  int_ref t "sPLc.ml" 40 1165 1177 "sPLc.ml" 40 1165 1178
+)
+"sPLc.ml" 40 1165 1200 "sPLc.ml" 40 1165 1211
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 40 1165 1211 "sPLc.ml" 40 1165 1212
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 40 1165 1212 "sPLc.ml" 40 1165 1215
+type(
+  string
+)
+"sPLc.ml" 40 1165 1215 "sPLc.ml" 40 1165 1216
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 40 1165 1217 "sPLc.ml" 40 1165 1223
+type(
+  string -> (Debug.id -> Debug.id) -> Debug.id list -> string
+)
+ident(
+  int_ref Debug.pr_lst "debug.ml" 78 2379 2385 "debug.ml" 78 2379 2391
+)
+"sPLc.ml" 40 1165 1224 "sPLc.ml" 40 1165 1227
+type(
+  string
+)
+"sPLc.ml" 40 1165 1228 "sPLc.ml" 40 1165 1233
+type(
+  Debug.id -> Debug.id
+)
+ident(
+  int_ref Debug.pr_id "debug.ml" 43 1009 1015 "debug.ml" 43 1009 1020
+)
+"sPLc.ml" 40 1165 1234 "sPLc.ml" 40 1165 1238
+type(
+  Debug.id list
+)
+ident(
+  int_ref args "sPLc.ml" 40 1165 1179 "sPLc.ml" 40 1165 1183
+)
+"sPLc.ml" 40 1165 1216 "sPLc.ml" 40 1165 1239
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 40 1165 1239 "sPLc.ml" 40 1165 1240
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 40 1165 1240 "sPLc.ml" 40 1165 1246
+type(
+  string
+)
+"sPLc.ml" 40 1165 1246 "sPLc.ml" 40 1165 1247
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 40 1165 1248 "sPLc.ml" 40 1165 1251
+type(
+  sPL_expr -> string
+)
+ident(
+  int_ref aux "sPLc.ml" 32 800 810 "sPLc.ml" 32 800 813
+)
+"sPLc.ml" 40 1165 1252 "sPLc.ml" 40 1165 1256
+type(
+  sPL_expr
+)
+ident(
+  int_ref body "sPLc.ml" 40 1165 1184 "sPLc.ml" 40 1165 1188
+)
+"sPLc.ml" 40 1165 1247 "sPLc.ml" 40 1165 1257
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 40 1165 1257 "sPLc.ml" 40 1165 1258
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 40 1165 1258 "sPLc.ml" 40 1165 1264
+type(
+  string
+)
+"sPLc.ml" 40 1165 1247 "sPLc.ml" 40 1165 1264
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 40 1165 1240 "sPLc.ml" 40 1165 1264
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 40 1165 1216 "sPLc.ml" 40 1165 1264
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 40 1165 1212 "sPLc.ml" 40 1165 1264
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 40 1165 1200 "sPLc.ml" 40 1165 1264
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 40 1165 1193 "sPLc.ml" 40 1165 1264
+call(
+  tail
+)
+type(
+  string
+)
+"sPLc.ml" 41 1265 1280 "sPLc.ml" 41 1265 1281
+type(
+  sPL_type
+)
+ident(
+  def t "sPLc.ml" 41 1265 1298 "sPLc.ml" 41 1265 1378
+)
+"sPLc.ml" 41 1265 1282 "sPLc.ml" 41 1265 1283
+type(
+  Debug.id
+)
+ident(
+  def r "sPLc.ml" 41 1265 1298 "sPLc.ml" 41 1265 1378
+)
+"sPLc.ml" 41 1265 1284 "sPLc.ml" 41 1265 1288
+type(
+  Debug.id list
+)
+ident(
+  def args "sPLc.ml" 41 1265 1298 "sPLc.ml" 41 1265 1378
+)
+"sPLc.ml" 41 1265 1289 "sPLc.ml" 41 1265 1293
+type(
+  sPL_expr
+)
+ident(
+  def body "sPLc.ml" 41 1265 1298 "sPLc.ml" 41 1265 1378
+)
+"sPLc.ml" 41 1265 1271 "sPLc.ml" 41 1265 1294
+type(
+  sPL_expr
+)
+"sPLc.ml" 41 1265 1298 "sPLc.ml" 41 1265 1307
+type(
+  string
+)
+"sPLc.ml" 41 1265 1307 "sPLc.ml" 41 1265 1308
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 41 1265 1308 "sPLc.ml" 41 1265 1309
+type(
+  Debug.id
+)
+ident(
+  int_ref r "sPLc.ml" 41 1265 1282 "sPLc.ml" 41 1265 1283
+)
+"sPLc.ml" 41 1265 1309 "sPLc.ml" 41 1265 1310
+type(
+  Debug.id -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 41 1265 1310 "sPLc.ml" 41 1265 1313
+type(
+  string
+)
+"sPLc.ml" 41 1265 1313 "sPLc.ml" 41 1265 1314
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 41 1265 1315 "sPLc.ml" 41 1265 1322
+type(
+  S.sPL_type -> string
+)
+ident(
+  int_ref pr_type "sPLc.ml" 31 746 752 "sPLc.ml" 31 746 759
+)
+"sPLc.ml" 41 1265 1323 "sPLc.ml" 41 1265 1324
+type(
+  sPL_type
+)
+ident(
+  int_ref t "sPLc.ml" 41 1265 1280 "sPLc.ml" 41 1265 1281
+)
+"sPLc.ml" 41 1265 1314 "sPLc.ml" 41 1265 1325
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 41 1265 1325 "sPLc.ml" 41 1265 1326
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 41 1265 1326 "sPLc.ml" 41 1265 1329
+type(
+  string
+)
+"sPLc.ml" 41 1265 1329 "sPLc.ml" 41 1265 1330
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 41 1265 1331 "sPLc.ml" 41 1265 1337
+type(
+  string -> (Debug.id -> Debug.id) -> Debug.id list -> string
+)
+ident(
+  int_ref Debug.pr_lst "debug.ml" 78 2379 2385 "debug.ml" 78 2379 2391
+)
+"sPLc.ml" 41 1265 1338 "sPLc.ml" 41 1265 1341
+type(
+  string
+)
+"sPLc.ml" 41 1265 1342 "sPLc.ml" 41 1265 1347
+type(
+  Debug.id -> Debug.id
+)
+ident(
+  int_ref Debug.pr_id "debug.ml" 43 1009 1015 "debug.ml" 43 1009 1020
+)
+"sPLc.ml" 41 1265 1348 "sPLc.ml" 41 1265 1352
+type(
+  Debug.id list
+)
+ident(
+  int_ref args "sPLc.ml" 41 1265 1284 "sPLc.ml" 41 1265 1288
+)
+"sPLc.ml" 41 1265 1330 "sPLc.ml" 41 1265 1353
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 41 1265 1353 "sPLc.ml" 41 1265 1354
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 41 1265 1354 "sPLc.ml" 41 1265 1360
+type(
+  string
+)
+"sPLc.ml" 41 1265 1360 "sPLc.ml" 41 1265 1361
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 41 1265 1362 "sPLc.ml" 41 1265 1365
+type(
+  sPL_expr -> string
+)
+ident(
+  int_ref aux "sPLc.ml" 32 800 810 "sPLc.ml" 32 800 813
+)
+"sPLc.ml" 41 1265 1366 "sPLc.ml" 41 1265 1370
+type(
+  sPL_expr
+)
+ident(
+  int_ref body "sPLc.ml" 41 1265 1289 "sPLc.ml" 41 1265 1293
+)
+"sPLc.ml" 41 1265 1361 "sPLc.ml" 41 1265 1371
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 41 1265 1371 "sPLc.ml" 41 1265 1372
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 41 1265 1372 "sPLc.ml" 41 1265 1378
+type(
+  string
+)
+"sPLc.ml" 41 1265 1361 "sPLc.ml" 41 1265 1378
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 41 1265 1354 "sPLc.ml" 41 1265 1378
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 41 1265 1330 "sPLc.ml" 41 1265 1378
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 41 1265 1326 "sPLc.ml" 41 1265 1378
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 41 1265 1314 "sPLc.ml" 41 1265 1378
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 41 1265 1310 "sPLc.ml" 41 1265 1378
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 41 1265 1308 "sPLc.ml" 41 1265 1378
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 41 1265 1298 "sPLc.ml" 41 1265 1378
+call(
+  tail
+)
+type(
+  string
+)
+"sPLc.ml" 42 1379 1392 "sPLc.ml" 42 1379 1393
+type(
+  sPL_expr
+)
+ident(
+  def e "sPLc.ml" 42 1379 1405 "sPLc.ml" 42 1379 1452
+)
+"sPLc.ml" 42 1379 1394 "sPLc.ml" 42 1379 1395
+type(
+  sPL_type
+)
+ident(
+  def t "sPLc.ml" 42 1379 1405 "sPLc.ml" 42 1379 1452
+)
+"sPLc.ml" 42 1379 1396 "sPLc.ml" 42 1379 1400
+type(
+  sPL_expr list
+)
+ident(
+  def args "sPLc.ml" 42 1379 1405 "sPLc.ml" 42 1379 1452
+)
+"sPLc.ml" 42 1379 1385 "sPLc.ml" 42 1379 1401
+type(
+  sPL_expr
+)
+"sPLc.ml" 42 1379 1405 "sPLc.ml" 42 1379 1413
+type(
+  string
+)
+"sPLc.ml" 42 1379 1413 "sPLc.ml" 42 1379 1414
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 42 1379 1415 "sPLc.ml" 42 1379 1418
+type(
+  sPL_expr -> string
+)
+ident(
+  int_ref aux "sPLc.ml" 32 800 810 "sPLc.ml" 32 800 813
+)
+"sPLc.ml" 42 1379 1419 "sPLc.ml" 42 1379 1420
+type(
+  sPL_expr
+)
+ident(
+  int_ref e "sPLc.ml" 42 1379 1392 "sPLc.ml" 42 1379 1393
+)
+"sPLc.ml" 42 1379 1414 "sPLc.ml" 42 1379 1421
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 42 1379 1421 "sPLc.ml" 42 1379 1422
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 42 1379 1422 "sPLc.ml" 42 1379 1426
+type(
+  string
+)
+"sPLc.ml" 42 1379 1426 "sPLc.ml" 42 1379 1427
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 42 1379 1428 "sPLc.ml" 42 1379 1434
+type(
+  string -> (sPL_expr -> string) -> sPL_expr list -> string
+)
+ident(
+  int_ref Debug.pr_lst "debug.ml" 78 2379 2385 "debug.ml" 78 2379 2391
+)
+"sPLc.ml" 42 1379 1435 "sPLc.ml" 42 1379 1438
+type(
+  string
+)
+"sPLc.ml" 42 1379 1439 "sPLc.ml" 42 1379 1442
+type(
+  sPL_expr -> string
+)
+ident(
+  int_ref aux "sPLc.ml" 32 800 810 "sPLc.ml" 32 800 813
+)
+"sPLc.ml" 42 1379 1443 "sPLc.ml" 42 1379 1447
+type(
+  sPL_expr list
+)
+ident(
+  int_ref args "sPLc.ml" 42 1379 1396 "sPLc.ml" 42 1379 1400
+)
+"sPLc.ml" 42 1379 1427 "sPLc.ml" 42 1379 1448
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 42 1379 1448 "sPLc.ml" 42 1379 1449
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+)
+"sPLc.ml" 42 1379 1449 "sPLc.ml" 42 1379 1452
+type(
+  string
+)
+"sPLc.ml" 42 1379 1427 "sPLc.ml" 42 1379 1452
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 42 1379 1422 "sPLc.ml" 42 1379 1452
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 42 1379 1414 "sPLc.ml" 42 1379 1452
+call(
+  stack
+)
+type(
+  string
+)
+"sPLc.ml" 42 1379 1405 "sPLc.ml" 42 1379 1452
+call(
+  tail
+)
+type(
+  string
+)
+"sPLc.ml" 33 818 820 "sPLc.ml" 42 1379 1452
+type(
+  string
+)
+"sPLc.ml" 43 1453 1458 "sPLc.ml" 43 1453 1461
+type(
+  sPL_expr -> string
+)
+ident(
+  int_ref aux "sPLc.ml" 32 800 810 "sPLc.ml" 32 800 813
+)
+"sPLc.ml" 43 1453 1462 "sPLc.ml" 43 1453 1463
+type(
+  sPL_expr
+)
+ident(
+  int_ref e "sPLc.ml" 30 706 725 "sPLc.ml" 30 706 726
+)
+"sPLc.ml" 43 1453 1458 "sPLc.ml" 43 1453 1463
+call(
+  tail
+)
+type(
+  string
+)
+"sPLc.ml" 32 800 802 "sPLc.ml" 43 1453 1463
+type(
+  string
+)
+"sPLc.ml" 31 746 748 "sPLc.ml" 43 1453 1463
+type(
+  string
+)
+type(
+  string
+)
+"sPLc.ml" 47 1499 1507 "sPLc.ml" 47 1499 1509
+type(
+  sPL_expr -> Debug.id list
+)
+ident(
+  def fv "sPLc.ml" 47 1499 1499 "sPLc.ml" 1 0 -1
+)
+"sPLc.ml" 47 1499 1511 "sPLc.ml" 47 1499 1512
+type(
+  sPL_expr
+)
+ident(
+  def e "sPLc.ml" 47 1499 1523 "sPLc.ml" 56 1848 1911
+)
+"sPLc.ml" 48 1535 1543 "sPLc.ml" 48 1535 1544
+type(
+  sPL_expr
+)
+ident(
+  int_ref e "sPLc.ml" 47 1499 1511 "sPLc.ml" 47 1499 1512
+)
+"sPLc.ml" 49 1550 1566 "sPLc.ml" 49 1550 1567
+type(
+  bool
+)
+"sPLc.ml" 49 1550 1556 "sPLc.ml" 49 1550 1567
+type(
+  sPL_expr
+)
+"sPLc.ml" 49 1550 1580 "sPLc.ml" 49 1550 1581
+type(
+  int
+)
+"sPLc.ml" 49 1550 1571 "sPLc.ml" 49 1550 1581
+type(
+  sPL_expr
+)
+"sPLc.ml" 49 1550 1556 "sPLc.ml" 49 1550 1581
+type(
+  sPL_expr
+)
+"sPLc.ml" 49 1550 1585 "sPLc.ml" 49 1550 1587
+type(
+  Debug.id list
+)
+"sPLc.ml" 50 1588 1598 "sPLc.ml" 50 1588 1599
+type(
+  Debug.id
+)
+ident(
+  def i "sPLc.ml" 50 1588 1603 "sPLc.ml" 50 1588 1606
+)
+"sPLc.ml" 50 1588 1594 "sPLc.ml" 50 1588 1599
+type(
+  sPL_expr
+)
+"sPLc.ml" 50 1588 1604 "sPLc.ml" 50 1588 1605
+type(
+  Debug.id
+)
+ident(
+  int_ref i "sPLc.ml" 50 1588 1598 "sPLc.ml" 50 1588 1599
+)
+"sPLc.ml" 50 1588 1603 "sPLc.ml" 50 1588 1606
+type(
+  Debug.id list
+)
+"sPLc.ml" 51 1607 1627 "sPLc.ml" 51 1607 1628
+type(
+  op_id
+)
+"sPLc.ml" 51 1607 1629 "sPLc.ml" 51 1607 1632
+type(
+  sPL_expr
+)
+ident(
+  def arg "sPLc.ml" 51 1607 1637 "sPLc.ml" 51 1607 1643
+)
+"sPLc.ml" 51 1607 1613 "sPLc.ml" 51 1607 1633
+type(
+  sPL_expr
+)
+"sPLc.ml" 51 1607 1637 "sPLc.ml" 51 1607 1639
+type(
+  sPL_expr -> Debug.id list
+)
+ident(
+  int_ref fv "sPLc.ml" 47 1499 1507 "sPLc.ml" 47 1499 1509
+)
+"sPLc.ml" 51 1607 1640 "sPLc.ml" 51 1607 1643
+type(
+  sPL_expr
+)
+ident(
+  int_ref arg "sPLc.ml" 51 1607 1629 "sPLc.ml" 51 1607 1632
+)
+"sPLc.ml" 51 1607 1637 "sPLc.ml" 51 1607 1643
+call(
+  tail
+)
+type(
+  Debug.id list
+)
+"sPLc.ml" 52 1644 1665 "sPLc.ml" 52 1644 1666
+type(
+  op_id
+)
+"sPLc.ml" 52 1644 1667 "sPLc.ml" 52 1644 1671
+type(
+  sPL_expr
+)
+ident(
+  def arg1 "sPLc.ml" 52 1644 1681 "sPLc.ml" 52 1644 1700
+)
+"sPLc.ml" 52 1644 1672 "sPLc.ml" 52 1644 1676
+type(
+  sPL_expr
+)
+ident(
+  def arg2 "sPLc.ml" 52 1644 1681 "sPLc.ml" 52 1644 1700
+)
+"sPLc.ml" 52 1644 1650 "sPLc.ml" 52 1644 1677
+type(
+  sPL_expr
+)
+"sPLc.ml" 52 1644 1682 "sPLc.ml" 52 1644 1684
+type(
+  sPL_expr -> Debug.id list
+)
+ident(
+  int_ref fv "sPLc.ml" 47 1499 1507 "sPLc.ml" 47 1499 1509
+)
+"sPLc.ml" 52 1644 1685 "sPLc.ml" 52 1644 1689
+type(
+  sPL_expr
+)
+ident(
+  int_ref arg1 "sPLc.ml" 52 1644 1667 "sPLc.ml" 52 1644 1671
+)
+"sPLc.ml" 52 1644 1681 "sPLc.ml" 52 1644 1690
+call(
+  stack
+)
+type(
+  Debug.id list
+)
+"sPLc.ml" 52 1644 1690 "sPLc.ml" 52 1644 1691
+type(
+  Debug.id list -> Debug.id list -> Debug.id list
+)
+ident(
+  int_ref Pervasives.( @ ) "pervasives.mli" 687 26007 26007 "pervasives.mli" 687 26007 26048
+)
+"sPLc.ml" 52 1644 1692 "sPLc.ml" 52 1644 1694
+type(
+  sPL_expr -> Debug.id list
+)
+ident(
+  int_ref fv "sPLc.ml" 47 1499 1507 "sPLc.ml" 47 1499 1509
+)
+"sPLc.ml" 52 1644 1695 "sPLc.ml" 52 1644 1699
+type(
+  sPL_expr
+)
+ident(
+  int_ref arg2 "sPLc.ml" 52 1644 1672 "sPLc.ml" 52 1644 1676
+)
+"sPLc.ml" 52 1644 1691 "sPLc.ml" 52 1644 1700
+call(
+  stack
+)
+type(
+  Debug.id list
+)
+"sPLc.ml" 52 1644 1681 "sPLc.ml" 52 1644 1700
+call(
+  tail
+)
+type(
+  Debug.id list
+)
+"sPLc.ml" 53 1701 1713 "sPLc.ml" 53 1701 1715
+type(
+  sPL_expr
+)
+ident(
+  def e1 "sPLc.ml" 53 1701 1726 "sPLc.ml" 53 1701 1749
+)
+"sPLc.ml" 53 1701 1716 "sPLc.ml" 53 1701 1718
+type(
+  sPL_expr
+)
+ident(
+  def e2 "sPLc.ml" 53 1701 1726 "sPLc.ml" 53 1701 1749
+)
+"sPLc.ml" 53 1701 1719 "sPLc.ml" 53 1701 1721
+type(
+  sPL_expr
+)
+ident(
+  def e3 "sPLc.ml" 53 1701 1726 "sPLc.ml" 53 1701 1749
+)
+"sPLc.ml" 53 1701 1707 "sPLc.ml" 53 1701 1722
+type(
+  sPL_expr
+)
+"sPLc.ml" 53 1701 1727 "sPLc.ml" 53 1701 1729
+type(
+  sPL_expr -> Debug.id list
+)
+ident(
+  int_ref fv "sPLc.ml" 47 1499 1507 "sPLc.ml" 47 1499 1509
+)
+"sPLc.ml" 53 1701 1730 "sPLc.ml" 53 1701 1732
+type(
+  sPL_expr
+)
+ident(
+  int_ref e1 "sPLc.ml" 53 1701 1713 "sPLc.ml" 53 1701 1715
+)
+"sPLc.ml" 53 1701 1726 "sPLc.ml" 53 1701 1733
+call(
+  stack
+)
+type(
+  Debug.id list
+)
+"sPLc.ml" 53 1701 1733 "sPLc.ml" 53 1701 1734
+type(
+  Debug.id list -> Debug.id list -> Debug.id list
+)
+ident(
+  int_ref Pervasives.( @ ) "pervasives.mli" 687 26007 26007 "pervasives.mli" 687 26007 26048
+)
+"sPLc.ml" 53 1701 1735 "sPLc.ml" 53 1701 1737
+type(
+  sPL_expr -> Debug.id list
+)
+ident(
+  int_ref fv "sPLc.ml" 47 1499 1507 "sPLc.ml" 47 1499 1509
+)
+"sPLc.ml" 53 1701 1738 "sPLc.ml" 53 1701 1740
+type(
+  sPL_expr
+)
+ident(
+  int_ref e2 "sPLc.ml" 53 1701 1716 "sPLc.ml" 53 1701 1718
+)
+"sPLc.ml" 53 1701 1734 "sPLc.ml" 53 1701 1741
+call(
+  stack
+)
+type(
+  Debug.id list
+)
+"sPLc.ml" 53 1701 1741 "sPLc.ml" 53 1701 1742
+type(
+  Debug.id list -> Debug.id list -> Debug.id list
+)
+ident(
+  int_ref Pervasives.( @ ) "pervasives.mli" 687 26007 26007 "pervasives.mli" 687 26007 26048
+)
+"sPLc.ml" 53 1701 1743 "sPLc.ml" 53 1701 1745
+type(
+  sPL_expr -> Debug.id list
+)
+ident(
+  int_ref fv "sPLc.ml" 47 1499 1507 "sPLc.ml" 47 1499 1509
+)
+"sPLc.ml" 53 1701 1746 "sPLc.ml" 53 1701 1748
+type(
+  sPL_expr
+)
+ident(
+  int_ref e3 "sPLc.ml" 53 1701 1719 "sPLc.ml" 53 1701 1721
+)
+"sPLc.ml" 53 1701 1742 "sPLc.ml" 53 1701 1749
+call(
+  stack
+)
+type(
+  Debug.id list
+)
+"sPLc.ml" 53 1701 1734 "sPLc.ml" 53 1701 1749
+call(
+  stack
+)
+type(
+  Debug.id list
+)
+"sPLc.ml" 53 1701 1726 "sPLc.ml" 53 1701 1749
+call(
+  tail
+)
+type(
+  Debug.id list
+)
+"sPLc.ml" 54 1750 1762 "sPLc.ml" 54 1750 1763
+type(
+  sPL_type
+)
+"sPLc.ml" 54 1750 1764 "sPLc.ml" 54 1750 1766
+type(
+  Debug.id list
+)
+ident(
+  def vs "sPLc.ml" 54 1750 1776 "sPLc.ml" 54 1750 1793
+)
+"sPLc.ml" 54 1750 1767 "sPLc.ml" 54 1750 1771
+type(
+  sPL_expr
+)
+ident(
+  def body "sPLc.ml" 54 1750 1776 "sPLc.ml" 54 1750 1793
+)
+"sPLc.ml" 54 1750 1756 "sPLc.ml" 54 1750 1772
+type(
+  sPL_expr
+)
+"sPLc.ml" 54 1750 1776 "sPLc.ml" 54 1750 1780
+type(
+  Debug.id list -> Debug.id list -> Debug.id list
+)
+ident(
+  int_ref Debug.diff "debug.ml" 181 5645 5651 "debug.ml" 181 5645 5655
+)
+"sPLc.ml" 54 1750 1782 "sPLc.ml" 54 1750 1784
+type(
+  sPL_expr -> Debug.id list
+)
+ident(
+  int_ref fv "sPLc.ml" 47 1499 1507 "sPLc.ml" 47 1499 1509
+)
+"sPLc.ml" 54 1750 1785 "sPLc.ml" 54 1750 1789
+type(
+  sPL_expr
+)
+ident(
+  int_ref body "sPLc.ml" 54 1750 1767 "sPLc.ml" 54 1750 1771
+)
+"sPLc.ml" 54 1750 1781 "sPLc.ml" 54 1750 1790
+call(
+  stack
+)
+type(
+  Debug.id list
+)
+"sPLc.ml" 54 1750 1791 "sPLc.ml" 54 1750 1793
+type(
+  Debug.id list
+)
+ident(
+  int_ref vs "sPLc.ml" 54 1750 1764 "sPLc.ml" 54 1750 1766
+)
+"sPLc.ml" 54 1750 1776 "sPLc.ml" 54 1750 1793
+call(
+  tail
+)
+type(
+  Debug.id list
+)
+"sPLc.ml" 55 1794 1809 "sPLc.ml" 55 1794 1810
+type(
+  sPL_type
+)
+"sPLc.ml" 55 1794 1811 "sPLc.ml" 55 1794 1812
+type(
+  Debug.id
+)
+ident(
+  def i "sPLc.ml" 55 1794 1825 "sPLc.ml" 55 1794 1847
+)
+"sPLc.ml" 55 1794 1813 "sPLc.ml" 55 1794 1815
+type(
+  Debug.id list
+)
+ident(
+  def vs "sPLc.ml" 55 1794 1825 "sPLc.ml" 55 1794 1847
+)
+"sPLc.ml" 55 1794 1816 "sPLc.ml" 55 1794 1820
+type(
+  sPL_expr
+)
+ident(
+  def body "sPLc.ml" 55 1794 1825 "sPLc.ml" 55 1794 1847
+)
+"sPLc.ml" 55 1794 1800 "sPLc.ml" 55 1794 1821
+type(
+  sPL_expr
+)
+"sPLc.ml" 55 1794 1825 "sPLc.ml" 55 1794 1829
+type(
+  Debug.id list -> Debug.id list -> Debug.id list
+)
+ident(
+  int_ref Debug.diff "debug.ml" 181 5645 5651 "debug.ml" 181 5645 5655
+)
+"sPLc.ml" 55 1794 1831 "sPLc.ml" 55 1794 1833
+type(
+  sPL_expr -> Debug.id list
+)
+ident(
+  int_ref fv "sPLc.ml" 47 1499 1507 "sPLc.ml" 47 1499 1509
+)
+"sPLc.ml" 55 1794 1834 "sPLc.ml" 55 1794 1838
+type(
+  sPL_expr
+)
+ident(
+  int_ref body "sPLc.ml" 55 1794 1816 "sPLc.ml" 55 1794 1820
+)
+"sPLc.ml" 55 1794 1830 "sPLc.ml" 55 1794 1839
+call(
+  stack
+)
+type(
+  Debug.id list
+)
+"sPLc.ml" 55 1794 1841 "sPLc.ml" 55 1794 1842
+type(
+  Debug.id
+)
+ident(
+  int_ref i "sPLc.ml" 55 1794 1811 "sPLc.ml" 55 1794 1812
+)
+"sPLc.ml" 55 1794 1844 "sPLc.ml" 55 1794 1846
+type(
+  Debug.id list
+)
+ident(
+  int_ref vs "sPLc.ml" 55 1794 1813 "sPLc.ml" 55 1794 1815
+)
+"sPLc.ml" 55 1794 1840 "sPLc.ml" 55 1794 1847
+type(
+  Debug.id list
+)
+"sPLc.ml" 55 1794 1825 "sPLc.ml" 55 1794 1847
+call(
+  tail
+)
+type(
+  Debug.id list
+)
+"sPLc.ml" 56 1848 1861 "sPLc.ml" 56 1848 1863
+type(
+  sPL_expr
+)
+ident(
+  def e1 "sPLc.ml" 56 1848 1873 "sPLc.ml" 56 1848 1911
+)
+"sPLc.ml" 56 1848 1864 "sPLc.ml" 56 1848 1865
+type(
+  sPL_type
+)
+"sPLc.ml" 56 1848 1866 "sPLc.ml" 56 1848 1868
+type(
+  sPL_expr list
+)
+ident(
+  def es "sPLc.ml" 56 1848 1873 "sPLc.ml" 56 1848 1911
+)
+"sPLc.ml" 56 1848 1854 "sPLc.ml" 56 1848 1869
+type(
+  sPL_expr
+)
+"sPLc.ml" 56 1848 1874 "sPLc.ml" 56 1848 1876
+type(
+  sPL_expr -> Debug.id list
+)
+ident(
+  int_ref fv "sPLc.ml" 47 1499 1507 "sPLc.ml" 47 1499 1509
+)
+"sPLc.ml" 56 1848 1877 "sPLc.ml" 56 1848 1879
+type(
+  sPL_expr
+)
+ident(
+  int_ref e1 "sPLc.ml" 56 1848 1861 "sPLc.ml" 56 1848 1863
+)
+"sPLc.ml" 56 1848 1873 "sPLc.ml" 56 1848 1880
+call(
+  stack
+)
+type(
+  Debug.id list
+)
+"sPLc.ml" 56 1848 1880 "sPLc.ml" 56 1848 1881
+type(
+  Debug.id list -> Debug.id list -> Debug.id list
+)
+ident(
+  int_ref Pervasives.( @ ) "pervasives.mli" 687 26007 26007 "pervasives.mli" 687 26007 26048
+)
+"sPLc.ml" 56 1848 1882 "sPLc.ml" 56 1848 1893
+type(
+  Debug.id list list -> Debug.id list
+)
+ident(
+  int_ref List.concat "list.mli" 92 3745 3745 "list.mli" 92 3745 3781
+)
+"sPLc.ml" 56 1848 1895 "sPLc.ml" 56 1848 1903
+type(
+  (sPL_expr -> Debug.id list) -> sPL_expr list -> Debug.id list list
+)
+ident(
+  int_ref List.map "list.mli" 117 4530 4530 "list.mli" 117 4530 4572
+)
+"sPLc.ml" 56 1848 1904 "sPLc.ml" 56 1848 1906
+type(
+  sPL_expr -> Debug.id list
+)
+ident(
+  int_ref fv "sPLc.ml" 47 1499 1507 "sPLc.ml" 47 1499 1509
+)
+"sPLc.ml" 56 1848 1907 "sPLc.ml" 56 1848 1909
+type(
+  sPL_expr list
+)
+ident(
+  int_ref es "sPLc.ml" 56 1848 1866 "sPLc.ml" 56 1848 1868
+)
+"sPLc.ml" 56 1848 1894 "sPLc.ml" 56 1848 1910
+call(
+  stack
+)
+type(
+  Debug.id list list
+)
+"sPLc.ml" 56 1848 1881 "sPLc.ml" 56 1848 1911
+call(
+  stack
+)
+type(
+  Debug.id list
+)
+"sPLc.ml" 56 1848 1873 "sPLc.ml" 56 1848 1911
+call(
+  tail
+)
+type(
+  Debug.id list
+)
+"sPLc.ml" 48 1535 1537 "sPLc.ml" 56 1848 1911
+type(
+  Debug.id list
+)
+type(
+  Debug.id list
+)

@@ -1,0 +1,5220 @@
+"sPL_lexer.mll" 26 442 450 "sPL_lexer.mll" 26 442 455
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  def print "sPL_lexer.mll" 33 854 858 "sPL_lexer.mll" 36 969 974
+)
+"sPL_lexer.mll" 26 442 456 "sPL_lexer.mll" 26 442 459
+type(
+  Format.formatter
+)
+ident(
+  def ppf "sPL_lexer.mll" 27 462 468 "sPL_lexer.mll" 31 734 852
+)
+"sPL_lexer.mll" 28 477 503 "sPL_lexer.mll" 28 477 504
+type(
+  char
+)
+ident(
+  def c "sPL_lexer.mll" 28 477 508 "sPL_lexer.mll" 28 477 561
+)
+"sPL_lexer.mll" 28 477 485 "sPL_lexer.mll" 28 477 504
+type(
+  t
+)
+"sPL_lexer.mll" 28 477 508 "sPL_lexer.mll" 28 477 515
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Format.fprintf "format.mli" 967 37729 37729 "format.mli" 967 37729 37790
+)
+"sPL_lexer.mll" 28 477 516 "sPL_lexer.mll" 28 477 519
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "sPL_lexer.mll" 26 442 456 "sPL_lexer.mll" 26 442 459
+)
+"sPL_lexer.mll" 28 477 520 "sPL_lexer.mll" 28 477 544
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"sPL_lexer.mll" 28 477 546 "sPL_lexer.mll" 28 477 558
+type(
+  char -> string
+)
+ident(
+  int_ref Char.escaped "char.mli" 26 1363 1363 "char.mli" 26 1363 1391
+)
+"sPL_lexer.mll" 28 477 559 "sPL_lexer.mll" 28 477 560
+type(
+  char
+)
+ident(
+  int_ref c "sPL_lexer.mll" 28 477 503 "sPL_lexer.mll" 28 477 504
+)
+"sPL_lexer.mll" 28 477 546 "sPL_lexer.mll" 28 477 560
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_lexer.mll" 28 477 508 "sPL_lexer.mll" 28 477 561
+call(
+  tail
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 29 562 585 "sPL_lexer.mll" 29 562 586
+type(
+  string
+)
+ident(
+  def s "sPL_lexer.mll" 29 562 590 "sPL_lexer.mll" 29 562 658
+)
+"sPL_lexer.mll" 29 562 570 "sPL_lexer.mll" 29 562 586
+type(
+  t
+)
+"sPL_lexer.mll" 29 562 590 "sPL_lexer.mll" 29 562 597
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Format.fprintf "format.mli" 967 37729 37729 "format.mli" 967 37729 37790
+)
+"sPL_lexer.mll" 29 562 598 "sPL_lexer.mll" 29 562 601
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "sPL_lexer.mll" 26 442 456 "sPL_lexer.mll" 26 442 459
+)
+"sPL_lexer.mll" 29 562 602 "sPL_lexer.mll" 29 562 656
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"sPL_lexer.mll" 29 562 657 "sPL_lexer.mll" 29 562 658
+type(
+  string
+)
+ident(
+  int_ref s "sPL_lexer.mll" 29 562 585 "sPL_lexer.mll" 29 562 586
+)
+"sPL_lexer.mll" 29 562 590 "sPL_lexer.mll" 29 562 658
+call(
+  tail
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 30 659 667 "sPL_lexer.mll" 30 659 686
+type(
+  t
+)
+"sPL_lexer.mll" 30 659 690 "sPL_lexer.mll" 30 659 697
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Format.fprintf "format.mli" 967 37729 37729 "format.mli" 967 37729 37790
+)
+"sPL_lexer.mll" 30 659 698 "sPL_lexer.mll" 30 659 701
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "sPL_lexer.mll" 26 442 456 "sPL_lexer.mll" 26 442 459
+)
+"sPL_lexer.mll" 30 659 702 "sPL_lexer.mll" 30 659 733
+type(
+  (unit, Format.formatter, unit) format
+)
+"sPL_lexer.mll" 30 659 690 "sPL_lexer.mll" 30 659 733
+call(
+  tail
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 31 734 759 "sPL_lexer.mll" 31 734 761
+type(
+  string
+)
+ident(
+  def ty "sPL_lexer.mll" 31 734 765 "sPL_lexer.mll" 31 734 852
+)
+"sPL_lexer.mll" 31 734 742 "sPL_lexer.mll" 31 734 761
+type(
+  t
+)
+"sPL_lexer.mll" 31 734 765 "sPL_lexer.mll" 31 734 772
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Format.fprintf "format.mli" 967 37729 37729 "format.mli" 967 37729 37790
+)
+"sPL_lexer.mll" 31 734 773 "sPL_lexer.mll" 31 734 776
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "sPL_lexer.mll" 26 442 456 "sPL_lexer.mll" 26 442 459
+)
+"sPL_lexer.mll" 31 734 777 "sPL_lexer.mll" 31 734 849
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"sPL_lexer.mll" 31 734 850 "sPL_lexer.mll" 31 734 852
+type(
+  string
+)
+ident(
+  int_ref ty "sPL_lexer.mll" 31 734 759 "sPL_lexer.mll" 31 734 761
+)
+"sPL_lexer.mll" 31 734 765 "sPL_lexer.mll" 31 734 852
+call(
+  tail
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 27 462 468 "sPL_lexer.mll" 31 734 852
+type(
+  t -> unit
+)
+"sPL_lexer.mll" 26 442 456 "sPL_lexer.mll" 31 734 852
+type(
+  Format.formatter -> t -> unit
+)
+"sPL_lexer.mll" 33 854 862 "sPL_lexer.mll" 33 854 871
+type(
+  t -> string
+)
+ident(
+  def to_string "sPL_lexer.mll" 35 910 968 "sPL_lexer.mll" 36 969 974
+)
+"sPL_lexer.mll" 33 854 872 "sPL_lexer.mll" 33 854 873
+type(
+  t
+)
+ident(
+  def x "sPL_lexer.mll" 34 876 882 "sPL_lexer.mll" 35 910 968
+)
+"sPL_lexer.mll" 34 876 886 "sPL_lexer.mll" 34 876 887
+type(
+  Buffer.t
+)
+ident(
+  def b "sPL_lexer.mll" 35 910 916 "sPL_lexer.mll" 35 910 968
+)
+"sPL_lexer.mll" 34 876 890 "sPL_lexer.mll" 34 876 903
+type(
+  int -> Buffer.t
+)
+ident(
+  int_ref Buffer.create "buffer.mli" 27 1376 1376 "buffer.mli" 27 1376 1397
+)
+"sPL_lexer.mll" 34 876 904 "sPL_lexer.mll" 34 876 906
+type(
+  int
+)
+"sPL_lexer.mll" 34 876 890 "sPL_lexer.mll" 34 876 906
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"sPL_lexer.mll" 35 910 920 "sPL_lexer.mll" 35 910 922
+type(
+  unit
+)
+"sPL_lexer.mll" 35 910 925 "sPL_lexer.mll" 35 910 932
+type(
+  Buffer.t ->
+  ((Format.formatter -> t -> unit) -> t -> unit, Format.formatter, unit)
+  format -> (Format.formatter -> t -> unit) -> t -> unit
+)
+ident(
+  int_ref Format.bprintf "format.mli" 1108 43882 43882 "format.mli" 1109 43943 43965
+)
+"sPL_lexer.mll" 35 910 933 "sPL_lexer.mll" 35 910 934
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "sPL_lexer.mll" 34 876 886 "sPL_lexer.mll" 34 876 887
+)
+"sPL_lexer.mll" 35 910 935 "sPL_lexer.mll" 35 910 939
+type(
+  ((Format.formatter -> t -> unit) -> t -> unit, Format.formatter, unit)
+  format
+)
+"sPL_lexer.mll" 35 910 940 "sPL_lexer.mll" 35 910 945
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  int_ref print "sPL_lexer.mll" 26 442 450 "sPL_lexer.mll" 26 442 455
+)
+"sPL_lexer.mll" 35 910 946 "sPL_lexer.mll" 35 910 947
+type(
+  t
+)
+ident(
+  int_ref x "sPL_lexer.mll" 33 854 872 "sPL_lexer.mll" 33 854 873
+)
+"sPL_lexer.mll" 35 910 925 "sPL_lexer.mll" 35 910 947
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 35 910 951 "sPL_lexer.mll" 35 910 966
+type(
+  Buffer.t -> string
+)
+ident(
+  int_ref Buffer.contents "buffer.mli" 41 2156 2156 "buffer.mli" 41 2156 2182
+)
+"sPL_lexer.mll" 35 910 967 "sPL_lexer.mll" 35 910 968
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "sPL_lexer.mll" 34 876 886 "sPL_lexer.mll" 34 876 887
+)
+"sPL_lexer.mll" 35 910 951 "sPL_lexer.mll" 35 910 968
+call(
+  tail
+)
+type(
+  string
+)
+"sPL_lexer.mll" 35 910 916 "sPL_lexer.mll" 35 910 968
+type(
+  string
+)
+"sPL_lexer.mll" 34 876 882 "sPL_lexer.mll" 35 910 968
+type(
+  string
+)
+"sPL_lexer.mll" 33 854 872 "sPL_lexer.mll" 35 910 968
+type(
+  t -> string
+)
+"sPL_lexer.mll" 38 978 995 "sPL_lexer.mll" 38 978 1030
+call(
+  stack
+)
+"sPL_lexer.mll" 38 978 1034 "sPL_lexer.mll" 38 978 1036
+type(
+  unit
+)
+"sPL_lexer.mll" 38 978 980 "sPL_lexer.mll" 38 978 1036
+type(
+  unit
+)
+"sPL_lexer.mll" 47 1154 1160 "sPL_lexer.mll" 47 1154 1175
+type(
+  Lexing.lexbuf -> context
+)
+ident(
+  def default_context "sPL_lexer.mll" 54 1312 1314 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 47 1154 1176 "sPL_lexer.mll" 47 1154 1178
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lb "sPL_lexer.mll" 48 1181 1183 "sPL_lexer.mll" 50 1239 1275
+)
+"sPL_lexer.mll" 48 1181 1198 "sPL_lexer.mll" 48 1181 1207
+type(
+  Loc.t
+)
+ident(
+  int_ref Loc.ghost "camlp4/Camlp4/Sig.ml" 85 3096 3098 "camlp4/Camlp4/Sig.ml" 85 3096 3113
+)
+"sPL_lexer.mll" 49 1210 1227 "sPL_lexer.mll" 49 1210 1229
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "sPL_lexer.mll" 47 1154 1176 "sPL_lexer.mll" 47 1154 1178
+)
+"sPL_lexer.mll" 50 1239 1256 "sPL_lexer.mll" 50 1239 1269
+type(
+  int -> Buffer.t
+)
+ident(
+  int_ref Buffer.create "buffer.mli" 27 1376 1376 "buffer.mli" 27 1376 1397
+)
+"sPL_lexer.mll" 50 1239 1270 "sPL_lexer.mll" 50 1239 1273
+type(
+  int
+)
+"sPL_lexer.mll" 50 1239 1256 "sPL_lexer.mll" 50 1239 1273
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"sPL_lexer.mll" 48 1181 1183 "sPL_lexer.mll" 50 1239 1275
+type(
+  context
+)
+"sPL_lexer.mll" 47 1154 1176 "sPL_lexer.mll" 50 1239 1275
+type(
+  Lexing.lexbuf -> context
+)
+"sPL_lexer.mll" 54 1312 1318 "sPL_lexer.mll" 54 1312 1323
+type(
+  context -> unit
+)
+ident(
+  def store "sPL_lexer.mll" 55 1380 1382 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 54 1312 1324 "sPL_lexer.mll" 54 1312 1325
+type(
+  context
+)
+ident(
+  def c "sPL_lexer.mll" 54 1312 1328 "sPL_lexer.mll" 54 1312 1379
+)
+"sPL_lexer.mll" 54 1312 1328 "sPL_lexer.mll" 54 1312 1345
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  int_ref Buffer.add_string "buffer.mli" 108 4464 4464 "buffer.mli" 108 4464 4500
+)
+"sPL_lexer.mll" 54 1312 1346 "sPL_lexer.mll" 54 1312 1347
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 54 1312 1324 "sPL_lexer.mll" 54 1312 1325
+)
+"sPL_lexer.mll" 54 1312 1346 "sPL_lexer.mll" 54 1312 1354
+type(
+  Buffer.t
+)
+"sPL_lexer.mll" 54 1312 1356 "sPL_lexer.mll" 54 1312 1369
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  int_ref Lexing.lexeme "lexing.mli" 110 4672 4672 "lexing.mli" 110 4672 4701
+)
+"sPL_lexer.mll" 54 1312 1370 "sPL_lexer.mll" 54 1312 1371
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 54 1312 1324 "sPL_lexer.mll" 54 1312 1325
+)
+"sPL_lexer.mll" 54 1312 1370 "sPL_lexer.mll" 54 1312 1378
+type(
+  Lexing.lexbuf
+)
+"sPL_lexer.mll" 54 1312 1356 "sPL_lexer.mll" 54 1312 1378
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_lexer.mll" 54 1312 1328 "sPL_lexer.mll" 54 1312 1379
+call(
+  tail
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 54 1312 1324 "sPL_lexer.mll" 54 1312 1379
+type(
+  context -> unit
+)
+"sPL_lexer.mll" 55 1380 1386 "sPL_lexer.mll" 55 1380 1397
+type(
+  context -> int -> unit
+)
+ident(
+  def istore_char "sPL_lexer.mll" 56 1461 1463 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 55 1380 1398 "sPL_lexer.mll" 55 1380 1399
+type(
+  context
+)
+ident(
+  def c "sPL_lexer.mll" 55 1380 1400 "sPL_lexer.mll" 55 1380 1460
+)
+"sPL_lexer.mll" 55 1380 1400 "sPL_lexer.mll" 55 1380 1401
+type(
+  int
+)
+ident(
+  def i "sPL_lexer.mll" 55 1380 1404 "sPL_lexer.mll" 55 1380 1460
+)
+"sPL_lexer.mll" 55 1380 1404 "sPL_lexer.mll" 55 1380 1419
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  int_ref Buffer.add_char "buffer.mli" 85 3741 3741 "buffer.mli" 85 3741 3773
+)
+"sPL_lexer.mll" 55 1380 1420 "sPL_lexer.mll" 55 1380 1421
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 55 1380 1398 "sPL_lexer.mll" 55 1380 1399
+)
+"sPL_lexer.mll" 55 1380 1420 "sPL_lexer.mll" 55 1380 1428
+type(
+  Buffer.t
+)
+"sPL_lexer.mll" 55 1380 1430 "sPL_lexer.mll" 55 1380 1448
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  int_ref Lexing.lexeme_char "lexing.mli" 114 4798 4798 "lexing.mli" 114 4798 4837
+)
+"sPL_lexer.mll" 55 1380 1449 "sPL_lexer.mll" 55 1380 1450
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 55 1380 1398 "sPL_lexer.mll" 55 1380 1399
+)
+"sPL_lexer.mll" 55 1380 1449 "sPL_lexer.mll" 55 1380 1457
+type(
+  Lexing.lexbuf
+)
+"sPL_lexer.mll" 55 1380 1458 "sPL_lexer.mll" 55 1380 1459
+type(
+  int
+)
+ident(
+  int_ref i "sPL_lexer.mll" 55 1380 1400 "sPL_lexer.mll" 55 1380 1401
+)
+"sPL_lexer.mll" 55 1380 1430 "sPL_lexer.mll" 55 1380 1459
+call(
+  stack
+)
+type(
+  char
+)
+"sPL_lexer.mll" 55 1380 1404 "sPL_lexer.mll" 55 1380 1460
+call(
+  tail
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 55 1380 1400 "sPL_lexer.mll" 55 1380 1460
+type(
+  int -> unit
+)
+"sPL_lexer.mll" 55 1380 1398 "sPL_lexer.mll" 55 1380 1460
+type(
+  context -> int -> unit
+)
+"sPL_lexer.mll" 56 1461 1467 "sPL_lexer.mll" 56 1461 1480
+type(
+  context -> string
+)
+ident(
+  def buff_contents "sPL_lexer.mll" 60 1569 1571 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 56 1461 1481 "sPL_lexer.mll" 56 1461 1482
+type(
+  context
+)
+ident(
+  def c "sPL_lexer.mll" 57 1485 1489 "sPL_lexer.mll" 58 1532 1567
+)
+"sPL_lexer.mll" 57 1485 1493 "sPL_lexer.mll" 57 1485 1501
+type(
+  string
+)
+ident(
+  def contents "sPL_lexer.mll" 58 1532 1536 "sPL_lexer.mll" 58 1532 1567
+)
+"sPL_lexer.mll" 57 1485 1504 "sPL_lexer.mll" 57 1485 1519
+type(
+  Buffer.t -> string
+)
+ident(
+  int_ref Buffer.contents "buffer.mli" 41 2156 2156 "buffer.mli" 41 2156 2182
+)
+"sPL_lexer.mll" 57 1485 1520 "sPL_lexer.mll" 57 1485 1521
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 56 1461 1481 "sPL_lexer.mll" 56 1461 1482
+)
+"sPL_lexer.mll" 57 1485 1520 "sPL_lexer.mll" 57 1485 1528
+type(
+  Buffer.t
+)
+"sPL_lexer.mll" 57 1485 1504 "sPL_lexer.mll" 57 1485 1528
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_lexer.mll" 58 1532 1536 "sPL_lexer.mll" 58 1532 1548
+type(
+  Buffer.t -> unit
+)
+ident(
+  int_ref Buffer.reset "buffer.mli" 78 3383 3383 "buffer.mli" 78 3383 3404
+)
+"sPL_lexer.mll" 58 1532 1549 "sPL_lexer.mll" 58 1532 1550
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 56 1461 1481 "sPL_lexer.mll" 56 1461 1482
+)
+"sPL_lexer.mll" 58 1532 1549 "sPL_lexer.mll" 58 1532 1557
+type(
+  Buffer.t
+)
+"sPL_lexer.mll" 58 1532 1536 "sPL_lexer.mll" 58 1532 1557
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 58 1532 1559 "sPL_lexer.mll" 58 1532 1567
+type(
+  string
+)
+ident(
+  int_ref contents "sPL_lexer.mll" 57 1485 1493 "sPL_lexer.mll" 57 1485 1501
+)
+"sPL_lexer.mll" 58 1532 1536 "sPL_lexer.mll" 58 1532 1567
+type(
+  string
+)
+"sPL_lexer.mll" 57 1485 1489 "sPL_lexer.mll" 58 1532 1567
+type(
+  string
+)
+"sPL_lexer.mll" 56 1461 1481 "sPL_lexer.mll" 58 1532 1567
+type(
+  context -> string
+)
+"sPL_lexer.mll" 60 1569 1575 "sPL_lexer.mll" 60 1569 1578
+type(
+  context -> Loc.t
+)
+ident(
+  def loc "sPL_lexer.mll" 61 1624 1626 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 60 1569 1579 "sPL_lexer.mll" 60 1569 1580
+type(
+  context
+)
+ident(
+  def c "sPL_lexer.mll" 60 1569 1583 "sPL_lexer.mll" 60 1569 1623
+)
+"sPL_lexer.mll" 60 1569 1583 "sPL_lexer.mll" 60 1569 1592
+type(
+  Loc.t -> Loc.t -> Loc.t
+)
+ident(
+  int_ref Loc.merge "camlp4/Camlp4/Sig.ml" 111 4033 4035 "camlp4/Camlp4/Sig.ml" 111 4033 4060
+)
+"sPL_lexer.mll" 60 1569 1593 "sPL_lexer.mll" 60 1569 1594
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 60 1569 1579 "sPL_lexer.mll" 60 1569 1580
+)
+"sPL_lexer.mll" 60 1569 1593 "sPL_lexer.mll" 60 1569 1598
+type(
+  Loc.t
+)
+"sPL_lexer.mll" 60 1569 1600 "sPL_lexer.mll" 60 1569 1613
+type(
+  Lexing.lexbuf -> Loc.t
+)
+ident(
+  int_ref Loc.of_lexbuf "camlp4/Camlp4/Sig.ml" 99 3506 3508 "camlp4/Camlp4/Sig.ml" 99 3506 3544
+)
+"sPL_lexer.mll" 60 1569 1614 "sPL_lexer.mll" 60 1569 1615
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 60 1569 1579 "sPL_lexer.mll" 60 1569 1580
+)
+"sPL_lexer.mll" 60 1569 1614 "sPL_lexer.mll" 60 1569 1622
+type(
+  Lexing.lexbuf
+)
+"sPL_lexer.mll" 60 1569 1600 "sPL_lexer.mll" 60 1569 1622
+call(
+  stack
+)
+type(
+  Loc.t
+)
+"sPL_lexer.mll" 60 1569 1583 "sPL_lexer.mll" 60 1569 1623
+call(
+  tail
+)
+type(
+  Loc.t
+)
+"sPL_lexer.mll" 60 1569 1579 "sPL_lexer.mll" 60 1569 1623
+type(
+  context -> Loc.t
+)
+"sPL_lexer.mll" 61 1624 1630 "sPL_lexer.mll" 61 1624 1641
+type(
+  context -> unit
+)
+ident(
+  def set_start_p "sPL_lexer.mll" 62 1690 1692 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 61 1624 1642 "sPL_lexer.mll" 61 1624 1643
+type(
+  context
+)
+ident(
+  def c "sPL_lexer.mll" 61 1624 1646 "sPL_lexer.mll" 61 1624 1689
+)
+"sPL_lexer.mll" 61 1624 1646 "sPL_lexer.mll" 61 1624 1647
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 61 1624 1642 "sPL_lexer.mll" 61 1624 1643
+)
+"sPL_lexer.mll" 61 1624 1646 "sPL_lexer.mll" 61 1624 1654
+type(
+  Lexing.lexbuf
+)
+"sPL_lexer.mll" 61 1624 1670 "sPL_lexer.mll" 61 1624 1683
+type(
+  Loc.t -> Lexing.position
+)
+ident(
+  int_ref Loc.start_pos "camlp4/Camlp4/Sig.ml" 159 5762 5764 "camlp4/Camlp4/Sig.ml" 159 5762 5803
+)
+"sPL_lexer.mll" 61 1624 1684 "sPL_lexer.mll" 61 1624 1685
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 61 1624 1642 "sPL_lexer.mll" 61 1624 1643
+)
+"sPL_lexer.mll" 61 1624 1684 "sPL_lexer.mll" 61 1624 1689
+type(
+  Loc.t
+)
+"sPL_lexer.mll" 61 1624 1670 "sPL_lexer.mll" 61 1624 1689
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"sPL_lexer.mll" 61 1624 1646 "sPL_lexer.mll" 61 1624 1689
+type(
+  unit
+)
+"sPL_lexer.mll" 61 1624 1642 "sPL_lexer.mll" 61 1624 1689
+type(
+  context -> unit
+)
+"sPL_lexer.mll" 62 1690 1696 "sPL_lexer.mll" 62 1690 1708
+type(
+  int -> context -> unit
+)
+ident(
+  def move_start_p "sPL_lexer.mll" 66 1827 1829 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 62 1690 1709 "sPL_lexer.mll" 62 1690 1714
+type(
+  int
+)
+ident(
+  def shift "sPL_lexer.mll" 62 1690 1715 "sPL_lexer.mll" 64 1755 1825
+)
+"sPL_lexer.mll" 62 1690 1715 "sPL_lexer.mll" 62 1690 1716
+type(
+  context
+)
+ident(
+  def c "sPL_lexer.mll" 63 1719 1723 "sPL_lexer.mll" 64 1755 1825
+)
+"sPL_lexer.mll" 63 1719 1727 "sPL_lexer.mll" 63 1719 1728
+type(
+  Lexing.position
+)
+ident(
+  def p "sPL_lexer.mll" 64 1755 1759 "sPL_lexer.mll" 64 1755 1825
+)
+"sPL_lexer.mll" 63 1719 1731 "sPL_lexer.mll" 63 1719 1732
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 62 1690 1715 "sPL_lexer.mll" 62 1690 1716
+)
+"sPL_lexer.mll" 63 1719 1731 "sPL_lexer.mll" 63 1719 1739
+type(
+  Lexing.lexbuf
+)
+"sPL_lexer.mll" 63 1719 1731 "sPL_lexer.mll" 63 1719 1751
+type(
+  Lexing.position
+)
+"sPL_lexer.mll" 64 1755 1759 "sPL_lexer.mll" 64 1755 1760
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 62 1690 1715 "sPL_lexer.mll" 62 1690 1716
+)
+"sPL_lexer.mll" 64 1755 1759 "sPL_lexer.mll" 64 1755 1767
+type(
+  Lexing.lexbuf
+)
+"sPL_lexer.mll" 64 1755 1786 "sPL_lexer.mll" 64 1755 1787
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "sPL_lexer.mll" 63 1719 1727 "sPL_lexer.mll" 63 1719 1728
+)
+"sPL_lexer.mll" 64 1755 1805 "sPL_lexer.mll" 64 1755 1806
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "sPL_lexer.mll" 63 1719 1727 "sPL_lexer.mll" 63 1719 1728
+)
+"sPL_lexer.mll" 64 1755 1805 "sPL_lexer.mll" 64 1755 1815
+type(
+  int
+)
+"sPL_lexer.mll" 64 1755 1816 "sPL_lexer.mll" 64 1755 1817
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( + ) "pervasives.mli" 261 10267 10267 "pervasives.mli" 261 10267 10313
+)
+"sPL_lexer.mll" 64 1755 1818 "sPL_lexer.mll" 64 1755 1823
+type(
+  int
+)
+ident(
+  int_ref shift "sPL_lexer.mll" 62 1690 1709 "sPL_lexer.mll" 62 1690 1714
+)
+"sPL_lexer.mll" 64 1755 1805 "sPL_lexer.mll" 64 1755 1823
+type(
+  int
+)
+"sPL_lexer.mll" 64 1755 1783 "sPL_lexer.mll" 64 1755 1825
+type(
+  Lexing.position
+)
+"sPL_lexer.mll" 64 1755 1759 "sPL_lexer.mll" 64 1755 1825
+type(
+  unit
+)
+"sPL_lexer.mll" 63 1719 1723 "sPL_lexer.mll" 64 1755 1825
+type(
+  unit
+)
+"sPL_lexer.mll" 62 1690 1715 "sPL_lexer.mll" 64 1755 1825
+type(
+  context -> unit
+)
+"sPL_lexer.mll" 62 1690 1709 "sPL_lexer.mll" 64 1755 1825
+type(
+  int -> context -> unit
+)
+"sPL_lexer.mll" 66 1827 1833 "sPL_lexer.mll" 66 1827 1843
+type(
+  context -> context
+)
+ident(
+  def update_loc "sPL_lexer.mll" 67 1890 1892 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 66 1827 1844 "sPL_lexer.mll" 66 1827 1845
+type(
+  context
+)
+ident(
+  def c "sPL_lexer.mll" 66 1827 1848 "sPL_lexer.mll" 66 1827 1889
+)
+"sPL_lexer.mll" 66 1827 1851 "sPL_lexer.mll" 66 1827 1852
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 66 1827 1844 "sPL_lexer.mll" 66 1827 1845
+)
+"sPL_lexer.mll" 66 1827 1865 "sPL_lexer.mll" 66 1827 1878
+type(
+  Lexing.lexbuf -> Loc.t
+)
+ident(
+  int_ref Loc.of_lexbuf "camlp4/Camlp4/Sig.ml" 99 3506 3508 "camlp4/Camlp4/Sig.ml" 99 3506 3544
+)
+"sPL_lexer.mll" 66 1827 1879 "sPL_lexer.mll" 66 1827 1880
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 66 1827 1844 "sPL_lexer.mll" 66 1827 1845
+)
+"sPL_lexer.mll" 66 1827 1879 "sPL_lexer.mll" 66 1827 1887
+type(
+  Lexing.lexbuf
+)
+"sPL_lexer.mll" 66 1827 1865 "sPL_lexer.mll" 66 1827 1887
+call(
+  stack
+)
+type(
+  Loc.t
+)
+"sPL_lexer.mll" 66 1827 1848 "sPL_lexer.mll" 66 1827 1889
+type(
+  context
+)
+"sPL_lexer.mll" 66 1827 1844 "sPL_lexer.mll" 66 1827 1889
+type(
+  context -> context
+)
+"sPL_lexer.mll" 67 1890 1896 "sPL_lexer.mll" 67 1890 1909
+type(
+  (context -> Lexing.lexbuf -> 'a) -> context -> 'a
+)
+ident(
+  def with_curr_loc "sPL_lexer.mll" 68 1942 1944 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 67 1890 1910 "sPL_lexer.mll" 67 1890 1911
+type(
+  context -> Lexing.lexbuf -> 'a
+)
+ident(
+  def f "sPL_lexer.mll" 67 1890 1912 "sPL_lexer.mll" 67 1890 1941
+)
+"sPL_lexer.mll" 67 1890 1912 "sPL_lexer.mll" 67 1890 1913
+type(
+  context
+)
+ident(
+  def c "sPL_lexer.mll" 67 1890 1916 "sPL_lexer.mll" 67 1890 1941
+)
+"sPL_lexer.mll" 67 1890 1916 "sPL_lexer.mll" 67 1890 1917
+type(
+  context -> Lexing.lexbuf -> 'a
+)
+ident(
+  int_ref f "sPL_lexer.mll" 67 1890 1910 "sPL_lexer.mll" 67 1890 1911
+)
+"sPL_lexer.mll" 67 1890 1919 "sPL_lexer.mll" 67 1890 1929
+type(
+  context -> context
+)
+ident(
+  int_ref update_loc "sPL_lexer.mll" 66 1827 1833 "sPL_lexer.mll" 66 1827 1843
+)
+"sPL_lexer.mll" 67 1890 1930 "sPL_lexer.mll" 67 1890 1931
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 67 1890 1912 "sPL_lexer.mll" 67 1890 1913
+)
+"sPL_lexer.mll" 67 1890 1919 "sPL_lexer.mll" 67 1890 1931
+call(
+  stack
+)
+type(
+  context
+)
+"sPL_lexer.mll" 67 1890 1933 "sPL_lexer.mll" 67 1890 1934
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 67 1890 1912 "sPL_lexer.mll" 67 1890 1913
+)
+"sPL_lexer.mll" 67 1890 1933 "sPL_lexer.mll" 67 1890 1941
+type(
+  Lexing.lexbuf
+)
+"sPL_lexer.mll" 67 1890 1916 "sPL_lexer.mll" 67 1890 1941
+call(
+  tail
+)
+type(
+  'a
+)
+"sPL_lexer.mll" 67 1890 1912 "sPL_lexer.mll" 67 1890 1941
+type(
+  context -> 'a
+)
+"sPL_lexer.mll" 67 1890 1910 "sPL_lexer.mll" 67 1890 1941
+type(
+  (context -> Lexing.lexbuf -> 'a) -> context -> 'a
+)
+"sPL_lexer.mll" 68 1942 1948 "sPL_lexer.mll" 68 1942 1960
+type(
+  (context -> Lexing.lexbuf -> 'b) -> context -> string
+)
+ident(
+  def parse_nested "sPL_lexer.mll" 69 2024 2026 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 68 1942 1961 "sPL_lexer.mll" 68 1942 1962
+type(
+  context -> Lexing.lexbuf -> 'b
+)
+ident(
+  def f "sPL_lexer.mll" 68 1942 1963 "sPL_lexer.mll" 68 1942 2023
+)
+"sPL_lexer.mll" 68 1942 1963 "sPL_lexer.mll" 68 1942 1964
+type(
+  context
+)
+ident(
+  def c "sPL_lexer.mll" 68 1942 1969 "sPL_lexer.mll" 68 1942 2023
+)
+"sPL_lexer.mll" 68 1942 1969 "sPL_lexer.mll" 68 1942 1982
+type(
+  (context -> Lexing.lexbuf -> 'b) -> context -> 'b
+)
+ident(
+  int_ref with_curr_loc "sPL_lexer.mll" 67 1890 1896 "sPL_lexer.mll" 67 1890 1909
+)
+"sPL_lexer.mll" 68 1942 1983 "sPL_lexer.mll" 68 1942 1984
+type(
+  context -> Lexing.lexbuf -> 'b
+)
+ident(
+  int_ref f "sPL_lexer.mll" 68 1942 1961 "sPL_lexer.mll" 68 1942 1962
+)
+"sPL_lexer.mll" 68 1942 1985 "sPL_lexer.mll" 68 1942 1986
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 68 1942 1963 "sPL_lexer.mll" 68 1942 1964
+)
+"sPL_lexer.mll" 68 1942 1969 "sPL_lexer.mll" 68 1942 1986
+call(
+  stack
+)
+type(
+  'b
+)
+"sPL_lexer.mll" 68 1942 1990 "sPL_lexer.mll" 68 1942 2001
+type(
+  context -> unit
+)
+ident(
+  int_ref set_start_p "sPL_lexer.mll" 61 1624 1630 "sPL_lexer.mll" 61 1624 1641
+)
+"sPL_lexer.mll" 68 1942 2002 "sPL_lexer.mll" 68 1942 2003
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 68 1942 1963 "sPL_lexer.mll" 68 1942 1964
+)
+"sPL_lexer.mll" 68 1942 1990 "sPL_lexer.mll" 68 1942 2003
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 68 1942 2008 "sPL_lexer.mll" 68 1942 2021
+type(
+  context -> string
+)
+ident(
+  int_ref buff_contents "sPL_lexer.mll" 56 1461 1467 "sPL_lexer.mll" 56 1461 1480
+)
+"sPL_lexer.mll" 68 1942 2022 "sPL_lexer.mll" 68 1942 2023
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 68 1942 1963 "sPL_lexer.mll" 68 1942 1964
+)
+"sPL_lexer.mll" 68 1942 2008 "sPL_lexer.mll" 68 1942 2023
+call(
+  tail
+)
+type(
+  string
+)
+"sPL_lexer.mll" 68 1942 1990 "sPL_lexer.mll" 68 1942 2023
+type(
+  string
+)
+"sPL_lexer.mll" 68 1942 1969 "sPL_lexer.mll" 68 1942 2023
+type(
+  string
+)
+"sPL_lexer.mll" 68 1942 1963 "sPL_lexer.mll" 68 1942 2023
+type(
+  context -> string
+)
+"sPL_lexer.mll" 68 1942 1961 "sPL_lexer.mll" 68 1942 2023
+type(
+  (context -> Lexing.lexbuf -> 'b) -> context -> string
+)
+"sPL_lexer.mll" 69 2024 2030 "sPL_lexer.mll" 69 2024 2035
+type(
+  int -> context -> context
+)
+ident(
+  def shift "sPL_lexer.mll" 70 2084 2086 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 69 2024 2036 "sPL_lexer.mll" 69 2024 2037
+type(
+  int
+)
+ident(
+  def n "sPL_lexer.mll" 69 2024 2038 "sPL_lexer.mll" 69 2024 2083
+)
+"sPL_lexer.mll" 69 2024 2038 "sPL_lexer.mll" 69 2024 2039
+type(
+  context
+)
+ident(
+  def c "sPL_lexer.mll" 69 2024 2042 "sPL_lexer.mll" 69 2024 2083
+)
+"sPL_lexer.mll" 69 2024 2045 "sPL_lexer.mll" 69 2024 2046
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 69 2024 2038 "sPL_lexer.mll" 69 2024 2039
+)
+"sPL_lexer.mll" 69 2024 2059 "sPL_lexer.mll" 69 2024 2067
+type(
+  [ `both | `start | `stop ] -> int -> Loc.t -> Loc.t
+)
+ident(
+  int_ref Loc.move "camlp4/Camlp4/Sig.ml" 120 4341 4343 "camlp4/Camlp4/Sig.ml" 120 4341 4400
+)
+"sPL_lexer.mll" 69 2024 2068 "sPL_lexer.mll" 69 2024 2073
+type(
+  [ `both | `start | `stop ]
+)
+"sPL_lexer.mll" 69 2024 2074 "sPL_lexer.mll" 69 2024 2075
+type(
+  int
+)
+ident(
+  int_ref n "sPL_lexer.mll" 69 2024 2036 "sPL_lexer.mll" 69 2024 2037
+)
+"sPL_lexer.mll" 69 2024 2076 "sPL_lexer.mll" 69 2024 2077
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 69 2024 2038 "sPL_lexer.mll" 69 2024 2039
+)
+"sPL_lexer.mll" 69 2024 2076 "sPL_lexer.mll" 69 2024 2081
+type(
+  Loc.t
+)
+"sPL_lexer.mll" 69 2024 2059 "sPL_lexer.mll" 69 2024 2081
+call(
+  stack
+)
+type(
+  Loc.t
+)
+"sPL_lexer.mll" 69 2024 2042 "sPL_lexer.mll" 69 2024 2083
+type(
+  context
+)
+"sPL_lexer.mll" 69 2024 2038 "sPL_lexer.mll" 69 2024 2083
+type(
+  context -> context
+)
+"sPL_lexer.mll" 69 2024 2036 "sPL_lexer.mll" 69 2024 2083
+type(
+  int -> context -> context
+)
+"sPL_lexer.mll" 70 2084 2090 "sPL_lexer.mll" 70 2084 2101
+type(
+  (context -> Lexing.lexbuf -> 'c) -> context -> 'c
+)
+ident(
+  def store_parse "sPL_lexer.mll" 71 2131 2133 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 70 2084 2102 "sPL_lexer.mll" 70 2084 2103
+type(
+  context -> Lexing.lexbuf -> 'c
+)
+ident(
+  def f "sPL_lexer.mll" 70 2084 2104 "sPL_lexer.mll" 70 2084 2130
+)
+"sPL_lexer.mll" 70 2084 2104 "sPL_lexer.mll" 70 2084 2105
+type(
+  context
+)
+ident(
+  def c "sPL_lexer.mll" 70 2084 2108 "sPL_lexer.mll" 70 2084 2130
+)
+"sPL_lexer.mll" 70 2084 2108 "sPL_lexer.mll" 70 2084 2113
+type(
+  context -> unit
+)
+ident(
+  int_ref store "sPL_lexer.mll" 54 1312 1318 "sPL_lexer.mll" 54 1312 1323
+)
+"sPL_lexer.mll" 70 2084 2114 "sPL_lexer.mll" 70 2084 2115
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 70 2084 2104 "sPL_lexer.mll" 70 2084 2105
+)
+"sPL_lexer.mll" 70 2084 2108 "sPL_lexer.mll" 70 2084 2115
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 70 2084 2118 "sPL_lexer.mll" 70 2084 2119
+type(
+  context -> Lexing.lexbuf -> 'c
+)
+ident(
+  int_ref f "sPL_lexer.mll" 70 2084 2102 "sPL_lexer.mll" 70 2084 2103
+)
+"sPL_lexer.mll" 70 2084 2120 "sPL_lexer.mll" 70 2084 2121
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 70 2084 2104 "sPL_lexer.mll" 70 2084 2105
+)
+"sPL_lexer.mll" 70 2084 2122 "sPL_lexer.mll" 70 2084 2123
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 70 2084 2104 "sPL_lexer.mll" 70 2084 2105
+)
+"sPL_lexer.mll" 70 2084 2122 "sPL_lexer.mll" 70 2084 2130
+type(
+  Lexing.lexbuf
+)
+"sPL_lexer.mll" 70 2084 2118 "sPL_lexer.mll" 70 2084 2130
+call(
+  tail
+)
+type(
+  'c
+)
+"sPL_lexer.mll" 70 2084 2108 "sPL_lexer.mll" 70 2084 2130
+type(
+  'c
+)
+"sPL_lexer.mll" 70 2084 2104 "sPL_lexer.mll" 70 2084 2130
+type(
+  context -> 'c
+)
+"sPL_lexer.mll" 70 2084 2102 "sPL_lexer.mll" 70 2084 2130
+type(
+  (context -> Lexing.lexbuf -> 'c) -> context -> 'c
+)
+"sPL_lexer.mll" 71 2131 2137 "sPL_lexer.mll" 71 2131 2142
+type(
+  (context -> Lexing.lexbuf -> 'd) -> context -> 'd
+)
+ident(
+  def parse "sPL_lexer.mll" 75 2232 2234 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 71 2131 2143 "sPL_lexer.mll" 71 2131 2144
+type(
+  context -> Lexing.lexbuf -> 'd
+)
+ident(
+  def f "sPL_lexer.mll" 71 2131 2145 "sPL_lexer.mll" 71 2131 2161
+)
+"sPL_lexer.mll" 71 2131 2145 "sPL_lexer.mll" 71 2131 2146
+type(
+  context
+)
+ident(
+  def c "sPL_lexer.mll" 71 2131 2149 "sPL_lexer.mll" 71 2131 2161
+)
+"sPL_lexer.mll" 71 2131 2149 "sPL_lexer.mll" 71 2131 2150
+type(
+  context -> Lexing.lexbuf -> 'd
+)
+ident(
+  int_ref f "sPL_lexer.mll" 71 2131 2143 "sPL_lexer.mll" 71 2131 2144
+)
+"sPL_lexer.mll" 71 2131 2151 "sPL_lexer.mll" 71 2131 2152
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 71 2131 2145 "sPL_lexer.mll" 71 2131 2146
+)
+"sPL_lexer.mll" 71 2131 2153 "sPL_lexer.mll" 71 2131 2154
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 71 2131 2145 "sPL_lexer.mll" 71 2131 2146
+)
+"sPL_lexer.mll" 71 2131 2153 "sPL_lexer.mll" 71 2131 2161
+type(
+  Lexing.lexbuf
+)
+"sPL_lexer.mll" 71 2131 2149 "sPL_lexer.mll" 71 2131 2161
+call(
+  tail
+)
+type(
+  'd
+)
+"sPL_lexer.mll" 71 2131 2145 "sPL_lexer.mll" 71 2131 2161
+type(
+  context -> 'd
+)
+"sPL_lexer.mll" 71 2131 2143 "sPL_lexer.mll" 71 2131 2161
+type(
+  (context -> Lexing.lexbuf -> 'd) -> context -> 'd
+)
+"sPL_lexer.mll" 75 2232 2238 "sPL_lexer.mll" 75 2232 2248
+type(
+  context -> string option -> int -> bool -> int -> unit
+)
+ident(
+  def update_loc "sPL_lexer.mll" 87 2629 2631 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 75 2232 2249 "sPL_lexer.mll" 75 2232 2250
+type(
+  context
+)
+ident(
+  def c "sPL_lexer.mll" 75 2232 2251 "sPL_lexer.mll" 85 2622 2627
+)
+"sPL_lexer.mll" 75 2232 2251 "sPL_lexer.mll" 75 2232 2255
+type(
+  string option
+)
+ident(
+  def file "sPL_lexer.mll" 75 2232 2256 "sPL_lexer.mll" 85 2622 2627
+)
+"sPL_lexer.mll" 75 2232 2256 "sPL_lexer.mll" 75 2232 2260
+type(
+  int
+)
+ident(
+  def line "sPL_lexer.mll" 75 2232 2261 "sPL_lexer.mll" 85 2622 2627
+)
+"sPL_lexer.mll" 75 2232 2261 "sPL_lexer.mll" 75 2232 2269
+type(
+  bool
+)
+ident(
+  def absolute "sPL_lexer.mll" 75 2232 2270 "sPL_lexer.mll" 85 2622 2627
+)
+"sPL_lexer.mll" 75 2232 2270 "sPL_lexer.mll" 75 2232 2275
+type(
+  int
+)
+ident(
+  def chars "sPL_lexer.mll" 76 2278 2282 "sPL_lexer.mll" 85 2622 2627
+)
+"sPL_lexer.mll" 76 2278 2286 "sPL_lexer.mll" 76 2278 2292
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "sPL_lexer.mll" 77 2307 2311 "sPL_lexer.mll" 85 2622 2627
+)
+"sPL_lexer.mll" 76 2278 2295 "sPL_lexer.mll" 76 2278 2296
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 75 2232 2249 "sPL_lexer.mll" 75 2232 2250
+)
+"sPL_lexer.mll" 76 2278 2295 "sPL_lexer.mll" 76 2278 2303
+type(
+  Lexing.lexbuf
+)
+"sPL_lexer.mll" 77 2307 2315 "sPL_lexer.mll" 77 2307 2318
+type(
+  Lexing.position
+)
+ident(
+  def pos "sPL_lexer.mll" 78 2342 2346 "sPL_lexer.mll" 85 2622 2627
+)
+"sPL_lexer.mll" 77 2307 2321 "sPL_lexer.mll" 77 2307 2327
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.mll" 76 2278 2286 "sPL_lexer.mll" 76 2278 2292
+)
+"sPL_lexer.mll" 77 2307 2321 "sPL_lexer.mll" 77 2307 2338
+type(
+  Lexing.position
+)
+"sPL_lexer.mll" 78 2342 2350 "sPL_lexer.mll" 78 2342 2358
+type(
+  string
+)
+ident(
+  def new_file "sPL_lexer.mll" 81 2455 2459 "sPL_lexer.mll" 85 2622 2627
+)
+"sPL_lexer.mll" 78 2342 2367 "sPL_lexer.mll" 78 2342 2371
+type(
+  string option
+)
+ident(
+  int_ref file "sPL_lexer.mll" 75 2232 2251 "sPL_lexer.mll" 75 2232 2255
+)
+"sPL_lexer.mll" 79 2377 2397 "sPL_lexer.mll" 79 2377 2401
+type(
+  string option
+)
+"sPL_lexer.mll" 79 2377 2405 "sPL_lexer.mll" 79 2377 2408
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "sPL_lexer.mll" 77 2307 2315 "sPL_lexer.mll" 77 2307 2318
+)
+"sPL_lexer.mll" 79 2377 2405 "sPL_lexer.mll" 79 2377 2418
+type(
+  string
+)
+"sPL_lexer.mll" 80 2419 2444 "sPL_lexer.mll" 80 2419 2445
+type(
+  string
+)
+ident(
+  def s "sPL_lexer.mll" 80 2419 2449 "sPL_lexer.mll" 80 2419 2450
+)
+"sPL_lexer.mll" 80 2419 2439 "sPL_lexer.mll" 80 2419 2445
+type(
+  string option
+)
+"sPL_lexer.mll" 80 2419 2449 "sPL_lexer.mll" 80 2419 2450
+type(
+  string
+)
+ident(
+  int_ref s "sPL_lexer.mll" 80 2419 2444 "sPL_lexer.mll" 80 2419 2445
+)
+"sPL_lexer.mll" 78 2342 2361 "sPL_lexer.mll" 80 2419 2450
+type(
+  string
+)
+"sPL_lexer.mll" 81 2455 2459 "sPL_lexer.mll" 81 2455 2465
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.mll" 76 2278 2286 "sPL_lexer.mll" 76 2278 2292
+)
+"sPL_lexer.mll" 81 2455 2482 "sPL_lexer.mll" 81 2455 2485
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "sPL_lexer.mll" 77 2307 2315 "sPL_lexer.mll" 77 2307 2318
+)
+"sPL_lexer.mll" 82 2491 2509 "sPL_lexer.mll" 82 2491 2517
+type(
+  string
+)
+ident(
+  int_ref new_file "sPL_lexer.mll" 78 2342 2350 "sPL_lexer.mll" 78 2342 2358
+)
+"sPL_lexer.mll" 83 2519 2539 "sPL_lexer.mll" 83 2519 2547
+type(
+  bool
+)
+ident(
+  int_ref absolute "sPL_lexer.mll" 75 2232 2261 "sPL_lexer.mll" 75 2232 2269
+)
+"sPL_lexer.mll" 83 2519 2553 "sPL_lexer.mll" 83 2519 2557
+type(
+  int
+)
+ident(
+  int_ref line "sPL_lexer.mll" 75 2232 2256 "sPL_lexer.mll" 75 2232 2260
+)
+"sPL_lexer.mll" 83 2519 2563 "sPL_lexer.mll" 83 2519 2566
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "sPL_lexer.mll" 77 2307 2315 "sPL_lexer.mll" 77 2307 2318
+)
+"sPL_lexer.mll" 83 2519 2563 "sPL_lexer.mll" 83 2519 2575
+type(
+  int
+)
+"sPL_lexer.mll" 83 2519 2576 "sPL_lexer.mll" 83 2519 2577
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( + ) "pervasives.mli" 261 10267 10267 "pervasives.mli" 261 10267 10313
+)
+"sPL_lexer.mll" 83 2519 2578 "sPL_lexer.mll" 83 2519 2582
+type(
+  int
+)
+ident(
+  int_ref line "sPL_lexer.mll" 75 2232 2256 "sPL_lexer.mll" 75 2232 2260
+)
+"sPL_lexer.mll" 83 2519 2563 "sPL_lexer.mll" 83 2519 2582
+type(
+  int
+)
+"sPL_lexer.mll" 83 2519 2536 "sPL_lexer.mll" 83 2519 2582
+type(
+  int
+)
+"sPL_lexer.mll" 84 2584 2600 "sPL_lexer.mll" 84 2584 2603
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "sPL_lexer.mll" 77 2307 2315 "sPL_lexer.mll" 77 2307 2318
+)
+"sPL_lexer.mll" 84 2584 2600 "sPL_lexer.mll" 84 2584 2612
+type(
+  int
+)
+"sPL_lexer.mll" 84 2584 2613 "sPL_lexer.mll" 84 2584 2614
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"sPL_lexer.mll" 84 2584 2615 "sPL_lexer.mll" 84 2584 2620
+type(
+  int
+)
+ident(
+  int_ref chars "sPL_lexer.mll" 75 2232 2270 "sPL_lexer.mll" 75 2232 2275
+)
+"sPL_lexer.mll" 84 2584 2600 "sPL_lexer.mll" 84 2584 2620
+type(
+  int
+)
+"sPL_lexer.mll" 81 2455 2480 "sPL_lexer.mll" 85 2622 2627
+type(
+  Lexing.position
+)
+"sPL_lexer.mll" 81 2455 2459 "sPL_lexer.mll" 85 2622 2627
+type(
+  unit
+)
+"sPL_lexer.mll" 78 2342 2346 "sPL_lexer.mll" 85 2622 2627
+type(
+  unit
+)
+"sPL_lexer.mll" 77 2307 2311 "sPL_lexer.mll" 85 2622 2627
+type(
+  unit
+)
+"sPL_lexer.mll" 76 2278 2282 "sPL_lexer.mll" 85 2622 2627
+type(
+  unit
+)
+"sPL_lexer.mll" 75 2232 2270 "sPL_lexer.mll" 85 2622 2627
+type(
+  int -> unit
+)
+"sPL_lexer.mll" 75 2232 2261 "sPL_lexer.mll" 85 2622 2627
+type(
+  bool -> int -> unit
+)
+"sPL_lexer.mll" 75 2232 2256 "sPL_lexer.mll" 85 2622 2627
+type(
+  int -> bool -> int -> unit
+)
+"sPL_lexer.mll" 75 2232 2251 "sPL_lexer.mll" 85 2622 2627
+type(
+  string option -> int -> bool -> int -> unit
+)
+"sPL_lexer.mll" 75 2232 2249 "sPL_lexer.mll" 85 2622 2627
+type(
+  context -> string option -> int -> bool -> int -> unit
+)
+"sPL_lexer.mll" 87 2629 2635 "sPL_lexer.mll" 87 2629 2638
+type(
+  Error.t -> Loc.t -> 'e
+)
+ident(
+  def err "sPL_lexer.mll" 89 2695 2697 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 87 2629 2639 "sPL_lexer.mll" 87 2629 2644
+type(
+  Error.t
+)
+ident(
+  def error "sPL_lexer.mll" 87 2629 2645 "sPL_lexer.mll" 87 2629 2693
+)
+"sPL_lexer.mll" 87 2629 2645 "sPL_lexer.mll" 87 2629 2648
+type(
+  Loc.t
+)
+ident(
+  def loc "sPL_lexer.mll" 87 2629 2651 "sPL_lexer.mll" 87 2629 2693
+)
+"sPL_lexer.mll" 87 2629 2651 "sPL_lexer.mll" 87 2629 2656
+type(
+  exn -> 'e
+)
+ident(
+  int_ref Pervasives.raise "pervasives.mli" 30 1530 1530 "pervasives.mli" 30 1530 1567
+)
+"sPL_lexer.mll" 87 2629 2673 "sPL_lexer.mll" 87 2629 2676
+type(
+  Loc.t
+)
+ident(
+  int_ref loc "sPL_lexer.mll" 87 2629 2645 "sPL_lexer.mll" 87 2629 2648
+)
+"sPL_lexer.mll" 87 2629 2686 "sPL_lexer.mll" 87 2629 2691
+type(
+  Error.t
+)
+ident(
+  int_ref error "sPL_lexer.mll" 87 2629 2639 "sPL_lexer.mll" 87 2629 2644
+)
+"sPL_lexer.mll" 87 2629 2678 "sPL_lexer.mll" 87 2629 2691
+type(
+  exn
+)
+"sPL_lexer.mll" 87 2629 2657 "sPL_lexer.mll" 87 2629 2692
+type(
+  exn
+)
+"sPL_lexer.mll" 87 2629 2651 "sPL_lexer.mll" 87 2629 2693
+type(
+  'e
+)
+"sPL_lexer.mll" 87 2629 2645 "sPL_lexer.mll" 87 2629 2693
+type(
+  Loc.t -> 'e
+)
+"sPL_lexer.mll" 87 2629 2639 "sPL_lexer.mll" 87 2629 2693
+type(
+  Error.t -> Loc.t -> 'e
+)
+"sPL_lexer.mll" 89 2695 2701 "sPL_lexer.mll" 89 2695 2705
+type(
+  Error.t -> Loc.t -> unit
+)
+ident(
+  def warn "sPL_lexer.mll" 91 2786 2787 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 89 2695 2706 "sPL_lexer.mll" 89 2695 2711
+type(
+  Error.t
+)
+ident(
+  def error "sPL_lexer.mll" 89 2695 2712 "sPL_lexer.mll" 89 2695 2784
+)
+"sPL_lexer.mll" 89 2695 2712 "sPL_lexer.mll" 89 2695 2715
+type(
+  Loc.t
+)
+ident(
+  def loc "sPL_lexer.mll" 89 2695 2718 "sPL_lexer.mll" 89 2695 2784
+)
+"sPL_lexer.mll" 89 2695 2718 "sPL_lexer.mll" 89 2695 2732
+type(
+  ((Format.formatter -> Loc.t -> unit) ->
+   Loc.t -> (Format.formatter -> Error.t -> unit) -> Error.t -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Loc.t -> unit) ->
+  Loc.t -> (Format.formatter -> Error.t -> unit) -> Error.t -> unit
+)
+ident(
+  int_ref Format.eprintf "format.mli" 1043 41627 41627 "format.mli" 1043 41627 41675
+)
+"sPL_lexer.mll" 89 2695 2733 "sPL_lexer.mll" 89 2695 2752
+type(
+  ((Format.formatter -> Loc.t -> unit) ->
+   Loc.t -> (Format.formatter -> Error.t -> unit) -> Error.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"sPL_lexer.mll" 89 2695 2753 "sPL_lexer.mll" 89 2695 2762
+type(
+  Format.formatter -> Loc.t -> unit
+)
+ident(
+  int_ref Loc.print "camlp4/Camlp4/Sig.ml" 183 6559 6561 "camlp4/Camlp4/Sig.ml" 183 6559 6604
+)
+"sPL_lexer.mll" 89 2695 2763 "sPL_lexer.mll" 89 2695 2766
+type(
+  Loc.t
+)
+ident(
+  int_ref loc "sPL_lexer.mll" 89 2695 2712 "sPL_lexer.mll" 89 2695 2715
+)
+"sPL_lexer.mll" 89 2695 2767 "sPL_lexer.mll" 89 2695 2778
+type(
+  Format.formatter -> Error.t -> unit
+)
+ident(
+  int_ref Error.print "sPL_lexer.mll" 26 442 450 "sPL_lexer.mll" 26 442 455
+)
+"sPL_lexer.mll" 89 2695 2779 "sPL_lexer.mll" 89 2695 2784
+type(
+  Error.t
+)
+ident(
+  int_ref error "sPL_lexer.mll" 89 2695 2706 "sPL_lexer.mll" 89 2695 2711
+)
+"sPL_lexer.mll" 89 2695 2718 "sPL_lexer.mll" 89 2695 2784
+call(
+  tail
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 89 2695 2712 "sPL_lexer.mll" 89 2695 2784
+type(
+  Loc.t -> unit
+)
+"sPL_lexer.mll" 89 2695 2706 "sPL_lexer.mll" 89 2695 2784
+type(
+  Error.t -> Loc.t -> unit
+)
+"sPL_lexer.mll" 91 2786 2791 "sPL_lexer.mll" 91 2786 2803
+type(
+  (string, SPL_token.sPL_token) Hashtbl.t
+)
+ident(
+  def sPL_keywords "sPL_lexer.mll" 93 2826 2827 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 91 2786 2806 "sPL_lexer.mll" 91 2786 2820
+type(
+  ?random:bool -> int -> (string, SPL_token.sPL_token) Hashtbl.t
+)
+ident(
+  int_ref Hashtbl.create "hashtbl.mli" 28 1303 1303 "hashtbl.mli" 28 1303 1349
+)
+"sPL_lexer.mll" 91 2786 2821 "sPL_lexer.mll" 91 2786 2824
+type(
+  int
+)
+"sPL_lexer.mll" 91 2786 2806 "sPL_lexer.mll" 91 2786 2824
+call(
+  stack
+)
+type(
+  (string, SPL_token.sPL_token) Hashtbl.t
+)
+"sPL_lexer.mll" 93 2826 2835 "sPL_lexer.mll" 93 2826 2843
+type(
+  (string * SPL_token.sPL_token -> unit) ->
+  (string * SPL_token.sPL_token) list -> unit list
+)
+ident(
+  int_ref List.map "list.mli" 117 4530 4530 "list.mli" 117 4530 4572
+)
+"sPL_lexer.mll" 93 2826 2851 "sPL_lexer.mll" 93 2826 2852
+type(
+  string
+)
+ident(
+  def k "sPL_lexer.mll" 93 2826 2879 "sPL_lexer.mll" 93 2826 2907
+)
+"sPL_lexer.mll" 93 2826 2853 "sPL_lexer.mll" 93 2826 2854
+type(
+  SPL_token.sPL_token
+)
+ident(
+  def t "sPL_lexer.mll" 93 2826 2879 "sPL_lexer.mll" 93 2826 2907
+)
+"sPL_lexer.mll" 93 2826 2851 "sPL_lexer.mll" 93 2826 2854
+type(
+  string * SPL_token.sPL_token
+)
+"sPL_lexer.mll" 93 2826 2879 "sPL_lexer.mll" 93 2826 2890
+type(
+  (string, SPL_token.sPL_token) Hashtbl.t ->
+  string -> SPL_token.sPL_token -> unit
+)
+ident(
+  int_ref Hashtbl.add "hashtbl.mli" 79 3731 3731 "hashtbl.mli" 79 3731 3771
+)
+"sPL_lexer.mll" 93 2826 2891 "sPL_lexer.mll" 93 2826 2903
+type(
+  (string, SPL_token.sPL_token) Hashtbl.t
+)
+ident(
+  int_ref sPL_keywords "sPL_lexer.mll" 91 2786 2791 "sPL_lexer.mll" 91 2786 2803
+)
+"sPL_lexer.mll" 93 2826 2904 "sPL_lexer.mll" 93 2826 2905
+type(
+  string
+)
+ident(
+  int_ref k "sPL_lexer.mll" 93 2826 2851 "sPL_lexer.mll" 93 2826 2852
+)
+"sPL_lexer.mll" 93 2826 2906 "sPL_lexer.mll" 93 2826 2907
+type(
+  SPL_token.sPL_token
+)
+ident(
+  int_ref t "sPL_lexer.mll" 93 2826 2853 "sPL_lexer.mll" 93 2826 2854
+)
+"sPL_lexer.mll" 93 2826 2879 "sPL_lexer.mll" 93 2826 2907
+call(
+  tail
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 93 2826 2849 "sPL_lexer.mll" 93 2826 2907
+type(
+  string * SPL_token.sPL_token -> unit
+)
+"sPL_lexer.mll" 94 2909 2912 "sPL_lexer.mll" 94 2909 2917
+type(
+  string
+)
+"sPL_lexer.mll" 94 2909 2919 "sPL_lexer.mll" 94 2909 2926
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 94 2909 2912 "sPL_lexer.mll" 94 2909 2926
+type(
+  string * SPL_token.sPL_token
+)
+"sPL_lexer.mll" 95 2929 2933 "sPL_lexer.mll" 95 2929 2939
+type(
+  string
+)
+"sPL_lexer.mll" 95 2929 2941 "sPL_lexer.mll" 95 2929 2949
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 95 2929 2933 "sPL_lexer.mll" 95 2929 2949
+type(
+  string * SPL_token.sPL_token
+)
+"sPL_lexer.mll" 96 2952 2956 "sPL_lexer.mll" 96 2952 2962
+type(
+  string
+)
+"sPL_lexer.mll" 96 2952 2964 "sPL_lexer.mll" 96 2952 2968
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 96 2952 2956 "sPL_lexer.mll" 96 2952 2968
+type(
+  string * SPL_token.sPL_token
+)
+"sPL_lexer.mll" 97 2971 2975 "sPL_lexer.mll" 97 2971 2982
+type(
+  string
+)
+"sPL_lexer.mll" 97 2971 2984 "sPL_lexer.mll" 97 2971 2989
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 97 2971 2975 "sPL_lexer.mll" 97 2971 2989
+type(
+  string * SPL_token.sPL_token
+)
+"sPL_lexer.mll" 98 2992 2996 "sPL_lexer.mll" 98 2992 3001
+type(
+  string
+)
+"sPL_lexer.mll" 98 2992 3003 "sPL_lexer.mll" 98 2992 3010
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 98 2992 2996 "sPL_lexer.mll" 98 2992 3010
+type(
+  string * SPL_token.sPL_token
+)
+"sPL_lexer.mll" 99 3013 3016 "sPL_lexer.mll" 99 3013 3020
+type(
+  string
+)
+"sPL_lexer.mll" 99 3013 3022 "sPL_lexer.mll" 99 3013 3028
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 99 3013 3016 "sPL_lexer.mll" 99 3013 3028
+type(
+  string * SPL_token.sPL_token
+)
+"sPL_lexer.mll" 100 3031 3034 "sPL_lexer.mll" 100 3031 3039
+type(
+  string
+)
+"sPL_lexer.mll" 100 3031 3041 "sPL_lexer.mll" 100 3031 3048
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 100 3031 3034 "sPL_lexer.mll" 100 3031 3048
+type(
+  string * SPL_token.sPL_token
+)
+"sPL_lexer.mll" 101 3051 3055 "sPL_lexer.mll" 101 3051 3060
+type(
+  string
+)
+"sPL_lexer.mll" 101 3051 3062 "sPL_lexer.mll" 101 3051 3065
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 101 3051 3055 "sPL_lexer.mll" 101 3051 3065
+type(
+  string * SPL_token.sPL_token
+)
+"sPL_lexer.mll" 102 3068 3072 "sPL_lexer.mll" 102 3068 3080
+type(
+  string
+)
+"sPL_lexer.mll" 102 3068 3082 "sPL_lexer.mll" 102 3068 3088
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 102 3068 3072 "sPL_lexer.mll" 102 3068 3088
+type(
+  string * SPL_token.sPL_token
+)
+"sPL_lexer.mll" 103 3091 3095 "sPL_lexer.mll" 103 3091 3099
+type(
+  string
+)
+"sPL_lexer.mll" 103 3091 3102 "sPL_lexer.mll" 103 3091 3108
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 103 3091 3095 "sPL_lexer.mll" 103 3091 3108
+type(
+  string * SPL_token.sPL_token
+)
+"sPL_lexer.mll" 104 3111 3115 "sPL_lexer.mll" 104 3111 3121
+type(
+  string
+)
+"sPL_lexer.mll" 104 3111 3123 "sPL_lexer.mll" 104 3111 3131
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 104 3111 3115 "sPL_lexer.mll" 104 3111 3131
+type(
+  string * SPL_token.sPL_token
+)
+"sPL_lexer.mll" 105 3134 3138 "sPL_lexer.mll" 105 3134 3144
+type(
+  string
+)
+"sPL_lexer.mll" 105 3134 3146 "sPL_lexer.mll" 105 3134 3154
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 105 3134 3138 "sPL_lexer.mll" 105 3134 3154
+type(
+  string * SPL_token.sPL_token
+)
+"sPL_lexer.mll" 105 3134 3137 "sPL_lexer.mll" 105 3134 3156
+type(
+  (string * SPL_token.sPL_token) list
+)
+"sPL_lexer.mll" 104 3111 3114 "sPL_lexer.mll" 105 3134 3156
+type(
+  (string * SPL_token.sPL_token) list
+)
+"sPL_lexer.mll" 103 3091 3094 "sPL_lexer.mll" 105 3134 3156
+type(
+  (string * SPL_token.sPL_token) list
+)
+"sPL_lexer.mll" 102 3068 3071 "sPL_lexer.mll" 105 3134 3156
+type(
+  (string * SPL_token.sPL_token) list
+)
+"sPL_lexer.mll" 101 3051 3054 "sPL_lexer.mll" 105 3134 3156
+type(
+  (string * SPL_token.sPL_token) list
+)
+"sPL_lexer.mll" 100 3031 3033 "sPL_lexer.mll" 105 3134 3156
+type(
+  (string * SPL_token.sPL_token) list
+)
+"sPL_lexer.mll" 99 3013 3015 "sPL_lexer.mll" 105 3134 3156
+type(
+  (string * SPL_token.sPL_token) list
+)
+"sPL_lexer.mll" 98 2992 2995 "sPL_lexer.mll" 105 3134 3156
+type(
+  (string * SPL_token.sPL_token) list
+)
+"sPL_lexer.mll" 97 2971 2974 "sPL_lexer.mll" 105 3134 3156
+type(
+  (string * SPL_token.sPL_token) list
+)
+"sPL_lexer.mll" 96 2952 2955 "sPL_lexer.mll" 105 3134 3156
+type(
+  (string * SPL_token.sPL_token) list
+)
+"sPL_lexer.mll" 95 2929 2932 "sPL_lexer.mll" 105 3134 3156
+type(
+  (string * SPL_token.sPL_token) list
+)
+"sPL_lexer.mll" 94 2909 2911 "sPL_lexer.mll" 105 3134 3156
+type(
+  (string * SPL_token.sPL_token) list
+)
+type(
+  (string * SPL_token.sPL_token) list
+)
+"sPL_lexer.mll" 93 2826 2835 "sPL_lexer.mll" 106 3157 3159
+call(
+  stack
+)
+type(
+  unit list
+)
+"sPL_lexer.ml" 110 3182 3186 "sPL_lexer.ml" 110 3182 3204
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "sPL_lexer.ml" 549 32750 32750 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.ml" 112 3229 3232 "sPL_lexer.ml" 120 3789 3802
+type(
+  string
+)
+"sPL_lexer.ml" 122 3827 3830 "sPL_lexer.ml" 130 4387 4400
+type(
+  string
+)
+"sPL_lexer.ml" 132 4425 4428 "sPL_lexer.ml" 140 4985 4998
+type(
+  string
+)
+"sPL_lexer.ml" 142 5021 5024 "sPL_lexer.ml" 293 15591 15652
+type(
+  string
+)
+"sPL_lexer.ml" 295 15675 15678 "sPL_lexer.ml" 446 26245 26306
+type(
+  string
+)
+"sPL_lexer.ml" 448 26333 26336 "sPL_lexer.ml" 456 26893 26906
+type(
+  string
+)
+"sPL_lexer.ml" 458 26936 26939 "sPL_lexer.ml" 466 27496 27509
+type(
+  string
+)
+"sPL_lexer.ml" 468 27539 27542 "sPL_lexer.ml" 476 28099 28112
+type(
+  string
+)
+"sPL_lexer.ml" 478 28140 28143 "sPL_lexer.ml" 510 30380 30401
+type(
+  string
+)
+"sPL_lexer.ml" 512 30429 30432 "sPL_lexer.ml" 544 32669 32690
+type(
+  string
+)
+"sPL_lexer.ml" 546 32712 32715 "sPL_lexer.ml" 546 32712 32745
+type(
+  string
+)
+"sPL_lexer.ml" 110 3182 3207 "sPL_lexer.ml" 547 32747 32748
+type(
+  Lexing.lex_tables
+)
+"sPL_lexer.ml" 549 32750 32758 "sPL_lexer.ml" 549 32750 32767
+type(
+  context -> Lexing.lexbuf -> SPL_token.sPL_token
+)
+ident(
+  def tokenizer "sPL_lexer.ml" 549 32750 32750 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.ml" 549 32750 32768 "sPL_lexer.ml" 549 32750 32777
+type(
+  context
+)
+ident(
+  def file_name "sPL_lexer.ml" 549 32750 32778 "sPL_lexer.ml" 550 32787 32834
+)
+"sPL_lexer.ml" 549 32750 32778 "sPL_lexer.ml" 549 32750 32784
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "sPL_lexer.ml" 550 32787 32790 "sPL_lexer.ml" 550 32787 32834
+)
+"sPL_lexer.ml" 550 32787 32790 "sPL_lexer.ml" 550 32787 32815
+type(
+  context -> Lexing.lexbuf -> int -> SPL_token.sPL_token
+)
+ident(
+  int_ref __ocaml_lex_tokenizer_rec "sPL_lexer.ml" 551 32835 32839 "sPL_lexer.ml" 551 32835 32864
+)
+"sPL_lexer.ml" 550 32787 32816 "sPL_lexer.ml" 550 32787 32825
+type(
+  context
+)
+ident(
+  int_ref file_name "sPL_lexer.ml" 549 32750 32768 "sPL_lexer.ml" 549 32750 32777
+)
+"sPL_lexer.ml" 550 32787 32826 "sPL_lexer.ml" 550 32787 32832
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 549 32750 32778 "sPL_lexer.ml" 549 32750 32784
+)
+"sPL_lexer.ml" 550 32787 32833 "sPL_lexer.ml" 550 32787 32834
+type(
+  int
+)
+"sPL_lexer.ml" 550 32787 32790 "sPL_lexer.ml" 550 32787 32834
+call(
+  tail
+)
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 549 32750 32778 "sPL_lexer.ml" 550 32787 32834
+type(
+  Lexing.lexbuf -> SPL_token.sPL_token
+)
+"sPL_lexer.ml" 549 32750 32768 "sPL_lexer.ml" 550 32787 32834
+type(
+  context -> Lexing.lexbuf -> SPL_token.sPL_token
+)
+"sPL_lexer.ml" 551 32835 32839 "sPL_lexer.ml" 551 32835 32864
+type(
+  context -> Lexing.lexbuf -> int -> SPL_token.sPL_token
+)
+ident(
+  def __ocaml_lex_tokenizer_rec "sPL_lexer.ml" 549 32750 32750 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.ml" 551 32835 32865 "sPL_lexer.ml" 551 32835 32874
+type(
+  context
+)
+ident(
+  def file_name "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 721 36661 36727
+)
+"sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "sPL_lexer.ml" 551 32835 32882 "sPL_lexer.ml" 721 36661 36727
+)
+"sPL_lexer.ml" 551 32835 32882 "sPL_lexer.ml" 551 32835 32899
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "sPL_lexer.ml" 552 32902 32904 "sPL_lexer.ml" 721 36661 36727
+)
+"sPL_lexer.ml" 552 32902 32910 "sPL_lexer.ml" 552 32902 32923
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  int_ref Lexing.engine "lexing.mli" 175 6756 6756 "lexing.mli" 175 6756 6803
+)
+"sPL_lexer.ml" 552 32902 32924 "sPL_lexer.ml" 552 32902 32942
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "sPL_lexer.ml" 110 3182 3186 "sPL_lexer.ml" 110 3182 3204
+)
+"sPL_lexer.ml" 552 32902 32943 "sPL_lexer.ml" 552 32902 32960
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "sPL_lexer.ml" 551 32835 32882 "sPL_lexer.ml" 551 32835 32899
+)
+"sPL_lexer.ml" 552 32902 32961 "sPL_lexer.ml" 552 32902 32967
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.ml" 552 32902 32910 "sPL_lexer.ml" 552 32902 32967
+call(
+  stack
+)
+type(
+  int
+)
+"sPL_lexer.ml" 553 32973 32981 "sPL_lexer.ml" 553 32973 32982
+type(
+  int
+)
+"sPL_lexer.mll" 127 33008 33049 "sPL_lexer.mll" 127 33008 33059
+type(
+  context -> string option -> int -> bool -> int -> unit
+)
+ident(
+  int_ref update_loc "sPL_lexer.mll" 75 2232 2238 "sPL_lexer.mll" 75 2232 2248
+)
+"sPL_lexer.mll" 127 33008 33060 "sPL_lexer.mll" 127 33008 33069
+type(
+  context
+)
+ident(
+  int_ref file_name "sPL_lexer.ml" 551 32835 32865 "sPL_lexer.ml" 551 32835 32874
+)
+"sPL_lexer.mll" 127 33008 33070 "sPL_lexer.mll" 127 33008 33074
+type(
+  string option
+)
+"sPL_lexer.mll" 127 33008 33075 "sPL_lexer.mll" 127 33008 33076
+type(
+  int
+)
+"sPL_lexer.mll" 127 33008 33077 "sPL_lexer.mll" 127 33008 33082
+type(
+  bool
+)
+"sPL_lexer.mll" 127 33008 33083 "sPL_lexer.mll" 127 33008 33084
+type(
+  int
+)
+"sPL_lexer.mll" 127 33008 33049 "sPL_lexer.mll" 127 33008 33084
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 127 33008 33086 "sPL_lexer.mll" 127 33008 33095
+type(
+  context -> Lexing.lexbuf -> SPL_token.sPL_token
+)
+ident(
+  int_ref tokenizer "sPL_lexer.ml" 549 32750 32758 "sPL_lexer.ml" 549 32750 32767
+)
+"sPL_lexer.mll" 127 33008 33096 "sPL_lexer.mll" 127 33008 33105
+type(
+  context
+)
+ident(
+  int_ref file_name "sPL_lexer.ml" 551 32835 32865 "sPL_lexer.ml" 551 32835 32874
+)
+"sPL_lexer.mll" 127 33008 33106 "sPL_lexer.mll" 127 33008 33112
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.mll" 127 33008 33086 "sPL_lexer.mll" 127 33008 33112
+call(
+  tail
+)
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 127 33008 33049 "sPL_lexer.mll" 127 33008 33112
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 558 33137 33141 "sPL_lexer.ml" 558 33137 33142
+type(
+  int
+)
+"sPL_lexer.mll" 128 33168 33230 "sPL_lexer.mll" 128 33168 33239
+type(
+  context -> Lexing.lexbuf -> SPL_token.sPL_token
+)
+ident(
+  int_ref tokenizer "sPL_lexer.ml" 549 32750 32758 "sPL_lexer.ml" 549 32750 32767
+)
+"sPL_lexer.mll" 128 33168 33240 "sPL_lexer.mll" 128 33168 33249
+type(
+  context
+)
+ident(
+  int_ref file_name "sPL_lexer.ml" 551 32835 32865 "sPL_lexer.ml" 551 32835 32874
+)
+"sPL_lexer.mll" 128 33168 33250 "sPL_lexer.mll" 128 33168 33256
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.mll" 128 33168 33230 "sPL_lexer.mll" 128 33168 33256
+call(
+  tail
+)
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 563 33281 33285 "sPL_lexer.ml" 563 33281 33286
+type(
+  int
+)
+"sPL_lexer.mll" 129 33316 33335 "sPL_lexer.mll" 129 33316 33336
+type(
+  string
+)
+ident(
+  def i "sPL_lexer.mll" 130 33465 33475 "sPL_lexer.mll" 131 33508 33587
+)
+"sPL_lexer.ml" 568 33358 33360 "sPL_lexer.ml" 568 33358 33377
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Lexing.sub_lexeme "lexing.mli" 157 6236 6236 "lexing.mli" 157 6236 6283
+)
+"sPL_lexer.ml" 568 33358 33378 "sPL_lexer.ml" 568 33358 33384
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.ml" 568 33358 33385 "sPL_lexer.ml" 568 33358 33391
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.ml" 568 33358 33385 "sPL_lexer.ml" 568 33358 33412
+type(
+  int
+)
+"sPL_lexer.ml" 568 33358 33413 "sPL_lexer.ml" 568 33358 33419
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.ml" 568 33358 33413 "sPL_lexer.ml" 568 33358 33439
+type(
+  int
+)
+"sPL_lexer.ml" 568 33358 33360 "sPL_lexer.ml" 568 33358 33439
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_lexer.mll" 130 33465 33488 "sPL_lexer.mll" 130 33465 33501
+type(
+  string -> int
+)
+ident(
+  int_ref Pervasives.int_of_string "pervasives.mli" 624 23569 23569 "pervasives.mli" 624 23569 23630
+)
+"sPL_lexer.mll" 130 33465 33502 "sPL_lexer.mll" 130 33465 33503
+type(
+  string
+)
+ident(
+  int_ref i "sPL_lexer.mll" 129 33316 33335 "sPL_lexer.mll" 129 33316 33336
+)
+"sPL_lexer.mll" 130 33465 33488 "sPL_lexer.mll" 130 33465 33503
+type(
+  int
+)
+"sPL_lexer.mll" 130 33465 33505 "sPL_lexer.mll" 130 33465 33506
+type(
+  string
+)
+ident(
+  int_ref i "sPL_lexer.mll" 129 33316 33335 "sPL_lexer.mll" 129 33316 33336
+)
+"sPL_lexer.mll" 130 33465 33480 "sPL_lexer.mll" 130 33465 33507
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 131 33508 33531 "sPL_lexer.mll" 131 33508 33532
+type(
+  string
+)
+"sPL_lexer.mll" 131 33508 33523 "sPL_lexer.mll" 131 33508 33532
+type(
+  exn
+)
+"sPL_lexer.mll" 131 33508 33536 "sPL_lexer.mll" 131 33508 33539
+type(
+  Error.t -> Loc.t -> SPL_token.sPL_token
+)
+ident(
+  int_ref err "sPL_lexer.mll" 87 2629 2635 "sPL_lexer.mll" 87 2629 2638
+)
+"sPL_lexer.mll" 131 33508 33558 "sPL_lexer.mll" 131 33508 33563
+type(
+  string
+)
+"sPL_lexer.mll" 131 33508 33541 "sPL_lexer.mll" 131 33508 33563
+type(
+  Error.t
+)
+"sPL_lexer.mll" 131 33508 33566 "sPL_lexer.mll" 131 33508 33579
+type(
+  Lexing.lexbuf -> Loc.t
+)
+ident(
+  int_ref Loc.of_lexbuf "camlp4/Camlp4/Sig.ml" 99 3506 3508 "camlp4/Camlp4/Sig.ml" 99 3506 3544
+)
+"sPL_lexer.mll" 131 33508 33580 "sPL_lexer.mll" 131 33508 33586
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.mll" 131 33508 33566 "sPL_lexer.mll" 131 33508 33586
+call(
+  stack
+)
+type(
+  Loc.t
+)
+"sPL_lexer.mll" 131 33508 33536 "sPL_lexer.mll" 131 33508 33587
+call(
+  tail
+)
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 130 33465 33475 "sPL_lexer.mll" 131 33508 33587
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 564 33290 33290 "sPL_lexer.ml" 131 33508 33589
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 574 33612 33616 "sPL_lexer.ml" 574 33612 33617
+type(
+  int
+)
+"sPL_lexer.mll" 132 33647 33663 "sPL_lexer.mll" 132 33647 33664
+type(
+  char
+)
+ident(
+  def c "sPL_lexer.mll" 133 33777 33787 "sPL_lexer.mll" 133 33777 33848
+)
+"sPL_lexer.ml" 579 33686 33688 "sPL_lexer.ml" 579 33686 33710
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  int_ref Lexing.sub_lexeme_char "lexing.mli" 159 6343 6343 "lexing.mli" 159 6343 6386
+)
+"sPL_lexer.ml" 579 33686 33711 "sPL_lexer.ml" 579 33686 33717
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.ml" 579 33686 33719 "sPL_lexer.ml" 579 33686 33725
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.ml" 579 33686 33719 "sPL_lexer.ml" 579 33686 33746
+type(
+  int
+)
+"sPL_lexer.ml" 579 33686 33747 "sPL_lexer.ml" 579 33686 33748
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( + ) "pervasives.mli" 261 10267 10267 "pervasives.mli" 261 10267 10313
+)
+"sPL_lexer.ml" 579 33686 33749 "sPL_lexer.ml" 579 33686 33750
+type(
+  int
+)
+"sPL_lexer.ml" 579 33686 33719 "sPL_lexer.ml" 579 33686 33750
+type(
+  int
+)
+"sPL_lexer.ml" 579 33686 33688 "sPL_lexer.ml" 579 33686 33751
+call(
+  stack
+)
+type(
+  char
+)
+"sPL_lexer.mll" 133 33777 33787 "sPL_lexer.mll" 133 33777 33790
+type(
+  Error.t -> Loc.t -> SPL_token.sPL_token
+)
+ident(
+  int_ref err "sPL_lexer.mll" 87 2629 2635 "sPL_lexer.mll" 87 2629 2638
+)
+"sPL_lexer.mll" 133 33777 33808 "sPL_lexer.mll" 133 33777 33819
+type(
+  int -> char -> string
+)
+ident(
+  int_ref String.make "string.mli" 80 3832 3832 "string.mli" 80 3832 3864
+)
+"sPL_lexer.mll" 133 33777 33820 "sPL_lexer.mll" 133 33777 33821
+type(
+  int
+)
+"sPL_lexer.mll" 133 33777 33822 "sPL_lexer.mll" 133 33777 33823
+type(
+  char
+)
+ident(
+  int_ref c "sPL_lexer.mll" 132 33647 33663 "sPL_lexer.mll" 132 33647 33664
+)
+"sPL_lexer.mll" 133 33777 33808 "sPL_lexer.mll" 133 33777 33823
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_lexer.mll" 133 33777 33792 "sPL_lexer.mll" 133 33777 33824
+type(
+  Error.t
+)
+"sPL_lexer.mll" 133 33777 33827 "sPL_lexer.mll" 133 33777 33840
+type(
+  Lexing.lexbuf -> Loc.t
+)
+ident(
+  int_ref Loc.of_lexbuf "camlp4/Camlp4/Sig.ml" 99 3506 3508 "camlp4/Camlp4/Sig.ml" 99 3506 3544
+)
+"sPL_lexer.mll" 133 33777 33841 "sPL_lexer.mll" 133 33777 33847
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.mll" 133 33777 33827 "sPL_lexer.mll" 133 33777 33847
+call(
+  stack
+)
+type(
+  Loc.t
+)
+"sPL_lexer.mll" 133 33777 33787 "sPL_lexer.mll" 133 33777 33848
+call(
+  tail
+)
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 575 33621 33621 "sPL_lexer.ml" 133 33777 33858
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 584 33881 33885 "sPL_lexer.ml" 584 33881 33886
+type(
+  int
+)
+"sPL_lexer.mll" 135 33912 33922 "sPL_lexer.mll" 135 33912 33935
+type(
+  (context -> Lexing.lexbuf -> unit) -> context -> unit
+)
+ident(
+  int_ref with_curr_loc "sPL_lexer.mll" 67 1890 1896 "sPL_lexer.mll" 67 1890 1909
+)
+"sPL_lexer.mll" 135 33912 33936 "sPL_lexer.mll" 135 33912 33942
+type(
+  context -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref string "sPL_lexer.ml" 723 36729 36733 "sPL_lexer.ml" 723 36729 36739
+)
+"sPL_lexer.mll" 135 33912 33943 "sPL_lexer.mll" 135 33912 33952
+type(
+  context
+)
+ident(
+  int_ref file_name "sPL_lexer.ml" 551 32835 32865 "sPL_lexer.ml" 551 32835 32874
+)
+"sPL_lexer.mll" 135 33912 33922 "sPL_lexer.mll" 135 33912 33952
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 136 33954 33968 "sPL_lexer.mll" 136 33954 33969
+type(
+  string
+)
+ident(
+  def s "sPL_lexer.mll" 136 33954 33999 "sPL_lexer.mll" 136 33954 34044
+)
+"sPL_lexer.mll" 136 33954 33972 "sPL_lexer.mll" 136 33954 33985
+type(
+  context -> string
+)
+ident(
+  int_ref buff_contents "sPL_lexer.mll" 56 1461 1467 "sPL_lexer.mll" 56 1461 1480
+)
+"sPL_lexer.mll" 136 33954 33986 "sPL_lexer.mll" 136 33954 33995
+type(
+  context
+)
+ident(
+  int_ref file_name "sPL_lexer.ml" 551 32835 32865 "sPL_lexer.ml" 551 32835 32874
+)
+"sPL_lexer.mll" 136 33954 33972 "sPL_lexer.mll" 136 33954 33995
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_lexer.mll" 136 33954 34007 "sPL_lexer.mll" 136 33954 34038
+type(
+  ?strict:unit -> string -> string
+)
+ident(
+  int_ref Camlp4.Struct.Token.Eval.string "camlp4/Camlp4/Struct/Token.mli" 29 1484 1486 "camlp4/Camlp4/Struct/Token.mli" 29 1484 1533
+)
+"sPL_lexer.mll" 136 33954 34039 "sPL_lexer.mll" 136 33954 34040
+type(
+  string
+)
+ident(
+  int_ref s "sPL_lexer.mll" 136 33954 33968 "sPL_lexer.mll" 136 33954 33969
+)
+"sPL_lexer.mll" 136 33954 34007 "sPL_lexer.mll" 136 33954 34040
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_lexer.mll" 136 33954 34042 "sPL_lexer.mll" 136 33954 34043
+type(
+  string
+)
+ident(
+  int_ref s "sPL_lexer.mll" 136 33954 33968 "sPL_lexer.mll" 136 33954 33969
+)
+"sPL_lexer.mll" 136 33954 33999 "sPL_lexer.mll" 136 33954 34044
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 136 33954 33964 "sPL_lexer.mll" 136 33954 34044
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 135 33912 33922 "sPL_lexer.mll" 136 33954 34044
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 590 34073 34077 "sPL_lexer.ml" 590 34073 34078
+type(
+  int
+)
+"sPL_lexer.mll" 137 34108 34128 "sPL_lexer.mll" 137 34108 34129
+type(
+  string
+)
+ident(
+  def x "sPL_lexer.mll" 138 34271 34281 "sPL_lexer.mll" 138 34271 34363
+)
+"sPL_lexer.ml" 595 34151 34153 "sPL_lexer.ml" 595 34151 34170
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Lexing.sub_lexeme "lexing.mli" 157 6236 6236 "lexing.mli" 157 6236 6283
+)
+"sPL_lexer.ml" 595 34151 34171 "sPL_lexer.ml" 595 34151 34177
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.ml" 595 34151 34179 "sPL_lexer.ml" 595 34151 34185
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.ml" 595 34151 34179 "sPL_lexer.ml" 595 34151 34206
+type(
+  int
+)
+"sPL_lexer.ml" 595 34151 34207 "sPL_lexer.ml" 595 34151 34208
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( + ) "pervasives.mli" 261 10267 10267 "pervasives.mli" 261 10267 10313
+)
+"sPL_lexer.ml" 595 34151 34209 "sPL_lexer.ml" 595 34151 34210
+type(
+  int
+)
+"sPL_lexer.ml" 595 34151 34179 "sPL_lexer.ml" 595 34151 34210
+type(
+  int
+)
+"sPL_lexer.ml" 595 34151 34213 "sPL_lexer.ml" 595 34151 34219
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.ml" 595 34151 34213 "sPL_lexer.ml" 595 34151 34239
+type(
+  int
+)
+"sPL_lexer.ml" 595 34151 34240 "sPL_lexer.ml" 595 34151 34241
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( + ) "pervasives.mli" 261 10267 10267 "pervasives.mli" 261 10267 10313
+)
+"sPL_lexer.ml" 595 34151 34242 "sPL_lexer.ml" 595 34151 34244
+type(
+  int
+)
+"sPL_lexer.ml" 595 34151 34213 "sPL_lexer.ml" 595 34151 34244
+type(
+  int
+)
+"sPL_lexer.ml" 595 34151 34153 "sPL_lexer.ml" 595 34151 34245
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_lexer.mll" 138 34271 34281 "sPL_lexer.mll" 138 34271 34291
+type(
+  context -> string option -> int -> bool -> int -> unit
+)
+ident(
+  int_ref update_loc "sPL_lexer.mll" 75 2232 2238 "sPL_lexer.mll" 75 2232 2248
+)
+"sPL_lexer.mll" 138 34271 34292 "sPL_lexer.mll" 138 34271 34301
+type(
+  context
+)
+ident(
+  int_ref file_name "sPL_lexer.ml" 551 32835 32865 "sPL_lexer.ml" 551 32835 32874
+)
+"sPL_lexer.mll" 138 34271 34302 "sPL_lexer.mll" 138 34271 34306
+type(
+  string option
+)
+"sPL_lexer.mll" 138 34271 34307 "sPL_lexer.mll" 138 34271 34308
+type(
+  int
+)
+"sPL_lexer.mll" 138 34271 34309 "sPL_lexer.mll" 138 34271 34314
+type(
+  bool
+)
+"sPL_lexer.mll" 138 34271 34315 "sPL_lexer.mll" 138 34271 34316
+type(
+  int
+)
+"sPL_lexer.mll" 138 34271 34281 "sPL_lexer.mll" 138 34271 34316
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 138 34271 34328 "sPL_lexer.mll" 138 34271 34357
+type(
+  string -> char
+)
+ident(
+  int_ref Camlp4.Struct.Token.Eval.char "camlp4/Camlp4/Struct/Token.mli" 23 1212 1214 "camlp4/Camlp4/Struct/Token.mli" 23 1212 1241
+)
+"sPL_lexer.mll" 138 34271 34358 "sPL_lexer.mll" 138 34271 34359
+type(
+  string
+)
+ident(
+  int_ref x "sPL_lexer.mll" 137 34108 34128 "sPL_lexer.mll" 137 34108 34129
+)
+"sPL_lexer.mll" 138 34271 34328 "sPL_lexer.mll" 138 34271 34359
+call(
+  stack
+)
+type(
+  char
+)
+"sPL_lexer.mll" 138 34271 34361 "sPL_lexer.mll" 138 34271 34362
+type(
+  string
+)
+ident(
+  int_ref x "sPL_lexer.mll" 137 34108 34128 "sPL_lexer.mll" 137 34108 34129
+)
+"sPL_lexer.mll" 138 34271 34318 "sPL_lexer.mll" 138 34271 34363
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 138 34271 34281 "sPL_lexer.mll" 138 34271 34363
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 591 34082 34082 "sPL_lexer.ml" 138 34271 34371
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 600 34394 34398 "sPL_lexer.ml" 600 34394 34399
+type(
+  int
+)
+"sPL_lexer.mll" 143 34429 34442 "sPL_lexer.mll" 143 34429 34443
+type(
+  string
+)
+ident(
+  def x "sPL_lexer.mll" 143 34585 34638 "sPL_lexer.mll" 143 34585 34683
+)
+"sPL_lexer.ml" 605 34465 34467 "sPL_lexer.ml" 605 34465 34484
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Lexing.sub_lexeme "lexing.mli" 157 6236 6236 "lexing.mli" 157 6236 6283
+)
+"sPL_lexer.ml" 605 34465 34485 "sPL_lexer.ml" 605 34465 34491
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.ml" 605 34465 34493 "sPL_lexer.ml" 605 34465 34499
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.ml" 605 34465 34493 "sPL_lexer.ml" 605 34465 34520
+type(
+  int
+)
+"sPL_lexer.ml" 605 34465 34521 "sPL_lexer.ml" 605 34465 34522
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( + ) "pervasives.mli" 261 10267 10267 "pervasives.mli" 261 10267 10313
+)
+"sPL_lexer.ml" 605 34465 34523 "sPL_lexer.ml" 605 34465 34524
+type(
+  int
+)
+"sPL_lexer.ml" 605 34465 34493 "sPL_lexer.ml" 605 34465 34524
+type(
+  int
+)
+"sPL_lexer.ml" 605 34465 34527 "sPL_lexer.ml" 605 34465 34533
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.ml" 605 34465 34527 "sPL_lexer.ml" 605 34465 34553
+type(
+  int
+)
+"sPL_lexer.ml" 605 34465 34554 "sPL_lexer.ml" 605 34465 34555
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( + ) "pervasives.mli" 261 10267 10267 "pervasives.mli" 261 10267 10313
+)
+"sPL_lexer.ml" 605 34465 34556 "sPL_lexer.ml" 605 34465 34558
+type(
+  int
+)
+"sPL_lexer.ml" 605 34465 34527 "sPL_lexer.ml" 605 34465 34558
+type(
+  int
+)
+"sPL_lexer.ml" 605 34465 34467 "sPL_lexer.ml" 605 34465 34559
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_lexer.mll" 143 34585 34648 "sPL_lexer.mll" 143 34585 34677
+type(
+  string -> char
+)
+ident(
+  int_ref Camlp4.Struct.Token.Eval.char "camlp4/Camlp4/Struct/Token.mli" 23 1212 1214 "camlp4/Camlp4/Struct/Token.mli" 23 1212 1241
+)
+"sPL_lexer.mll" 143 34585 34678 "sPL_lexer.mll" 143 34585 34679
+type(
+  string
+)
+ident(
+  int_ref x "sPL_lexer.mll" 143 34429 34442 "sPL_lexer.mll" 143 34429 34443
+)
+"sPL_lexer.mll" 143 34585 34648 "sPL_lexer.mll" 143 34585 34679
+call(
+  stack
+)
+type(
+  char
+)
+"sPL_lexer.mll" 143 34585 34681 "sPL_lexer.mll" 143 34585 34682
+type(
+  string
+)
+ident(
+  int_ref x "sPL_lexer.mll" 143 34429 34442 "sPL_lexer.mll" 143 34429 34443
+)
+"sPL_lexer.mll" 143 34585 34638 "sPL_lexer.mll" 143 34585 34683
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 601 34403 34403 "sPL_lexer.ml" 143 34585 34685
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 610 34708 34712 "sPL_lexer.ml" 610 34708 34713
+type(
+  int
+)
+"sPL_lexer.mll" 144 34739 34748 "sPL_lexer.mll" 144 34739 34752
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 615 34776 34780 "sPL_lexer.ml" 615 34776 34781
+type(
+  int
+)
+"sPL_lexer.mll" 145 34807 34816 "sPL_lexer.mll" 145 34807 34821
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 620 34845 34849 "sPL_lexer.ml" 620 34845 34850
+type(
+  int
+)
+"sPL_lexer.mll" 146 34876 34885 "sPL_lexer.mll" 146 34876 34891
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 625 34915 34919 "sPL_lexer.ml" 625 34915 34921
+type(
+  int
+)
+"sPL_lexer.mll" 147 34947 34956 "sPL_lexer.mll" 147 34947 34960
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 630 34984 34988 "sPL_lexer.ml" 630 34984 34990
+type(
+  int
+)
+"sPL_lexer.mll" 148 35016 35025 "sPL_lexer.mll" 148 35016 35028
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 635 35052 35056 "sPL_lexer.ml" 635 35052 35058
+type(
+  int
+)
+"sPL_lexer.mll" 149 35084 35093 "sPL_lexer.mll" 149 35084 35095
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 640 35119 35123 "sPL_lexer.ml" 640 35119 35125
+type(
+  int
+)
+"sPL_lexer.mll" 150 35151 35160 "sPL_lexer.mll" 150 35151 35162
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 645 35186 35190 "sPL_lexer.ml" 645 35186 35192
+type(
+  int
+)
+"sPL_lexer.mll" 151 35218 35227 "sPL_lexer.mll" 151 35218 35229
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 650 35253 35257 "sPL_lexer.ml" 650 35253 35259
+type(
+  int
+)
+"sPL_lexer.mll" 152 35285 35294 "sPL_lexer.mll" 152 35285 35297
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 655 35321 35325 "sPL_lexer.ml" 655 35321 35327
+type(
+  int
+)
+"sPL_lexer.mll" 153 35353 35362 "sPL_lexer.mll" 153 35353 35364
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 660 35388 35392 "sPL_lexer.ml" 660 35388 35394
+type(
+  int
+)
+"sPL_lexer.mll" 154 35420 35430 "sPL_lexer.mll" 154 35420 35433
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 665 35457 35461 "sPL_lexer.ml" 665 35457 35463
+type(
+  int
+)
+"sPL_lexer.mll" 155 35489 35499 "sPL_lexer.mll" 155 35489 35505
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 670 35529 35533 "sPL_lexer.ml" 670 35529 35535
+type(
+  int
+)
+"sPL_lexer.mll" 156 35561 35570 "sPL_lexer.mll" 156 35561 35576
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 675 35600 35604 "sPL_lexer.ml" 675 35600 35606
+type(
+  int
+)
+"sPL_lexer.mll" 157 35632 35641 "sPL_lexer.mll" 157 35632 35647
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 680 35671 35675 "sPL_lexer.ml" 680 35671 35677
+type(
+  int
+)
+"sPL_lexer.mll" 158 35703 35712 "sPL_lexer.mll" 158 35703 35718
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 685 35742 35746 "sPL_lexer.ml" 685 35742 35748
+type(
+  int
+)
+"sPL_lexer.mll" 159 35774 35783 "sPL_lexer.mll" 159 35774 35789
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 690 35813 35817 "sPL_lexer.ml" 690 35813 35819
+type(
+  int
+)
+"sPL_lexer.mll" 160 35849 35862 "sPL_lexer.mll" 160 35849 35867
+type(
+  string
+)
+ident(
+  def idstr "sPL_lexer.mll" 162 36001 36006 "sPL_lexer.mll" 163 36042 36074
+)
+"sPL_lexer.ml" 695 35889 35891 "sPL_lexer.ml" 695 35889 35908
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Lexing.sub_lexeme "lexing.mli" 157 6236 6236 "lexing.mli" 157 6236 6283
+)
+"sPL_lexer.ml" 695 35889 35909 "sPL_lexer.ml" 695 35889 35915
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.ml" 695 35889 35916 "sPL_lexer.ml" 695 35889 35922
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.ml" 695 35889 35916 "sPL_lexer.ml" 695 35889 35943
+type(
+  int
+)
+"sPL_lexer.ml" 695 35889 35944 "sPL_lexer.ml" 695 35889 35950
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.ml" 695 35889 35944 "sPL_lexer.ml" 695 35889 35970
+type(
+  int
+)
+"sPL_lexer.ml" 695 35889 35891 "sPL_lexer.ml" 695 35889 35970
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_lexer.mll" 162 36001 36010 "sPL_lexer.mll" 162 36001 36022
+type(
+  (string, SPL_token.sPL_token) Hashtbl.t -> string -> SPL_token.sPL_token
+)
+ident(
+  int_ref Hashtbl.find "hashtbl.mli" 86 4068 4068 "hashtbl.mli" 86 4068 4101
+)
+"sPL_lexer.mll" 162 36001 36023 "sPL_lexer.mll" 162 36001 36035
+type(
+  (string, SPL_token.sPL_token) Hashtbl.t
+)
+ident(
+  int_ref sPL_keywords "sPL_lexer.mll" 91 2786 2791 "sPL_lexer.mll" 91 2786 2803
+)
+"sPL_lexer.mll" 162 36001 36036 "sPL_lexer.mll" 162 36001 36041
+type(
+  string
+)
+ident(
+  int_ref idstr "sPL_lexer.mll" 160 35849 35862 "sPL_lexer.mll" 160 35849 35867
+)
+"sPL_lexer.mll" 162 36001 36010 "sPL_lexer.mll" 162 36001 36041
+call(
+  stack
+)
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 163 36042 36053 "sPL_lexer.mll" 163 36042 36054
+type(
+  exn
+)
+"sPL_lexer.mll" 163 36042 36069 "sPL_lexer.mll" 163 36042 36074
+type(
+  string
+)
+ident(
+  int_ref idstr "sPL_lexer.mll" 160 35849 35862 "sPL_lexer.mll" 160 35849 35867
+)
+"sPL_lexer.mll" 163 36042 36058 "sPL_lexer.mll" 163 36042 36074
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 162 36001 36006 "sPL_lexer.mll" 163 36042 36074
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 691 35823 35823 "sPL_lexer.ml" 164 36075 36079
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 703 36102 36106 "sPL_lexer.ml" 703 36102 36108
+type(
+  int
+)
+"sPL_lexer.mll" 166 36134 36146 "sPL_lexer.mll" 166 36134 36149
+type(
+  Lexing.position
+)
+ident(
+  def pos "sPL_lexer.mll" 167 36173 36181 "sPL_lexer.mll" 168 36243 36317
+)
+"sPL_lexer.mll" 166 36134 36152 "sPL_lexer.mll" 166 36134 36158
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.mll" 166 36134 36152 "sPL_lexer.mll" 166 36134 36169
+type(
+  Lexing.position
+)
+"sPL_lexer.mll" 167 36173 36181 "sPL_lexer.mll" 167 36173 36187
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.mll" 167 36173 36204 "sPL_lexer.mll" 167 36173 36207
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "sPL_lexer.mll" 166 36134 36146 "sPL_lexer.mll" 166 36134 36149
+)
+"sPL_lexer.mll" 167 36173 36224 "sPL_lexer.mll" 167 36173 36227
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "sPL_lexer.mll" 166 36134 36146 "sPL_lexer.mll" 166 36134 36149
+)
+"sPL_lexer.mll" 167 36173 36224 "sPL_lexer.mll" 167 36173 36235
+type(
+  int
+)
+"sPL_lexer.mll" 167 36173 36237 "sPL_lexer.mll" 167 36173 36238
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( + ) "pervasives.mli" 261 10267 10267 "pervasives.mli" 261 10267 10313
+)
+"sPL_lexer.mll" 167 36173 36239 "sPL_lexer.mll" 167 36173 36240
+type(
+  int
+)
+"sPL_lexer.mll" 167 36173 36224 "sPL_lexer.mll" 167 36173 36240
+type(
+  int
+)
+"sPL_lexer.mll" 168 36243 36294 "sPL_lexer.mll" 168 36243 36297
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "sPL_lexer.mll" 166 36134 36146 "sPL_lexer.mll" 166 36134 36149
+)
+"sPL_lexer.mll" 168 36243 36294 "sPL_lexer.mll" 168 36243 36306
+type(
+  int
+)
+"sPL_lexer.mll" 168 36243 36307 "sPL_lexer.mll" 168 36243 36308
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( + ) "pervasives.mli" 261 10267 10267 "pervasives.mli" 261 10267 10313
+)
+"sPL_lexer.mll" 168 36243 36309 "sPL_lexer.mll" 168 36243 36310
+type(
+  int
+)
+"sPL_lexer.mll" 168 36243 36294 "sPL_lexer.mll" 168 36243 36310
+type(
+  int
+)
+"sPL_lexer.mll" 167 36173 36202 "sPL_lexer.mll" 168 36243 36312
+type(
+  Lexing.position
+)
+"sPL_lexer.mll" 167 36173 36181 "sPL_lexer.mll" 168 36243 36312
+type(
+  unit
+)
+"sPL_lexer.mll" 168 36243 36314 "sPL_lexer.mll" 168 36243 36317
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 167 36173 36181 "sPL_lexer.mll" 168 36243 36317
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 166 36134 36142 "sPL_lexer.mll" 168 36243 36317
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 710 36347 36351 "sPL_lexer.ml" 710 36347 36353
+type(
+  int
+)
+"sPL_lexer.mll" 169 36383 36392 "sPL_lexer.mll" 169 36383 36393
+type(
+  char
+)
+ident(
+  def c "sPL_lexer.mll" 169 36500 36529 "sPL_lexer.mll" 169 36500 36577
+)
+"sPL_lexer.ml" 715 36415 36417 "sPL_lexer.ml" 715 36415 36439
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  int_ref Lexing.sub_lexeme_char "lexing.mli" 159 6343 6343 "lexing.mli" 159 6343 6386
+)
+"sPL_lexer.ml" 715 36415 36440 "sPL_lexer.ml" 715 36415 36446
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.ml" 715 36415 36447 "sPL_lexer.ml" 715 36415 36453
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.ml" 715 36415 36447 "sPL_lexer.ml" 715 36415 36474
+type(
+  int
+)
+"sPL_lexer.ml" 715 36415 36417 "sPL_lexer.ml" 715 36415 36474
+call(
+  stack
+)
+type(
+  char
+)
+"sPL_lexer.mll" 169 36500 36529 "sPL_lexer.mll" 169 36500 36532
+type(
+  Error.t -> Loc.t -> SPL_token.sPL_token
+)
+ident(
+  int_ref err "sPL_lexer.mll" 87 2629 2635 "sPL_lexer.mll" 87 2629 2638
+)
+"sPL_lexer.mll" 169 36500 36552 "sPL_lexer.mll" 169 36500 36553
+type(
+  char
+)
+ident(
+  int_ref c "sPL_lexer.mll" 169 36383 36392 "sPL_lexer.mll" 169 36383 36393
+)
+"sPL_lexer.mll" 169 36500 36534 "sPL_lexer.mll" 169 36500 36553
+type(
+  Error.t
+)
+"sPL_lexer.mll" 169 36500 36556 "sPL_lexer.mll" 169 36500 36569
+type(
+  Lexing.lexbuf -> Loc.t
+)
+ident(
+  int_ref Loc.of_lexbuf "camlp4/Camlp4/Sig.ml" 99 3506 3508 "camlp4/Camlp4/Sig.ml" 99 3506 3544
+)
+"sPL_lexer.mll" 169 36500 36570 "sPL_lexer.mll" 169 36500 36576
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.mll" 169 36500 36556 "sPL_lexer.mll" 169 36500 36576
+call(
+  stack
+)
+type(
+  Loc.t
+)
+"sPL_lexer.mll" 169 36500 36529 "sPL_lexer.mll" 169 36500 36577
+call(
+  tail
+)
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 711 36357 36357 "sPL_lexer.ml" 169 36500 36579
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 720 36602 36606 "sPL_lexer.ml" 720 36602 36623
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "sPL_lexer.ml" 720 36602 36627 "sPL_lexer.ml" 721 36661 36727
+)
+"sPL_lexer.ml" 720 36602 36627 "sPL_lexer.ml" 720 36602 36633
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.ml" 720 36602 36627 "sPL_lexer.ml" 720 36602 36652
+type(
+  Lexing.lexbuf -> unit
+)
+"sPL_lexer.ml" 720 36602 36653 "sPL_lexer.ml" 720 36602 36659
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.ml" 720 36602 36627 "sPL_lexer.ml" 720 36602 36659
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_lexer.ml" 721 36661 36667 "sPL_lexer.ml" 721 36661 36692
+type(
+  context -> Lexing.lexbuf -> int -> SPL_token.sPL_token
+)
+ident(
+  int_ref __ocaml_lex_tokenizer_rec "sPL_lexer.ml" 551 32835 32839 "sPL_lexer.ml" 551 32835 32864
+)
+"sPL_lexer.ml" 721 36661 36693 "sPL_lexer.ml" 721 36661 36702
+type(
+  context
+)
+ident(
+  int_ref file_name "sPL_lexer.ml" 551 32835 32865 "sPL_lexer.ml" 551 32835 32874
+)
+"sPL_lexer.ml" 721 36661 36703 "sPL_lexer.ml" 721 36661 36709
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 551 32835 32881
+)
+"sPL_lexer.ml" 721 36661 36710 "sPL_lexer.ml" 721 36661 36727
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "sPL_lexer.ml" 720 36602 36606 "sPL_lexer.ml" 720 36602 36623
+)
+"sPL_lexer.ml" 721 36661 36667 "sPL_lexer.ml" 721 36661 36727
+call(
+  tail
+)
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 720 36602 36627 "sPL_lexer.ml" 721 36661 36727
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 552 32902 32904 "sPL_lexer.ml" 721 36661 36727
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.ml" 551 32835 32882 "sPL_lexer.ml" 721 36661 36727
+type(
+  int -> SPL_token.sPL_token
+)
+"sPL_lexer.ml" 551 32835 32875 "sPL_lexer.ml" 721 36661 36727
+type(
+  Lexing.lexbuf -> int -> SPL_token.sPL_token
+)
+"sPL_lexer.ml" 551 32835 32865 "sPL_lexer.ml" 721 36661 36727
+type(
+  context -> Lexing.lexbuf -> int -> SPL_token.sPL_token
+)
+"sPL_lexer.ml" 723 36729 36733 "sPL_lexer.ml" 723 36729 36739
+type(
+  context -> Lexing.lexbuf -> unit
+)
+ident(
+  def string "sPL_lexer.ml" 549 32750 32750 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.ml" 723 36729 36740 "sPL_lexer.ml" 723 36729 36741
+type(
+  context
+)
+ident(
+  def c "sPL_lexer.ml" 723 36729 36742 "sPL_lexer.ml" 724 36751 36831
+)
+"sPL_lexer.ml" 723 36729 36742 "sPL_lexer.ml" 723 36729 36748
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "sPL_lexer.ml" 724 36751 36753 "sPL_lexer.ml" 724 36751 36831
+)
+"sPL_lexer.ml" 724 36751 36753 "sPL_lexer.ml" 724 36751 36759
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 723 36729 36742 "sPL_lexer.ml" 723 36729 36748
+)
+"sPL_lexer.ml" 724 36751 36778 "sPL_lexer.ml" 724 36751 36788
+type(
+  int -> int -> int array
+)
+ident(
+  int_ref Array.make "array.mli" 38 1943 1943 "array.mli" 38 1943 1999
+)
+"sPL_lexer.ml" 724 36751 36789 "sPL_lexer.ml" 724 36751 36790
+type(
+  int
+)
+"sPL_lexer.ml" 724 36751 36792 "sPL_lexer.ml" 724 36751 36794
+type(
+  int
+)
+"sPL_lexer.ml" 724 36751 36778 "sPL_lexer.ml" 724 36751 36795
+type(
+  int array
+)
+"sPL_lexer.ml" 724 36751 36753 "sPL_lexer.ml" 724 36751 36795
+type(
+  unit
+)
+"sPL_lexer.ml" 724 36751 36797 "sPL_lexer.ml" 724 36751 36819
+type(
+  context -> Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_string_rec "sPL_lexer.ml" 725 36832 36836 "sPL_lexer.ml" 725 36832 36858
+)
+"sPL_lexer.ml" 724 36751 36820 "sPL_lexer.ml" 724 36751 36821
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.ml" 723 36729 36740 "sPL_lexer.ml" 723 36729 36741
+)
+"sPL_lexer.ml" 724 36751 36822 "sPL_lexer.ml" 724 36751 36828
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 723 36729 36742 "sPL_lexer.ml" 723 36729 36748
+)
+"sPL_lexer.ml" 724 36751 36829 "sPL_lexer.ml" 724 36751 36831
+type(
+  int
+)
+"sPL_lexer.ml" 724 36751 36797 "sPL_lexer.ml" 724 36751 36831
+call(
+  tail
+)
+type(
+  unit
+)
+"sPL_lexer.ml" 724 36751 36753 "sPL_lexer.ml" 724 36751 36831
+type(
+  unit
+)
+"sPL_lexer.ml" 723 36729 36742 "sPL_lexer.ml" 724 36751 36831
+type(
+  Lexing.lexbuf -> unit
+)
+"sPL_lexer.ml" 723 36729 36740 "sPL_lexer.ml" 724 36751 36831
+type(
+  context -> Lexing.lexbuf -> unit
+)
+"sPL_lexer.ml" 725 36832 36836 "sPL_lexer.ml" 725 36832 36858
+type(
+  context -> Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_string_rec "sPL_lexer.ml" 549 32750 32750 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.ml" 725 36832 36859 "sPL_lexer.ml" 725 36832 36860
+type(
+  context
+)
+ident(
+  def c "sPL_lexer.ml" 725 36832 36861 "sPL_lexer.ml" 787 38666 38721
+)
+"sPL_lexer.ml" 725 36832 36861 "sPL_lexer.ml" 725 36832 36867
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "sPL_lexer.ml" 725 36832 36868 "sPL_lexer.ml" 787 38666 38721
+)
+"sPL_lexer.ml" 725 36832 36868 "sPL_lexer.ml" 725 36832 36885
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "sPL_lexer.ml" 726 36888 36890 "sPL_lexer.ml" 787 38666 38721
+)
+"sPL_lexer.ml" 726 36888 36896 "sPL_lexer.ml" 726 36888 36913
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  int_ref Lexing.new_engine "lexing.mli" 176 6804 6804 "lexing.mli" 176 6804 6855
+)
+"sPL_lexer.ml" 726 36888 36914 "sPL_lexer.ml" 726 36888 36932
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "sPL_lexer.ml" 110 3182 3186 "sPL_lexer.ml" 110 3182 3204
+)
+"sPL_lexer.ml" 726 36888 36933 "sPL_lexer.ml" 726 36888 36950
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "sPL_lexer.ml" 725 36832 36868 "sPL_lexer.ml" 725 36832 36885
+)
+"sPL_lexer.ml" 726 36888 36951 "sPL_lexer.ml" 726 36888 36957
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 725 36832 36861 "sPL_lexer.ml" 725 36832 36867
+)
+"sPL_lexer.ml" 726 36888 36896 "sPL_lexer.ml" 726 36888 36957
+call(
+  stack
+)
+type(
+  int
+)
+"sPL_lexer.ml" 727 36963 36971 "sPL_lexer.ml" 727 36963 36972
+type(
+  int
+)
+"sPL_lexer.mll" 172 36998 37064 "sPL_lexer.mll" 172 36998 37075
+type(
+  context -> unit
+)
+ident(
+  int_ref set_start_p "sPL_lexer.mll" 61 1624 1630 "sPL_lexer.mll" 61 1624 1641
+)
+"sPL_lexer.mll" 172 36998 37076 "sPL_lexer.mll" 172 36998 37077
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.ml" 725 36832 36859 "sPL_lexer.ml" 725 36832 36860
+)
+"sPL_lexer.mll" 172 36998 37064 "sPL_lexer.mll" 172 36998 37077
+call(
+  tail
+)
+type(
+  unit
+)
+"sPL_lexer.ml" 732 37102 37106 "sPL_lexer.ml" 732 37102 37107
+type(
+  int
+)
+"sPL_lexer.mll" 173 37137 37173 "sPL_lexer.mll" 173 37137 37178
+type(
+  string
+)
+ident(
+  def space "sPL_lexer.mll" 174 37305 37315 "sPL_lexer.mll" 175 37364 37394
+)
+"sPL_lexer.ml" 737 37200 37202 "sPL_lexer.ml" 737 37200 37219
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Lexing.sub_lexeme "lexing.mli" 157 6236 6236 "lexing.mli" 157 6236 6283
+)
+"sPL_lexer.ml" 737 37200 37220 "sPL_lexer.ml" 737 37200 37226
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 725 36832 36861 "sPL_lexer.ml" 725 36832 36867
+)
+"sPL_lexer.ml" 737 37200 37227 "sPL_lexer.ml" 737 37200 37233
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 725 36832 36861 "sPL_lexer.ml" 725 36832 36867
+)
+"sPL_lexer.ml" 737 37200 37227 "sPL_lexer.ml" 737 37200 37248
+type(
+  int array
+)
+"sPL_lexer.ml" 737 37200 37250 "sPL_lexer.ml" 737 37200 37251
+type(
+  int
+)
+"sPL_lexer.ml" 737 37200 37227 "sPL_lexer.ml" 737 37200 37252
+type(
+  int
+)
+type(
+  int array -> int -> int
+)
+ident(
+  int_ref Array.get "array.mli" 21 1224 1224 "array.mli" 21 1224 1280
+)
+"sPL_lexer.ml" 737 37200 37253 "sPL_lexer.ml" 737 37200 37259
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 725 36832 36861 "sPL_lexer.ml" 725 36832 36867
+)
+"sPL_lexer.ml" 737 37200 37253 "sPL_lexer.ml" 737 37200 37279
+type(
+  int
+)
+"sPL_lexer.ml" 737 37200 37202 "sPL_lexer.ml" 737 37200 37279
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_lexer.mll" 174 37305 37315 "sPL_lexer.mll" 174 37305 37325
+type(
+  context -> string option -> int -> bool -> int -> unit
+)
+ident(
+  int_ref update_loc "sPL_lexer.mll" 75 2232 2238 "sPL_lexer.mll" 75 2232 2248
+)
+"sPL_lexer.mll" 174 37305 37326 "sPL_lexer.mll" 174 37305 37327
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.ml" 725 36832 36859 "sPL_lexer.ml" 725 36832 36860
+)
+"sPL_lexer.mll" 174 37305 37328 "sPL_lexer.mll" 174 37305 37332
+type(
+  string option
+)
+"sPL_lexer.mll" 174 37305 37333 "sPL_lexer.mll" 174 37305 37334
+type(
+  int
+)
+"sPL_lexer.mll" 174 37305 37335 "sPL_lexer.mll" 174 37305 37340
+type(
+  bool
+)
+"sPL_lexer.mll" 174 37305 37342 "sPL_lexer.mll" 174 37305 37355
+type(
+  string -> int
+)
+ident(
+  int_ref String.length "string.mli" 51 2660 2660 "string.mli" 51 2660 2710
+)
+"sPL_lexer.mll" 174 37305 37356 "sPL_lexer.mll" 174 37305 37361
+type(
+  string
+)
+ident(
+  int_ref space "sPL_lexer.mll" 173 37137 37173 "sPL_lexer.mll" 173 37137 37178
+)
+"sPL_lexer.mll" 174 37305 37342 "sPL_lexer.mll" 174 37305 37361
+type(
+  int
+)
+"sPL_lexer.mll" 174 37305 37315 "sPL_lexer.mll" 174 37305 37362
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 175 37364 37374 "sPL_lexer.mll" 175 37364 37385
+type(
+  (context -> Lexing.lexbuf -> unit) -> context -> unit
+)
+ident(
+  int_ref store_parse "sPL_lexer.mll" 70 2084 2090 "sPL_lexer.mll" 70 2084 2101
+)
+"sPL_lexer.mll" 175 37364 37386 "sPL_lexer.mll" 175 37364 37392
+type(
+  context -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref string "sPL_lexer.ml" 723 36729 36733 "sPL_lexer.ml" 723 36729 36739
+)
+"sPL_lexer.mll" 175 37364 37393 "sPL_lexer.mll" 175 37364 37394
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.ml" 725 36832 36859 "sPL_lexer.ml" 725 36832 36860
+)
+"sPL_lexer.mll" 175 37364 37374 "sPL_lexer.mll" 175 37364 37394
+call(
+  tail
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 174 37305 37315 "sPL_lexer.mll" 175 37364 37394
+type(
+  unit
+)
+"sPL_lexer.ml" 733 37111 37111 "sPL_lexer.ml" 175 37364 37445
+type(
+  unit
+)
+"sPL_lexer.ml" 743 37468 37472 "sPL_lexer.ml" 743 37468 37473
+type(
+  int
+)
+"sPL_lexer.mll" 176 37499 37558 "sPL_lexer.mll" 176 37499 37569
+type(
+  (context -> Lexing.lexbuf -> unit) -> context -> unit
+)
+ident(
+  int_ref store_parse "sPL_lexer.mll" 70 2084 2090 "sPL_lexer.mll" 70 2084 2101
+)
+"sPL_lexer.mll" 176 37499 37570 "sPL_lexer.mll" 176 37499 37576
+type(
+  context -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref string "sPL_lexer.ml" 723 36729 36733 "sPL_lexer.ml" 723 36729 36739
+)
+"sPL_lexer.mll" 176 37499 37577 "sPL_lexer.mll" 176 37499 37578
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.ml" 725 36832 36859 "sPL_lexer.ml" 725 36832 36860
+)
+"sPL_lexer.mll" 176 37499 37558 "sPL_lexer.mll" 176 37499 37578
+call(
+  tail
+)
+type(
+  unit
+)
+"sPL_lexer.ml" 748 37603 37607 "sPL_lexer.ml" 748 37603 37608
+type(
+  int
+)
+"sPL_lexer.mll" 177 37634 37693 "sPL_lexer.mll" 177 37634 37704
+type(
+  (context -> Lexing.lexbuf -> unit) -> context -> unit
+)
+ident(
+  int_ref store_parse "sPL_lexer.mll" 70 2084 2090 "sPL_lexer.mll" 70 2084 2101
+)
+"sPL_lexer.mll" 177 37634 37705 "sPL_lexer.mll" 177 37634 37711
+type(
+  context -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref string "sPL_lexer.ml" 723 36729 36733 "sPL_lexer.ml" 723 36729 36739
+)
+"sPL_lexer.mll" 177 37634 37712 "sPL_lexer.mll" 177 37634 37713
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.ml" 725 36832 36859 "sPL_lexer.ml" 725 36832 36860
+)
+"sPL_lexer.mll" 177 37634 37693 "sPL_lexer.mll" 177 37634 37713
+type(
+  unit
+)
+"sPL_lexer.ml" 753 37738 37742 "sPL_lexer.ml" 753 37738 37743
+type(
+  int
+)
+"sPL_lexer.mll" 178 37769 37828 "sPL_lexer.mll" 178 37769 37839
+type(
+  (context -> Lexing.lexbuf -> unit) -> context -> unit
+)
+ident(
+  int_ref store_parse "sPL_lexer.mll" 70 2084 2090 "sPL_lexer.mll" 70 2084 2101
+)
+"sPL_lexer.mll" 178 37769 37840 "sPL_lexer.mll" 178 37769 37846
+type(
+  context -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref string "sPL_lexer.ml" 723 36729 36733 "sPL_lexer.ml" 723 36729 36739
+)
+"sPL_lexer.mll" 178 37769 37847 "sPL_lexer.mll" 178 37769 37848
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.ml" 725 36832 36859 "sPL_lexer.ml" 725 36832 36860
+)
+"sPL_lexer.mll" 178 37769 37828 "sPL_lexer.mll" 178 37769 37848
+type(
+  unit
+)
+"sPL_lexer.ml" 758 37873 37877 "sPL_lexer.ml" 758 37873 37878
+type(
+  int
+)
+"sPL_lexer.mll" 179 37908 37925 "sPL_lexer.mll" 179 37908 37926
+type(
+  char
+)
+ident(
+  def x "sPL_lexer.mll" 181 38055 38067 "sPL_lexer.mll" 183 38164 38177
+)
+"sPL_lexer.ml" 763 37948 37950 "sPL_lexer.ml" 763 37948 37972
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  int_ref Lexing.sub_lexeme_char "lexing.mli" 159 6343 6343 "lexing.mli" 159 6343 6386
+)
+"sPL_lexer.ml" 763 37948 37973 "sPL_lexer.ml" 763 37948 37979
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 725 36832 36861 "sPL_lexer.ml" 725 36832 36867
+)
+"sPL_lexer.ml" 763 37948 37981 "sPL_lexer.ml" 763 37948 37987
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 725 36832 36861 "sPL_lexer.ml" 725 36832 36867
+)
+"sPL_lexer.ml" 763 37948 37981 "sPL_lexer.ml" 763 37948 38008
+type(
+  int
+)
+"sPL_lexer.ml" 763 37948 38009 "sPL_lexer.ml" 763 37948 38010
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( + ) "pervasives.mli" 261 10267 10267 "pervasives.mli" 261 10267 10313
+)
+"sPL_lexer.ml" 763 37948 38011 "sPL_lexer.ml" 763 37948 38012
+type(
+  int
+)
+"sPL_lexer.ml" 763 37948 37981 "sPL_lexer.ml" 763 37948 38012
+type(
+  int
+)
+"sPL_lexer.ml" 763 37948 37950 "sPL_lexer.ml" 763 37948 38013
+call(
+  stack
+)
+type(
+  char
+)
+"sPL_lexer.mll" 181 38055 38067 "sPL_lexer.mll" 181 38055 38071
+type(
+  Error.t -> Loc.t -> unit
+)
+ident(
+  int_ref warn "sPL_lexer.mll" 89 2695 2701 "sPL_lexer.mll" 89 2695 2705
+)
+"sPL_lexer.mll" 181 38055 38089 "sPL_lexer.mll" 181 38055 38100
+type(
+  int -> char -> string
+)
+ident(
+  int_ref String.make "string.mli" 80 3832 3832 "string.mli" 80 3832 3864
+)
+"sPL_lexer.mll" 181 38055 38101 "sPL_lexer.mll" 181 38055 38102
+type(
+  int
+)
+"sPL_lexer.mll" 181 38055 38103 "sPL_lexer.mll" 181 38055 38104
+type(
+  char
+)
+ident(
+  int_ref x "sPL_lexer.mll" 179 37908 37925 "sPL_lexer.mll" 179 37908 37926
+)
+"sPL_lexer.mll" 181 38055 38089 "sPL_lexer.mll" 181 38055 38104
+call(
+  stack
+)
+type(
+  string
+)
+"sPL_lexer.mll" 181 38055 38073 "sPL_lexer.mll" 181 38055 38105
+type(
+  Error.t
+)
+"sPL_lexer.mll" 181 38055 38108 "sPL_lexer.mll" 181 38055 38121
+type(
+  Lexing.lexbuf -> Loc.t
+)
+ident(
+  int_ref Loc.of_lexbuf "camlp4/Camlp4/Sig.ml" 99 3506 3508 "camlp4/Camlp4/Sig.ml" 99 3506 3544
+)
+"sPL_lexer.mll" 181 38055 38122 "sPL_lexer.mll" 181 38055 38128
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 725 36832 36861 "sPL_lexer.ml" 725 36832 36867
+)
+"sPL_lexer.mll" 181 38055 38108 "sPL_lexer.mll" 181 38055 38128
+call(
+  stack
+)
+type(
+  Loc.t
+)
+"sPL_lexer.mll" 181 38055 38067 "sPL_lexer.mll" 181 38055 38129
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 182 38131 38143 "sPL_lexer.mll" 182 38131 38154
+type(
+  (context -> Lexing.lexbuf -> unit) -> context -> unit
+)
+ident(
+  int_ref store_parse "sPL_lexer.mll" 70 2084 2090 "sPL_lexer.mll" 70 2084 2101
+)
+"sPL_lexer.mll" 182 38131 38155 "sPL_lexer.mll" 182 38131 38161
+type(
+  context -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref string "sPL_lexer.ml" 723 36729 36733 "sPL_lexer.ml" 723 36729 36739
+)
+"sPL_lexer.mll" 182 38131 38162 "sPL_lexer.mll" 182 38131 38163
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.ml" 725 36832 36859 "sPL_lexer.ml" 725 36832 36860
+)
+"sPL_lexer.mll" 182 38131 38143 "sPL_lexer.mll" 182 38131 38163
+call(
+  tail
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 181 38055 38067 "sPL_lexer.mll" 183 38164 38177
+type(
+  unit
+)
+"sPL_lexer.ml" 759 37882 37882 "sPL_lexer.ml" 183 38164 38179
+type(
+  unit
+)
+"sPL_lexer.ml" 771 38202 38206 "sPL_lexer.ml" 771 38202 38207
+type(
+  int
+)
+"sPL_lexer.mll" 185 38233 38241 "sPL_lexer.mll" 185 38233 38251
+type(
+  context -> string option -> int -> bool -> int -> unit
+)
+ident(
+  int_ref update_loc "sPL_lexer.mll" 75 2232 2238 "sPL_lexer.mll" 75 2232 2248
+)
+"sPL_lexer.mll" 185 38233 38252 "sPL_lexer.mll" 185 38233 38253
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.ml" 725 36832 36859 "sPL_lexer.ml" 725 36832 36860
+)
+"sPL_lexer.mll" 185 38233 38254 "sPL_lexer.mll" 185 38233 38258
+type(
+  string option
+)
+"sPL_lexer.mll" 185 38233 38259 "sPL_lexer.mll" 185 38233 38260
+type(
+  int
+)
+"sPL_lexer.mll" 185 38233 38261 "sPL_lexer.mll" 185 38233 38266
+type(
+  bool
+)
+"sPL_lexer.mll" 185 38233 38267 "sPL_lexer.mll" 185 38233 38268
+type(
+  int
+)
+"sPL_lexer.mll" 185 38233 38241 "sPL_lexer.mll" 185 38233 38268
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 185 38233 38270 "sPL_lexer.mll" 185 38233 38281
+type(
+  (context -> Lexing.lexbuf -> unit) -> context -> unit
+)
+ident(
+  int_ref store_parse "sPL_lexer.mll" 70 2084 2090 "sPL_lexer.mll" 70 2084 2101
+)
+"sPL_lexer.mll" 185 38233 38282 "sPL_lexer.mll" 185 38233 38288
+type(
+  context -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref string "sPL_lexer.ml" 723 36729 36733 "sPL_lexer.ml" 723 36729 36739
+)
+"sPL_lexer.mll" 185 38233 38289 "sPL_lexer.mll" 185 38233 38290
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.ml" 725 36832 36859 "sPL_lexer.ml" 725 36832 36860
+)
+"sPL_lexer.mll" 185 38233 38270 "sPL_lexer.mll" 185 38233 38290
+call(
+  tail
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 185 38233 38241 "sPL_lexer.mll" 185 38233 38290
+type(
+  unit
+)
+"sPL_lexer.ml" 776 38337 38341 "sPL_lexer.ml" 776 38337 38342
+type(
+  int
+)
+"sPL_lexer.mll" 186 38368 38416 "sPL_lexer.mll" 186 38368 38419
+type(
+  Error.t -> Loc.t -> unit
+)
+ident(
+  int_ref err "sPL_lexer.mll" 87 2629 2635 "sPL_lexer.mll" 87 2629 2638
+)
+"sPL_lexer.mll" 186 38368 38420 "sPL_lexer.mll" 186 38368 38439
+type(
+  Error.t
+)
+"sPL_lexer.mll" 186 38368 38441 "sPL_lexer.mll" 186 38368 38444
+type(
+  context -> Loc.t
+)
+ident(
+  int_ref loc "sPL_lexer.mll" 60 1569 1575 "sPL_lexer.mll" 60 1569 1578
+)
+"sPL_lexer.mll" 186 38368 38445 "sPL_lexer.mll" 186 38368 38446
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.ml" 725 36832 36859 "sPL_lexer.ml" 725 36832 36860
+)
+"sPL_lexer.mll" 186 38368 38441 "sPL_lexer.mll" 186 38368 38446
+call(
+  stack
+)
+type(
+  Loc.t
+)
+"sPL_lexer.mll" 186 38368 38416 "sPL_lexer.mll" 186 38368 38447
+call(
+  tail
+)
+type(
+  unit
+)
+"sPL_lexer.ml" 781 38472 38476 "sPL_lexer.ml" 781 38472 38477
+type(
+  int
+)
+"sPL_lexer.mll" 187 38503 38562 "sPL_lexer.mll" 187 38503 38573
+type(
+  (context -> Lexing.lexbuf -> unit) -> context -> unit
+)
+ident(
+  int_ref store_parse "sPL_lexer.mll" 70 2084 2090 "sPL_lexer.mll" 70 2084 2101
+)
+"sPL_lexer.mll" 187 38503 38574 "sPL_lexer.mll" 187 38503 38580
+type(
+  context -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref string "sPL_lexer.ml" 723 36729 36733 "sPL_lexer.ml" 723 36729 36739
+)
+"sPL_lexer.mll" 187 38503 38581 "sPL_lexer.mll" 187 38503 38582
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.ml" 725 36832 36859 "sPL_lexer.ml" 725 36832 36860
+)
+"sPL_lexer.mll" 187 38503 38562 "sPL_lexer.mll" 187 38503 38582
+type(
+  unit
+)
+"sPL_lexer.ml" 786 38607 38611 "sPL_lexer.ml" 786 38607 38628
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "sPL_lexer.ml" 786 38607 38632 "sPL_lexer.ml" 787 38666 38721
+)
+"sPL_lexer.ml" 786 38607 38632 "sPL_lexer.ml" 786 38607 38638
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 725 36832 36861 "sPL_lexer.ml" 725 36832 36867
+)
+"sPL_lexer.ml" 786 38607 38632 "sPL_lexer.ml" 786 38607 38657
+type(
+  Lexing.lexbuf -> unit
+)
+"sPL_lexer.ml" 786 38607 38658 "sPL_lexer.ml" 786 38607 38664
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 725 36832 36861 "sPL_lexer.ml" 725 36832 36867
+)
+"sPL_lexer.ml" 786 38607 38632 "sPL_lexer.ml" 786 38607 38664
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_lexer.ml" 787 38666 38672 "sPL_lexer.ml" 787 38666 38694
+type(
+  context -> Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_string_rec "sPL_lexer.ml" 725 36832 36836 "sPL_lexer.ml" 725 36832 36858
+)
+"sPL_lexer.ml" 787 38666 38695 "sPL_lexer.ml" 787 38666 38696
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.ml" 725 36832 36859 "sPL_lexer.ml" 725 36832 36860
+)
+"sPL_lexer.ml" 787 38666 38697 "sPL_lexer.ml" 787 38666 38703
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "sPL_lexer.ml" 725 36832 36861 "sPL_lexer.ml" 725 36832 36867
+)
+"sPL_lexer.ml" 787 38666 38704 "sPL_lexer.ml" 787 38666 38721
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "sPL_lexer.ml" 786 38607 38611 "sPL_lexer.ml" 786 38607 38628
+)
+"sPL_lexer.ml" 787 38666 38672 "sPL_lexer.ml" 787 38666 38721
+call(
+  tail
+)
+type(
+  unit
+)
+"sPL_lexer.ml" 786 38607 38632 "sPL_lexer.ml" 787 38666 38721
+type(
+  unit
+)
+"sPL_lexer.ml" 726 36888 36890 "sPL_lexer.ml" 787 38666 38721
+type(
+  unit
+)
+"sPL_lexer.ml" 725 36832 36868 "sPL_lexer.ml" 787 38666 38721
+type(
+  int -> unit
+)
+"sPL_lexer.ml" 725 36832 36861 "sPL_lexer.ml" 787 38666 38721
+type(
+  Lexing.lexbuf -> int -> unit
+)
+"sPL_lexer.ml" 725 36832 36859 "sPL_lexer.ml" 787 38666 38721
+type(
+  context -> Lexing.lexbuf -> int -> unit
+)
+"sPL_lexer.mll" 190 38752 38758 "sPL_lexer.mll" 190 38752 38770
+type(
+  char Stream.t -> bytes -> int -> int
+)
+ident(
+  def lexing_store "sPL_lexer.mll" 204 39045 39047 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 190 38752 38771 "sPL_lexer.mll" 190 38752 38772
+type(
+  char Stream.t
+)
+ident(
+  def s "sPL_lexer.mll" 190 38752 38773 "sPL_lexer.mll" 202 39031 39043
+)
+"sPL_lexer.mll" 190 38752 38773 "sPL_lexer.mll" 190 38752 38777
+type(
+  bytes
+)
+ident(
+  def buff "sPL_lexer.mll" 190 38752 38778 "sPL_lexer.mll" 202 39031 39043
+)
+"sPL_lexer.mll" 190 38752 38778 "sPL_lexer.mll" 190 38752 38781
+type(
+  int
+)
+ident(
+  def max "sPL_lexer.mll" 191 38784 38788 "sPL_lexer.mll" 202 39031 39043
+)
+"sPL_lexer.mll" 191 38784 38796 "sPL_lexer.mll" 191 38784 38800
+type(
+  int -> char Stream.t -> int
+)
+ident(
+  def self "sPL_lexer.mll" 191 38784 38788 "sPL_lexer.mll" 202 39031 39043
+)
+"sPL_lexer.mll" 191 38784 38801 "sPL_lexer.mll" 191 38784 38802
+type(
+  int
+)
+ident(
+  def n "sPL_lexer.mll" 191 38784 38803 "sPL_lexer.mll" 200 39007 39023
+)
+"sPL_lexer.mll" 191 38784 38803 "sPL_lexer.mll" 191 38784 38804
+type(
+  char Stream.t
+)
+ident(
+  def s "sPL_lexer.mll" 192 38807 38813 "sPL_lexer.mll" 200 39007 39023
+)
+"sPL_lexer.mll" 192 38807 38816 "sPL_lexer.mll" 192 38807 38817
+type(
+  int
+)
+ident(
+  int_ref n "sPL_lexer.mll" 191 38784 38801 "sPL_lexer.mll" 191 38784 38802
+)
+"sPL_lexer.mll" 192 38807 38818 "sPL_lexer.mll" 192 38807 38820
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Pervasives.( >= ) "pervasives.mli" 76 3139 3139 "pervasives.mli" 76 3139 3191
+)
+"sPL_lexer.mll" 192 38807 38821 "sPL_lexer.mll" 192 38807 38824
+type(
+  int
+)
+ident(
+  int_ref max "sPL_lexer.mll" 190 38752 38778 "sPL_lexer.mll" 190 38752 38781
+)
+"sPL_lexer.mll" 192 38807 38816 "sPL_lexer.mll" 192 38807 38824
+type(
+  bool
+)
+"sPL_lexer.mll" 192 38807 38830 "sPL_lexer.mll" 192 38807 38831
+type(
+  int
+)
+ident(
+  int_ref n "sPL_lexer.mll" 191 38784 38801 "sPL_lexer.mll" 191 38784 38802
+)
+"sPL_lexer.mll" 194 38843 38857 "sPL_lexer.mll" 194 38843 38868
+type(
+  char Stream.t -> char option
+)
+ident(
+  int_ref Stream.peek "stream.mli" 78 2928 2928 "stream.mli" 78 2928 2956
+)
+"sPL_lexer.mll" 194 38843 38869 "sPL_lexer.mll" 194 38843 38870
+type(
+  char Stream.t
+)
+ident(
+  int_ref s "sPL_lexer.mll" 191 38784 38803 "sPL_lexer.mll" 191 38784 38804
+)
+"sPL_lexer.mll" 194 38843 38857 "sPL_lexer.mll" 194 38843 38870
+call(
+  stack
+)
+type(
+  char option
+)
+"sPL_lexer.mll" 195 38876 38891 "sPL_lexer.mll" 195 38876 38892
+type(
+  char
+)
+ident(
+  def x "sPL_lexer.mll" 196 38896 38908 "sPL_lexer.mll" 199 38988 39006
+)
+"sPL_lexer.mll" 195 38876 38886 "sPL_lexer.mll" 195 38876 38892
+type(
+  char option
+)
+"sPL_lexer.mll" 196 38896 38908 "sPL_lexer.mll" 196 38896 38919
+type(
+  char Stream.t -> unit
+)
+ident(
+  int_ref Stream.junk "stream.mli" 82 3054 3054 "stream.mli" 82 3054 3077
+)
+"sPL_lexer.mll" 196 38896 38920 "sPL_lexer.mll" 196 38896 38921
+type(
+  char Stream.t
+)
+ident(
+  int_ref s "sPL_lexer.mll" 191 38784 38803 "sPL_lexer.mll" 191 38784 38804
+)
+"sPL_lexer.mll" 196 38896 38908 "sPL_lexer.mll" 196 38896 38921
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 197 38923 38935 "sPL_lexer.mll" 197 38923 38944
+type(
+  bytes -> int -> char -> unit
+)
+ident(
+  int_ref Bytes.set "bytes.mli" 53 2531 2531 "bytes.mli" 53 2531 2594
+)
+"sPL_lexer.mll" 197 38923 38945 "sPL_lexer.mll" 197 38923 38949
+type(
+  bytes
+)
+ident(
+  int_ref buff "sPL_lexer.mll" 190 38752 38773 "sPL_lexer.mll" 190 38752 38777
+)
+"sPL_lexer.mll" 197 38923 38950 "sPL_lexer.mll" 197 38923 38951
+type(
+  int
+)
+ident(
+  int_ref n "sPL_lexer.mll" 191 38784 38801 "sPL_lexer.mll" 191 38784 38802
+)
+"sPL_lexer.mll" 197 38923 38952 "sPL_lexer.mll" 197 38923 38953
+type(
+  char
+)
+ident(
+  int_ref x "sPL_lexer.mll" 195 38876 38891 "sPL_lexer.mll" 195 38876 38892
+)
+"sPL_lexer.mll" 197 38923 38935 "sPL_lexer.mll" 197 38923 38953
+type(
+  unit
+)
+"sPL_lexer.mll" 199 38988 39000 "sPL_lexer.mll" 199 38988 39004
+type(
+  int -> int
+)
+ident(
+  int_ref Pervasives.succ "pervasives.mli" 255 10129 10129 "pervasives.mli" 255 10129 10168
+)
+"sPL_lexer.mll" 199 38988 39005 "sPL_lexer.mll" 199 38988 39006
+type(
+  int
+)
+ident(
+  int_ref n "sPL_lexer.mll" 191 38784 38801 "sPL_lexer.mll" 191 38784 38802
+)
+"sPL_lexer.mll" 199 38988 39000 "sPL_lexer.mll" 199 38988 39006
+type(
+  int
+)
+"sPL_lexer.mll" 197 38923 38935 "sPL_lexer.mll" 199 38988 39006
+type(
+  int
+)
+"sPL_lexer.mll" 196 38896 38908 "sPL_lexer.mll" 199 38988 39006
+type(
+  int
+)
+"sPL_lexer.mll" 200 39007 39017 "sPL_lexer.mll" 200 39007 39018
+type(
+  char option
+)
+"sPL_lexer.mll" 200 39007 39022 "sPL_lexer.mll" 200 39007 39023
+type(
+  int
+)
+ident(
+  int_ref n "sPL_lexer.mll" 191 38784 38801 "sPL_lexer.mll" 191 38784 38802
+)
+"sPL_lexer.mll" 194 38843 38851 "sPL_lexer.mll" 200 39007 39023
+type(
+  int
+)
+"sPL_lexer.mll" 192 38807 38813 "sPL_lexer.mll" 200 39007 39023
+type(
+  int
+)
+"sPL_lexer.mll" 191 38784 38803 "sPL_lexer.mll" 200 39007 39023
+type(
+  char Stream.t -> int
+)
+"sPL_lexer.mll" 191 38784 38801 "sPL_lexer.mll" 200 39007 39023
+type(
+  int -> char Stream.t -> int
+)
+"sPL_lexer.mll" 202 39031 39035 "sPL_lexer.mll" 202 39031 39039
+type(
+  int -> char Stream.t -> int
+)
+ident(
+  int_ref self "sPL_lexer.mll" 191 38784 38796 "sPL_lexer.mll" 191 38784 38800
+)
+"sPL_lexer.mll" 202 39031 39040 "sPL_lexer.mll" 202 39031 39041
+type(
+  int
+)
+"sPL_lexer.mll" 202 39031 39042 "sPL_lexer.mll" 202 39031 39043
+type(
+  char Stream.t
+)
+ident(
+  int_ref s "sPL_lexer.mll" 190 38752 38771 "sPL_lexer.mll" 190 38752 38772
+)
+"sPL_lexer.mll" 202 39031 39035 "sPL_lexer.mll" 202 39031 39043
+call(
+  tail
+)
+type(
+  int
+)
+"sPL_lexer.mll" 191 38784 38788 "sPL_lexer.mll" 202 39031 39043
+type(
+  int
+)
+"sPL_lexer.mll" 190 38752 38778 "sPL_lexer.mll" 202 39031 39043
+type(
+  int -> int
+)
+"sPL_lexer.mll" 190 38752 38773 "sPL_lexer.mll" 202 39031 39043
+type(
+  bytes -> int -> int
+)
+"sPL_lexer.mll" 190 38752 38771 "sPL_lexer.mll" 202 39031 39043
+type(
+  char Stream.t -> bytes -> int -> int
+)
+"sPL_lexer.mll" 204 39045 39051 "sPL_lexer.mll" 204 39045 39063
+type(
+  context -> (SPL_token.sPL_token * Loc.t) Stream.t
+)
+ident(
+  def from_context "sPL_lexer.mll" 211 39221 39223 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 204 39045 39064 "sPL_lexer.mll" 204 39045 39065
+type(
+  context
+)
+ident(
+  def c "sPL_lexer.mll" 205 39068 39072 "sPL_lexer.mll" 209 39196 39219
+)
+"sPL_lexer.mll" 205 39068 39076 "sPL_lexer.mll" 205 39068 39080
+type(
+  'f -> (SPL_token.sPL_token * Loc.t) option
+)
+ident(
+  def next "sPL_lexer.mll" 209 39196 39203 "sPL_lexer.mll" 209 39196 39219
+)
+"sPL_lexer.mll" 205 39068 39081 "sPL_lexer.mll" 205 39068 39082
+type(
+  'f
+)
+"sPL_lexer.mll" 206 39085 39095 "sPL_lexer.mll" 206 39085 39098
+type(
+  SPL_token.sPL_token
+)
+ident(
+  def tok "sPL_lexer.mll" 207 39130 39136 "sPL_lexer.mll" 208 39172 39195
+)
+"sPL_lexer.mll" 206 39085 39101 "sPL_lexer.mll" 206 39085 39114
+type(
+  (context -> Lexing.lexbuf -> SPL_token.sPL_token) ->
+  context -> SPL_token.sPL_token
+)
+ident(
+  int_ref with_curr_loc "sPL_lexer.mll" 67 1890 1896 "sPL_lexer.mll" 67 1890 1909
+)
+"sPL_lexer.mll" 206 39085 39115 "sPL_lexer.mll" 206 39085 39124
+type(
+  context -> Lexing.lexbuf -> SPL_token.sPL_token
+)
+ident(
+  int_ref tokenizer "sPL_lexer.ml" 549 32750 32758 "sPL_lexer.ml" 549 32750 32767
+)
+"sPL_lexer.mll" 206 39085 39125 "sPL_lexer.mll" 206 39085 39126
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 204 39045 39064 "sPL_lexer.mll" 204 39045 39065
+)
+"sPL_lexer.mll" 206 39085 39101 "sPL_lexer.mll" 206 39085 39126
+call(
+  stack
+)
+type(
+  SPL_token.sPL_token
+)
+"sPL_lexer.mll" 207 39130 39140 "sPL_lexer.mll" 207 39130 39143
+type(
+  Loc.t
+)
+ident(
+  def loc "sPL_lexer.mll" 208 39172 39178 "sPL_lexer.mll" 208 39172 39195
+)
+"sPL_lexer.mll" 207 39130 39146 "sPL_lexer.mll" 207 39130 39159
+type(
+  Lexing.lexbuf -> Loc.t
+)
+ident(
+  int_ref Loc.of_lexbuf "camlp4/Camlp4/Sig.ml" 99 3506 3508 "camlp4/Camlp4/Sig.ml" 99 3506 3544
+)
+"sPL_lexer.mll" 207 39130 39160 "sPL_lexer.mll" 207 39130 39161
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 204 39045 39064 "sPL_lexer.mll" 204 39045 39065
+)
+"sPL_lexer.mll" 207 39130 39160 "sPL_lexer.mll" 207 39130 39168
+type(
+  Lexing.lexbuf
+)
+"sPL_lexer.mll" 207 39130 39146 "sPL_lexer.mll" 207 39130 39168
+call(
+  stack
+)
+type(
+  Loc.t
+)
+"sPL_lexer.mll" 208 39172 39185 "sPL_lexer.mll" 208 39172 39188
+type(
+  SPL_token.sPL_token
+)
+ident(
+  int_ref tok "sPL_lexer.mll" 206 39085 39095 "sPL_lexer.mll" 206 39085 39098
+)
+"sPL_lexer.mll" 208 39172 39190 "sPL_lexer.mll" 208 39172 39193
+type(
+  Loc.t
+)
+ident(
+  int_ref loc "sPL_lexer.mll" 207 39130 39140 "sPL_lexer.mll" 207 39130 39143
+)
+"sPL_lexer.mll" 208 39172 39178 "sPL_lexer.mll" 208 39172 39195
+type(
+  SPL_token.sPL_token * Loc.t
+)
+type(
+  (SPL_token.sPL_token * Loc.t) option
+)
+"sPL_lexer.mll" 207 39130 39136 "sPL_lexer.mll" 208 39172 39195
+type(
+  (SPL_token.sPL_token * Loc.t) option
+)
+"sPL_lexer.mll" 206 39085 39091 "sPL_lexer.mll" 208 39172 39195
+type(
+  (SPL_token.sPL_token * Loc.t) option
+)
+"sPL_lexer.mll" 205 39068 39081 "sPL_lexer.mll" 208 39172 39195
+type(
+  'f -> (SPL_token.sPL_token * Loc.t) option
+)
+"sPL_lexer.mll" 209 39196 39203 "sPL_lexer.mll" 209 39196 39214
+type(
+  (int -> (SPL_token.sPL_token * Loc.t) option) ->
+  (SPL_token.sPL_token * Loc.t) Stream.t
+)
+ident(
+  int_ref Stream.from "stream.mli" 32 1483 1483 "stream.mli" 32 1483 1520
+)
+"sPL_lexer.mll" 209 39196 39215 "sPL_lexer.mll" 209 39196 39219
+type(
+  int -> (SPL_token.sPL_token * Loc.t) option
+)
+ident(
+  int_ref next "sPL_lexer.mll" 205 39068 39076 "sPL_lexer.mll" 205 39068 39080
+)
+"sPL_lexer.mll" 209 39196 39203 "sPL_lexer.mll" 209 39196 39219
+call(
+  tail
+)
+type(
+  (SPL_token.sPL_token * Loc.t) Stream.t
+)
+"sPL_lexer.mll" 205 39068 39072 "sPL_lexer.mll" 209 39196 39219
+type(
+  (SPL_token.sPL_token * Loc.t) Stream.t
+)
+"sPL_lexer.mll" 204 39045 39064 "sPL_lexer.mll" 209 39196 39219
+type(
+  context -> (SPL_token.sPL_token * Loc.t) Stream.t
+)
+"sPL_lexer.mll" 211 39221 39227 "sPL_lexer.mll" 211 39221 39238
+type(
+  Lexing.lexbuf -> (SPL_token.sPL_token * Loc.t) Stream.t
+)
+ident(
+  def from_lexbuf "sPL_lexer.mll" 215 39332 39334 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 211 39221 39239 "sPL_lexer.mll" 211 39221 39241
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lb "sPL_lexer.mll" 212 39244 39248 "sPL_lexer.mll" 213 39309 39330
+)
+"sPL_lexer.mll" 212 39244 39252 "sPL_lexer.mll" 212 39244 39253
+type(
+  context
+)
+ident(
+  def c "sPL_lexer.mll" 213 39309 39316 "sPL_lexer.mll" 213 39309 39330
+)
+"sPL_lexer.mll" 212 39244 39259 "sPL_lexer.mll" 212 39244 39274
+type(
+  Lexing.lexbuf -> context
+)
+ident(
+  int_ref default_context "sPL_lexer.mll" 47 1154 1160 "sPL_lexer.mll" 47 1154 1175
+)
+"sPL_lexer.mll" 212 39244 39275 "sPL_lexer.mll" 212 39244 39277
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "sPL_lexer.mll" 211 39221 39239 "sPL_lexer.mll" 211 39221 39241
+)
+"sPL_lexer.mll" 212 39244 39259 "sPL_lexer.mll" 212 39244 39277
+call(
+  stack
+)
+type(
+  context
+)
+"sPL_lexer.mll" 212 39244 39291 "sPL_lexer.mll" 212 39244 39304
+type(
+  Lexing.lexbuf -> Loc.t
+)
+ident(
+  int_ref Loc.of_lexbuf "camlp4/Camlp4/Sig.ml" 99 3506 3508 "camlp4/Camlp4/Sig.ml" 99 3506 3544
+)
+"sPL_lexer.mll" 212 39244 39305 "sPL_lexer.mll" 212 39244 39307
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "sPL_lexer.mll" 211 39221 39239 "sPL_lexer.mll" 211 39221 39241
+)
+"sPL_lexer.mll" 212 39244 39291 "sPL_lexer.mll" 212 39244 39307
+call(
+  stack
+)
+type(
+  Loc.t
+)
+"sPL_lexer.mll" 212 39244 39256 "sPL_lexer.mll" 212 39244 39308
+type(
+  context
+)
+"sPL_lexer.mll" 213 39309 39316 "sPL_lexer.mll" 213 39309 39328
+type(
+  context -> (SPL_token.sPL_token * Loc.t) Stream.t
+)
+ident(
+  int_ref from_context "sPL_lexer.mll" 204 39045 39051 "sPL_lexer.mll" 204 39045 39063
+)
+"sPL_lexer.mll" 213 39309 39329 "sPL_lexer.mll" 213 39309 39330
+type(
+  context
+)
+ident(
+  int_ref c "sPL_lexer.mll" 212 39244 39252 "sPL_lexer.mll" 212 39244 39253
+)
+"sPL_lexer.mll" 213 39309 39316 "sPL_lexer.mll" 213 39309 39330
+call(
+  tail
+)
+type(
+  (SPL_token.sPL_token * Loc.t) Stream.t
+)
+"sPL_lexer.mll" 212 39244 39248 "sPL_lexer.mll" 213 39309 39330
+type(
+  (SPL_token.sPL_token * Loc.t) Stream.t
+)
+"sPL_lexer.mll" 211 39221 39239 "sPL_lexer.mll" 213 39309 39330
+type(
+  Lexing.lexbuf -> (SPL_token.sPL_token * Loc.t) Stream.t
+)
+"sPL_lexer.mll" 215 39332 39338 "sPL_lexer.mll" 215 39332 39347
+type(
+  Lexing.lexbuf -> Loc.t -> unit
+)
+ident(
+  def setup_loc "sPL_lexer.mll" 220 39473 39475 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 215 39332 39348 "sPL_lexer.mll" 215 39332 39350
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lb "sPL_lexer.mll" 215 39332 39351 "sPL_lexer.mll" 218 39440 39471
+)
+"sPL_lexer.mll" 215 39332 39351 "sPL_lexer.mll" 215 39332 39354
+type(
+  Loc.t
+)
+ident(
+  def loc "sPL_lexer.mll" 216 39357 39361 "sPL_lexer.mll" 218 39440 39471
+)
+"sPL_lexer.mll" 216 39357 39365 "sPL_lexer.mll" 216 39357 39374
+type(
+  Lexing.position
+)
+ident(
+  def start_pos "sPL_lexer.mll" 217 39398 39402 "sPL_lexer.mll" 218 39440 39471
+)
+"sPL_lexer.mll" 216 39357 39377 "sPL_lexer.mll" 216 39357 39390
+type(
+  Loc.t -> Lexing.position
+)
+ident(
+  int_ref Loc.start_pos "camlp4/Camlp4/Sig.ml" 159 5762 5764 "camlp4/Camlp4/Sig.ml" 159 5762 5803
+)
+"sPL_lexer.mll" 216 39357 39391 "sPL_lexer.mll" 216 39357 39394
+type(
+  Loc.t
+)
+ident(
+  int_ref loc "sPL_lexer.mll" 215 39332 39351 "sPL_lexer.mll" 215 39332 39354
+)
+"sPL_lexer.mll" 216 39357 39377 "sPL_lexer.mll" 216 39357 39394
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"sPL_lexer.mll" 217 39398 39402 "sPL_lexer.mll" 217 39398 39404
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "sPL_lexer.mll" 215 39332 39348 "sPL_lexer.mll" 215 39332 39350
+)
+"sPL_lexer.mll" 217 39398 39420 "sPL_lexer.mll" 217 39398 39429
+type(
+  Lexing.position
+)
+ident(
+  int_ref start_pos "sPL_lexer.mll" 216 39357 39365 "sPL_lexer.mll" 216 39357 39374
+)
+"sPL_lexer.mll" 217 39398 39420 "sPL_lexer.mll" 217 39398 39438
+type(
+  int
+)
+"sPL_lexer.mll" 217 39398 39402 "sPL_lexer.mll" 217 39398 39438
+type(
+  unit
+)
+"sPL_lexer.mll" 218 39440 39444 "sPL_lexer.mll" 218 39440 39446
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "sPL_lexer.mll" 215 39332 39348 "sPL_lexer.mll" 215 39332 39350
+)
+"sPL_lexer.mll" 218 39440 39462 "sPL_lexer.mll" 218 39440 39471
+type(
+  Lexing.position
+)
+ident(
+  int_ref start_pos "sPL_lexer.mll" 216 39357 39365 "sPL_lexer.mll" 216 39357 39374
+)
+"sPL_lexer.mll" 218 39440 39444 "sPL_lexer.mll" 218 39440 39471
+type(
+  unit
+)
+"sPL_lexer.mll" 217 39398 39402 "sPL_lexer.mll" 218 39440 39471
+type(
+  unit
+)
+"sPL_lexer.mll" 216 39357 39361 "sPL_lexer.mll" 218 39440 39471
+type(
+  unit
+)
+"sPL_lexer.mll" 215 39332 39351 "sPL_lexer.mll" 218 39440 39471
+type(
+  Loc.t -> unit
+)
+"sPL_lexer.mll" 215 39332 39348 "sPL_lexer.mll" 218 39440 39471
+type(
+  Lexing.lexbuf -> Loc.t -> unit
+)
+"sPL_lexer.mll" 220 39473 39479 "sPL_lexer.mll" 220 39473 39490
+type(
+  Loc.t -> string -> (SPL_token.sPL_token * Loc.t) Stream.t
+)
+ident(
+  def from_string "sPL_lexer.mll" 225 39582 39584 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 220 39473 39491 "sPL_lexer.mll" 220 39473 39494
+type(
+  Loc.t
+)
+ident(
+  def loc "sPL_lexer.mll" 220 39473 39495 "sPL_lexer.mll" 223 39562 39580
+)
+"sPL_lexer.mll" 220 39473 39495 "sPL_lexer.mll" 220 39473 39498
+type(
+  string
+)
+ident(
+  def str "sPL_lexer.mll" 221 39501 39505 "sPL_lexer.mll" 223 39562 39580
+)
+"sPL_lexer.mll" 221 39501 39509 "sPL_lexer.mll" 221 39501 39511
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lb "sPL_lexer.mll" 222 39540 39544 "sPL_lexer.mll" 223 39562 39580
+)
+"sPL_lexer.mll" 221 39501 39514 "sPL_lexer.mll" 221 39501 39532
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  int_ref Lexing.from_string "lexing.mli" 83 3481 3481 "lexing.mli" 83 3481 3515
+)
+"sPL_lexer.mll" 221 39501 39533 "sPL_lexer.mll" 221 39501 39536
+type(
+  string
+)
+ident(
+  int_ref str "sPL_lexer.mll" 220 39473 39495 "sPL_lexer.mll" 220 39473 39498
+)
+"sPL_lexer.mll" 221 39501 39514 "sPL_lexer.mll" 221 39501 39536
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"sPL_lexer.mll" 222 39540 39544 "sPL_lexer.mll" 222 39540 39553
+type(
+  Lexing.lexbuf -> Loc.t -> unit
+)
+ident(
+  int_ref setup_loc "sPL_lexer.mll" 215 39332 39338 "sPL_lexer.mll" 215 39332 39347
+)
+"sPL_lexer.mll" 222 39540 39554 "sPL_lexer.mll" 222 39540 39556
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "sPL_lexer.mll" 221 39501 39509 "sPL_lexer.mll" 221 39501 39511
+)
+"sPL_lexer.mll" 222 39540 39557 "sPL_lexer.mll" 222 39540 39560
+type(
+  Loc.t
+)
+ident(
+  int_ref loc "sPL_lexer.mll" 220 39473 39491 "sPL_lexer.mll" 220 39473 39494
+)
+"sPL_lexer.mll" 222 39540 39544 "sPL_lexer.mll" 222 39540 39560
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 223 39562 39566 "sPL_lexer.mll" 223 39562 39577
+type(
+  Lexing.lexbuf -> (SPL_token.sPL_token * Loc.t) Stream.t
+)
+ident(
+  int_ref from_lexbuf "sPL_lexer.mll" 211 39221 39227 "sPL_lexer.mll" 211 39221 39238
+)
+"sPL_lexer.mll" 223 39562 39578 "sPL_lexer.mll" 223 39562 39580
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "sPL_lexer.mll" 221 39501 39509 "sPL_lexer.mll" 221 39501 39511
+)
+"sPL_lexer.mll" 223 39562 39566 "sPL_lexer.mll" 223 39562 39580
+call(
+  tail
+)
+type(
+  (SPL_token.sPL_token * Loc.t) Stream.t
+)
+"sPL_lexer.mll" 222 39540 39544 "sPL_lexer.mll" 223 39562 39580
+type(
+  (SPL_token.sPL_token * Loc.t) Stream.t
+)
+"sPL_lexer.mll" 221 39501 39505 "sPL_lexer.mll" 223 39562 39580
+type(
+  (SPL_token.sPL_token * Loc.t) Stream.t
+)
+"sPL_lexer.mll" 220 39473 39495 "sPL_lexer.mll" 223 39562 39580
+type(
+  string -> (SPL_token.sPL_token * Loc.t) Stream.t
+)
+"sPL_lexer.mll" 220 39473 39491 "sPL_lexer.mll" 223 39562 39580
+type(
+  Loc.t -> string -> (SPL_token.sPL_token * Loc.t) Stream.t
+)
+"sPL_lexer.mll" 225 39582 39588 "sPL_lexer.mll" 225 39582 39599
+type(
+  Loc.t -> char Stream.t -> (SPL_token.sPL_token * Loc.t) Stream.t
+)
+ident(
+  def from_stream "sPL_lexer.mll" 230 39710 39712 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 225 39582 39600 "sPL_lexer.mll" 225 39582 39603
+type(
+  Loc.t
+)
+ident(
+  def loc "sPL_lexer.mll" 225 39582 39604 "sPL_lexer.mll" 228 39690 39708
+)
+"sPL_lexer.mll" 225 39582 39604 "sPL_lexer.mll" 225 39582 39608
+type(
+  char Stream.t
+)
+ident(
+  def strm "sPL_lexer.mll" 226 39611 39615 "sPL_lexer.mll" 228 39690 39708
+)
+"sPL_lexer.mll" 226 39611 39619 "sPL_lexer.mll" 226 39611 39621
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lb "sPL_lexer.mll" 227 39668 39672 "sPL_lexer.mll" 228 39690 39708
+)
+"sPL_lexer.mll" 226 39611 39624 "sPL_lexer.mll" 226 39611 39644
+type(
+  (bytes -> int -> int) -> Lexing.lexbuf
+)
+ident(
+  int_ref Lexing.from_function "lexing.mli" 89 3723 3723 "lexing.mli" 89 3723 3774
+)
+"sPL_lexer.mll" 226 39611 39646 "sPL_lexer.mll" 226 39611 39658
+type(
+  char Stream.t -> bytes -> int -> int
+)
+ident(
+  int_ref lexing_store "sPL_lexer.mll" 190 38752 38758 "sPL_lexer.mll" 190 38752 38770
+)
+"sPL_lexer.mll" 226 39611 39659 "sPL_lexer.mll" 226 39611 39663
+type(
+  char Stream.t
+)
+ident(
+  int_ref strm "sPL_lexer.mll" 225 39582 39604 "sPL_lexer.mll" 225 39582 39608
+)
+"sPL_lexer.mll" 226 39611 39646 "sPL_lexer.mll" 226 39611 39663
+call(
+  stack
+)
+type(
+  bytes -> int -> int
+)
+"sPL_lexer.mll" 226 39611 39624 "sPL_lexer.mll" 226 39611 39664
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"sPL_lexer.mll" 227 39668 39672 "sPL_lexer.mll" 227 39668 39681
+type(
+  Lexing.lexbuf -> Loc.t -> unit
+)
+ident(
+  int_ref setup_loc "sPL_lexer.mll" 215 39332 39338 "sPL_lexer.mll" 215 39332 39347
+)
+"sPL_lexer.mll" 227 39668 39682 "sPL_lexer.mll" 227 39668 39684
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "sPL_lexer.mll" 226 39611 39619 "sPL_lexer.mll" 226 39611 39621
+)
+"sPL_lexer.mll" 227 39668 39685 "sPL_lexer.mll" 227 39668 39688
+type(
+  Loc.t
+)
+ident(
+  int_ref loc "sPL_lexer.mll" 225 39582 39600 "sPL_lexer.mll" 225 39582 39603
+)
+"sPL_lexer.mll" 227 39668 39672 "sPL_lexer.mll" 227 39668 39688
+call(
+  stack
+)
+type(
+  unit
+)
+"sPL_lexer.mll" 228 39690 39694 "sPL_lexer.mll" 228 39690 39705
+type(
+  Lexing.lexbuf -> (SPL_token.sPL_token * Loc.t) Stream.t
+)
+ident(
+  int_ref from_lexbuf "sPL_lexer.mll" 211 39221 39227 "sPL_lexer.mll" 211 39221 39238
+)
+"sPL_lexer.mll" 228 39690 39706 "sPL_lexer.mll" 228 39690 39708
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "sPL_lexer.mll" 226 39611 39619 "sPL_lexer.mll" 226 39611 39621
+)
+"sPL_lexer.mll" 228 39690 39694 "sPL_lexer.mll" 228 39690 39708
+call(
+  tail
+)
+type(
+  (SPL_token.sPL_token * Loc.t) Stream.t
+)
+"sPL_lexer.mll" 227 39668 39672 "sPL_lexer.mll" 228 39690 39708
+type(
+  (SPL_token.sPL_token * Loc.t) Stream.t
+)
+"sPL_lexer.mll" 226 39611 39615 "sPL_lexer.mll" 228 39690 39708
+type(
+  (SPL_token.sPL_token * Loc.t) Stream.t
+)
+"sPL_lexer.mll" 225 39582 39604 "sPL_lexer.mll" 228 39690 39708
+type(
+  char Stream.t -> (SPL_token.sPL_token * Loc.t) Stream.t
+)
+"sPL_lexer.mll" 225 39582 39600 "sPL_lexer.mll" 228 39690 39708
+type(
+  Loc.t -> char Stream.t -> (SPL_token.sPL_token * Loc.t) Stream.t
+)
+"sPL_lexer.mll" 230 39710 39716 "sPL_lexer.mll" 230 39710 39718
+type(
+  unit -> Loc.t -> char Stream.t -> (SPL_token.sPL_token * Loc.t) Stream.t
+)
+ident(
+  def mk "sPL_lexer.mll" 230 39710 39753 "sPL_lexer.mll" 231 39754 39757
+)
+"sPL_lexer.mll" 230 39710 39719 "sPL_lexer.mll" 230 39710 39721
+type(
+  unit
+)
+"sPL_lexer.mll" 230 39710 39722 "sPL_lexer.mll" 230 39710 39725
+type(
+  Loc.t
+)
+ident(
+  def loc "sPL_lexer.mll" 230 39710 39726 "sPL_lexer.mll" 230 39710 39753
+)
+"sPL_lexer.mll" 230 39710 39726 "sPL_lexer.mll" 230 39710 39730
+type(
+  char Stream.t
+)
+ident(
+  def strm "sPL_lexer.mll" 230 39710 39733 "sPL_lexer.mll" 230 39710 39753
+)
+"sPL_lexer.mll" 230 39710 39733 "sPL_lexer.mll" 230 39710 39744
+type(
+  Loc.t -> char Stream.t -> (SPL_token.sPL_token * Loc.t) Stream.t
+)
+ident(
+  int_ref from_stream "sPL_lexer.mll" 225 39582 39588 "sPL_lexer.mll" 225 39582 39599
+)
+"sPL_lexer.mll" 230 39710 39745 "sPL_lexer.mll" 230 39710 39748
+type(
+  Loc.t
+)
+ident(
+  int_ref loc "sPL_lexer.mll" 230 39710 39722 "sPL_lexer.mll" 230 39710 39725
+)
+"sPL_lexer.mll" 230 39710 39749 "sPL_lexer.mll" 230 39710 39753
+type(
+  char Stream.t
+)
+ident(
+  int_ref strm "sPL_lexer.mll" 230 39710 39726 "sPL_lexer.mll" 230 39710 39730
+)
+"sPL_lexer.mll" 230 39710 39733 "sPL_lexer.mll" 230 39710 39753
+call(
+  tail
+)
+type(
+  (SPL_token.sPL_token * Loc.t) Stream.t
+)
+"sPL_lexer.mll" 230 39710 39726 "sPL_lexer.mll" 230 39710 39753
+type(
+  char Stream.t -> (SPL_token.sPL_token * Loc.t) Stream.t
+)
+"sPL_lexer.mll" 230 39710 39722 "sPL_lexer.mll" 230 39710 39753
+type(
+  Loc.t -> char Stream.t -> (SPL_token.sPL_token * Loc.t) Stream.t
+)
+"sPL_lexer.mll" 230 39710 39719 "sPL_lexer.mll" 230 39710 39753
+type(
+  unit -> Loc.t -> char Stream.t -> (SPL_token.sPL_token * Loc.t) Stream.t
+)
