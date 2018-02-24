@@ -1,0 +1,2 @@
+fun {int->int} x -> x + 1 end 1
+

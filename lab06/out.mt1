@@ -1,0 +1,6 @@
+LOADING sPL program ..
+  let {int->int} f = fun {int->int} x -> x + 1 endin {int} f 1end
+ AS ==> let {Int->Int} f = fun {Int->Int} x -> +[Var(x),Int(1)] end in {Int}Appln[Var(f); Int(1)] end
+TYPE CHECKING program ..
+ ==> inferred type Int
+TRANSFORMING ==> Appln[fun {(Int->Int)->Int} f -> Appln[Var(f); Int(1)] end; fun {Int->Int} x -> +[Var(x),Int(1)] end]

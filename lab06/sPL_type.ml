@@ -231,7 +231,7 @@ let rec type_infer_x (env:env_type) (e:sPL_expr) : sPL_type option * sPL_expr =
           (* args and body type must be consistent with te*)
           (* extend the env when checking type of body *)
           begin
-            match type_infer_x env (Func (te,args,body)) with
+            match type_infer_x ((id,te)::env) (Func (te,args,body)) with
             | (Some t, Func (tf, argsf, bodyf)) -> (Some t, RecFunc (tf, id, argsf, bodyf))
             | _ -> (None,e)
           end
@@ -246,20 +246,29 @@ let rec type_infer_x (env:env_type) (e:sPL_expr) : sPL_type option * sPL_expr =
             | (rt, []) -> Some rt
             | _ -> None
           in
+          let ext_type e =
+          (match e with
+            | Var v -> get_type env v
+            | Func (te,_,_) -> Some te
+            | RecFunc (te,_,_,_) -> Some te
+            | Appln (_,te,_) -> te
+            | _ -> None) in
           begin
             match type_infer_x env e1 with
             | (Some et, ea) ->
-                let te = 
-                  (match ea with
-                  | Func (te,_,_) -> te
-                  | RecFunc (te,_,_,_) -> te) in
-                  let as_res = List.map (type_infer_x env) args in
-                  begin
-                    match ptm te (List.map (fun (t,_) -> t) as_res) with
-                    | None -> (None,e)
-                    | Some tp ->
-                      (Some tp, Appln (ea,Some te,List.map (fun (_,aa) -> aa) as_res))
-                  end
+                let ote = ext_type ea in
+                begin
+                  match ote with
+                  | None -> (None,e)
+                  | Some te ->
+                    let as_res = List.map (type_infer_x env) args in
+                    begin
+                      match ptm te (List.map (fun (t,_) -> t) as_res) with
+                      | None -> (None,e)
+                      | Some tp ->
+                        (Some tp, Appln (ea,Some te,List.map (fun (_,aa) -> aa) as_res))
+                    end
+                end
             | _ -> (None,e)
           end
     | Let (ldecl,te,body) -> 

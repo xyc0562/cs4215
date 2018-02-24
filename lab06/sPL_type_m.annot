@@ -325,7 +325,7 @@ type(
   SPL_type.env_type -> SPL.sPL_expr -> SPL.sPL_type option * SPL.sPL_expr
 )
 ident(
-  int_ref SPL_type.type_infer "sPL_type.ml" 289 11323 11331 "sPL_type.ml" 289 11323 11341
+  int_ref SPL_type.type_infer "sPL_type.ml" 298 11619 11627 "sPL_type.ml" 298 11619 11637
 )
 "sPL_type_m.ml" 19 563 591 "sPL_type_m.ml" 19 563 593
 type(
@@ -472,7 +472,7 @@ type(
   SPL.sPL_expr -> SPL_type.C.sPL_expr
 )
 ident(
-  int_ref SPL_type.trans_exp "sPL_type.ml" 323 12398 12402 "sPL_type.ml" 323 12398 12411
+  int_ref SPL_type.trans_exp "sPL_type.ml" 332 12694 12698 "sPL_type.ml" 332 12694 12707
 )
 "sPL_type_m.ml" 26 845 878 "sPL_type_m.ml" 26 845 880
 type(
