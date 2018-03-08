@@ -10,7 +10,7 @@ type(
   bool -> bool ref
 )
 ident(
-  int_ref Pervasives.ref "pervasives.mli" 1063 41160 41160 "pervasives.mli" 1063 41160 41204
+  ext_ref Pervasives.ref
 )
 "sPL_type.ml" 10 108 137 "sPL_type.ml" 10 108 142
 type(
@@ -32,7 +32,7 @@ type(
   bool -> bool ref
 )
 ident(
-  int_ref Pervasives.ref "pervasives.mli" 1063 41160 41160 "pervasives.mli" 1063 41160 41204
+  ext_ref Pervasives.ref
 )
 "sPL_type.ml" 11 143 169 "sPL_type.ml" 11 143 173
 type(
@@ -54,7 +54,7 @@ type(
   int -> int ref
 )
 ident(
-  int_ref Pervasives.ref "pervasives.mli" 1063 41160 41160 "pervasives.mli" 1063 41160 41204
+  ext_ref Pervasives.ref
 )
 "sPL_type.ml" 12 174 195 "sPL_type.ml" 12 174 200
 type(
@@ -150,14 +150,14 @@ type(
   (string * Arg.spec * string) list -> (string * Arg.spec * string) list
 )
 ident(
-  int_ref Pervasives.( @ ) "pervasives.mli" 687 26007 26007 "pervasives.mli" 687 26007 26048
+  ext_ref Pervasives.( @ )
 )
 "sPL_type.ml" 22 623 625 "sPL_type.ml" 22 623 637
 type(
   (string * Arg.spec * string) list
 )
 ident(
-  int_ref Debug.command_args "debug.ml" 2214 81502 81506 "debug.ml" 2214 81502 81518
+  ext_ref Debug.command_args
 )
 "sPL_type.ml" 14 202 220 "sPL_type.ml" 22 623 637
 call(
@@ -166,16 +166,12 @@ call(
 type(
   (string * Arg.spec * string) list
 )
-"sPL_type.ml" 24 639 643 "sPL_type.ml" 24 639 644
-type(
-  unit
-)
 "sPL_type.ml" 24 639 647 "sPL_type.ml" 24 639 658
 type(
   (Arg.key * Arg.spec * Arg.doc) list -> unit
 )
 ident(
-  int_ref Debug.parse "debug.ml" 2310 84464 84468 "debug.ml" 2310 84464 84473
+  ext_ref Debug.parse
 )
 "sPL_type.ml" 24 639 659 "sPL_type.ml" 24 639 670
 type(
@@ -217,7 +213,7 @@ type(
   'a Debug.Environ.et -> Debug.id -> 'a option
 )
 ident(
-  int_ref Debug.Environ.get_val "debug.ml" 2284 83665 83671 "debug.ml" 2284 83665 83678
+  ext_ref Debug.Environ.get_val
 )
 "sPL_type.ml" 28 739 776 "sPL_type.ml" 28 739 779
 type(
@@ -403,7 +399,7 @@ type(
   ('b * SPL.sPL_type) list -> ('b * SPL.sPL_type) list
 )
 ident(
-  int_ref Pervasives.( @ ) "pervasives.mli" 687 26007 26007 "pervasives.mli" 687 26007 26048
+  ext_ref Pervasives.( @ )
 )
 "sPL_type.ml" 42 1334 1376 "sPL_type.ml" 42 1334 1377
 type(
@@ -549,7 +545,7 @@ type(
   SPL.sPL_type -> string
 )
 ident(
-  int_ref SPL.string_of_sPL_type "sPL.ml" 40 1120 1128 "sPL.ml" 40 1120 1146
+  ext_ref SPL.string_of_sPL_type
 )
 "sPL_type.ml" 48 1562 1568 "sPL_type.ml" 48 1562 1571
 type(
@@ -563,14 +559,14 @@ type(
   (int -> string) -> int list -> string
 )
 ident(
-  int_ref Debug.pr_list "debug.ml" 83 2592 2597 "debug.ml" 83 2592 2604
+  ext_ref Debug.pr_list
 )
 "sPL_type.ml" 48 1562 1582 "sPL_type.ml" 48 1562 1595
 type(
   int -> string
 )
 ident(
-  int_ref Pervasives.string_of_int "pervasives.mli" 621 23467 23467 "pervasives.mli" 621 23467 23500
+  ext_ref Pervasives.string_of_int
 )
 "sPL_type.ml" 48 1562 1574 "sPL_type.ml" 48 1562 1595
 call(
@@ -591,21 +587,21 @@ type(
   (int * SPL.sPL_type -> string) -> (int * SPL.sPL_type) list -> string
 )
 ident(
-  int_ref Debug.pr_list "debug.ml" 83 2592 2597 "debug.ml" 83 2592 2604
+  ext_ref Debug.pr_list
 )
 "sPL_type.ml" 49 1599 1621 "sPL_type.ml" 49 1599 1628
 type(
   (int -> string) -> (SPL.sPL_type -> string) -> int * SPL.sPL_type -> string
 )
 ident(
-  int_ref Debug.pr_pair "debug.ml" 60 1312 1318 "debug.ml" 60 1312 1325
+  ext_ref Debug.pr_pair
 )
 "sPL_type.ml" 49 1599 1629 "sPL_type.ml" 49 1599 1642
 type(
   int -> string
 )
 ident(
-  int_ref Pervasives.string_of_int "pervasives.mli" 621 23467 23467 "pervasives.mli" 621 23467 23500
+  ext_ref Pervasives.string_of_int
 )
 "sPL_type.ml" 49 1599 1643 "sPL_type.ml" 49 1599 1646
 type(
@@ -641,7 +637,7 @@ type(
   ((int * SPL.sPL_type) list * SPL.sPL_type) option -> string
 )
 ident(
-  int_ref Debug.pr_option "debug.ml" 52 1150 1156 "debug.ml" 52 1150 1165
+  ext_ref Debug.pr_option
 )
 "sPL_type.ml" 50 1651 1674 "sPL_type.ml" 50 1651 1681
 type(
@@ -650,7 +646,7 @@ type(
   (int * SPL.sPL_type) list * SPL.sPL_type -> string
 )
 ident(
-  int_ref Debug.pr_pair "debug.ml" 60 1312 1318 "debug.ml" 60 1312 1325
+  ext_ref Debug.pr_pair
 )
 "sPL_type.ml" 50 1651 1682 "sPL_type.ml" 50 1651 1686
 type(
@@ -692,7 +688,7 @@ type(
   int list -> ((int * SPL.sPL_type) list * SPL.sPL_type) option
 )
 ident(
-  int_ref Debug.no_2 "debug.ml" 1570 54261 54267 "debug.ml" 1570 54261 54271
+  ext_ref Debug.no_2
 )
 "sPL_type.ml" 51 1695 1708 "sPL_type.ml" 51 1695 1728
 type(
@@ -812,7 +808,7 @@ type(
   int -> int -> int
 )
 ident(
-  int_ref Pervasives.( + ) "pervasives.mli" 261 10267 10267 "pervasives.mli" 261 10267 10313
+  ext_ref Pervasives.( + )
 )
 "sPL_type.ml" 57 1900 1925 "sPL_type.ml" 57 1900 1935
 type(
@@ -877,14 +873,14 @@ type(
   bool -> bool
 )
 ident(
-  int_ref Pervasives.not "pervasives.mli" 134 5784 5784 "pervasives.mli" 134 5784 5824
+  ext_ref Pervasives.not
 )
 "sPL_type.ml" 61 2005 2014 "sPL_type.ml" 61 2005 2015
 type(
   bool ref -> bool
 )
 ident(
-  int_ref Pervasives.( ! ) "pervasives.mli" 1066 41266 41266 "pervasives.mli" 1066 41266 41307
+  ext_ref Pervasives.( ! )
 )
 "sPL_type.ml" 61 2005 2015 "sPL_type.ml" 61 2005 2030
 type(
@@ -1003,7 +999,7 @@ type(
   int -> int -> bool
 )
 ident(
-  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+  ext_ref Pervasives.( = )
 )
 "sPL_type.ml" 67 2163 2181 "sPL_type.ml" 67 2163 2182
 type(
@@ -1127,7 +1123,7 @@ type(
   SPL.sPL_type -> SPL.sPL_type -> bool
 )
 ident(
-  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+  ext_ref Pervasives.( = )
 )
 "sPL_type.ml" 85 2810 2827 "sPL_type.ml" 85 2810 2834
 type(
@@ -1169,7 +1165,7 @@ type(
   SPL.sPL_type -> SPL.sPL_type -> bool
 )
 ident(
-  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+  ext_ref Pervasives.( = )
 )
 "sPL_type.ml" 87 2880 2897 "sPL_type.ml" 87 2880 2905
 type(
@@ -1253,7 +1249,7 @@ type(
   SPL.sPL_type -> SPL.sPL_type -> bool
 )
 ident(
-  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+  ext_ref Pervasives.( = )
 )
 "sPL_type.ml" 90 2983 3012 "sPL_type.ml" 90 2983 3014
 type(
@@ -1562,7 +1558,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  int_ref Pervasives.( && ) "pervasives.mli" 137 5855 5855 "pervasives.mli" 137 5855 5906
+  ext_ref Pervasives.( && )
 )
 "sPL_type.ml" 107 3584 3636 "sPL_type.ml" 107 3584 3639
 type(
@@ -1681,7 +1677,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  int_ref Pervasives.( && ) "pervasives.mli" 137 5855 5855 "pervasives.mli" 137 5855 5906
+  ext_ref Pervasives.( && )
 )
 "sPL_type.ml" 109 3720 3772 "sPL_type.ml" 109 3720 3775
 type(
@@ -1784,7 +1780,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  int_ref Pervasives.( && ) "pervasives.mli" 137 5855 5855 "pervasives.mli" 137 5855 5906
+  ext_ref Pervasives.( && )
 )
 "sPL_type.ml" 111 3841 3894 "sPL_type.ml" 111 3841 3897
 type(
@@ -2002,7 +1998,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  int_ref Pervasives.( && ) "pervasives.mli" 137 5855 5855 "pervasives.mli" 137 5855 5906
+  ext_ref Pervasives.( && )
 )
 "sPL_type.ml" 118 4109 4127 "sPL_type.ml" 118 4109 4129
 type(
@@ -2016,7 +2012,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  int_ref Pervasives.( && ) "pervasives.mli" 137 5855 5855 "pervasives.mli" 137 5855 5906
+  ext_ref Pervasives.( && )
 )
 "sPL_type.ml" 118 4109 4133 "sPL_type.ml" 118 4109 4135
 type(
@@ -2082,7 +2078,7 @@ type(
   SPL.sPL_type -> SPL.sPL_type -> bool
 )
 ident(
-  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+  ext_ref Pervasives.( = )
 )
 "sPL_type.ml" 120 4167 4185 "sPL_type.ml" 120 4167 4186
 type(
@@ -2166,7 +2162,7 @@ type(
   SPL.sPL_type Debug.Environ.et -> SPL.sPL_type Debug.Environ.et
 )
 ident(
-  int_ref Pervasives.( @ ) "pervasives.mli" 687 26007 26007 "pervasives.mli" 687 26007 26048
+  ext_ref Pervasives.( @ )
 )
 "sPL_type.ml" 122 4239 4285 "sPL_type.ml" 122 4239 4288
 type(
@@ -2267,7 +2263,7 @@ type(
   SPL.sPL_type -> SPL.sPL_type -> bool
 )
 ident(
-  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+  ext_ref Pervasives.( = )
 )
 "sPL_type.ml" 126 4428 4446 "sPL_type.ml" 126 4428 4447
 type(
@@ -2373,7 +2369,7 @@ type(
   SPL.sPL_type Debug.Environ.et -> SPL.sPL_type Debug.Environ.et
 )
 ident(
-  int_ref Pervasives.( @ ) "pervasives.mli" 687 26007 26007 "pervasives.mli" 687 26007 26048
+  ext_ref Pervasives.( @ )
 )
 "sPL_type.ml" 128 4500 4555 "sPL_type.ml" 128 4500 4558
 type(
@@ -2537,7 +2533,7 @@ type(
   SPL.sPL_type -> SPL.sPL_type -> bool
 )
 ident(
-  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+  ext_ref Pervasives.( = )
 )
 "sPL_type.ml" 138 4897 4934 "sPL_type.ml" 138 4897 4936
 type(
@@ -2556,7 +2552,7 @@ type(
   (SPL.sPL_expr * SPL.sPL_type) list -> bool
 )
 ident(
-  int_ref List.for_all "list.mli" 179 6830 6830 "list.mli" 179 6830 6875
+  ext_ref List.for_all
 )
 "sPL_type.ml" 138 4897 4961 "sPL_type.ml" 138 4897 4963
 type(
@@ -2658,7 +2654,7 @@ type(
   string -> bool
 )
 ident(
-  int_ref Pervasives.failwith "pervasives.mli" 41 1847 1847 "pervasives.mli" 41 1847 1874
+  ext_ref Pervasives.failwith
 )
 "sPL_type.ml" 142 5100 5135 "sPL_type.ml" 142 5100 5180
 type(
@@ -2712,7 +2708,7 @@ type(
   SPL.sPL_type -> SPL.sPL_type -> bool
 )
 ident(
-  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+  ext_ref Pervasives.( = )
 )
 "sPL_type.ml" 145 5228 5246 "sPL_type.ml" 145 5228 5247
 type(
@@ -2738,7 +2734,7 @@ type(
   (SPL.sPL_type * SPL.id * SPL.sPL_expr) list -> (SPL.id * SPL.sPL_type) list
 )
 ident(
-  int_ref List.map "list.mli" 117 4530 4530 "list.mli" 117 4530 4572
+  ext_ref List.map
 )
 "sPL_type.ml" 146 5253 5293 "sPL_type.ml" 146 5253 5294
 type(
@@ -2821,7 +2817,7 @@ type(
   SPL.sPL_type Debug.Environ.et -> (Debug.id * SPL.sPL_type) list
 )
 ident(
-  int_ref Pervasives.( @ ) "pervasives.mli" 687 26007 26007 "pervasives.mli" 687 26007 26048
+  ext_ref Pervasives.( @ )
 )
 "sPL_type.ml" 147 5319 5349 "sPL_type.ml" 147 5319 5352
 type(
@@ -2877,7 +2873,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  int_ref Pervasives.( && ) "pervasives.mli" 137 5855 5855 "pervasives.mli" 137 5855 5906
+  ext_ref Pervasives.( && )
 )
 "sPL_type.ml" 148 5356 5392 "sPL_type.ml" 148 5356 5404
 type(
@@ -2885,7 +2881,7 @@ type(
   (SPL.sPL_type * SPL.id * SPL.sPL_expr) list -> bool
 )
 ident(
-  int_ref List.for_all "list.mli" 179 6830 6830 "list.mli" 179 6830 6875
+  ext_ref List.for_all
 )
 "sPL_type.ml" 148 5356 5411 "sPL_type.ml" 148 5356 5412
 type(
@@ -4348,7 +4344,7 @@ type(
   SPL.sPL_type option -> SPL.sPL_type option -> bool
 )
 ident(
-  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+  ext_ref Pervasives.( = )
 )
 "sPL_type.ml" 206 7817 7842 "sPL_type.ml" 206 7817 7845
 type(
@@ -4566,7 +4562,7 @@ type(
   env_type -> (Debug.id * SPL.sPL_type) list
 )
 ident(
-  int_ref Pervasives.( @ ) "pervasives.mli" 687 26007 26007 "pervasives.mli" 687 26007 26048
+  ext_ref Pervasives.( @ )
 )
 "sPL_type.ml" 219 8327 8359 "sPL_type.ml" 219 8327 8362
 type(
@@ -4658,7 +4654,7 @@ type(
   SPL.sPL_type -> SPL.sPL_type -> bool
 )
 ident(
-  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+  ext_ref Pervasives.( = )
 )
 "sPL_type.ml" 223 8481 8507 "sPL_type.ml" 223 8481 8510
 type(
@@ -5092,7 +5088,7 @@ type(
   SPL.sPL_type -> SPL.sPL_type -> bool
 )
 ident(
-  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+  ext_ref Pervasives.( = )
 )
 "sPL_type.ml" 245 9418 9473 "sPL_type.ml" 245 9418 9474
 type(
@@ -5469,7 +5465,7 @@ type(
   SPL.sPL_expr list -> (SPL.sPL_type option * SPL.sPL_expr) list
 )
 ident(
-  int_ref List.map "list.mli" 117 4530 4530 "list.mli" 117 4530 4572
+  ext_ref List.map
 )
 "sPL_type.ml" 264 10060 10103 "sPL_type.ml" 264 10060 10115
 type(
@@ -5526,7 +5522,7 @@ type(
   (SPL.sPL_type option * SPL.sPL_expr) list -> SPL.sPL_type option list
 )
 ident(
-  int_ref List.map "list.mli" 117 4530 4530 "list.mli" 117 4530 4572
+  ext_ref List.map
 )
 "sPL_type.ml" 266 10155 10206 "sPL_type.ml" 266 10155 10207
 type(
@@ -5640,7 +5636,7 @@ type(
   (SPL.sPL_type option * SPL.sPL_expr) list -> SPL.sPL_expr list
 )
 ident(
-  int_ref List.map "list.mli" 117 4530 4530 "list.mli" 117 4530 4572
+  ext_ref List.map
 )
 "sPL_type.ml" 269 10306 10373 "sPL_type.ml" 269 10306 10374
 type(
@@ -5775,7 +5771,7 @@ type(
   (SPL.sPL_type * SPL.id * SPL.sPL_expr) list -> (SPL.id * SPL.sPL_type) list
 )
 ident(
-  int_ref List.map "list.mli" 117 4530 4530 "list.mli" 117 4530 4572
+  ext_ref List.map
 )
 "sPL_type.ml" 277 10618 10654 "sPL_type.ml" 277 10618 10655
 type(
@@ -5858,7 +5854,7 @@ type(
   env_type -> (Debug.id * SPL.sPL_type) list
 )
 ident(
-  int_ref Pervasives.( @ ) "pervasives.mli" 687 26007 26007 "pervasives.mli" 687 26007 26048
+  ext_ref Pervasives.( @ )
 )
 "sPL_type.ml" 279 10749 10775 "sPL_type.ml" 279 10749 10778
 type(
@@ -5935,7 +5931,7 @@ type(
   ((SPL.sPL_type option * SPL.sPL_expr) * SPL.id * SPL.sPL_type) list
 )
 ident(
-  int_ref List.map "list.mli" 117 4530 4530 "list.mli" 117 4530 4572
+  ext_ref List.map
 )
 "sPL_type.ml" 283 10927 10965 "sPL_type.ml" 283 10927 10966
 type(
@@ -6057,7 +6053,7 @@ type(
   SPL.sPL_type -> SPL.sPL_type -> bool
 )
 ident(
-  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+  ext_ref Pervasives.( = )
 )
 "sPL_type.ml" 289 11215 11241 "sPL_type.ml" 289 11215 11243
 type(
@@ -6076,7 +6072,7 @@ type(
   ((SPL.sPL_type option * SPL.sPL_expr) * SPL.id * SPL.sPL_type) list -> bool
 )
 ident(
-  int_ref List.for_all "list.mli" 179 6830 6830 "list.mli" 179 6830 6875
+  ext_ref List.for_all
 )
 "sPL_type.ml" 291 11331 11376 "sPL_type.ml" 291 11331 11377
 type(
@@ -6123,7 +6119,7 @@ type(
   SPL.sPL_type option -> SPL.sPL_type option -> bool
 )
 ident(
-  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+  ext_ref Pervasives.( = )
 )
 "sPL_type.ml" 291 11331 11397 "sPL_type.ml" 291 11331 11399
 type(
@@ -6173,7 +6169,7 @@ type(
   (SPL.sPL_type * SPL.id * SPL.sPL_expr) list
 )
 ident(
-  int_ref List.map "list.mli" 117 4530 4530 "list.mli" 117 4530 4572
+  ext_ref List.map
 )
 "sPL_type.ml" 292 11413 11463 "sPL_type.ml" 292 11413 11464
 type(
@@ -6388,7 +6384,7 @@ type(
   SPL.sPL_expr -> SPL.sPL_type option * SPL.sPL_expr
 )
 ident(
-  int_ref Debug.no_1 "debug.ml" 1565 54122 54128 "debug.ml" 1565 54122 54132
+  ext_ref Debug.no_1
 )
 "sPL_type.ml" 299 11697 11710 "sPL_type.ml" 299 11697 11722
 type(
@@ -6399,14 +6395,14 @@ type(
   SPL.sPL_expr -> string
 )
 ident(
-  int_ref Debug.pr_none "debug.ml" 48 1103 1109 "debug.ml" 48 1103 1116
+  ext_ref Debug.pr_none
 )
 "sPL_type.ml" 299 11697 11731 "sPL_type.ml" 299 11697 11738
 type(
   SPL.sPL_type option * SPL.sPL_expr -> string
 )
 ident(
-  int_ref Debug.pr_none "debug.ml" 48 1103 1109 "debug.ml" 48 1103 1116
+  ext_ref Debug.pr_none
 )
 "sPL_type.ml" 299 11697 11744 "sPL_type.ml" 299 11697 11745
 type(
@@ -6506,7 +6502,7 @@ type(
   int -> int -> int
 )
 ident(
-  int_ref Pervasives.( + ) "pervasives.mli" 261 10267 10267 "pervasives.mli" 261 10267 10313
+  ext_ref Pervasives.( + )
 )
 "sPL_type.ml" 305 11910 11935 "sPL_type.ml" 305 11910 11945
 type(
@@ -6664,7 +6660,7 @@ type(
   int -> int -> bool
 )
 ident(
-  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+  ext_ref Pervasives.( = )
 )
 "sPL_type.ml" 317 12377 12395 "sPL_type.ml" 317 12377 12396
 type(
@@ -6690,7 +6686,7 @@ type(
   Debug.generator
 )
 ident(
-  int_ref Debug.names "debug.ml" 2276 83525 83529 "debug.ml" 2276 83525 83534
+  ext_ref Debug.names
 )
 "sPL_type.ml" 318 12407 12434 "sPL_type.ml" 318 12407 12452
 call(
@@ -7508,7 +7504,7 @@ type(
   (SPL.sPL_expr -> C.sPL_expr) -> SPL.sPL_expr list -> C.sPL_expr list
 )
 ident(
-  int_ref List.map "list.mli" 117 4530 4530 "list.mli" 117 4530 4572
+  ext_ref List.map
 )
 "sPL_type.ml" 361 13488 13520 "sPL_type.ml" 361 13488 13523
 type(
@@ -7678,14 +7674,14 @@ type(
   C.sPL_expr list -> C.sPL_expr list -> C.sPL_expr list
 )
 ident(
-  int_ref Pervasives.( @ ) "pervasives.mli" 687 26007 26007 "pervasives.mli" 687 26007 26048
+  ext_ref Pervasives.( @ )
 )
 "sPL_type.ml" 365 13647 13709 "sPL_type.ml" 365 13647 13717
 type(
   (Debug.id -> C.sPL_expr) -> Debug.id list -> C.sPL_expr list
 )
 ident(
-  int_ref List.map "list.mli" 117 4530 4530 "list.mli" 117 4530 4572
+  ext_ref List.map
 )
 "sPL_type.ml" 365 13647 13723 "sPL_type.ml" 365 13647 13724
 type(
@@ -7759,7 +7755,7 @@ type(
   string -> C.sPL_expr
 )
 ident(
-  int_ref Pervasives.failwith "pervasives.mli" 41 1847 1847 "pervasives.mli" 41 1847 1874
+  ext_ref Pervasives.failwith
 )
 "sPL_type.ml" 367 13757 13781 "sPL_type.ml" 367 13757 13810
 type(
@@ -7838,7 +7834,7 @@ type(
   string -> 'a
 )
 ident(
-  int_ref Pervasives.failwith "pervasives.mli" 41 1847 1847 "pervasives.mli" 41 1847 1874
+  ext_ref Pervasives.failwith
 )
 "sPL_type.ml" 376 14068 14093 "sPL_type.ml" 376 14068 14120
 type(
@@ -8065,7 +8061,7 @@ type(
   (SPL.sPL_type * SPL.id * SPL.sPL_expr) list -> SPL.sPL_type list
 )
 ident(
-  int_ref List.map "list.mli" 117 4530 4530 "list.mli" 117 4530 4572
+  ext_ref List.map
 )
 "sPL_type.ml" 385 14314 14386 "sPL_type.ml" 385 14314 14387
 type(
@@ -8149,7 +8145,7 @@ type(
   (SPL.sPL_type * SPL.id * SPL.sPL_expr) list -> SPL.id list
 )
 ident(
-  int_ref List.map "list.mli" 117 4530 4530 "list.mli" 117 4530 4572
+  ext_ref List.map
 )
 "sPL_type.ml" 386 14406 14458 "sPL_type.ml" 386 14406 14459
 type(
@@ -8237,7 +8233,7 @@ type(
   (SPL.sPL_type * SPL.id * SPL.sPL_expr) list -> SPL.sPL_expr list
 )
 ident(
-  int_ref List.map "list.mli" 117 4530 4530 "list.mli" 117 4530 4572
+  ext_ref List.map
 )
 "sPL_type.ml" 387 14484 14526 "sPL_type.ml" 387 14484 14527
 type(

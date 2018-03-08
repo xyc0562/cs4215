@@ -22,7 +22,7 @@ type(
   string -> SPL.sPL_expr SPLGram.Entry.t
 )
 ident(
-  int_ref SPLGram.Entry.mk "camlp4/Camlp4/Sig.ml" 1111 43082 43088 "camlp4/Camlp4/Sig.ml" 1111 43082 43113
+  ext_ref SPLGram.Entry.mk
 )
 "sPL_parser.ml" 40 1130 1157 "sPL_parser.ml" 40 1130 1162
 type(
@@ -47,7 +47,7 @@ type(
   string -> (SPLGram.token_stream -> unit) -> unit SPLGram.Entry.t
 )
 ident(
-  int_ref SPLGram.Entry.of_parser "camlp4/Camlp4/Sig.ml" 1114 43189 43195 "camlp4/Camlp4/Sig.ml" 1115 43213 43259
+  ext_ref SPLGram.Entry.of_parser
 )
 "sPL_parser.ml" 43 1180 1205 "sPL_parser.ml" 43 1180 1215
 type(
@@ -65,7 +65,7 @@ type(
   int -> SPLGram.token_stream -> (SPLGram.Token.t * SPLGram.token_info) list
 )
 ident(
-  int_ref Stream.npeek "stream.mli" 90 3294 3294 "stream.mli" 90 3294 3328
+  ext_ref Stream.npeek
 )
 "sPL_parser.ml" 45 1235 1261 "sPL_parser.ml" 45 1235 1262
 type(
@@ -211,7 +211,7 @@ type(
   exn -> unit
 )
 ident(
-  int_ref Pervasives.raise "pervasives.mli" 30 1530 1530 "pervasives.mli" 30 1530 1567
+  ext_ref Pervasives.raise
 )
 "sPL_parser.ml" 47 1358 1381 "sPL_parser.ml" 47 1358 1395
 type(
@@ -312,7 +312,7 @@ type(
   SPL.sPL_expr list -> SPL.sPL_expr list -> SPL.sPL_expr list
 )
 ident(
-  int_ref Pervasives.( @ ) "pervasives.mli" 687 26007 26007 "pervasives.mli" 687 26007 26048
+  ext_ref Pervasives.( @ )
 )
 "sPL_parser.ml" 52 1498 1544 "sPL_parser.ml" 52 1498 1547
 type(
@@ -480,7 +480,7 @@ type(
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 "sPL_parser.ml" 57 1609 1622 "sPL_parser.ml" 57 1609 1626
 call(
@@ -513,7 +513,7 @@ type(
   SPL.sPL_expr SPLGram.Entry.t -> SPLGram.internal_entry
 )
 ident(
-  int_ref SPLGram.Entry.obj "camlp4/Camlp4/Sig.ml" 1131 43712 43718 "camlp4/Camlp4/Sig.ml" 1131 43712 43752
+  ext_ref SPLGram.Entry.obj
 )
 "sPL_parser.ml" 57 1609 1628 "sPL_parser.ml" 57 1609 1631
 type(
@@ -587,16 +587,16 @@ type(
 )
 type(
   SPLGram.Token.t ->
-  SPL.sPL_type -> SPLGram.Token.t -> '_weak1 -> SPLGram.Loc.t -> SPL.sPL_type
+  SPL.sPL_type -> SPLGram.Token.t -> '_a -> SPLGram.Loc.t -> SPL.sPL_type
 )
 type(
-  SPL.sPL_type -> SPLGram.Token.t -> '_weak1 -> SPLGram.Loc.t -> SPL.sPL_type
+  SPL.sPL_type -> SPLGram.Token.t -> '_a -> SPLGram.Loc.t -> SPL.sPL_type
 )
 type(
-  SPLGram.Token.t -> '_weak1 -> SPLGram.Loc.t -> SPL.sPL_type
+  SPLGram.Token.t -> '_a -> SPLGram.Loc.t -> SPL.sPL_type
 )
 type(
-  '_weak1 -> SPLGram.Loc.t -> SPL.sPL_type
+  '_a -> SPLGram.Loc.t -> SPL.sPL_type
 )
 type(
   SPLGram.Loc.t -> SPL.sPL_type
@@ -638,7 +638,7 @@ ident(
   def _loc "sPL_parser.ml" 59 1642 1644 "sPL_parser.ml" 59 1642 1647
 )
 type(
-  '_weak1
+  '_a
 )
 type(
   SPLGram.Token.t
@@ -911,12 +911,11 @@ ident(
 "sPL_parser.ml" 55 1579 1586 "sPL_parser.ml" 59 1642 1647
 type(
   (SPLGram.Token.t ->
-   SPL.sPL_type ->
-   SPLGram.Token.t -> '_weak1 -> SPLGram.Loc.t -> SPL.sPL_type) ->
+   SPL.sPL_type -> SPLGram.Token.t -> '_a -> SPLGram.Loc.t -> SPL.sPL_type) ->
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
   (SPL.sPL_type ->
@@ -924,19 +923,19 @@ type(
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
   (SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_type) -> SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
   (SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_type) -> SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 "sPL_parser.ml" 59 1642 1652 "sPL_parser.ml" 59 1642 1660
 type(
@@ -1110,7 +1109,7 @@ type(
   unit SPLGram.Entry.t -> SPLGram.internal_entry
 )
 ident(
-  int_ref SPLGram.Entry.obj "camlp4/Camlp4/Sig.ml" 1131 43712 43718 "camlp4/Camlp4/Sig.ml" 1131 43712 43752
+  ext_ref SPLGram.Entry.obj
 )
 "sPL_parser.ml" 63 1773 1794 "sPL_parser.ml" 63 1773 1800
 type(
@@ -1287,7 +1286,7 @@ type(
   (SPL.id list -> SPLGram.Loc.t -> SPL.id list) -> SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 "sPL_parser.ml" 66 1829 1864 "sPL_parser.ml" 66 1829 1865
 type(
@@ -1418,14 +1417,14 @@ type(
   (SPLGram.Token.t -> SPLGram.Loc.t -> SPL.id) -> SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
   SPL.id list SPLGram.Entry.t ->
   (SPLGram.symbol list * SPLGram.Action.t) list -> SPLGram.symbol
 )
 ident(
-  int_ref SPLGram.srules "camlp4/Camlp4/Sig.ml" 1146 44176 44180 "camlp4/Camlp4/Sig.ml" 1146 44176 44253
+  ext_ref SPLGram.srules
 )
 "sPL_parser.ml" 66 1829 1875 "sPL_parser.ml" 66 1829 1877
 type(
@@ -1644,7 +1643,7 @@ type(
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 "sPL_parser.ml" 69 1885 1896 "sPL_parser.ml" 69 1885 1902
 type(
@@ -1706,7 +1705,7 @@ type(
   SPL.sPL_type SPLGram.Entry.t -> SPLGram.internal_entry
 )
 ident(
-  int_ref SPLGram.Entry.obj "camlp4/Camlp4/Sig.ml" 1131 43712 43718 "camlp4/Camlp4/Sig.ml" 1131 43712 43752
+  ext_ref SPLGram.Entry.obj
 )
 "sPL_parser.ml" 69 1885 1910 "sPL_parser.ml" 69 1885 1916
 type(
@@ -1836,7 +1835,7 @@ type(
   SPL.sPL_expr SPLGram.Entry.t -> SPLGram.internal_entry
 )
 ident(
-  int_ref SPLGram.Entry.obj "camlp4/Camlp4/Sig.ml" 1131 43712 43718 "camlp4/Camlp4/Sig.ml" 1131 43712 43752
+  ext_ref SPLGram.Entry.obj
 )
 "sPL_parser.ml" 69 1885 1951 "sPL_parser.ml" 69 1885 1952
 type(
@@ -1959,7 +1958,7 @@ type(
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 "sPL_parser.ml" 71 1963 1985 "sPL_parser.ml" 71 1963 1989
 call(
@@ -1997,7 +1996,7 @@ type(
   SPLGram.internal_entry
 )
 ident(
-  int_ref SPLGram.Entry.obj "camlp4/Camlp4/Sig.ml" 1131 43712 43718 "camlp4/Camlp4/Sig.ml" 1131 43712 43752
+  ext_ref SPLGram.Entry.obj
 )
 "sPL_parser.ml" 71 1963 1993 "sPL_parser.ml" 71 1963 1995
 type(
@@ -3265,13 +3264,13 @@ type(
   SPLGram.Action.t
 )
 type(
-  '_weak2 -> SPL.sPL_expr -> '_weak3 -> SPLGram.Loc.t -> SPL.sPL_expr
+  '_b -> SPL.sPL_expr -> '_c -> SPLGram.Loc.t -> SPL.sPL_expr
 )
 type(
-  SPL.sPL_expr -> '_weak3 -> SPLGram.Loc.t -> SPL.sPL_expr
+  SPL.sPL_expr -> '_c -> SPLGram.Loc.t -> SPL.sPL_expr
 )
 type(
-  '_weak3 -> SPLGram.Loc.t -> SPL.sPL_expr
+  '_c -> SPLGram.Loc.t -> SPL.sPL_expr
 )
 type(
   SPLGram.Loc.t -> SPL.sPL_expr
@@ -3283,10 +3282,10 @@ ident(
   def _loc "sPL_parser.ml" 73 2000 2002 "sPL_parser.ml" 73 2000 2006
 )
 type(
-  '_weak3
+  '_c
 )
 type(
-  '_weak2
+  '_b
 )
 type(
   SPLGram.symbol list
@@ -3848,10 +3847,10 @@ type(
   SPLGram.Action.t
 )
 type(
-  SPL.sPL_expr -> '_weak4 -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+  SPL.sPL_expr -> '_d -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
 )
 type(
-  '_weak4 -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+  '_d -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
 )
 type(
   SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
@@ -3866,7 +3865,7 @@ ident(
   def _loc "sPL_parser.ml" 73 2000 2002 "sPL_parser.ml" 73 2000 2006
 )
 type(
-  '_weak4
+  '_d
 )
 type(
   SPLGram.symbol list
@@ -3905,10 +3904,10 @@ type(
   SPLGram.Action.t
 )
 type(
-  SPL.sPL_expr -> '_weak5 -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+  SPL.sPL_expr -> '_e -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
 )
 type(
-  '_weak5 -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
+  '_e -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
 )
 type(
   SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr
@@ -3923,7 +3922,7 @@ ident(
   def _loc "sPL_parser.ml" 73 2000 2002 "sPL_parser.ml" 73 2000 2006
 )
 type(
-  '_weak5
+  '_e
 )
 type(
   SPLGram.symbol list
@@ -4035,25 +4034,25 @@ type(
   (SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr) -> SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
   (SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr) -> SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
   (SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr) -> SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
   (SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr) -> SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
   (SPLGram.Token.t ->
@@ -4061,7 +4060,7 @@ type(
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
   (SPLGram.Token.t ->
@@ -4073,7 +4072,7 @@ type(
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
   (SPLGram.Token.t ->
@@ -4087,7 +4086,7 @@ type(
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
   (SPLGram.Token.t ->
@@ -4100,7 +4099,7 @@ type(
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
   (SPLGram.Token.t ->
@@ -4114,36 +4113,28 @@ type(
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
   (SPL.sPL_expr -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr) ->
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
   (SPL.sPL_expr -> SPLGram.Token.t -> SPLGram.Loc.t -> SPL.sPL_expr) ->
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
-  ('_weak2 -> SPL.sPL_expr -> '_weak3 -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  ('_b -> SPL.sPL_expr -> '_c -> SPLGram.Loc.t -> SPL.sPL_expr) ->
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
-)
-type(
-  (SPL.sPL_expr ->
-   SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr) ->
-  SPLGram.Action.t
-)
-ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
   (SPL.sPL_expr ->
@@ -4151,7 +4142,7 @@ type(
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
   (SPL.sPL_expr ->
@@ -4159,7 +4150,7 @@ type(
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
   (SPL.sPL_expr ->
@@ -4167,7 +4158,7 @@ type(
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
   (SPL.sPL_expr ->
@@ -4175,7 +4166,7 @@ type(
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
   (SPL.sPL_expr ->
@@ -4183,7 +4174,7 @@ type(
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
   (SPL.sPL_expr ->
@@ -4191,28 +4182,36 @@ type(
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
-  (SPL.sPL_expr -> '_weak4 -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  (SPL.sPL_expr ->
+   SPLGram.Token.t -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr) ->
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 type(
-  (SPL.sPL_expr -> '_weak5 -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  (SPL.sPL_expr -> '_d -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr) ->
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
+)
+type(
+  (SPL.sPL_expr -> '_e -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr) ->
+  SPLGram.Action.t
+)
+ident(
+  ext_ref SPLGram.Action.mk
 )
 type(
   (SPL.sPL_expr -> SPL.sPL_expr -> SPLGram.Loc.t -> SPL.sPL_expr) ->
   SPLGram.Action.t
 )
 ident(
-  int_ref SPLGram.Action.mk "camlp4/Camlp4/Sig.ml" 950 37782 37786 "camlp4/Camlp4/Sig.ml" 950 37782 37808
+  ext_ref SPLGram.Action.mk
 )
 "sPL_parser.ml" 74 2008 2015 "sPL_parser.ml" 74 2008 2020
 type(
@@ -5161,7 +5160,7 @@ type(
   SPLGram.internal_entry
 )
 ident(
-  int_ref SPLGram.Entry.obj "camlp4/Camlp4/Sig.ml" 1131 43712 43718 "camlp4/Camlp4/Sig.ml" 1131 43712 43752
+  ext_ref SPLGram.Entry.obj
 )
 "sPL_parser.ml" 116 4058 4093 "sPL_parser.ml" 116 4058 4099
 type(
@@ -5252,7 +5251,7 @@ type(
   SPL.sPL_type SPLGram.Entry.t -> SPLGram.internal_entry
 )
 ident(
-  int_ref SPLGram.Entry.obj "camlp4/Camlp4/Sig.ml" 1131 43712 43718 "camlp4/Camlp4/Sig.ml" 1131 43712 43752
+  ext_ref SPLGram.Entry.obj
 )
 "sPL_parser.ml" 116 4058 4120 "sPL_parser.ml" 116 4058 4126
 type(
@@ -5440,7 +5439,7 @@ type(
   SPL.sPL_type SPLGram.Entry.t -> SPLGram.internal_entry
 )
 ident(
-  int_ref SPLGram.Entry.obj "camlp4/Camlp4/Sig.ml" 1131 43712 43718 "camlp4/Camlp4/Sig.ml" 1131 43712 43752
+  ext_ref SPLGram.Entry.obj
 )
 "sPL_parser.ml" 117 4163 4197 "sPL_parser.ml" 117 4163 4203
 type(
@@ -5502,7 +5501,7 @@ type(
   SPL.id list SPLGram.Entry.t -> SPLGram.internal_entry
 )
 ident(
-  int_ref SPLGram.Entry.obj "camlp4/Camlp4/Sig.ml" 1131 43712 43718 "camlp4/Camlp4/Sig.ml" 1131 43712 43752
+  ext_ref SPLGram.Entry.obj
 )
 "sPL_parser.ml" 117 4163 4216 "sPL_parser.ml" 117 4163 4222
 type(
@@ -5729,7 +5728,7 @@ type(
   SPL.sPL_type SPLGram.Entry.t -> SPLGram.internal_entry
 )
 ident(
-  int_ref SPLGram.Entry.obj "camlp4/Camlp4/Sig.ml" 1131 43712 43718 "camlp4/Camlp4/Sig.ml" 1131 43712 43752
+  ext_ref SPLGram.Entry.obj
 )
 "sPL_parser.ml" 118 4259 4311 "sPL_parser.ml" 118 4259 4317
 type(
@@ -5791,7 +5790,7 @@ type(
   SPL.id list SPLGram.Entry.t -> SPLGram.internal_entry
 )
 ident(
-  int_ref SPLGram.Entry.obj "camlp4/Camlp4/Sig.ml" 1131 43712 43718 "camlp4/Camlp4/Sig.ml" 1131 43712 43752
+  ext_ref SPLGram.Entry.obj
 )
 "sPL_parser.ml" 118 4259 4331 "sPL_parser.ml" 118 4259 4337
 type(
@@ -6423,7 +6422,7 @@ type(
   SPL.sPL_expr SPLGram.Entry.t -> SPLGram.extend_statment -> unit
 )
 ident(
-  int_ref SPLGram.extend "camlp4/Camlp4/Sig.ml" 1142 44021 44025 "camlp4/Camlp4/Sig.ml" 1142 44021 44082
+  ext_ref SPLGram.extend
 )
 type(
   unit
@@ -6448,7 +6447,7 @@ type(
   SPLGram.extend_statment -> unit
 )
 ident(
-  int_ref SPLGram.extend "camlp4/Camlp4/Sig.ml" 1142 44021 44025 "camlp4/Camlp4/Sig.ml" 1142 44021 44082
+  ext_ref SPLGram.extend
 )
 type(
   unit
@@ -6473,7 +6472,7 @@ type(
   SPLGram.extend_statment -> unit
 )
 ident(
-  int_ref SPLGram.extend "camlp4/Camlp4/Sig.ml" 1142 44021 44025 "camlp4/Camlp4/Sig.ml" 1142 44021 44082
+  ext_ref SPLGram.extend
 )
 type(
   unit
@@ -6497,7 +6496,7 @@ type(
   SPL.id list SPLGram.Entry.t -> SPLGram.extend_statment -> unit
 )
 ident(
-  int_ref SPLGram.extend "camlp4/Camlp4/Sig.ml" 1142 44021 44025 "camlp4/Camlp4/Sig.ml" 1142 44021 44082
+  ext_ref SPLGram.extend
 )
 type(
   unit
@@ -6521,7 +6520,7 @@ type(
   SPL.sPL_type SPLGram.Entry.t -> SPLGram.extend_statment -> unit
 )
 ident(
-  int_ref SPLGram.extend "camlp4/Camlp4/Sig.ml" 1142 44021 44025 "camlp4/Camlp4/Sig.ml" 1142 44021 44082
+  ext_ref SPLGram.extend
 )
 type(
   unit
@@ -6545,16 +6544,16 @@ type(
   SPL.sPL_expr SPLGram.Entry.t -> SPLGram.extend_statment -> unit
 )
 ident(
-  int_ref SPLGram.extend "camlp4/Camlp4/Sig.ml" 1142 44021 44025 "camlp4/Camlp4/Sig.ml" 1142 44021 44082
+  ext_ref SPLGram.extend
 )
 type(
-  string -> 'a SPLGram.Entry.t
+  string -> 'f SPLGram.Entry.t
 )
 ident(
-  int_ref SPLGram.Entry.mk "camlp4/Camlp4/Sig.ml" 1111 43082 43088 "camlp4/Camlp4/Sig.ml" 1111 43082 43113
+  ext_ref SPLGram.Entry.mk
 )
 type(
-  string -> 'a SPLGram.Entry.t
+  string -> 'f SPLGram.Entry.t
 )
 ident(
   def grammar_entry_create "sPL_parser.ml" 55 1579 1586 "sPL_parser.ml" 132 4850 4858
@@ -6574,7 +6573,7 @@ type(
   string -> Camlp4.PreCast.Loc.t
 )
 ident(
-  int_ref Camlp4.PreCast.Loc.mk "camlp4/Camlp4/Sig.ml" 81 2978 2980 "camlp4/Camlp4/Sig.ml" 81 2978 3002
+  ext_ref Camlp4.PreCast.Loc.mk
 )
 "sPL_parser.ml" 135 4868 4894 "sPL_parser.ml" 135 4868 4904
 type(
@@ -6620,7 +6619,7 @@ type(
   SPL.sPL_expr SPLGram.Entry.t -> SPLGram.Loc.t -> string -> SPL.sPL_expr
 )
 ident(
-  int_ref SPLGram.parse_string "camlp4/Camlp4/Sig.ml" 1165 45126 45130 "camlp4/Camlp4/Sig.ml" 1165 45126 45186
+  ext_ref SPLGram.parse_string
 )
 "sPL_parser.ml" 140 4960 4991 "sPL_parser.ml" 140 4960 4994
 type(
@@ -6670,7 +6669,7 @@ type(
   int -> SPL.sPL_expr
 )
 ident(
-  int_ref Pervasives.exit "pervasives.mli" 1193 46563 46563 "pervasives.mli" 1193 46563 46583
+  ext_ref Pervasives.exit
 )
 "sPL_parser.ml" 142 5015 5041 "sPL_parser.ml" 142 5015 5042
 type(
@@ -6706,7 +6705,7 @@ type(
   string -> unit
 )
 ident(
-  int_ref Pervasives.print_string "pervasives.mli" 717 26757 26757 "pervasives.mli" 717 26757 26790
+  ext_ref Pervasives.print_string
 )
 "sPL_parser.ml" 144 5075 5096 "sPL_parser.ml" 144 5075 5113
 type(
@@ -6717,14 +6716,14 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPL_parser.ml" 144 5075 5115 "sPL_parser.ml" 144 5075 5143
 type(
   M.Loc.t -> string
 )
 ident(
-  int_ref Camlp4.PreCast.Loc.to_string "camlp4/Camlp4/Sig.ml" 189 6794 6796 "camlp4/Camlp4/Sig.ml" 189 6794 6825
+  ext_ref Camlp4.PreCast.Loc.to_string
 )
 "sPL_parser.ml" 144 5075 5144 "sPL_parser.ml" 144 5075 5145
 type(
@@ -6745,7 +6744,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPL_parser.ml" 144 5075 5147 "sPL_parser.ml" 144 5075 5151
 type(
@@ -6777,7 +6776,7 @@ type(
   exn -> SPL.sPL_expr
 )
 ident(
-  int_ref Pervasives.raise "pervasives.mli" 30 1530 1530 "pervasives.mli" 30 1530 1567
+  ext_ref Pervasives.raise
 )
 "sPL_parser.ml" 145 5154 5167 "sPL_parser.ml" 145 5154 5168
 type(
@@ -6839,7 +6838,7 @@ type(
   string list -> string list ref
 )
 ident(
-  int_ref Pervasives.ref "pervasives.mli" 1063 41160 41160 "pervasives.mli" 1063 41160 41204
+  ext_ref Pervasives.ref
 )
 "sPL_parser.ml" 156 5419 5439 "sPL_parser.ml" 156 5419 5441
 type(
@@ -6861,7 +6860,7 @@ type(
   string -> in_channel
 )
 ident(
-  int_ref Pervasives.open_in "pervasives.mli" 924 35020 35020 "pervasives.mli" 924 35020 35054
+  ext_ref Pervasives.open_in
 )
 "sPL_parser.ml" 157 5445 5468 "sPL_parser.ml" 157 5445 5476
 type(
@@ -6893,7 +6892,7 @@ type(
   in_channel -> string
 )
 ident(
-  int_ref Pervasives.input_line "pervasives.mli" 945 35991 35991 "pervasives.mli" 945 35991 36028
+  ext_ref Pervasives.input_line
 )
 "sPL_parser.ml" 160 5509 5537 "sPL_parser.ml" 160 5509 5541
 type(
@@ -6924,7 +6923,7 @@ type(
   string list ref -> string list
 )
 ident(
-  int_ref Pervasives.( ! ) "pervasives.mli" 1066 41266 41266 "pervasives.mli" 1066 41266 41307
+  ext_ref Pervasives.( ! )
 )
 "sPL_parser.ml" 160 5509 5526 "sPL_parser.ml" 160 5509 5551
 type(
@@ -6938,7 +6937,7 @@ type(
   string list ref -> string list -> unit
 )
 ident(
-  int_ref Pervasives.( := ) "pervasives.mli" 1071 41452 41452 "pervasives.mli" 1071 41452 41505
+  ext_ref Pervasives.( := )
 )
 "sPL_parser.ml" 159 5488 5494 "sPL_parser.ml" 161 5552 5562
 type(
@@ -6957,7 +6956,7 @@ type(
   in_channel -> unit
 )
 ident(
-  int_ref Pervasives.close_in "pervasives.mli" 1018 39428 39428 "pervasives.mli" 1018 39428 39461
+  ext_ref Pervasives.close_in
 )
 "sPL_parser.ml" 163 5591 5608 "sPL_parser.ml" 163 5591 5612
 type(
@@ -6978,7 +6977,7 @@ type(
   string list -> string list
 )
 ident(
-  int_ref List.rev "list.mli" 73 3121 3121 "list.mli" 73 3121 3149
+  ext_ref List.rev
 )
 "sPL_parser.ml" 163 5591 5623 "sPL_parser.ml" 163 5591 5628
 type(
@@ -6995,7 +6994,7 @@ type(
   string list ref -> string list
 )
 ident(
-  int_ref Pervasives.( ! ) "pervasives.mli" 1066 41266 41266 "pervasives.mli" 1066 41266 41307
+  ext_ref Pervasives.( ! )
 )
 "sPL_parser.ml" 163 5591 5613 "sPL_parser.ml" 163 5591 5628
 call(
@@ -7036,7 +7035,7 @@ type(
   string -> string list -> string
 )
 ident(
-  int_ref String.concat "string.mli" 123 5313 5313 "string.mli" 123 5313 5357
+  ext_ref String.concat
 )
 "sPL_parser.ml" 164 5632 5658 "sPL_parser.ml" 164 5632 5660
 type(
@@ -7068,7 +7067,7 @@ type(
   string -> in_channel
 )
 ident(
-  int_ref Pervasives.open_in "pervasives.mli" 924 35020 35020 "pervasives.mli" 924 35020 35054
+  ext_ref Pervasives.open_in
 )
 "sPL_parser.ml" 165 5673 5694 "sPL_parser.ml" 165 5673 5702
 type(
@@ -7096,7 +7095,7 @@ type(
   in_channel -> char Stream.t
 )
 ident(
-  int_ref Stream.of_channel "stream.mli" 55 2315 2315 "stream.mli" 55 2315 2352
+  ext_ref Stream.of_channel
 )
 "sPL_parser.ml" 166 5706 5740 "sPL_parser.ml" 166 5706 5744
 type(
@@ -7125,7 +7124,7 @@ type(
   SPLGram.Loc.t -> char Stream.t -> SPL.sPL_expr
 )
 ident(
-  int_ref SPLGram.parse "camlp4/Camlp4/Sig.ml" 1162 45016 45020 "camlp4/Camlp4/Sig.ml" 1162 45016 45076
+  ext_ref SPLGram.parse
 )
 "sPL_parser.ml" 168 5755 5781 "sPL_parser.ml" 168 5755 5784
 type(
@@ -7139,7 +7138,7 @@ type(
   string -> SPLGram.Loc.t
 )
 ident(
-  int_ref Camlp4.PreCast.Loc.mk "camlp4/Camlp4/Sig.ml" 81 2978 2980 "camlp4/Camlp4/Sig.ml" 81 2978 3002
+  ext_ref Camlp4.PreCast.Loc.mk
 )
 "sPL_parser.ml" 168 5755 5801 "sPL_parser.ml" 168 5755 5809
 type(
@@ -7214,7 +7213,7 @@ type(
   string -> unit
 )
 ident(
-  int_ref Pervasives.print_string "pervasives.mli" 717 26757 26757 "pervasives.mli" 717 26757 26790
+  ext_ref Pervasives.print_string
 )
 "sPL_parser.ml" 171 5867 5888 "sPL_parser.ml" 171 5867 5905
 type(
@@ -7225,14 +7224,14 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPL_parser.ml" 171 5867 5907 "sPL_parser.ml" 171 5867 5935
 type(
   M.Loc.t -> string
 )
 ident(
-  int_ref Camlp4.PreCast.Loc.to_string "camlp4/Camlp4/Sig.ml" 189 6794 6796 "camlp4/Camlp4/Sig.ml" 189 6794 6825
+  ext_ref Camlp4.PreCast.Loc.to_string
 )
 "sPL_parser.ml" 171 5867 5936 "sPL_parser.ml" 171 5867 5937
 type(
@@ -7253,7 +7252,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPL_parser.ml" 171 5867 5939 "sPL_parser.ml" 171 5867 5943
 type(
@@ -7285,7 +7284,7 @@ type(
   exn -> string * SPL.sPL_expr
 )
 ident(
-  int_ref Pervasives.raise "pervasives.mli" 30 1530 1530 "pervasives.mli" 30 1530 1567
+  ext_ref Pervasives.raise
 )
 "sPL_parser.ml" 172 5946 5959 "sPL_parser.ml" 172 5946 5960
 type(

@@ -1,0 +1,19 @@
+Loading sPL program ..
+  fun {int -> bool} x ->    if x>5 then true else false endend
+  as fun {Int->Bool} x -> if >[Var(x),Int(5)] then Bool(true) else Bool(false) end
+TYPE CHECKING program ..
+ ==> inferred type Int->Bool
+TRANSFORMING ==> fun {Int->Bool} x -> if >[Var(x),Int(5)] then Bool(true) else Bool(false) end
+COMPILING ==> t3.svm
+[LDF([],1,label_0),DONE,
+label_0:,LD (x,0),LDCI 5,GT,JOF label_1,LDCB true,GOTO label_2,LDCB false,RTN,
+label_1:,
+label_2:]
+LINKING ==> 
+[LDF([],1,2),DONE,
+2:,LD (x,0),LDCI 5,GT,JOF 10,LDCB true,GOTO 10,LDCB false,RTN,
+10:,
+10:]
+Loading sVM code from ..t3.svm
+Loaded [LDF([],1,2),DONE,LD (x,0),LDCI 5,GT,JOF 10,LDCB true,GOTO 10,LDCB false,RTN]
+Executing ==> CLOSURE

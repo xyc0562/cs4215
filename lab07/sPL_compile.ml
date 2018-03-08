@@ -65,11 +65,45 @@ let compile (e:sPL_expr) : sVML_prog_sym   =
                 | _ -> (v,-1)) fvs in
             ([LDF (fvs_n,arity,l_fn)], (((LABEL l_fn)::s1)@[RTN]@p1))
       | Cond (e1,e2,e3) ->
-            failwith "TO BE IMPLEMENTED"
+            let l_mid = labels # fresh_id in
+            let l_end = labels # fresh_id in
+            let (s1,p1) = helper ce e1 in
+            let (s2,p2) = helper ce e2 in
+            let (s3,p3) = helper ce e3 in
+            (s1@[JOF l_mid]@s2@[GOTO l_end]@((LABEL l_mid)::s3)@[LABEL l_end], p1@p2@p3)
       | Appln (f,_,args) ->
-            failwith "TO BE IMPLEMENTED"
+(*            let rec compile_args (h_arg::t_args) arity =
+              let pair = helper ce h_arg in
+              if arity = 0 then ([pair], t_args)
+              else let (pairs, t_args) = compile_args t_args arity-1 in
+              (pair::pairs, t_args) in
+*)
+            let unzip lps =
+              let rec aux lps l1 l2 =
+              begin
+                match lps with
+                  | (e1, e2)::t_lps -> aux t_lps (e1::l1) (e2::l2)
+                  | [] -> (l1, l2)
+              end in
+              aux lps [] [] in
+            let (sf,pf) = helper ce f in
+            let pairs = List.map (helper ce) args in
+            let (ss, ps) = unzip pairs in
+            let ss = List.flatten(ss) in
+            let ps = List.flatten(ps) in
+            (ss@sf@[CALL (List.length args)], pf@ps)
       | RecFunc (t,f,vs,body) -> 
-            failwith "TO BE IMPLEMENTED"
+            let l_fn = labels # fresh_id in
+            let fvs = diff (fv body) (f::vs) in
+            let all_vs = fvs@(f::vs) in
+            let new_ce = enum_cenv all_vs 0 in
+            let arity = List.length vs in
+            let (s1,p1) = helper new_ce body in
+            let fvs_n = List.map 
+              (fun v -> match (Environ.get_val ce v) with
+                | Some i ->(v,i)
+                | _ -> (v,-1)) fvs in
+            ([LDFR (fvs_n,(f,0),arity,l_fn)], (((LABEL l_fn)::s1)@[RTN]@p1))
   in
   let (main_code,proc_code) = (helper [] e)
   in main_code@(DONE::proc_code)

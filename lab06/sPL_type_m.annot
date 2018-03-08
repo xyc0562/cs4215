@@ -17,7 +17,7 @@ type(
   string -> string * SPL.sPL_expr
 )
 ident(
-  int_ref SPL_parser.parse_file "sPL_parser.ml" 154 5345 5349 "sPL_parser.ml" 154 5345 5359
+  ext_ref SPL_parser.parse_file
 )
 "sPL_type_m.ml" 9 169 195 "sPL_type_m.ml" 9 169 203
 type(
@@ -48,21 +48,21 @@ type(
   string -> int
 )
 ident(
-  int_ref String.length "string.mli" 51 2660 2660 "string.mli" 51 2660 2710
+  ext_ref String.length
 )
 "sPL_type_m.ml" 13 235 254 "sPL_type_m.ml" 13 235 255
 type(
   string ref -> string
 )
 ident(
-  int_ref Pervasives.( ! ) "pervasives.mli" 1066 41266 41266 "pervasives.mli" 1066 41266 41307
+  ext_ref Pervasives.( ! )
 )
 "sPL_type_m.ml" 13 235 255 "sPL_type_m.ml" 13 235 266
 type(
   string ref
 )
 ident(
-  int_ref VarGen.file "VarGen.ml" 3 16 20 "VarGen.ml" 3 16 24
+  ext_ref VarGen.file
 )
 "sPL_type_m.ml" 13 235 254 "sPL_type_m.ml" 13 235 266
 type(
@@ -77,7 +77,7 @@ type(
   int -> int -> bool
 )
 ident(
-  int_ref Pervasives.( == ) "pervasives.mli" 116 5060 5060 "pervasives.mli" 116 5060 5102
+  ext_ref Pervasives.( == )
 )
 "sPL_type_m.ml" 13 235 270 "sPL_type_m.ml" 13 235 271
 type(
@@ -92,14 +92,14 @@ type(
   string -> unit
 )
 ident(
-  int_ref Pervasives.print_endline "pervasives.mli" 730 27122 27122 "pervasives.mli" 730 27122 27156
+  ext_ref Pervasives.print_endline
 )
 "sPL_type_m.ml" 13 235 291 "sPL_type_m.ml" 13 235 303
 type(
   string
 )
 ident(
-  int_ref VarGen.usage "VarGen.ml" 5 35 39 "VarGen.ml" 5 35 44
+  ext_ref VarGen.usage
 )
 "sPL_type_m.ml" 13 235 277 "sPL_type_m.ml" 13 235 303
 call(
@@ -117,7 +117,7 @@ type(
   string -> unit
 )
 ident(
-  int_ref Pervasives.print_endline "pervasives.mli" 730 27122 27122 "pervasives.mli" 730 27122 27156
+  ext_ref Pervasives.print_endline
 )
 "sPL_type_m.ml" 14 310 336 "sPL_type_m.ml" 14 310 360
 type(
@@ -160,14 +160,14 @@ type(
   string ref -> string
 )
 ident(
-  int_ref Pervasives.( ! ) "pervasives.mli" 1066 41266 41266 "pervasives.mli" 1066 41266 41307
+  ext_ref Pervasives.( ! )
 )
 "sPL_type_m.ml" 15 364 392 "sPL_type_m.ml" 15 364 403
 type(
   string ref
 )
 ident(
-  int_ref VarGen.file "VarGen.ml" 3 16 20 "VarGen.ml" 3 16 24
+  ext_ref VarGen.file
 )
 "sPL_type_m.ml" 15 364 391 "sPL_type_m.ml" 15 364 403
 type(
@@ -189,7 +189,7 @@ type(
   string -> unit
 )
 ident(
-  int_ref Pervasives.print_endline "pervasives.mli" 730 27122 27122 "pervasives.mli" 730 27122 27156
+  ext_ref Pervasives.print_endline
 )
 "sPL_type_m.ml" 16 407 434 "sPL_type_m.ml" 16 407 438
 type(
@@ -200,7 +200,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPL_type_m.ml" 16 407 439 "sPL_type_m.ml" 16 407 440
 type(
@@ -232,7 +232,7 @@ type(
   string -> unit
 )
 ident(
-  int_ref Pervasives.print_endline "pervasives.mli" 730 27122 27122 "pervasives.mli" 730 27122 27156
+  ext_ref Pervasives.print_endline
 )
 "sPL_type_m.ml" 17 445 472 "sPL_type_m.ml" 17 445 482
 type(
@@ -243,14 +243,14 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPL_type_m.ml" 17 445 484 "sPL_type_m.ml" 17 445 499
 type(
   S.sPL_expr -> string
 )
 ident(
-  int_ref S.string_of_sPL "sPL.ml" 52 1478 1482 "sPL.ml" 52 1478 1495
+  ext_ref S.string_of_sPL
 )
 "sPL_type_m.ml" 17 445 500 "sPL_type_m.ml" 17 445 501
 type(
@@ -289,7 +289,7 @@ type(
   string -> unit
 )
 ident(
-  int_ref Pervasives.print_endline "pervasives.mli" 730 27122 27122 "pervasives.mli" 730 27122 27156
+  ext_ref Pervasives.print_endline
 )
 "sPL_type_m.ml" 18 507 533 "sPL_type_m.ml" 18 507 559
 type(
@@ -325,7 +325,7 @@ type(
   SPL_type.env_type -> SPL.sPL_expr -> SPL.sPL_type option * SPL.sPL_expr
 )
 ident(
-  int_ref SPL_type.type_infer "sPL_type.ml" 298 11619 11627 "sPL_type.ml" 298 11619 11637
+  ext_ref SPL_type.type_infer
 )
 "sPL_type_m.ml" 19 563 591 "sPL_type_m.ml" 19 563 593
 type(
@@ -361,7 +361,7 @@ type(
   string -> unit
 )
 ident(
-  int_ref Pervasives.print_endline "pervasives.mli" 730 27122 27122 "pervasives.mli" 730 27122 27156
+  ext_ref Pervasives.print_endline
 )
 "sPL_type_m.ml" 21 616 646 "sPL_type_m.ml" 21 616 672
 type(
@@ -390,7 +390,7 @@ type(
   string -> unit
 )
 ident(
-  int_ref Pervasives.print_endline "pervasives.mli" 730 27122 27122 "pervasives.mli" 730 27122 27156
+  ext_ref Pervasives.print_endline
 )
 "sPL_type_m.ml" 24 709 738 "sPL_type_m.ml" 24 709 759
 type(
@@ -401,14 +401,14 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPL_type_m.ml" 24 709 761 "sPL_type_m.ml" 24 709 781
 type(
   S.sPL_type -> string
 )
 ident(
-  int_ref S.string_of_sPL_type "sPL.ml" 40 1120 1128 "sPL.ml" 40 1120 1146
+  ext_ref S.string_of_sPL_type
 )
 "sPL_type_m.ml" 24 709 782 "sPL_type_m.ml" 24 709 783
 type(
@@ -447,7 +447,7 @@ type(
   string -> unit
 )
 ident(
-  int_ref Pervasives.print_string "pervasives.mli" 717 26757 26757 "pervasives.mli" 717 26757 26790
+  ext_ref Pervasives.print_string
 )
 "sPL_type_m.ml" 25 787 822 "sPL_type_m.ml" 25 787 841
 type(
@@ -472,7 +472,7 @@ type(
   SPL.sPL_expr -> SPL_type.C.sPL_expr
 )
 ident(
-  int_ref SPL_type.trans_exp "sPL_type.ml" 332 12694 12698 "sPL_type.ml" 332 12694 12707
+  ext_ref SPL_type.trans_exp
 )
 "sPL_type_m.ml" 26 845 878 "sPL_type_m.ml" 26 845 880
 type(
@@ -497,14 +497,14 @@ type(
   string -> unit
 )
 ident(
-  int_ref Pervasives.print_endline "pervasives.mli" 730 27122 27122 "pervasives.mli" 730 27122 27156
+  ext_ref Pervasives.print_endline
 )
 "sPL_type_m.ml" 27 884 921 "sPL_type_m.ml" 27 884 934
 type(
   SPL_type.C.sPL_expr -> string
 )
 ident(
-  int_ref SPLc.string_of_sPL "sPLc.ml" 30 706 710 "sPLc.ml" 30 706 723
+  ext_ref SPLc.string_of_sPL
 )
 "sPL_type_m.ml" 27 884 935 "sPL_type_m.ml" 27 884 937
 type(

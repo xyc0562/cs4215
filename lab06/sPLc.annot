@@ -35,14 +35,14 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 31 746 769 "sPLc.ml" 31 746 789
 type(
   S.sPL_type -> string
 )
 ident(
-  int_ref S.string_of_sPL_type "sPL.ml" 40 1120 1128 "sPL.ml" 40 1120 1146
+  ext_ref S.string_of_sPL_type
 )
 "sPLc.ml" 31 746 790 "sPLc.ml" 31 746 791
 type(
@@ -63,7 +63,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 31 746 793 "sPLc.ml" 31 746 796
 type(
@@ -124,14 +124,14 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 34 833 863 "sPLc.ml" 34 833 877
 type(
   bool -> string
 )
 ident(
-  int_ref Pervasives.string_of_bool "pervasives.mli" 604 22943 22943 "pervasives.mli" 604 22943 22978
+  ext_ref Pervasives.string_of_bool
 )
 "sPLc.ml" 34 833 878 "sPLc.ml" 34 833 879
 type(
@@ -152,7 +152,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 34 833 881 "sPLc.ml" 34 833 884
 type(
@@ -192,14 +192,14 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 35 885 913 "sPLc.ml" 35 885 926
 type(
   int -> string
 )
 ident(
-  int_ref Pervasives.string_of_int "pervasives.mli" 621 23467 23467 "pervasives.mli" 621 23467 23500
+  ext_ref Pervasives.string_of_int
 )
 "sPLc.ml" 35 885 927 "sPLc.ml" 35 885 928
 type(
@@ -220,7 +220,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 35 885 930 "sPLc.ml" 35 885 933
 type(
@@ -260,7 +260,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 36 934 956 "sPLc.ml" 36 934 957
 type(
@@ -274,7 +274,7 @@ type(
   Debug.id -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 36 934 958 "sPLc.ml" 36 934 961
 type(
@@ -324,7 +324,7 @@ type(
   op_id -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 37 962 996 "sPLc.ml" 37 962 999
 type(
@@ -335,7 +335,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 37 962 1001 "sPLc.ml" 37 962 1004
 type(
@@ -363,7 +363,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 37 962 1010 "sPLc.ml" 37 962 1013
 type(
@@ -427,7 +427,7 @@ type(
   op_id -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 38 1014 1055 "sPLc.ml" 38 1014 1058
 type(
@@ -438,7 +438,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 38 1014 1060 "sPLc.ml" 38 1014 1063
 type(
@@ -466,7 +466,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 38 1014 1070 "sPLc.ml" 38 1014 1073
 type(
@@ -477,7 +477,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 38 1014 1075 "sPLc.ml" 38 1014 1078
 type(
@@ -505,7 +505,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 38 1014 1085 "sPLc.ml" 38 1014 1088
 type(
@@ -580,7 +580,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 39 1089 1121 "sPLc.ml" 39 1089 1124
 type(
@@ -608,7 +608,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 39 1089 1129 "sPLc.ml" 39 1089 1137
 type(
@@ -619,7 +619,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 39 1089 1139 "sPLc.ml" 39 1089 1142
 type(
@@ -647,7 +647,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 39 1089 1147 "sPLc.ml" 39 1089 1155
 type(
@@ -658,7 +658,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 39 1089 1157 "sPLc.ml" 39 1089 1160
 type(
@@ -750,7 +750,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 40 1165 1201 "sPLc.ml" 40 1165 1208
 type(
@@ -778,7 +778,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 40 1165 1212 "sPLc.ml" 40 1165 1215
 type(
@@ -789,14 +789,14 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 40 1165 1217 "sPLc.ml" 40 1165 1223
 type(
   string -> (Debug.id -> Debug.id) -> Debug.id list -> string
 )
 ident(
-  int_ref Debug.pr_lst "debug.ml" 78 2379 2385 "debug.ml" 78 2379 2391
+  ext_ref Debug.pr_lst
 )
 "sPLc.ml" 40 1165 1224 "sPLc.ml" 40 1165 1227
 type(
@@ -807,7 +807,7 @@ type(
   Debug.id -> Debug.id
 )
 ident(
-  int_ref Debug.pr_id "debug.ml" 43 1009 1015 "debug.ml" 43 1009 1020
+  ext_ref Debug.pr_id
 )
 "sPLc.ml" 40 1165 1234 "sPLc.ml" 40 1165 1238
 type(
@@ -828,7 +828,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 40 1165 1240 "sPLc.ml" 40 1165 1246
 type(
@@ -839,7 +839,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 40 1165 1248 "sPLc.ml" 40 1165 1251
 type(
@@ -867,7 +867,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 40 1165 1258 "sPLc.ml" 40 1165 1264
 type(
@@ -956,7 +956,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 41 1265 1308 "sPLc.ml" 41 1265 1309
 type(
@@ -970,7 +970,7 @@ type(
   Debug.id -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 41 1265 1310 "sPLc.ml" 41 1265 1313
 type(
@@ -981,7 +981,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 41 1265 1315 "sPLc.ml" 41 1265 1322
 type(
@@ -1009,7 +1009,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 41 1265 1326 "sPLc.ml" 41 1265 1329
 type(
@@ -1020,14 +1020,14 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 41 1265 1331 "sPLc.ml" 41 1265 1337
 type(
   string -> (Debug.id -> Debug.id) -> Debug.id list -> string
 )
 ident(
-  int_ref Debug.pr_lst "debug.ml" 78 2379 2385 "debug.ml" 78 2379 2391
+  ext_ref Debug.pr_lst
 )
 "sPLc.ml" 41 1265 1338 "sPLc.ml" 41 1265 1341
 type(
@@ -1038,7 +1038,7 @@ type(
   Debug.id -> Debug.id
 )
 ident(
-  int_ref Debug.pr_id "debug.ml" 43 1009 1015 "debug.ml" 43 1009 1020
+  ext_ref Debug.pr_id
 )
 "sPLc.ml" 41 1265 1348 "sPLc.ml" 41 1265 1352
 type(
@@ -1059,7 +1059,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 41 1265 1354 "sPLc.ml" 41 1265 1360
 type(
@@ -1070,7 +1070,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 41 1265 1362 "sPLc.ml" 41 1265 1365
 type(
@@ -1098,7 +1098,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 41 1265 1372 "sPLc.ml" 41 1265 1378
 type(
@@ -1194,7 +1194,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 42 1379 1415 "sPLc.ml" 42 1379 1418
 type(
@@ -1222,7 +1222,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 42 1379 1422 "sPLc.ml" 42 1379 1426
 type(
@@ -1233,14 +1233,14 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 42 1379 1428 "sPLc.ml" 42 1379 1434
 type(
   string -> (sPL_expr -> string) -> sPL_expr list -> string
 )
 ident(
-  int_ref Debug.pr_lst "debug.ml" 78 2379 2385 "debug.ml" 78 2379 2391
+  ext_ref Debug.pr_lst
 )
 "sPLc.ml" 42 1379 1435 "sPLc.ml" 42 1379 1438
 type(
@@ -1272,7 +1272,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "sPLc.ml" 42 1379 1449 "sPLc.ml" 42 1379 1452
 type(
@@ -1493,7 +1493,7 @@ type(
   Debug.id list -> Debug.id list -> Debug.id list
 )
 ident(
-  int_ref Pervasives.( @ ) "pervasives.mli" 687 26007 26007 "pervasives.mli" 687 26007 26048
+  ext_ref Pervasives.( @ )
 )
 "sPLc.ml" 52 1644 1692 "sPLc.ml" 52 1644 1694
 type(
@@ -1574,7 +1574,7 @@ type(
   Debug.id list -> Debug.id list -> Debug.id list
 )
 ident(
-  int_ref Pervasives.( @ ) "pervasives.mli" 687 26007 26007 "pervasives.mli" 687 26007 26048
+  ext_ref Pervasives.( @ )
 )
 "sPLc.ml" 53 1701 1735 "sPLc.ml" 53 1701 1737
 type(
@@ -1602,7 +1602,7 @@ type(
   Debug.id list -> Debug.id list -> Debug.id list
 )
 ident(
-  int_ref Pervasives.( @ ) "pervasives.mli" 687 26007 26007 "pervasives.mli" 687 26007 26048
+  ext_ref Pervasives.( @ )
 )
 "sPLc.ml" 53 1701 1743 "sPLc.ml" 53 1701 1745
 type(
@@ -1666,7 +1666,7 @@ type(
   Debug.id list -> Debug.id list -> Debug.id list
 )
 ident(
-  int_ref Debug.diff "debug.ml" 181 5645 5651 "debug.ml" 181 5645 5655
+  ext_ref Debug.diff
 )
 "sPLc.ml" 54 1750 1782 "sPLc.ml" 54 1750 1784
 type(
@@ -1737,7 +1737,7 @@ type(
   Debug.id list -> Debug.id list -> Debug.id list
 )
 ident(
-  int_ref Debug.diff "debug.ml" 181 5645 5651 "debug.ml" 181 5645 5655
+  ext_ref Debug.diff
 )
 "sPLc.ml" 55 1794 1831 "sPLc.ml" 55 1794 1833
 type(
@@ -1833,21 +1833,21 @@ type(
   Debug.id list -> Debug.id list -> Debug.id list
 )
 ident(
-  int_ref Pervasives.( @ ) "pervasives.mli" 687 26007 26007 "pervasives.mli" 687 26007 26048
+  ext_ref Pervasives.( @ )
 )
 "sPLc.ml" 56 1848 1882 "sPLc.ml" 56 1848 1893
 type(
   Debug.id list list -> Debug.id list
 )
 ident(
-  int_ref List.concat "list.mli" 92 3745 3745 "list.mli" 92 3745 3781
+  ext_ref List.concat
 )
 "sPLc.ml" 56 1848 1895 "sPLc.ml" 56 1848 1903
 type(
   (sPL_expr -> Debug.id list) -> sPL_expr list -> Debug.id list list
 )
 ident(
-  int_ref List.map "list.mli" 117 4530 4530 "list.mli" 117 4530 4572
+  ext_ref List.map
 )
 "sPLc.ml" 56 1848 1904 "sPLc.ml" 56 1848 1906
 type(

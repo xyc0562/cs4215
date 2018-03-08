@@ -10,7 +10,7 @@ type(
   ('a, unit, string) format -> 'a
 )
 ident(
-  int_ref Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+  ext_ref Printf.sprintf
 )
 "sPL_token.ml" 30 597 603 "sPL_token.ml" 30 597 612
 type(
@@ -374,7 +374,7 @@ type(
   Format.formatter -> string -> unit
 )
 ident(
-  int_ref Format.pp_print_string "format.mli" 216 9004 9004 "format.mli" 216 9004 9053
+  ext_ref Format.pp_print_string
 )
 "sPL_token.ml" 44 1210 1246 "sPL_token.ml" 44 1210 1249
 type(
@@ -573,7 +573,7 @@ type(
   Format.formatter -> string -> unit
 )
 ident(
-  int_ref Format.pp_print_string "format.mli" 216 9004 9004 "format.mli" 216 9004 9053
+  ext_ref Format.pp_print_string
 )
 "sPL_token.ml" 56 1524 1532 "sPL_token.ml" 56 1524 1541
 type(

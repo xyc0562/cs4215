@@ -1,0 +1,13 @@
+Loading sPL program ..
+  (2 * 3) + 4
+  as +[*[Int(2),Int(3)],Int(4)]
+TYPE CHECKING program ..
+ ==> inferred type Int
+TRANSFORMING ==> +[*[Int(2),Int(3)],Int(4)]
+COMPILING ==> t1.svm
+[LDCI 2,LDCI 3,TIMES,LDCI 4,PLUS,DONE]
+LINKING ==> 
+[LDCI 2,LDCI 3,TIMES,LDCI 4,PLUS,DONE]
+Loading sVM code from ..t1.svm
+Loaded [LDCI 2,LDCI 3,TIMES,LDCI 4,PLUS,DONE]
+Executing ==> 10

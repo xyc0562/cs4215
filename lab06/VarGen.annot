@@ -21,7 +21,7 @@ type(
   string -> string ref
 )
 ident(
-  int_ref Pervasives.ref "pervasives.mli" 1063 41160 41160 "pervasives.mli" 1063 41160 41204
+  ext_ref Pervasives.ref
 )
 "VarGen.ml" 3 16 31 "VarGen.ml" 3 16 33
 type(
@@ -47,14 +47,14 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 5 35 59 "VarGen.ml" 5 35 67
 type(
   string array
 )
 ident(
-  int_ref Sys.argv "sys.mli" 23 1238 1238 "sys.mli" 23 1238 1261
+  ext_ref Sys.argv
 )
 "VarGen.ml" 5 35 69 "VarGen.ml" 5 35 70
 type(
@@ -69,7 +69,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 5 35 74 "VarGen.ml" 5 35 97
 type(
@@ -101,7 +101,7 @@ type(
   bool -> bool ref
 )
 ident(
-  int_ref Pervasives.ref "pervasives.mli" 1063 41160 41160 "pervasives.mli" 1063 41160 41204
+  ext_ref Pervasives.ref
 )
 "VarGen.ml" 24 495 518 "VarGen.ml" 24 495 523
 type(
@@ -123,7 +123,7 @@ type(
   bool -> bool ref
 )
 ident(
-  int_ref Pervasives.ref "pervasives.mli" 1063 41160 41160 "pervasives.mli" 1063 41160 41204
+  ext_ref Pervasives.ref
 )
 "VarGen.ml" 25 524 548 "VarGen.ml" 25 524 553
 type(
@@ -145,7 +145,7 @@ type(
   bool -> bool ref
 )
 ident(
-  int_ref Pervasives.ref "pervasives.mli" 1063 41160 41160 "pervasives.mli" 1063 41160 41204
+  ext_ref Pervasives.ref
 )
 "VarGen.ml" 26 554 574 "VarGen.ml" 26 554 579
 type(
@@ -167,7 +167,7 @@ type(
   bool -> bool ref
 )
 ident(
-  int_ref Pervasives.ref "pervasives.mli" 1063 41160 41160 "pervasives.mli" 1063 41160 41204
+  ext_ref Pervasives.ref
 )
 "VarGen.ml" 27 580 601 "VarGen.ml" 27 580 606
 type(
@@ -189,7 +189,7 @@ type(
   bool -> bool ref
 )
 ident(
-  int_ref Pervasives.ref "pervasives.mli" 1063 41160 41160 "pervasives.mli" 1063 41160 41204
+  ext_ref Pervasives.ref
 )
 "VarGen.ml" 28 607 632 "VarGen.ml" 28 607 637
 type(
@@ -211,7 +211,7 @@ type(
   int -> int ref
 )
 ident(
-  int_ref Pervasives.ref "pervasives.mli" 1063 41160 41160 "pervasives.mli" 1063 41160 41204
+  ext_ref Pervasives.ref
 )
 "VarGen.ml" 29 638 660 "VarGen.ml" 29 638 661
 type(
@@ -233,7 +233,7 @@ type(
   string option -> string option ref
 )
 ident(
-  int_ref Pervasives.ref "pervasives.mli" 1063 41160 41160 "pervasives.mli" 1063 41160 41204
+  ext_ref Pervasives.ref
 )
 "VarGen.ml" 31 663 684 "VarGen.ml" 31 663 688
 type(
@@ -258,7 +258,7 @@ type(
   bool -> bool ref
 )
 ident(
-  int_ref Pervasives.ref "pervasives.mli" 1063 41160 41160 "pervasives.mli" 1063 41160 41204
+  ext_ref Pervasives.ref
 )
 "VarGen.ml" 33 705 736 "VarGen.ml" 33 705 741
 type(
@@ -280,7 +280,7 @@ type(
   bool -> bool ref
 )
 ident(
-  int_ref Pervasives.ref "pervasives.mli" 1063 41160 41160 "pervasives.mli" 1063 41160 41204
+  ext_ref Pervasives.ref
 )
 "VarGen.ml" 34 742 767 "VarGen.ml" 34 742 771
 type(
@@ -302,7 +302,7 @@ type(
   bool -> bool ref
 )
 ident(
-  int_ref Pervasives.ref "pervasives.mli" 1063 41160 41160 "pervasives.mli" 1063 41160 41204
+  ext_ref Pervasives.ref
 )
 "VarGen.ml" 36 773 787 "VarGen.ml" 36 773 792
 type(
@@ -450,7 +450,7 @@ type(
   int -> int -> bool
 )
 ident(
-  int_ref Pervasives.( == ) "pervasives.mli" 116 5060 5060 "pervasives.mli" 116 5060 5102
+  ext_ref Pervasives.( == )
 )
 "VarGen.ml" 61 1323 1373 "VarGen.ml" 61 1323 1374
 type(
@@ -479,7 +479,7 @@ type(
   bool ref -> bool
 )
 ident(
-  int_ref Pervasives.( ! ) "pervasives.mli" 1066 41266 41266 "pervasives.mli" 1066 41266 41307
+  ext_ref Pervasives.( ! )
 )
 "VarGen.ml" 64 1401 1407 "VarGen.ml" 64 1401 1419
 type(
@@ -501,7 +501,7 @@ type(
   string -> unit
 )
 ident(
-  int_ref Pervasives.print_endline "pervasives.mli" 730 27122 27122 "pervasives.mli" 730 27122 27156
+  ext_ref Pervasives.print_endline
 )
 "VarGen.ml" 65 1428 1449 "VarGen.ml" 65 1428 1450
 type(
@@ -537,7 +537,7 @@ type(
   bool ref -> bool
 )
 ident(
-  int_ref Pervasives.( ! ) "pervasives.mli" 1066 41266 41266 "pervasives.mli" 1066 41266 41307
+  ext_ref Pervasives.( ! )
 )
 "VarGen.ml" 68 1483 1489 "VarGen.ml" 68 1483 1501
 type(
@@ -559,14 +559,14 @@ type(
   out_channel -> unit
 )
 ident(
-  int_ref Printexc.print_backtrace "printexc.mli" 40 2146 2146 "printexc.mli" 40 2146 2186
+  ext_ref Printexc.print_backtrace
 )
 "VarGen.ml" 70 1517 1546 "VarGen.ml" 70 1517 1552
 type(
   out_channel
 )
 ident(
-  int_ref Pervasives.stdout "pervasives.mli" 705 26486 26486 "pervasives.mli" 705 26486 26510
+  ext_ref Pervasives.stdout
 )
 "VarGen.ml" 70 1517 1521 "VarGen.ml" 70 1517 1552
 call(
@@ -595,7 +595,7 @@ type(
   bool ref -> bool
 )
 ident(
-  int_ref Pervasives.( ! ) "pervasives.mli" 1066 41266 41266 "pervasives.mli" 1066 41266 41307
+  ext_ref Pervasives.( ! )
 )
 "VarGen.ml" 73 1583 1589 "VarGen.ml" 73 1583 1601
 type(
@@ -617,7 +617,7 @@ type(
   unit -> string
 )
 ident(
-  int_ref Printexc.get_backtrace "printexc.mli" 55 2781 2781 "printexc.mli" 55 2781 2814
+  ext_ref Printexc.get_backtrace
 )
 "VarGen.ml" 75 1617 1644 "VarGen.ml" 75 1617 1646
 type(
@@ -650,7 +650,7 @@ type(
   bool ref -> bool
 )
 ident(
-  int_ref Pervasives.( ! ) "pervasives.mli" 1066 41266 41266 "pervasives.mli" 1066 41266 41307
+  ext_ref Pervasives.( ! )
 )
 "VarGen.ml" 78 1680 1686 "VarGen.ml" 78 1680 1698
 type(
@@ -672,14 +672,14 @@ type(
   bool -> unit
 )
 ident(
-  int_ref Printexc.record_backtrace "printexc.mli" 62 3027 3027 "printexc.mli" 62 3027 3061
+  ext_ref Printexc.record_backtrace
 )
 "VarGen.ml" 80 1714 1744 "VarGen.ml" 80 1714 1745
 type(
   bool ref -> bool
 )
 ident(
-  int_ref Pervasives.( ! ) "pervasives.mli" 1066 41266 41266 "pervasives.mli" 1066 41266 41307
+  ext_ref Pervasives.( ! )
 )
 "VarGen.ml" 80 1714 1745 "VarGen.ml" 80 1714 1758
 type(
@@ -737,7 +737,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 83 1791 1824 "VarGen.ml" 83 1791 1827
 type(
@@ -748,14 +748,14 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 84 1831 1834 "VarGen.ml" 84 1831 1847
 type(
   int -> string
 )
 ident(
-  int_ref Pervasives.string_of_int "pervasives.mli" 621 23467 23467 "pervasives.mli" 621 23467 23500
+  ext_ref Pervasives.string_of_int
 )
 "VarGen.ml" 84 1831 1848 "VarGen.ml" 84 1831 1849
 type(
@@ -784,7 +784,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 84 1831 1879 "VarGen.ml" 84 1831 1882
 type(
@@ -795,14 +795,14 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 85 1885 1888 "VarGen.ml" 85 1885 1901
 type(
   int -> string
 )
 ident(
-  int_ref Pervasives.string_of_int "pervasives.mli" 621 23467 23467 "pervasives.mli" 621 23467 23500
+  ext_ref Pervasives.string_of_int
 )
 "VarGen.ml" 85 1885 1903 "VarGen.ml" 85 1885 1904
 type(
@@ -824,7 +824,7 @@ type(
   int -> int -> int
 )
 ident(
-  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+  ext_ref Pervasives.( - )
 )
 "VarGen.ml" 85 1885 1931 "VarGen.ml" 85 1885 1932
 type(
@@ -857,7 +857,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 85 1885 1962 "VarGen.ml" 85 1885 1965
 type(
@@ -868,14 +868,14 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 86 1968 1971 "VarGen.ml" 86 1968 1984
 type(
   int -> string
 )
 ident(
-  int_ref Pervasives.string_of_int "pervasives.mli" 621 23467 23467 "pervasives.mli" 621 23467 23500
+  ext_ref Pervasives.string_of_int
 )
 "VarGen.ml" 86 1968 1985 "VarGen.ml" 86 1968 1986
 type(
@@ -904,7 +904,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 86 1968 2014 "VarGen.ml" 86 1968 2017
 type(
@@ -915,14 +915,14 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 87 2020 2023 "VarGen.ml" 87 2020 2036
 type(
   int -> string
 )
 ident(
-  int_ref Pervasives.string_of_int "pervasives.mli" 621 23467 23467 "pervasives.mli" 621 23467 23500
+  ext_ref Pervasives.string_of_int
 )
 "VarGen.ml" 87 2020 2038 "VarGen.ml" 87 2020 2039
 type(
@@ -944,7 +944,7 @@ type(
   int -> int -> int
 )
 ident(
-  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+  ext_ref Pervasives.( - )
 )
 "VarGen.ml" 87 2020 2064 "VarGen.ml" 87 2020 2065
 type(
@@ -1051,14 +1051,14 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 89 2092 2138 "VarGen.ml" 89 2092 2151
 type(
   int -> string
 )
 ident(
-  int_ref Pervasives.string_of_int "pervasives.mli" 621 23467 23467 "pervasives.mli" 621 23467 23500
+  ext_ref Pervasives.string_of_int
 )
 "VarGen.ml" 89 2092 2152 "VarGen.ml" 89 2092 2153
 type(
@@ -1083,7 +1083,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 89 2092 2172 "VarGen.ml" 89 2092 2175
 type(
@@ -1094,14 +1094,14 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 89 2092 2176 "VarGen.ml" 89 2092 2189
 type(
   int -> string
 )
 ident(
-  int_ref Pervasives.string_of_int "pervasives.mli" 621 23467 23467 "pervasives.mli" 621 23467 23500
+  ext_ref Pervasives.string_of_int
 )
 "VarGen.ml" 89 2092 2190 "VarGen.ml" 89 2092 2191
 type(
@@ -1119,7 +1119,7 @@ type(
   int -> int -> int
 )
 ident(
-  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+  ext_ref Pervasives.( - )
 )
 "VarGen.ml" 89 2092 2208 "VarGen.ml" 89 2092 2209
 type(
@@ -1148,7 +1148,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 89 2092 2227 "VarGen.ml" 89 2092 2230
 type(
@@ -1205,7 +1205,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 92 2235 2275 "VarGen.ml" 92 2235 2288
 type(
@@ -1237,7 +1237,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 92 2235 2302 "VarGen.ml" 92 2235 2305
 type(
@@ -1248,7 +1248,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 92 2235 2307 "VarGen.ml" 92 2235 2320
 type(
@@ -1280,7 +1280,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 92 2235 2332 "VarGen.ml" 92 2235 2335
 type(
@@ -1333,7 +1333,7 @@ type(
   (int -> int -> string, unit, string) format -> int -> int -> string
 )
 ident(
-  int_ref Printf.sprintf "printf.mli" 129 6682 6682 "printf.mli" 129 6682 6727
+  ext_ref Printf.sprintf
 )
 "VarGen.ml" 95 2382 2399 "VarGen.ml" 95 2382 2408
 type(
@@ -1413,7 +1413,7 @@ type(
   int -> int -> bool
 )
 ident(
-  int_ref Pervasives.( == ) "pervasives.mli" 116 5060 5060 "pervasives.mli" 116 5060 5102
+  ext_ref Pervasives.( == )
 )
 "VarGen.ml" 100 2492 2517 "VarGen.ml" 100 2492 2519
 type(
@@ -1435,7 +1435,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  int_ref Pervasives.( && ) "pervasives.mli" 137 5855 5855 "pervasives.mli" 137 5855 5906
+  ext_ref Pervasives.( && )
 )
 "VarGen.ml" 101 2540 2543 "VarGen.ml" 101 2540 2545
 type(
@@ -1453,7 +1453,7 @@ type(
   int -> int -> int
 )
 ident(
-  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+  ext_ref Pervasives.( - )
 )
 "VarGen.ml" 101 2540 2564 "VarGen.ml" 101 2540 2566
 type(
@@ -1475,7 +1475,7 @@ type(
   int -> int -> bool
 )
 ident(
-  int_ref Pervasives.( == ) "pervasives.mli" 116 5060 5060 "pervasives.mli" 116 5060 5102
+  ext_ref Pervasives.( == )
 )
 "VarGen.ml" 101 2540 2587 "VarGen.ml" 101 2540 2589
 type(
@@ -1493,7 +1493,7 @@ type(
   int -> int -> int
 )
 ident(
-  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+  ext_ref Pervasives.( - )
 )
 "VarGen.ml" 101 2540 2608 "VarGen.ml" 101 2540 2610
 type(
@@ -1646,7 +1646,7 @@ type(
   'a option -> 'a option -> bool
 )
 ident(
-  int_ref Pervasives.( == ) "pervasives.mli" 116 5060 5060 "pervasives.mli" 116 5060 5102
+  ext_ref Pervasives.( == )
 )
 "VarGen.ml" 114 2916 2951 "VarGen.ml" 114 2916 2955
 type(
@@ -1802,7 +1802,7 @@ type(
   bool -> bool
 )
 ident(
-  int_ref Pervasives.not "pervasives.mli" 134 5784 5784 "pervasives.mli" 134 5784 5824
+  ext_ref Pervasives.not
 )
 "VarGen.ml" 124 3229 3243 "VarGen.ml" 124 3229 3247
 type(
@@ -1917,7 +1917,7 @@ type(
   string -> unit
 )
 ident(
-  int_ref Pervasives.print_endline "pervasives.mli" 730 27122 27122 "pervasives.mli" 730 27122 27156
+  ext_ref Pervasives.print_endline
 )
 "VarGen.ml" 129 3393 3426 "VarGen.ml" 129 3393 3443
 type(
@@ -1928,7 +1928,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 129 3393 3445 "VarGen.ml" 129 3393 3449
 type(
@@ -2014,7 +2014,7 @@ type(
   string -> unit
 )
 ident(
-  int_ref Pervasives.print_endline "pervasives.mli" 730 27122 27122 "pervasives.mli" 730 27122 27156
+  ext_ref Pervasives.print_endline
 )
 "VarGen.ml" 138 3649 3674 "VarGen.ml" 138 3649 3682
 type(
@@ -2025,7 +2025,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 138 3649 3683 "VarGen.ml" 138 3649 3687
 type(
@@ -2088,7 +2088,7 @@ type(
   string -> unit
 )
 ident(
-  int_ref Pervasives.print_endline "pervasives.mli" 730 27122 27122 "pervasives.mli" 730 27122 27156
+  ext_ref Pervasives.print_endline
 )
 "VarGen.ml" 142 3755 3776 "VarGen.ml" 142 3755 3785
 type(
@@ -2099,7 +2099,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 142 3755 3786 "VarGen.ml" 142 3755 3790
 type(
@@ -2162,7 +2162,7 @@ type(
   bool -> string
 )
 ident(
-  int_ref Pervasives.string_of_bool "pervasives.mli" 604 22943 22943 "pervasives.mli" 604 22943 22978
+  ext_ref Pervasives.string_of_bool
 )
 "VarGen.ml" 154 4009 4033 "VarGen.ml" 154 4009 4039
 type(
@@ -2262,7 +2262,7 @@ type(
   string -> char -> int
 )
 ident(
-  int_ref String.index "string.mli" 178 7549 7549 "string.mli" 178 7549 7582
+  ext_ref String.index
 )
 "VarGen.ml" 162 4212 4249 "VarGen.ml" 162 4212 4250
 type(
@@ -2287,7 +2287,7 @@ type(
   string -> int -> int -> string
 )
 ident(
-  int_ref String.sub "string.mli" 102 4536 4536 "string.mli" 102 4536 4576
+  ext_ref String.sub
 )
 "VarGen.ml" 163 4258 4273 "VarGen.ml" 163 4258 4274
 type(
@@ -2359,7 +2359,7 @@ type(
   String.t -> String.t -> int
 )
 ident(
-  int_ref String.compare "string.mli" 311 12749 12749 "string.mli" 311 12749 12775
+  ext_ref String.compare
 )
 "VarGen.ml" 167 4334 4351 "VarGen.ml" 167 4334 4360
 type(
@@ -2401,7 +2401,7 @@ type(
   int -> int -> bool
 )
 ident(
-  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+  ext_ref Pervasives.( = )
 )
 "VarGen.ml" 167 4334 4382 "VarGen.ml" 167 4334 4383
 type(
@@ -2458,7 +2458,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 171 4423 4481 "VarGen.ml" 171 4423 4482
 type(
@@ -2472,7 +2472,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 171 4423 4483 "VarGen.ml" 171 4423 4486
 type(
@@ -2866,7 +2866,7 @@ type(
   String.t -> String.t -> bool
 )
 ident(
-  int_ref Pervasives.( = ) "pervasives.mli" 51 2086 2086 "pervasives.mli" 51 2086 2130
+  ext_ref Pervasives.( = )
 )
 "VarGen.ml" 192 5409 5435 "VarGen.ml" 192 5409 5437
 type(
@@ -2967,10 +2967,6 @@ type(
 ident(
   def last_posn "VarGen.ml" 201 5698 5698 "VarGen.ml" 1 0 -1
 )
-"VarGen.ml" 197 5551 5571 "VarGen.ml" 197 5551 5584
-call(
-  stack
-)
 "VarGen.ml" 197 5551 5567 "VarGen.ml" 197 5551 5584
 type(
   last_posn_cls
@@ -2982,10 +2978,6 @@ type(
 ident(
   def proving_loc "VarGen.ml" 202 5730 5730 "VarGen.ml" 1 0 -1
 )
-"VarGen.ml" 201 5698 5721 "VarGen.ml" 201 5698 5729
-call(
-  stack
-)
 "VarGen.ml" 201 5698 5717 "VarGen.ml" 201 5698 5729
 type(
   prog_loc
@@ -2996,10 +2988,6 @@ type(
 )
 ident(
   def post_pos "VarGen.ml" 204 5759 5759 "VarGen.ml" 1 0 -1
-)
-"VarGen.ml" 202 5730 5749 "VarGen.ml" 202 5730 5757
-call(
-  stack
 )
 "VarGen.ml" 202 5730 5745 "VarGen.ml" 202 5730 5757
 type(
@@ -3017,7 +3005,7 @@ type(
   loc -> loc ref
 )
 ident(
-  int_ref Pervasives.ref "pervasives.mli" 1063 41160 41160 "pervasives.mli" 1063 41160 41204
+  ext_ref Pervasives.ref
 )
 "VarGen.ml" 204 5759 5780 "VarGen.ml" 204 5759 5786
 type(
@@ -3056,7 +3044,7 @@ type(
   loc ref -> loc -> unit
 )
 ident(
-  int_ref Pervasives.( := ) "pervasives.mli" 1071 41452 41452 "pervasives.mli" 1071 41452 41505
+  ext_ref Pervasives.( := )
 )
 "VarGen.ml" 205 5787 5824 "VarGen.ml" 205 5787 5825
 type(
@@ -3081,7 +3069,7 @@ type(
   bool -> bool ref
 )
 ident(
-  int_ref Pervasives.ref "pervasives.mli" 1063 41160 41160 "pervasives.mli" 1063 41160 41204
+  ext_ref Pervasives.ref
 )
 "VarGen.ml" 208 5856 5879 "VarGen.ml" 208 5856 5884
 type(
@@ -3124,7 +3112,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 210 5886 5905 "VarGen.ml" 210 5886 5908
 type(
@@ -3135,14 +3123,14 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 210 5886 5910 "VarGen.ml" 210 5886 5923
 type(
   int -> string
 )
 ident(
-  int_ref Pervasives.string_of_int "pervasives.mli" 621 23467 23467 "pervasives.mli" 621 23467 23500
+  ext_ref Pervasives.string_of_int
 )
 "VarGen.ml" 210 5886 5924 "VarGen.ml" 210 5886 5925
 type(
@@ -3202,7 +3190,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 211 5929 5959 "VarGen.ml" 211 5929 5965
 type(
@@ -3237,7 +3225,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Pervasives.( ^ ) "pervasives.mli" 572 22042 22042 "pervasives.mli" 572 22042 22080
+  ext_ref Pervasives.( ^ )
 )
 "VarGen.ml" 211 5929 5971 "VarGen.ml" 211 5929 5974
 type(
@@ -3283,7 +3271,7 @@ type(
   bool ref -> bool
 )
 ident(
-  int_ref Pervasives.( ! ) "pervasives.mli" 1066 41266 41266 "pervasives.mli" 1066 41266 41307
+  ext_ref Pervasives.( ! )
 )
 "VarGen.ml" 213 6001 6007 "VarGen.ml" 213 6001 6019
 type(
