@@ -72,12 +72,6 @@ let compile (e:sPL_expr) : sVML_prog_sym   =
             let (s3,p3) = helper ce e3 in
             (s1@[JOF l_mid]@s2@[GOTO l_end]@((LABEL l_mid)::s3)@[LABEL l_end], p1@p2@p3)
       | Appln (f,_,args) ->
-(*            let rec compile_args (h_arg::t_args) arity =
-              let pair = helper ce h_arg in
-              if arity = 0 then ([pair], t_args)
-              else let (pairs, t_args) = compile_args t_args arity-1 in
-              (pair::pairs, t_args) in
-*)
             let unzip lps =
               let rec aux lps l1 l2 =
               begin
