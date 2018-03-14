@@ -165,13 +165,12 @@ object (mc)
                         (* full/over application *)
                         let r = m+s in
                         let e2 =
-                        begin
-                          if r > Array.length venv then
-                            Array.init r (fun i -> if i<m then Array.get e i else BOT)
-                          else
-                            let _ = Array.iteri (fun i _ -> venv.(i) <- if i<m then Array.get e i else BOT) venv in
-                            venv
-                        end in
+                        if r > Array.length venv then
+                          Array.init r (fun i -> if i<m then Array.get e i else BOT)
+                        else
+                          let _ = Array.iteri (fun i _ -> venv.(i) <- if i<m then Array.get e i else BOT) venv in
+                          venv
+                        in
                         let _ = venv <- e2 in
                         let _ = pop_2_venv stk e2 m r in
                         let _ = Stack.push (ref (n+(!rf)-s),ppc,pvenv) rs in
