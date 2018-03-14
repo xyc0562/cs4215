@@ -11,13 +11,20 @@ label_1:,LDCI 4,LDF([(f,0)],1,label_2),LD (apply,1),CALL 2,RTN,
 label_2:,LD (_pa_var_0,1),LDCI 3,LD (f,0),CALL 2,RTN,
 label_3:,LD (x,1),LD (g,0),CALL 1,RTN,
 label_4:,LD (x,0),LD (y,1),PLUS,RTN]
+TAIL-OPTIMIZE ==> 
+[LDF([],2,label_4),LDF([],1,label_0),CALL 1,DONE,
+label_0:,LDF([],2,label_3),LDF([(f,0)],1,label_1),TAILCALL 1,
+label_1:,LDCI 4,LDF([(f,0)],1,label_2),LD (apply,1),TAILCALL 2,
+label_2:,LD (_pa_var_0,1),LDCI 3,LD (f,0),TAILCALL 2,
+label_3:,LD (x,1),LD (g,0),TAILCALL 1,
+label_4:,LD (x,0),LD (y,1),PLUS,RTN]
 LINKING ==> 
-[LDF([],2,22),LDF([],1,4),CALL 1,DONE,
-4:,LDF([],2,18),LDF([(f,0)],1,8),CALL 1,RTN,
-8:,LDCI 4,LDF([(f,0)],1,13),LD (apply,1),CALL 2,RTN,
-13:,LD (_pa_var_0,1),LDCI 3,LD (f,0),CALL 2,RTN,
-18:,LD (x,1),LD (g,0),CALL 1,RTN,
-22:,LD (x,0),LD (y,1),PLUS,RTN]
+[LDF([],2,18),LDF([],1,4),CALL 1,DONE,
+4:,LDF([],2,15),LDF([(f,0)],1,7),TAILCALL 1,
+7:,LDCI 4,LDF([(f,0)],1,11),LD (apply,1),TAILCALL 2,
+11:,LD (_pa_var_0,1),LDCI 3,LD (f,0),TAILCALL 2,
+15:,LD (x,1),LD (g,0),TAILCALL 1,
+18:,LD (x,0),LD (y,1),PLUS,RTN]
 Loading sVM code from ..s2c.svm
-Loaded [LDF([],2,22),LDF([],1,4),CALL 1,DONE,LDF([],2,18),LDF([(f,0)],1,8),CALL 1,RTN,LDCI 4,LDF([(f,0)],1,13),LD (apply,1),CALL 2,RTN,LD (_pa_var_0,1),LDCI 3,LD (f,0),CALL 2,RTN,LD (x,1),LD (g,0),CALL 1,RTN,LD (x,0),LD (y,1),PLUS,RTN]
+Loaded [LDF([],2,18),LDF([],1,4),CALL 1,DONE,LDF([],2,15),LDF([(f,0)],1,7),TAILCALL 1,LDCI 4,LDF([(f,0)],1,11),LD (apply,1),TAILCALL 2,LD (_pa_var_0,1),LDCI 3,LD (f,0),TAILCALL 2,LD (x,1),LD (g,0),TAILCALL 1,LD (x,0),LD (y,1),PLUS,RTN]
 Executing ==> 7

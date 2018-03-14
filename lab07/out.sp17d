@@ -10,12 +10,18 @@ label_0:,LDF([(f,0)],1,label_1),RTN,
 label_1:,LD (pa,1),LDCI 4,LD (f,0),CALL 2,RTN,
 label_2:,LDF([(x,0)],1,label_3),RTN,
 label_3:,LD (x,0),LD (y,1),PLUS,RTN]
+TAIL-OPTIMIZE ==> 
+[LDF([],1,label_2),LDF([],1,label_0),CALL 1,DONE,
+label_0:,LDF([(f,0)],1,label_1),RTN,
+label_1:,LD (pa,1),LDCI 4,LD (f,0),TAILCALL 2,
+label_2:,LDF([(x,0)],1,label_3),RTN,
+label_3:,LD (x,0),LD (y,1),PLUS,RTN]
 LINKING ==> 
-[LDF([],1,11),LDF([],1,4),CALL 1,DONE,
+[LDF([],1,10),LDF([],1,4),CALL 1,DONE,
 4:,LDF([(f,0)],1,6),RTN,
-6:,LD (pa,1),LDCI 4,LD (f,0),CALL 2,RTN,
-11:,LDF([(x,0)],1,13),RTN,
-13:,LD (x,0),LD (y,1),PLUS,RTN]
+6:,LD (pa,1),LDCI 4,LD (f,0),TAILCALL 2,
+10:,LDF([(x,0)],1,12),RTN,
+12:,LD (x,0),LD (y,1),PLUS,RTN]
 Loading sVM code from ..sp17d.svm
-Loaded [LDF([],1,11),LDF([],1,4),CALL 1,DONE,LDF([(f,0)],1,6),RTN,LD (pa,1),LDCI 4,LD (f,0),CALL 2,RTN,LDF([(x,0)],1,13),RTN,LD (x,0),LD (y,1),PLUS,RTN]
+Loaded [LDF([],1,10),LDF([],1,4),CALL 1,DONE,LDF([(f,0)],1,6),RTN,LD (pa,1),LDCI 4,LD (f,0),TAILCALL 2,LDF([(x,0)],1,12),RTN,LD (x,0),LD (y,1),PLUS,RTN]
 Executing ==> CLOSURE

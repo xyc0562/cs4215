@@ -148,11 +148,29 @@ object (mc)
             (* -------------------------------------------- *)
             (*  (CLS(e1,x1..xs,addr).v1..vs.os,pc,e,rs) *)
             (*  --> (os,addr,e1+[x<-v]*,(n-s,pc+1,e).rs) *)
+
             (*            S(pc) = TailCall n   s<=r+n              *)
             (* --------------------------------------------        *)
             (*  (CLS(e1,x1..xs,addr).v1..vs.os,pc,e,(r,npc,ne).rs) *)
             (*  --> (os,addr,e1+[x<-v]*,(r+n-s,npc,ne).rs) *)
-            failwith "TAILCALL : TO BE IMPLEMENTED"
+            begin
+              match Stack.pop stk with
+                | CLS(addr,s,e) ->
+                      let m = Array.length e in
+                      let (rf, ppc, pvenv) = Stack.pop rs in
+                      if n+(!rf)<s then
+                        (* partial application *)
+                        failwith "TAILCALL -partial : TO BE IMPLEMENTED"
+                      else
+                        (* full/over application *)
+                        let r = m+s in
+                        let e2= Array.init r (fun i -> if i<m then Array.get e i else BOT) in
+                        let _ = pop_2_venv stk e2 m r in
+                        let _ = Stack.push (ref (n+(!rf)-s),ppc,pvenv) rs in
+                        let _ = venv <- e2 in
+                        pc <- addr
+                | _ -> failwith "TAILCALL : not a function"
+            end
       | CALL n ->
             (*            S(pc) = Call n  s<=n *)
             (* -------------------------------------------- *)

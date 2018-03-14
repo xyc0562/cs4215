@@ -8,10 +8,14 @@ COMPILING ==> sp12a.svm
 [LDCI 3,LDF([],1,label_1),LDF([],2,label_0),CALL 2,DONE,
 label_0:,LD (y,1),LD (x,0),CALL 1,RTN,
 label_1:,LD (x,0),LDCI 1,PLUS,RTN]
+TAIL-OPTIMIZE ==> 
+[LDCI 3,LDF([],1,label_1),LDF([],2,label_0),CALL 2,DONE,
+label_0:,LD (y,1),LD (x,0),TAILCALL 1,
+label_1:,LD (x,0),LDCI 1,PLUS,RTN]
 LINKING ==> 
-[LDCI 3,LDF([],1,9),LDF([],2,5),CALL 2,DONE,
-5:,LD (y,1),LD (x,0),CALL 1,RTN,
-9:,LD (x,0),LDCI 1,PLUS,RTN]
+[LDCI 3,LDF([],1,8),LDF([],2,5),CALL 2,DONE,
+5:,LD (y,1),LD (x,0),TAILCALL 1,
+8:,LD (x,0),LDCI 1,PLUS,RTN]
 Loading sVM code from ..sp12a.svm
-Loaded [LDCI 3,LDF([],1,9),LDF([],2,5),CALL 2,DONE,LD (y,1),LD (x,0),CALL 1,RTN,LD (x,0),LDCI 1,PLUS,RTN]
+Loaded [LDCI 3,LDF([],1,8),LDF([],2,5),CALL 2,DONE,LD (y,1),LD (x,0),TAILCALL 1,LD (x,0),LDCI 1,PLUS,RTN]
 Executing ==> 4

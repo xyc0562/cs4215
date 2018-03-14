@@ -8,6 +8,10 @@ COMPILING ==> s1.svm
 [LDCI 4,LDCI 3,LDF([],1,label_0),CALL 2,DONE,
 label_0:,LDF([(x,0)],1,label_1),RTN,
 label_1:,LD (x,0),LD (y,1),TIMES,RTN]
+TAIL-OPTIMIZE ==> 
+[LDCI 4,LDCI 3,LDF([],1,label_0),CALL 2,DONE,
+label_0:,LDF([(x,0)],1,label_1),RTN,
+label_1:,LD (x,0),LD (y,1),TIMES,RTN]
 LINKING ==> 
 [LDCI 4,LDCI 3,LDF([],1,5),CALL 2,DONE,
 5:,LDF([(x,0)],1,7),RTN,

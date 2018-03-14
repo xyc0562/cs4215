@@ -8,6 +8,10 @@ COMPILING ==> s4.svm
 [LDCI 2,LDCI 3,EQ,JOF label_0,LDCI 1,GOTO label_1,
 label_0:,LDCI 4,
 label_1:,DONE]
+TAIL-OPTIMIZE ==> 
+[LDCI 2,LDCI 3,EQ,JOF label_0,LDCI 1,GOTO label_1,
+label_0:,LDCI 4,
+label_1:,DONE]
 LINKING ==> 
 [LDCI 2,LDCI 3,EQ,JOF 6,LDCI 1,GOTO 7,
 6:,LDCI 4,

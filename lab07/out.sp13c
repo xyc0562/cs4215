@@ -9,6 +9,11 @@ COMPILING ==> sp13c.svm
 label_1:,LDCI 2,
 label_2:,LDF([],1,label_0),CALL 1,DONE,
 label_0:,LD (fac,0),LDCI 3,PLUS,RTN]
+TAIL-OPTIMIZE ==> 
+[LDCB true,JOF label_1,LDCI 1,GOTO label_2,
+label_1:,LDCI 2,
+label_2:,LDF([],1,label_0),CALL 1,DONE,
+label_0:,LD (fac,0),LDCI 3,PLUS,RTN]
 LINKING ==> 
 [LDCB true,JOF 4,LDCI 1,GOTO 5,
 4:,LDCI 2,

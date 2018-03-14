@@ -7,6 +7,9 @@ TRANSFORMING ==> fun {Int->Int} x -> *[Int(3),Int(4)] end
 COMPILING ==> sp7.svm
 [LDF([],1,label_0),DONE,
 label_0:,LDCI 3,LDCI 4,TIMES,RTN]
+TAIL-OPTIMIZE ==> 
+[LDF([],1,label_0),DONE,
+label_0:,LDCI 3,LDCI 4,TIMES,RTN]
 LINKING ==> 
 [LDF([],1,2),DONE,
 2:,LDCI 3,LDCI 4,TIMES,RTN]

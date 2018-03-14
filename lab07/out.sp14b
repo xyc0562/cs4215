@@ -10,12 +10,18 @@ label_0:,LDCI 4,LD (f,0),CALL 1,RTN,
 label_1:,LD (n,1),LDCI 0,EQ,JOF label_2,LDCI 0,GOTO label_3,
 label_2:,LD (n,1),LDCI 1,MINUS,LD (foo,0),CALL 1,LD (n,1),PLUS,
 label_3:,RTN]
+TAIL-OPTIMIZE ==> 
+[LDFR([(foo,0)],1,label_1),LDF([],1,label_0),CALL 1,DONE,
+label_0:,LDCI 4,LD (f,0),TAILCALL 1,
+label_1:,LD (n,1),LDCI 0,EQ,JOF label_2,LDCI 0,GOTO label_3,
+label_2:,LD (n,1),LDCI 1,MINUS,LD (foo,0),CALL 1,LD (n,1),PLUS,
+label_3:,RTN]
 LINKING ==> 
-[LDFR([(foo,0)],1,8),LDF([],1,4),CALL 1,DONE,
-4:,LDCI 4,LD (f,0),CALL 1,RTN,
-8:,LD (n,1),LDCI 0,EQ,JOF 14,LDCI 0,GOTO 21,
-14:,LD (n,1),LDCI 1,MINUS,LD (foo,0),CALL 1,LD (n,1),PLUS,
-21:,RTN]
+[LDFR([(foo,0)],1,7),LDF([],1,4),CALL 1,DONE,
+4:,LDCI 4,LD (f,0),TAILCALL 1,
+7:,LD (n,1),LDCI 0,EQ,JOF 13,LDCI 0,GOTO 20,
+13:,LD (n,1),LDCI 1,MINUS,LD (foo,0),CALL 1,LD (n,1),PLUS,
+20:,RTN]
 Loading sVM code from ..sp14b.svm
-Loaded [LDFR([(foo,0)],1,8),LDF([],1,4),CALL 1,DONE,LDCI 4,LD (f,0),CALL 1,RTN,LD (n,1),LDCI 0,EQ,JOF 14,LDCI 0,GOTO 21,LD (n,1),LDCI 1,MINUS,LD (foo,0),CALL 1,LD (n,1),PLUS,RTN]
+Loaded [LDFR([(foo,0)],1,7),LDF([],1,4),CALL 1,DONE,LDCI 4,LD (f,0),TAILCALL 1,LD (n,1),LDCI 0,EQ,JOF 13,LDCI 0,GOTO 20,LD (n,1),LDCI 1,MINUS,LD (foo,0),CALL 1,LD (n,1),PLUS,RTN]
 Executing ==> 10

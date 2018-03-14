@@ -7,6 +7,9 @@ TRANSFORMING ==> Appln[fun {Int->Int->Int} x y -> -[Var(x),Var(y)] end; Int(7);I
 COMPILING ==> s2a.svm
 [LDCI 8,LDCI 7,LDF([],2,label_0),CALL 2,DONE,
 label_0:,LD (x,0),LD (y,1),MINUS,RTN]
+TAIL-OPTIMIZE ==> 
+[LDCI 8,LDCI 7,LDF([],2,label_0),CALL 2,DONE,
+label_0:,LD (x,0),LD (y,1),MINUS,RTN]
 LINKING ==> 
 [LDCI 8,LDCI 7,LDF([],2,5),CALL 2,DONE,
 5:,LD (x,0),LD (y,1),MINUS,RTN]

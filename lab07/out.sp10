@@ -9,6 +9,11 @@ COMPILING ==> sp10.svm
 label_0:,LD (n,1),LDCI 2,LT,JOF label_1,LDCI 1,GOTO label_2,
 label_1:,LD (n,1),LD (n,1),LDCI 1,MINUS,LD (fac,0),CALL 1,TIMES,
 label_2:,RTN]
+TAIL-OPTIMIZE ==> 
+[LDFR([(fac,0)],1,label_0),DONE,
+label_0:,LD (n,1),LDCI 2,LT,JOF label_1,LDCI 1,GOTO label_2,
+label_1:,LD (n,1),LD (n,1),LDCI 1,MINUS,LD (fac,0),CALL 1,TIMES,
+label_2:,RTN]
 LINKING ==> 
 [LDFR([(fac,0)],1,2),DONE,
 2:,LD (n,1),LDCI 2,LT,JOF 8,LDCI 1,GOTO 15,
