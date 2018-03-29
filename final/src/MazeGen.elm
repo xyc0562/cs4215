@@ -78,26 +78,32 @@ genMaze n =
     in
         aux (0,0) [] (initMaze n)
 
-printMaze : Maze -> ()
+printMaze : Maze -> Array ()
 printMaze {cells,walls} =
     let
         (xWalls, yWalls) = walls
-        toStr fn ml =
-            case ml of
-                Just l -> String.fromList (Array.toList (Array.map fn l))
-                Nothing -> ""
-        matchXWall w =
-            case w of
-                IntactWall -> '-'
-                BreachedWall -> ' '
-        matchYWall w =
-            case w of
-                IntactWall -> '|'
-                BreachedWall -> ' '
-        aux i =
-            if i < Array.length xWalls
-            then Debug.log (toStr matchXWall (get i xWalls)) (Debug.log (toStr matchYWall (get i yWalls)) (aux (i+1)))
-            else ()
+        dim = Array.length cells
+        base = Array.repeat (dim*2+1) (Array.repeat (dim*2+1) '#')
+        goe x y ll =
+            case get2 x y ll of
+                Nothing -> '#'
+                Just IntactWall -> '#'
+                Just BreachedWall -> ' '
+        carve b x y =
+            if x < dim*2+1 then
+                if y < dim*2+1 then carve (set2 x y ' ' b) x (y+2)
+                else carve b (x+2) 1
+            else b
+        carveX b x y =
+            if x < dim+1 then
+                if y < dim+1 then carveX (set2 (2*x+1) (2*y) (goe x y xWalls) b) x (y+1)
+                else carveX b (x+1) 0
+            else b
+        carveY b x y =
+            if x < dim+1 then
+                if y < dim+1 then carveY (set2 (2*x) (2*y+1) (goe x y yWalls) b) x (y+1)
+                else carveY b (x+1) 0
+            else b
+        model = carveX (carveY (carve base 1 1) 0 0) 0 0
     in
-        aux 0
-
+        Array.map (flip Debug.log ()) (Array.map (\arr -> String.fromList (Array.toList arr)) model)
