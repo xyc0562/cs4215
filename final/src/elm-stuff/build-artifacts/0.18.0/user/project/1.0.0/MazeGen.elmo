@@ -1,0 +1,214 @@
+var _user$project$MazeGen$printMaze = function (_p0) {
+	var _p1 = _p0;
+	var matchYWall = function (w) {
+		var _p2 = w;
+		if (_p2.ctor === 'IntactWall') {
+			return _elm_lang$core$Native_Utils.chr('|');
+		} else {
+			return _elm_lang$core$Native_Utils.chr(' ');
+		}
+	};
+	var matchXWall = function (w) {
+		var _p3 = w;
+		if (_p3.ctor === 'IntactWall') {
+			return _elm_lang$core$Native_Utils.chr('-');
+		} else {
+			return _elm_lang$core$Native_Utils.chr(' ');
+		}
+	};
+	var toStr = F2(
+		function (fn, ml) {
+			var _p4 = ml;
+			if (_p4.ctor === 'Just') {
+				return _elm_lang$core$String$fromList(
+					_elm_lang$core$Array$toList(
+						A2(_elm_lang$core$Array$map, fn, _p4._0)));
+			} else {
+				return '';
+			}
+		});
+	var _p5 = _p1.walls;
+	var xWalls = _p5._0;
+	var yWalls = _p5._1;
+	var aux = function (i) {
+		return (_elm_lang$core$Native_Utils.cmp(
+			i,
+			_elm_lang$core$Array$length(xWalls)) < 0) ? A2(
+			_elm_lang$core$Debug$log,
+			A2(
+				toStr,
+				matchXWall,
+				A2(_elm_lang$core$Array$get, i, xWalls)),
+			A2(
+				_elm_lang$core$Debug$log,
+				A2(
+					toStr,
+					matchYWall,
+					A2(_elm_lang$core$Array$get, i, yWalls)),
+				aux(i + 1))) : {ctor: '_Tuple0'};
+	};
+	return aux(0);
+};
+var _user$project$MazeGen$randFirst = F2(
+	function (fn, l) {
+		var arr = _elm_lang$core$Array$fromList(
+			A2(_elm_lang$core$List$filter, fn, l));
+		var idx = _elm_lang$core$Basics$floor(
+			_user$project$Native_Random.rand(
+				{ctor: '_Tuple0'}) * _elm_lang$core$Basics$toFloat(
+				_elm_lang$core$Array$length(arr)));
+		return A2(_elm_lang$core$Array$get, idx, arr);
+	});
+var _user$project$MazeGen$set2 = F4(
+	function (x, y, v, ll) {
+		var _p6 = A2(_elm_lang$core$Array$get, x, ll);
+		if (_p6.ctor === 'Nothing') {
+			return ll;
+		} else {
+			return A3(
+				_elm_lang$core$Basics$flip,
+				_elm_lang$core$Array$set(x),
+				ll,
+				A3(_elm_lang$core$Array$set, y, v, _p6._0));
+		}
+	});
+var _user$project$MazeGen$get2 = F3(
+	function (x, y, ll) {
+		var _p7 = A2(_elm_lang$core$Array$get, x, ll);
+		if (_p7.ctor === 'Nothing') {
+			return _elm_lang$core$Maybe$Nothing;
+		} else {
+			return A2(_elm_lang$core$Array$get, y, _p7._0);
+		}
+	});
+var _user$project$MazeGen$Maze = F2(
+	function (a, b) {
+		return {cells: a, walls: b};
+	});
+var _user$project$MazeGen$BreachedWall = {ctor: 'BreachedWall'};
+var _user$project$MazeGen$IntactWall = {ctor: 'IntactWall'};
+var _user$project$MazeGen$DirtyCell = {ctor: 'DirtyCell'};
+var _user$project$MazeGen$CleanCell = {ctor: 'CleanCell'};
+var _user$project$MazeGen$initMaze = function (n) {
+	var sideWalls = A2(
+		_elm_lang$core$Array$repeat,
+		n + 1,
+		A2(_elm_lang$core$Array$repeat, n + 1, _user$project$MazeGen$IntactWall));
+	var walls = {ctor: '_Tuple2', _0: sideWalls, _1: sideWalls};
+	var cells = A2(
+		_elm_lang$core$Array$repeat,
+		n,
+		A2(_elm_lang$core$Array$repeat, n, _user$project$MazeGen$CleanCell));
+	return A2(_user$project$MazeGen$Maze, cells, walls);
+};
+var _user$project$MazeGen$genMaze = function (n) {
+	var goe = F5(
+		function (df, x, y, ll, fn) {
+			var _p8 = A3(_user$project$MazeGen$get2, x, y, ll);
+			if (_p8.ctor === 'Nothing') {
+				return df;
+			} else {
+				return fn(_p8._0);
+			}
+		});
+	var aux = F3(
+		function (_p10, s, _p9) {
+			var _p11 = _p10;
+			var _p24 = _p11._1;
+			var _p23 = _p11._0;
+			var _p12 = _p9;
+			var _p22 = _p12.walls;
+			var _p21 = _p12.cells;
+			return A5(
+				goe,
+				A2(_user$project$MazeGen$Maze, _p21, _p22),
+				_p23,
+				_p24,
+				_p21,
+				function (c) {
+					var nbs = {
+						ctor: '::',
+						_0: {ctor: '_Tuple2', _0: _p23 - 1, _1: _p24},
+						_1: {
+							ctor: '::',
+							_0: {ctor: '_Tuple2', _0: _p23 + 1, _1: _p24},
+							_1: {
+								ctor: '::',
+								_0: {ctor: '_Tuple2', _0: _p23, _1: _p24 - 1},
+								_1: {
+									ctor: '::',
+									_0: {ctor: '_Tuple2', _0: _p23, _1: _p24 + 1},
+									_1: {ctor: '[]'}
+								}
+							}
+						}
+					};
+					var newCells = A4(_user$project$MazeGen$set2, _p23, _p24, _user$project$MazeGen$DirtyCell, _p21);
+					var fn = function (_p13) {
+						var _p14 = _p13;
+						var _p15 = A3(_user$project$MazeGen$get2, _p14._0, _p14._1, newCells);
+						if (_p15.ctor === 'Nothing') {
+							return false;
+						} else {
+							if (_p15._0.ctor === 'DirtyCell') {
+								return false;
+							} else {
+								return true;
+							}
+						}
+					};
+					var _p16 = A2(_user$project$MazeGen$randFirst, fn, nbs);
+					if (_p16.ctor === 'Just') {
+						var _p19 = _p16._0._1;
+						var _p18 = _p16._0._0;
+						var _p17 = _p22;
+						var xWalls = _p17._0;
+						var yWalls = _p17._1;
+						var newWalls = _elm_lang$core$Native_Utils.eq(_p23, _p18) ? {
+							ctor: '_Tuple2',
+							_0: A4(
+								_user$project$MazeGen$set2,
+								_p18,
+								A2(_elm_lang$core$Basics$max, _p24, _p19),
+								_user$project$MazeGen$BreachedWall,
+								xWalls),
+							_1: yWalls
+						} : {
+							ctor: '_Tuple2',
+							_0: xWalls,
+							_1: A4(
+								_user$project$MazeGen$set2,
+								A2(_elm_lang$core$Basics$max, _p23, _p18),
+								_p19,
+								_user$project$MazeGen$BreachedWall,
+								yWalls)
+						};
+						return A3(
+							aux,
+							{ctor: '_Tuple2', _0: _p18, _1: _p19},
+							{
+								ctor: '::',
+								_0: {ctor: '_Tuple2', _0: _p23, _1: _p24},
+								_1: s
+							},
+							A2(_user$project$MazeGen$Maze, newCells, newWalls));
+					} else {
+						var _p20 = s;
+						if (_p20.ctor === '::') {
+							return A3(
+								aux,
+								_p20._0,
+								_p20._1,
+								A2(_user$project$MazeGen$Maze, newCells, _p22));
+						} else {
+							return A2(_user$project$MazeGen$Maze, newCells, _p22);
+						}
+					}
+				});
+		});
+	return A3(
+		aux,
+		{ctor: '_Tuple2', _0: 0, _1: 0},
+		{ctor: '[]'},
+		_user$project$MazeGen$initMaze(n));
+};
